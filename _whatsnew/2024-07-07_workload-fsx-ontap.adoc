@@ -6,4 +6,4 @@
 
 === Version initiale de Workload Factory pour Amazon FSX for NetApp ONTAP
 
-Amazon FSX pour NetApp ONTAP est désormais disponible dans Workload Factory.
+Amazon FSX pour NetApp ONTAP est généralement disponible dans Workload Factory.
