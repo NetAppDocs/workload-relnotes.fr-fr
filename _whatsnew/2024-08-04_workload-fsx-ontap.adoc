@@ -8,8 +8,8 @@
 
 Vous pouvez désormais utiliser Terraform à partir de Codebox pour déployer et gérer des systèmes de fichiers et des machines virtuelles de stockage.
 
-* link:create-file-system.html["Créez un système de fichiers"]
-* link:create-storage-vm.html["Créez une machine virtuelle de stockage"]
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["Créez un système de fichiers"]
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-storage-vm.html["Créez une machine virtuelle de stockage"]
 * link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["Utiliser Terraform à partir de Codebox"^]
 
 
