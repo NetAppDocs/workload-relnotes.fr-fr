@@ -25,6 +25,16 @@ Vous pouvez désormais utiliser Terraform à partir de Codebox pour déployer et
 
 Le calculateur de stockage fait des recommandations de configuration de système de fichiers FSX pour ONTAP pour le débit et les IOPS en fonction des bonnes pratiques AWS, qui vous guide de façon optimale pour votre sélection.
 
+Directive non résolue dans <stdin> - include::_include/Workload-setup-admin.adoc[] :leveloffset: +1
+
+
+
+=== Prise en charge de Terraform
+
+Terraform est pris en charge pour le déploiement du système de fichiers Amazon FSX pour NetApp ONTAP et la création de machines virtuelles de stockage. Le guide d'installation et d'administration contient maintenant des instructions sur l'utilisation de Terraform à partir de la Codebox.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["Utiliser Terraform à partir de Codebox"^]
+
 
 
 == 7 juillet 2024
@@ -36,3 +46,11 @@ Directive non résolue dans <stdin> - include::_include/Workload-fsx-ONTAP.adoc[
 === Version initiale de Workload Factory pour Amazon FSX for NetApp ONTAP
 
 Amazon FSX pour NetApp ONTAP est désormais disponible dans Workload Factory.
+
+Directive non résolue dans <stdin> - include::_include/Workload-setup-admin.adoc[] :leveloffset: +1
+
+
+
+=== Version initiale de Workload Factory
+
+BlueXP Workload Factory pour AWS est une plateforme puissante de gestion du cycle de vie conçue pour vous aider à optimiser vos workloads à l'aide des systèmes de fichiers Amazon FSX pour NetApp ONTAP. Parmi les charges de travail pouvant être rationalisées à l'aide de Workload Factory et FSX pour ONTAP figurent les bases de données, les migrations VMware vers VMware Cloud sur AWS, les chatbots d'IA, etc.
