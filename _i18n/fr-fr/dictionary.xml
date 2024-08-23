@@ -27,7 +27,6 @@
   <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">Modifications récentes</block>
   <block id="b18d7ec0ad964d10af97254ea8b0612d" category="doc">Version initiale de Workload Factory pour Amazon FSX for NetApp ONTAP</block>
   <block id="efa42d5c66cb9948f402ee559611e12d" category="doc">Prise en charge de Terraform</block>
-  <block id="7f67d234b28766a76903424b29245652" category="paragraph">Vous pouvez désormais utiliser Terraform à partir de Codebox pour déployer et gérer des systèmes de fichiers et des machines virtuelles de stockage.</block>
   <block id="75086276ae6b7e370f36c7fc49383216" category="inline-link-macro">Créez un système de fichiers</block>
   <block id="8272f5b23e79d0ee33bd5151dcddc454" category="inline-link-macro">Créez une machine virtuelle de stockage</block>
   <block id="2532cd63354e6e99119077d45134b5ef" category="inline-link-macro">Utiliser Terraform à partir de Codebox</block>
@@ -44,4 +43,5 @@
   <block id="40e01e3ae3c6f388cb88b96223a5b962" category="paragraph">BlueXP Workload Factory pour AWS est une plateforme puissante de gestion du cycle de vie conçue pour vous aider à optimiser vos workloads à l'aide des systèmes de fichiers Amazon FSX pour NetApp ONTAP. Parmi les charges de travail pouvant être rationalisées à l'aide de Workload Factory et FSX pour ONTAP figurent les bases de données, les migrations VMware vers VMware Cloud sur AWS, les chatbots d'IA, etc.</block>
   <block id="1571710cf3c95e6290fc41ea04917d42" category="paragraph">Terraform est pris en charge pour le déploiement du système de fichiers Amazon FSX pour NetApp ONTAP et la création de machines virtuelles de stockage. Le guide d'installation et d'administration contient maintenant des instructions sur l'utilisation de Terraform à partir de la Codebox.</block>
   <block id="19d7c7753798a40c0d5e3308b54e64e6" category="paragraph">Directive non résolue dans &lt;stdin&gt; - include::_include/Workload-setup-admin.adoc[] :leveloffset: +1</block>
+  <block id="0fd886acd6700c343d655429665d7e6a" category="paragraph">Vous pouvez désormais utiliser Terraform à partir de Codebox pour déployer des systèmes de fichiers et des machines virtuelles de stockage.</block>
 </blocks>
