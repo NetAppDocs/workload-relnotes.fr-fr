@@ -1,0 +1,7 @@
+= Charges de travail GenAI
+:allow-uri-read: 
+
+
+
+
+=== Charges de travail GenAI
