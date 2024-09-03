@@ -59,6 +59,16 @@ image:screenshot-explore-savings-home-small.png["Capture d'écran de la page d'a
 
 
 
+=== Workloads VMware
+
+
+
+==== Migrez vers Amazon EC2
+
+Workload Factory pour VMware prend désormais en charge la migration vers Amazon EC2 à l'aide de VMware migration Advisor.
+
+
+
 === Configuration et administration
 
 
@@ -173,6 +183,16 @@ Amazon FSX pour NetApp ONTAP est désormais disponible dans Workload Factory.
 La version initiale permet d'explorer les possibilités d'économies avec Amazon FSX for NetApp ONTAP en tant qu'environnement de stockage pour les workloads de bases de données, de détecter, de gérer et de déployer des serveurs Microsoft SQL, de déployer et de cloner des bases de données, et de surveiller ces tâches dans Workload Factory.
 
 link:learn-databases.html["En savoir plus sur les bases de données"].
+
+
+
+=== Workloads VMware
+
+
+
+==== Lancement initial de Workload Factory pour VMware
+
+La version initiale permet d'utiliser VMware migration Advisor pour analyser les configurations actuelles de vos serveurs virtuels dans les environnements vSphere sur site, et de générer un plan de déploiement des infrastructures de serveurs virtuels recommandées dans VMware Cloud on AWS et d'utiliser des systèmes de fichiers Amazon FSX for NetApp ONTAP personnalisés en tant que datastores externes.
 
 
 
