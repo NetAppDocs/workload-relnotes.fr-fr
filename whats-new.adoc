@@ -15,6 +15,30 @@ Découvrez les derniers changements apportés aux charges de travail de BlueXP 
 
 
 
+== 1 septembre 2024
+
+
+
+=== Charges de travail des bases de données
+
+
+
+==== Explorer les économies via la personnalisation
+
+Vous pouvez désormais personnaliser les paramètres de configuration de Microsoft SQL Server sur Amazon EC2 avec FSX pour Windows File Server et le stockage Elastic Block Store dans le calculateur d'économies. En fonction de vos besoins en stockage, vous constaterez peut-être que le stockage FSX pour ONTAP est le plus économique pour vos workloads de base de données.
+
+link:explore-savings.html["Découvrez les économies réalisées avec FSX for ONTAP pour les workloads de bases de données."]
+
+
+
+==== Accédez au calculateur d'économies depuis la page d'accueil
+
+Vous pouvez maintenant accéder au calculateur d'économies à partir de la link:https://console.workloads.netapp.com["Console Workload Factory"^]page d'accueil. Pour commencer, faites votre choix dans Elastic Block Store et FSX for Windows File Server.
+
+image:screenshot-explore-savings-home-small.png["Capture d'écran de la page d'accueil de la console Workload Factory. L'image montre la mosaïque bases de données avec un nouveau bouton Explorer les économies. Cliquez sur le bouton pour ouvrir un menu déroulant. Le menu déroulant comporte deux options : Elastic Block Store et FSX for Windows File Server. Sélectionnez l'une ou l'autre option pour accéder au calculateur d'économies et explorer les économies réalisées."]
+
+
+
 == 4 août 2024
 
 
@@ -37,6 +61,38 @@ Vous pouvez désormais utiliser Terraform à partir de Codebox pour déployer de
 ==== Recommandations de débit et d'IOPS dans le calculateur de stockage
 
 Le calculateur de stockage fait des recommandations de configuration de système de fichiers FSX pour ONTAP pour le débit et les IOPS en fonction des bonnes pratiques AWS, qui vous guide de façon optimale pour votre sélection.
+
+
+
+=== Charges de travail des bases de données
+
+
+
+==== Améliorations du calculateur d'économies
+
+* Descriptions des estimations de coûts
++
+Vous pouvez maintenant découvrir comment les estimations de coûts sont calculées dans le calculateur d'économies. Vous pourrez examiner les descriptions de tous les calculs pour vos instances Microsoft SQL Server utilisant le stockage Amazon Elastic Block Store par rapport à Amazon FSX pour ONTAP.
+
+* Prise en charge du groupe de disponibilité Always On
++
+Les bases de données permettent désormais de calculer les économies pour le type de déploiement du groupe de disponibilité permanente avec Microsoft SQL Server utilisant Amazon Elastic Block Store.
+
+* Optimisez les licences SQL Server avec FSX for ONTAP
++
+Le calculateur de bases de données détermine si l'édition de licence SQL que vous utilisez avec le stockage Amazon Elastic Block Store est optimisée pour vos charges de travail de base de données. Vous recevrez des recommandations pour optimiser la licence SQL avec le stockage FSX for ONTAP.
+
+* Plusieurs instances SQL Server
++
+Les bases de données permettent désormais de calculer les économies pour une configuration hébergeant plusieurs instances Microsoft SQL Server via Amazon Elastic Block Store.
+
+* Personnaliser les paramètres de la calculatrice
++
+Vous pouvez désormais personnaliser les paramètres de Microsoft SQL Server, Amazon EC2 et Elastic Block Store pour explorer les économies manuellement. Le calculateur d'économies détermine la meilleure configuration en fonction du coût.
+
+
+
+link:explore-savings.html["Découvrez les économies réalisées avec FSX for ONTAP pour les workloads de bases de données."]
 
 
 
@@ -63,6 +119,18 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["Utilis
 ==== Version initiale de Workload Factory pour Amazon FSX for NetApp ONTAP
 
 Amazon FSX pour NetApp ONTAP est désormais disponible dans Workload Factory.
+
+
+
+=== Charges de travail des bases de données
+
+
+
+==== Version initiale de Workload Factory pour bases de données
+
+La version initiale permet d'explorer les possibilités d'économies avec Amazon FSX for NetApp ONTAP en tant qu'environnement de stockage pour les workloads de bases de données, de détecter, de gérer et de déployer des serveurs Microsoft SQL, de déployer et de cloner des bases de données, et de surveiller ces tâches dans Workload Factory.
+
+link:learn-databases.html["En savoir plus sur les bases de données"].
 
 
 

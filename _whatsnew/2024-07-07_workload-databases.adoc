@@ -1,0 +1,11 @@
+= Version initiale de Workload Factory pour bases de données
+:allow-uri-read: 
+
+
+
+
+=== Version initiale de Workload Factory pour bases de données
+
+La version initiale permet d'explorer les possibilités d'économies avec Amazon FSX for NetApp ONTAP en tant qu'environnement de stockage pour les workloads de bases de données, de détecter, de gérer et de déployer des serveurs Microsoft SQL, de déployer et de cloner des bases de données, et de surveiller ces tâches dans Workload Factory.
+
+link:learn-databases.html["En savoir plus sur les bases de données"].

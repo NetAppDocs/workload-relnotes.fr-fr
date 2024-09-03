@@ -1,0 +1,31 @@
+= Améliorations du calculateur d'économies
+:allow-uri-read: 
+
+
+
+
+=== Améliorations du calculateur d'économies
+
+* Descriptions des estimations de coûts
++
+Vous pouvez maintenant découvrir comment les estimations de coûts sont calculées dans le calculateur d'économies. Vous pourrez examiner les descriptions de tous les calculs pour vos instances Microsoft SQL Server utilisant le stockage Amazon Elastic Block Store par rapport à Amazon FSX pour ONTAP.
+
+* Prise en charge du groupe de disponibilité Always On
++
+Les bases de données permettent désormais de calculer les économies pour le type de déploiement du groupe de disponibilité permanente avec Microsoft SQL Server utilisant Amazon Elastic Block Store.
+
+* Optimisez les licences SQL Server avec FSX for ONTAP
++
+Le calculateur de bases de données détermine si l'édition de licence SQL que vous utilisez avec le stockage Amazon Elastic Block Store est optimisée pour vos charges de travail de base de données. Vous recevrez des recommandations pour optimiser la licence SQL avec le stockage FSX for ONTAP.
+
+* Plusieurs instances SQL Server
++
+Les bases de données permettent désormais de calculer les économies pour une configuration hébergeant plusieurs instances Microsoft SQL Server via Amazon Elastic Block Store.
+
+* Personnaliser les paramètres de la calculatrice
++
+Vous pouvez désormais personnaliser les paramètres de Microsoft SQL Server, Amazon EC2 et Elastic Block Store pour explorer les économies manuellement. Le calculateur d'économies détermine la meilleure configuration en fonction du coût.
+
+
+
+link:explore-savings.html["Découvrez les économies réalisées avec FSX for ONTAP pour les workloads de bases de données."]
