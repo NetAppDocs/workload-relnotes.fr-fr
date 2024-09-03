@@ -1,0 +1,9 @@
+= Version initiale de Workload Factory pour GenAI
+:allow-uri-read: 
+
+
+
+
+=== Version initiale de Workload Factory pour GenAI
+
+La version initiale permet de développer une base de connaissances personnalisée en intégrant les données de votre entreprise. La base de connaissances est accessible par une application de chatbot pour vos utilisateurs. Cette fonctionnalité garantit des réponses précises et pertinentes aux questions spécifiques à l'entreprise, améliorant ainsi la satisfaction et la productivité de tous vos utilisateurs.

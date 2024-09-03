@@ -1,0 +1,15 @@
+= Intégration des journaux Amazon CloudWatch
+:allow-uri-read: 
+
+
+
+
+=== Intégration des journaux Amazon CloudWatch
+
+Les workloads d'IA génératifs sont désormais intégrés aux journaux Amazon CloudWatch, ce qui vous permet de surveiller les fichiers journaux des workloads d'IA génératifs.
+
+
+
+=== Exemple d'application chatbot
+
+L'exemple d'application NetApp Workload Factory GenAI vous permet de tester l'authentification et l'extraction à partir de votre base de connaissances NetApp Workload Factory publiée en interagissant directement avec elle dans une application web de chatbot.
