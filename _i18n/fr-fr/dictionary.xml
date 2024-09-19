@@ -106,4 +106,9 @@
   <block id="a0a464c97ca1835adf3bddc803b001cd" category="paragraph">Les workloads d'IA génératifs prennent désormais en charge le traitement en plusieurs phrases et le processus de suppression basé sur les chevauchements pour les sources de données.</block>
   <block id="4cb92325ae7034576f6dff7fe48e3254" category="section-title">Volume dédié pour chaque base de connaissances</block>
   <block id="a023a8333417a130bf6fb2c729aaa7f1" category="paragraph">Les workloads d'IA génératifs créent désormais un volume Amazon FSX pour NetApp ONTAP dédié à chaque nouvelle base de connaissances, en activant des règles Snapshot individuelles pour chaque base de connaissances et en améliorant la protection contre les défaillances et les empoisonnements de données.</block>
+  <block id="2792e29ba30bdded6461ac9b9f0816a4" category="doc">Améliorations de VMware migration Advisor</block>
+  <block id="bdcdfcdfcb9e0d2084c9c9ff58163d0b" category="paragraph">Cette version de Workload Factory pour VMware offre des fonctionnalités améliorées et une meilleure stabilité, ainsi que la possibilité d'importer et d'exporter des plans de migration lors de l'utilisation de VMware migration Advisor.</block>
+  <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">Créez un plan de déploiement pour Amazon EC2 à l'aide du conseiller de migration</block>
+  <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
+  <block id="9f220db04e7195ea3730c9dd5537897c" category="section-title">19 septembre 2024</block>
 </blocks>
