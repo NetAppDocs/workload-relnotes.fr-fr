@@ -28,4 +28,4 @@ Vous pouvez désormais personnaliser les paramètres de Microsoft SQL Server, Am
 
 
 
-link:explore-savings.html["Découvrez les économies réalisées avec FSX for ONTAP pour les workloads de bases de données."]
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Découvrez les économies réalisées avec FSX for ONTAP pour les charges de travail de votre base de données^."]

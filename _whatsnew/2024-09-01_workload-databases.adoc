@@ -8,7 +8,7 @@
 
 Vous pouvez désormais personnaliser les paramètres de configuration de Microsoft SQL Server sur Amazon EC2 avec FSX pour Windows File Server et le stockage Elastic Block Store dans le calculateur d'économies. En fonction de vos besoins en stockage, vous constaterez peut-être que le stockage FSX pour ONTAP est le plus économique pour vos workloads de base de données.
 
-link:explore-savings.html["Découvrez les économies réalisées avec FSX for ONTAP pour les workloads de bases de données."]
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Découvrez les économies réalisées avec FSX for ONTAP pour les charges de travail de votre base de données^."]
 
 
 
@@ -16,4 +16,4 @@ link:explore-savings.html["Découvrez les économies réalisées avec FSX for ON
 
 Vous pouvez maintenant accéder au calculateur d'économies à partir de la link:https://console.workloads.netapp.com["Console Workload Factory"^]page d'accueil. Pour commencer, faites votre choix dans Elastic Block Store et FSX for Windows File Server.
 
-image:screenshot-explore-savings-home-small.png["Capture d'écran de la page d'accueil de la console Workload Factory. L'image montre la mosaïque bases de données avec un nouveau bouton Explorer les économies. Cliquez sur le bouton pour ouvrir un menu déroulant. Le menu déroulant comporte deux options : Elastic Block Store et FSX for Windows File Server. Sélectionnez l'une ou l'autre option pour accéder au calculateur d'économies et explorer les économies réalisées."]
+image:screenshot-explore-savings-home-small.png["Capture d'écran de la page d'accueil de la console Workload Factory. L'image montre la mosaïque bases de données avec un nouveau bouton Explorer les économies. Cliquez sur le bouton pour ouvrir un menu déroulant. Le menu déroulant comporte deux options : Microsoft SQL Server sur EBS et Microsoft SQL Server sur FSX pour serveur de fichiers Windows."]
