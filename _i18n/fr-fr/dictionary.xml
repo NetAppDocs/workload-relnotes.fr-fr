@@ -112,7 +112,6 @@
   <block id="27f80dd01569e18971f783f257cc7294" category="paragraph"><block ref="27f80dd01569e18971f783f257cc7294" category="inline-link-macro-rx"></block></block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">Découvrez les économies réalisées avec FSX for ONTAP pour les workloads de bases de données</block>
   <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
-  <block id="430ea429b454fdc4ea2eb6c6b9cdbd77" category="doc">Prendre un instantané de et restaurer un volume de la base de connaissances</block>
   <block id="1ae13d57da1c55ee537cb9dc63916d03" category="paragraph">Vous pouvez désormais protéger les données de vos workloads d'IA générative en utilisant une copie instantanée d'une base de connaissances. Vous pouvez ainsi protéger vos données contre les pertes accidentelles ou tester les modifications apportées aux paramètres de la base de connaissances. Vous pouvez à tout moment restaurer la version précédente du volume de la base de connaissances.</block>
   <block id="4dfbf3ac57687ef65479f0135589593f" category="inline-link">Prenez un instantané d'un volume de la base de connaissances</block>
   <block id="f8016d0e0375ce671e71803692cf105c" category="paragraph"><block ref="f8016d0e0375ce671e71803692cf105c" category="inline-link-rx"></block></block>
@@ -126,4 +125,5 @@
   <block id="f20c02f54f20ee06aed661b133ba0fc3" category="paragraph">Lors de la sélection d'un volume de la base de connaissances, vous pouvez désormais choisir un volume de protection des données faisant partie d'une relation de réplication NetApp SnapMirror. Cela vous permet de stocker des bases de connaissances sur des volumes déjà protégés par la réplication SnapMirror.</block>
   <block id="7d7b61e2696184ef2f1a673b4b505c10" category="inline-link">Identifiez les sources de données à intégrer dans votre base de connaissances</block>
   <block id="8afd34c2a29e7b6286f3ed0bf9e20c22" category="paragraph"><block ref="8afd34c2a29e7b6286f3ed0bf9e20c22" category="inline-link-rx"></block></block>
+  <block id="4936442e55cb8f837f9616ca6aaf1e92" category="doc">Prise en charge des snapshots et des restaurations pour les volumes de la base de connaissances</block>
 </blocks>

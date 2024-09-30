@@ -1,10 +1,10 @@
-= Prendre un instantané de et restaurer un volume de la base de connaissances
+= Prise en charge des snapshots et des restaurations pour les volumes de la base de connaissances
 :allow-uri-read: 
 
 
 
 
-=== Prendre un instantané de et restaurer un volume de la base de connaissances
+=== Prise en charge des snapshots et des restaurations pour les volumes de la base de connaissances
 
 Vous pouvez désormais protéger les données de vos workloads d'IA générative en utilisant une copie instantanée d'une base de connaissances. Vous pouvez ainsi protéger vos données contre les pertes accidentelles ou tester les modifications apportées aux paramètres de la base de connaissances. Vous pouvez à tout moment restaurer la version précédente du volume de la base de connaissances.
 
