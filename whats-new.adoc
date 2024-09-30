@@ -46,6 +46,36 @@ link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Déc
 
 
 
+=== Charges de travail GenAI
+
+
+
+==== Prendre un instantané de et restaurer un volume de la base de connaissances
+
+Vous pouvez désormais protéger les données de vos workloads d'IA générative en utilisant une copie instantanée d'une base de connaissances. Vous pouvez ainsi protéger vos données contre les pertes accidentelles ou tester les modifications apportées aux paramètres de la base de connaissances. Vous pouvez à tout moment restaurer la version précédente du volume de la base de connaissances.
+
+https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#take-a-snapshot-of-a-knowledge-base-volume["Prenez un instantané d'un volume de la base de connaissances"]
+
+https://review.docs.netapp.com/us-en/workload-genai_29-sept-24-release/manage-knowledgebase.html#restore-a-snapshot-of-a-knowledge-base-volume["Restaurer un snapshot d'un volume de la base de connaissances"]
+
+
+
+==== Mettre en pause les analyses planifiées
+
+Vous pouvez maintenant interrompre les analyses de sources de données planifiées. Par défaut, les workloads d'IA génératifs analysent chaque source de données tous les jours afin d'ingérer de nouvelles données dans chaque base de connaissances. Si vous ne souhaitez pas que les dernières modifications soient ingérées (pendant le test ou lors de la restauration d'un instantané, par exemple), vous pouvez interrompre les analyses programmées et les reprendre à tout moment.
+
+https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html["Gérer les bases de connaissances"]
+
+
+
+==== Les volumes de protection des données sont désormais pris en charge pour les bases de connaissances
+
+Lors de la sélection d'un volume de la base de connaissances, vous pouvez désormais choisir un volume de protection des données faisant partie d'une relation de réplication NetApp SnapMirror. Cela vous permet de stocker des bases de connaissances sur des volumes déjà protégés par la réplication SnapMirror.
+
+https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html["Identifiez les sources de données à intégrer dans votre base de connaissances"]
+
+
+
 == 19 septembre 2024
 
 
@@ -250,16 +280,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["Utilis
 ==== Lancement initial de Workload Factory pour VMware
 
 La version initiale permet d'utiliser VMware migration Advisor pour analyser les configurations actuelles de vos serveurs virtuels dans les environnements vSphere sur site, et de générer un plan de déploiement des infrastructures de serveurs virtuels recommandées dans VMware Cloud on AWS et d'utiliser des systèmes de fichiers Amazon FSX for NetApp ONTAP personnalisés en tant que datastores externes.
-
-
-
-=== Charges de travail GenAI
-
-
-
-==== Version initiale de Workload Factory pour GenAI
-
-La version initiale permet de développer une base de connaissances personnalisée en intégrant les données de votre entreprise. La base de connaissances est accessible par une application de chatbot pour vos utilisateurs. Cette fonctionnalité garantit des réponses précises et pertinentes aux questions spécifiques à l'entreprise, améliorant ainsi la satisfaction et la productivité de tous vos utilisateurs.
 
 
 

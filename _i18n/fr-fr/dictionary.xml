@@ -84,8 +84,6 @@
   <block id="9bab53a02593423437540c8ac9802fde" category="paragraph">La version initiale permet d'utiliser VMware migration Advisor pour analyser les configurations actuelles de vos serveurs virtuels dans les environnements vSphere sur site, et de générer un plan de déploiement des infrastructures de serveurs virtuels recommandées dans VMware Cloud on AWS et d'utiliser des systèmes de fichiers Amazon FSX for NetApp ONTAP personnalisés en tant que datastores externes.</block>
   <block id="a268e8a21767df1e979dcf4c47b6f464" category="doc">Migrez vers Amazon EC2</block>
   <block id="a8d4a316d0df9e6b884220ad60451578" category="paragraph">Workload Factory pour VMware prend désormais en charge la migration vers Amazon EC2 à l'aide de VMware migration Advisor.</block>
-  <block id="9ba97d99706e208a6fec2439db710d74" category="doc">Version initiale de Workload Factory pour GenAI</block>
-  <block id="3d2b63396c87b28180a4d9d0ba951b0d" category="paragraph">La version initiale permet de développer une base de connaissances personnalisée en intégrant les données de votre entreprise. La base de connaissances est accessible par une application de chatbot pour vos utilisateurs. Cette fonctionnalité garantit des réponses précises et pertinentes aux questions spécifiques à l'entreprise, améliorant ainsi la satisfaction et la productivité de tous vos utilisateurs.</block>
   <block id="ec7827c2237ae7b863c9ba93b519cbc1" category="doc">Intégration des journaux Amazon CloudWatch</block>
   <block id="64c1dd8cb5f86710c3293cc9807760fb" category="paragraph">Les workloads d'IA génératifs sont désormais intégrés aux journaux Amazon CloudWatch, ce qui vous permet de surveiller les fichiers journaux des workloads d'IA génératifs.</block>
   <block id="e2c3c3f9d43a7b053dbca2a0234078b7" category="section-title">Exemple d'application chatbot</block>
@@ -114,4 +112,18 @@
   <block id="27f80dd01569e18971f783f257cc7294" category="paragraph"><block ref="27f80dd01569e18971f783f257cc7294" category="inline-link-macro-rx"></block></block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">Découvrez les économies réalisées avec FSX for ONTAP pour les workloads de bases de données</block>
   <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
+  <block id="430ea429b454fdc4ea2eb6c6b9cdbd77" category="doc">Prendre un instantané de et restaurer un volume de la base de connaissances</block>
+  <block id="1ae13d57da1c55ee537cb9dc63916d03" category="paragraph">Vous pouvez désormais protéger les données de vos workloads d'IA générative en utilisant une copie instantanée d'une base de connaissances. Vous pouvez ainsi protéger vos données contre les pertes accidentelles ou tester les modifications apportées aux paramètres de la base de connaissances. Vous pouvez à tout moment restaurer la version précédente du volume de la base de connaissances.</block>
+  <block id="4dfbf3ac57687ef65479f0135589593f" category="inline-link">Prenez un instantané d'un volume de la base de connaissances</block>
+  <block id="f8016d0e0375ce671e71803692cf105c" category="paragraph"><block ref="f8016d0e0375ce671e71803692cf105c" category="inline-link-rx"></block></block>
+  <block id="3d1e45266a0a6784e668353081a13cd0" category="inline-link">Restaurer un snapshot d'un volume de la base de connaissances</block>
+  <block id="340b5c4d996cad6cf6d27d13faf94e89" category="paragraph"><block ref="340b5c4d996cad6cf6d27d13faf94e89" category="inline-link-rx"></block></block>
+  <block id="073751c61467c5e36c6cc197d92a75c4" category="section-title">Mettre en pause les analyses planifiées</block>
+  <block id="6c31cb11ffc4d11a5aed0e968bb5f8c9" category="paragraph">Vous pouvez maintenant interrompre les analyses de sources de données planifiées. Par défaut, les workloads d'IA génératifs analysent chaque source de données tous les jours afin d'ingérer de nouvelles données dans chaque base de connaissances. Si vous ne souhaitez pas que les dernières modifications soient ingérées (pendant le test ou lors de la restauration d'un instantané, par exemple), vous pouvez interrompre les analyses programmées et les reprendre à tout moment.</block>
+  <block id="67f0dcee920749eead316e2518099abb" category="inline-link">Gérer les bases de connaissances</block>
+  <block id="f951fa0f2608d186cd1f0bd8889ac232" category="paragraph"><block ref="f951fa0f2608d186cd1f0bd8889ac232" category="inline-link-rx"></block></block>
+  <block id="9813be0bded00d4a8f5457f2e27277fa" category="section-title">Les volumes de protection des données sont désormais pris en charge pour les bases de connaissances</block>
+  <block id="f20c02f54f20ee06aed661b133ba0fc3" category="paragraph">Lors de la sélection d'un volume de la base de connaissances, vous pouvez désormais choisir un volume de protection des données faisant partie d'une relation de réplication NetApp SnapMirror. Cela vous permet de stocker des bases de connaissances sur des volumes déjà protégés par la réplication SnapMirror.</block>
+  <block id="7d7b61e2696184ef2f1a673b4b505c10" category="inline-link">Identifiez les sources de données à intégrer dans votre base de connaissances</block>
+  <block id="8afd34c2a29e7b6286f3ed0bf9e20c22" category="paragraph"><block ref="8afd34c2a29e7b6286f3ed0bf9e20c22" category="inline-link-rx"></block></block>
 </blocks>
