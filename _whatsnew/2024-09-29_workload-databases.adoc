@@ -8,4 +8,4 @@
 
 Vous pouvez désormais explorer les économies générées par les serveurs Microsoft SQL détectés sur Amazon EC2 avec FSX pour le stockage de serveur de fichiers Windows dans le calculateur d'économies. Selon vos besoins en stockage et en serveur SQL, le stockage FSX pour ONTAP est probablement le plus économique pour vos workloads de base de données.
 
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Découvrez les économies réalisées avec FSX for ONTAP pour les charges de travail de votre base de données^."]
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Découvrez les économies réalisées avec FSX for ONTAP pour les workloads de bases de données"^]
