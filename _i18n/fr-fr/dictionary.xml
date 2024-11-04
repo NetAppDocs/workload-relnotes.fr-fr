@@ -40,17 +40,6 @@
   <block id="1684f64d26a47808cac743ad7a9404f2" category="doc">Changements récents dans BlueXP  Workload Factory</block>
   <block id="a41d6b8d358bc9ae448d19a2d13faa53" category="section-title">4 août 2024</block>
   <block id="021ac29d3012fd7caab5a70c75ae987f" category="section-title">7 juillet 2024</block>
-  <block id="4b93fd033dead8dde7a70076fe4dfb36" category="doc">Améliorations du calculateur d'économies</block>
-  <block id="7aeef6f406aa249df106ff2e48e80f59" category="list-text">Descriptions des estimations de coûts</block>
-  <block id="797ceaeb99ff17f4fc79415b43e229c3" category="paragraph">Vous pouvez maintenant découvrir comment les estimations de coûts sont calculées dans le calculateur d'économies. Vous pourrez examiner les descriptions de tous les calculs pour vos instances Microsoft SQL Server utilisant le stockage Amazon Elastic Block Store par rapport à Amazon FSX pour ONTAP.</block>
-  <block id="97e6e4674ea0e2696f6137e7c1d5fce2" category="list-text">Prise en charge du groupe de disponibilité Always On</block>
-  <block id="7e13c18d88bdfda9d3e5101fdaebc5e5" category="paragraph">Les bases de données permettent désormais de calculer les économies pour le type de déploiement du groupe de disponibilité permanente avec Microsoft SQL Server utilisant Amazon Elastic Block Store.</block>
-  <block id="d95a98a3c6f52fb50654c75b5740f82a" category="list-text">Optimisez les licences SQL Server avec FSX for ONTAP</block>
-  <block id="4f59760365b695f240f546ba35bdcf33" category="paragraph">Le calculateur de bases de données détermine si l'édition de licence SQL que vous utilisez avec le stockage Amazon Elastic Block Store est optimisée pour vos charges de travail de base de données. Vous recevrez des recommandations pour optimiser la licence SQL avec le stockage FSX for ONTAP.</block>
-  <block id="97c3c8be68d473c11d60e943dcab0fec" category="list-text">Plusieurs instances SQL Server</block>
-  <block id="c740ba36619fc4bc695bdeaf1e4ec860" category="paragraph">Les bases de données permettent désormais de calculer les économies pour une configuration hébergeant plusieurs instances Microsoft SQL Server via Amazon Elastic Block Store.</block>
-  <block id="6c8658cb4905e48d7d602b288bfcf8be" category="list-text">Personnaliser les paramètres de la calculatrice</block>
-  <block id="3d97983d64bf9e9b4ee62805c09d1774" category="paragraph">Vous pouvez désormais personnaliser les paramètres de Microsoft SQL Server, Amazon EC2 et Elastic Block Store pour explorer les économies manuellement. Le calculateur d'économies détermine la meilleure configuration en fonction du coût.</block>
   <block id="f565eb47bc8c215541fe00205d9b37d3" category="doc">Explorer les économies via la personnalisation</block>
   <block id="bfbd25ddeba7cedc974f1a5a1d0a295c" category="paragraph">Vous pouvez désormais personnaliser les paramètres de configuration de Microsoft SQL Server sur Amazon EC2 avec FSX pour Windows File Server et le stockage Elastic Block Store dans le calculateur d'économies. En fonction de vos besoins en stockage, vous constaterez peut-être que le stockage FSX pour ONTAP est le plus économique pour vos workloads de base de données.</block>
   <block id="f94c119bb7d164adbb1a390a249741e0" category="section-title">Accédez au calculateur d'économies depuis la page d'accueil</block>
@@ -124,4 +113,11 @@
   <block id="71083868a2ec5abfee9a2647a74612c0" category="list-text">Onglet FSX pour ONTAP : affiche les systèmes de fichiers FSX pour ONTAP dont vous disposez actuellement.</block>
   <block id="1113c9108b3e58789456954d1c2ea9c2" category="list-text">Onglet économies : affiche les systèmes de stockage Elastic Block Store, FSX for Windows File Server et Elastic File Systems. À partir de là, vous pouvez comparer les économies réalisées avec FSX pour ONTAP pour ces systèmes.</block>
   <block id="ca385f8a90dc256c71e43f23f9b870f2" category="section-title">3 novembre 2024</block>
+  <block id="0928468cb2283b21e6802a78c6a64e3a" category="doc">Optimisez en continu vos workloads Microsoft SQL Server avec les bases de données</block>
+  <block id="e73fa899152fb6836032fef4e1c95da4" category="paragraph">La fabrique de workloads BlueXP  propose des conseils continus et des rambardes afin d'assurer une optimisation continue et le respect des meilleures pratiques pour le composant de stockage de vos workloads Microsoft SQL Server sur Amazon FSX pour NetApp ONTAP. Cette fonctionnalité analyse en continu votre environnement Microsoft SQL Server hors ligne et vous fournit un rapport complet d'informations, d'opportunités et de recommandations pour vous aider à atteindre des niveaux de performance, de rentabilité et de conformité élevés.</block>
+  <block id="5d743e351f2bc0b96d19c12d46be8be2" category="inline-link-macro">Optimisez vos workloads SQL Server</block>
+  <block id="72d1af9ffdd277a1cf7789b588da9b4d" category="paragraph"><block ref="72d1af9ffdd277a1cf7789b588da9b4d" category="inline-link-macro-rx"></block></block>
+  <block id="822802a1673e79cb7dbd54947e4dc32c" category="paragraph">Vous pouvez maintenant utiliser Terraform à partir de la Codebox pour déployer Microsoft SQL Server.</block>
+  <block id="83f5267b900a40e93e73e9ace47d4412" category="inline-link-macro">Créez un serveur de base de données</block>
+  <block id="d83b54de9b50110195e4bf3c1f3c6a67" category="list-text"><block ref="d83b54de9b50110195e4bf3c1f3c6a67" category="inline-link-macro-rx"></block></block>
 </blocks>
