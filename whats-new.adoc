@@ -55,6 +55,18 @@ Vous pouvez maintenant utiliser Terraform à partir de la Codebox pour déployer
 
 
 
+=== Workloads VMware
+
+
+
+==== Aide de VMware migration Advisor sur le taux de réduction des données
+
+Cette version de Workload Factory pour VMware est dotée d'un assistant de réduction des taux de données. L'assistant de réduction des taux de données vous aide à décider quel ratio convient le mieux à votre inventaire et à votre environnement de stockage VMware lors de la préparation de l'intégration au cloud AWS.
+
+https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["Créez un plan de déploiement pour Amazon EC2 à l'aide du conseiller de migration"]
+
+
+
 == 29 septembre 2024
 
 
@@ -257,16 +269,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["Utilis
 
 
 == 7 juillet 2024
-
-
-
-=== Workloads VMware
-
-
-
-==== Lancement initial de Workload Factory pour VMware
-
-La version initiale permet d'utiliser VMware migration Advisor pour analyser les configurations actuelles de vos serveurs virtuels dans les environnements vSphere sur site, et de générer un plan de déploiement des infrastructures de serveurs virtuels recommandées dans VMware Cloud on AWS et d'utiliser des systèmes de fichiers Amazon FSX for NetApp ONTAP personnalisés en tant que datastores externes.
 
 
 
