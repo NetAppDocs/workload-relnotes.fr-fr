@@ -67,6 +67,20 @@ https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.h
 
 
 
+=== Charges de travail GenAI
+
+
+
+==== Masquez les informations à caractère personnel avec des limites de données
+
+Le workload Generative ai introduit la fonctionnalité Data rambardes, optimisée par la classification BlueXP . La fonction Data guardrails identifie et masque les informations à caractère personnel (PII) pour vous aider à maintenir la conformité et à renforcer la sécurité de vos données d'entreprise sensibles.
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#create-and-configure-the-knowledge-base["Créer une base de connaissances"]
+
+link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["Découvrez la classification BlueXP"^]
+
+
+
 == 29 septembre 2024
 
 
@@ -237,22 +251,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Aj
 
 
 == 4 août 2024
-
-
-
-=== Charges de travail GenAI
-
-
-
-==== Intégration des journaux Amazon CloudWatch
-
-Les workloads d'IA génératifs sont désormais intégrés aux journaux Amazon CloudWatch, ce qui vous permet de surveiller les fichiers journaux des workloads d'IA génératifs.
-
-
-
-==== Exemple d'application chatbot
-
-L'exemple d'application NetApp Workload Factory GenAI vous permet de tester l'authentification et l'extraction à partir de votre base de connaissances NetApp Workload Factory publiée en interagissant directement avec elle dans une application web de chatbot.
 
 
 
