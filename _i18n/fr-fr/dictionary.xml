@@ -118,9 +118,9 @@
   <block id="5975f7e9036c78e6217b16f295f0ca75" category="inline-link-macro">Console BlueXP</block>
   <block id="d2feef96259a41a7842dc5e7af577d63" category="paragraph">Vous pouvez désormais utiliser l'usine de charge de travail à partir de <block ref="391de7a3bac2bc77fa53dffb3f53801a" category="inline-link-macro-rx"></block>. L'expérience de la console BlueXP  offre les mêmes fonctionnalités que la console d'usine de la charge de travail.</block>
   <block id="717f9c6475fbb39a24ab9942c1a903c0" category="inline-link-macro">Découvrez comment accéder à l'usine des workloads à partir de la console BlueXP</block>
-  <block id="df2137c00b08ad833b0954cdd4247de3" category="paragraph"><block ref="df2137c00b08ad833b0954cdd4247de3" category="inline-link-macro-rx"></block></block>
   <block id="f462230f4e4289784e8469f2babda8fd" category="section-title">11 novembre 2024</block>
   <block id="e93e8519fa9c34d76ec0735119a46866" category="paragraph">Vous pouvez maintenant accéder au calculateur d'économies à partir de la <block ref="fe6e1b2479e1125e03c713ad62b5343f" category="inline-link-macro-rx"></block>page d'accueil. Pour commencer, faites votre choix dans Elastic Block Store et FSX for Windows File Server.</block>
   <block id="ab1e050e49bbc49befbca952f74f0443" category="inline-image-macro">capture d'écran de la page d'accueil de la console d'usine de la charge de travail. L'image montre la mosaïque bases de données avec un nouveau bouton Explorer les économies. Cliquez sur le bouton pour ouvrir un menu déroulant. Le menu déroulant comporte deux options : Microsoft SQL Server sur EBS et Microsoft SQL Server sur FSX pour serveur de fichiers Windows.</block>
   <block id="923f11c15ceba3bc0e4d37309ab27ed2" category="paragraph"><block ref="923f11c15ceba3bc0e4d37309ab27ed2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1a34f743bd98b1658401ce2f8206ff9a" category="paragraph"><block ref="1a34f743bd98b1658401ce2f8206ff9a" category="inline-link-macro-rx"></block></block>
 </blocks>
