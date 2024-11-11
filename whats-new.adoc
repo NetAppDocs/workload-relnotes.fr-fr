@@ -152,7 +152,7 @@ https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html["Identif
 
 ==== Améliorations de VMware migration Advisor
 
-Cette version de Workload Factory pour VMware offre des fonctionnalités améliorées et une meilleure stabilité, ainsi que la possibilité d'importer et d'exporter des plans de migration lors de l'utilisation de VMware migration Advisor.
+Cette version de l'usine de workloads pour VMware offre des fonctionnalités améliorées et une meilleure stabilité, ainsi que la possibilité d'importer et d'exporter des plans de migration lors de l'utilisation de VMware migration Advisor.
 
 https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["Créez un plan de déploiement pour Amazon EC2 à l'aide du conseiller de migration"]
 
@@ -208,7 +208,7 @@ image:screenshot-explore-savings-home-small.png["Capture d'écran de la page d'a
 
 ==== Migrez vers Amazon EC2
 
-Workload Factory pour VMware prend désormais en charge la migration vers Amazon EC2 à l'aide de VMware migration Advisor.
+L'usine de workloads pour VMware prend désormais en charge la migration vers Amazon EC2 à l'aide de VMware migration Advisor.
 
 
 
