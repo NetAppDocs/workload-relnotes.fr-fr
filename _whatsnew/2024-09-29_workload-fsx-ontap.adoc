@@ -6,9 +6,9 @@
 
 === Mises à jour de la création de liens
 
-* Visionneuse Codebox : Codebox est maintenant intégré au processus de création de lien. Vous pouvez afficher et copier le modèle CloudFormation à partir de Codebox dans Workload Factory avant de rediriger vers AWS pour exécuter l'opération.
-* Autorisations requises : les autorisations requises pour exécuter la création de lien dans AWS CloudFormation sont désormais disponibles pour afficher et copier des données à partir de l'assistant de création de lien dans Workload Factory.
+* Visionneuse Codebox : Codebox est maintenant intégré au processus de création de lien. Vous pouvez afficher et copier le modèle CloudFormation à partir de Codebox dans l'usine de la charge de travail avant de rediriger vers AWS pour exécuter l'opération.
+* Autorisations requises : les autorisations requises pour exécuter la création de lien dans AWS CloudFormation sont désormais disponibles pour afficher et copier à partir de l'assistant de création de lien dans l'usine de la charge de travail.
 * Prise en charge de la création manuelle de liens : cette fonctionnalité permet la création autonome dans AWS CloudFormation avec enregistrement manuel du lien ARN. Cette fonctionnalité est utile lorsqu'une équipe de sécurité ou DevOps participe au processus de création de liens.
 
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["Créer un lien"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["Créer un lien"]

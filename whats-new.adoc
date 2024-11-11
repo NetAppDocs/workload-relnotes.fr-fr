@@ -91,12 +91,12 @@ link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-complianc
 
 ==== Mises à jour de la création de liens
 
-* Visionneuse Codebox : Codebox est maintenant intégré au processus de création de lien. Vous pouvez afficher et copier le modèle CloudFormation à partir de Codebox dans Workload Factory avant de rediriger vers AWS pour exécuter l'opération.
-* Autorisations requises : les autorisations requises pour exécuter la création de lien dans AWS CloudFormation sont désormais disponibles pour afficher et copier des données à partir de l'assistant de création de lien dans Workload Factory.
+* Visionneuse Codebox : Codebox est maintenant intégré au processus de création de lien. Vous pouvez afficher et copier le modèle CloudFormation à partir de Codebox dans l'usine de la charge de travail avant de rediriger vers AWS pour exécuter l'opération.
+* Autorisations requises : les autorisations requises pour exécuter la création de lien dans AWS CloudFormation sont désormais disponibles pour afficher et copier à partir de l'assistant de création de lien dans l'usine de la charge de travail.
 * Prise en charge de la création manuelle de liens : cette fonctionnalité permet la création autonome dans AWS CloudFormation avec enregistrement manuel du lien ARN. Cette fonctionnalité est utile lorsqu'une équipe de sécurité ou DevOps participe au processus de création de liens.
 
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["Créer un lien"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["Créer un lien"]
 
 
 
@@ -168,9 +168,9 @@ https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.h
 
 ==== Prise en charge du mode de lecture pour la gestion du stockage
 
-Le mode de lecture est disponible pour la gestion du stockage dans Workload Factory. Le mode lecture améliore l'expérience du mode de base en ajoutant des autorisations en lecture seule afin que les modèles Infrastructure-as-Code soient remplis avec vos variables spécifiques. Les modèles Infrastructure-as-Code peuvent être exécutés directement depuis votre compte AWS sans permissions de modification pour Workload Factory.
+Le mode de lecture est disponible pour la gestion du stockage en usine des charges de travail. Le mode lecture améliore l'expérience du mode de base en ajoutant des autorisations en lecture seule afin que les modèles Infrastructure-as-Code soient remplis avec vos variables spécifiques. Les modèles Infrastructure-as-Code peuvent être exécutés directement depuis votre compte AWS sans permissions de modification pour l'usine des workloads.
 
-link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["En savoir plus sur le mode lecture"^]
+link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["En savoir plus sur le mode lecture"]
 
 
 
@@ -178,7 +178,7 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["
 
 Vous pouvez à présent sauvegarder un volume avant de le supprimer. La sauvegarde restera dans le système de fichiers jusqu'à sa suppression.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/delete-volume.html["Supprimer un volume"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/delete-volume.html["Supprimer un volume"]
 
 
 
