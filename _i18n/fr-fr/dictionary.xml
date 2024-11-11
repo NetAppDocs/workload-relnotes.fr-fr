@@ -24,8 +24,6 @@
   <block id="efa42d5c66cb9948f402ee559611e12d" category="doc">Prise en charge de Terraform</block>
   <block id="2532cd63354e6e99119077d45134b5ef" category="inline-link-macro">Utiliser Terraform à partir de Codebox</block>
   <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
-  <block id="0cd06f0acd63988f29fda6d11297591b" category="doc">Version initiale de Workload Factory</block>
-  <block id="40e01e3ae3c6f388cb88b96223a5b962" category="paragraph">BlueXP Workload Factory pour AWS est une plateforme puissante de gestion du cycle de vie conçue pour vous aider à optimiser vos workloads à l'aide des systèmes de fichiers Amazon FSX pour NetApp ONTAP. Parmi les charges de travail pouvant être rationalisées à l'aide de Workload Factory et FSX pour ONTAP figurent les bases de données, les migrations VMware vers VMware Cloud sur AWS, les chatbots d'IA, etc.</block>
   <block id="1571710cf3c95e6290fc41ea04917d42" category="paragraph">Terraform est pris en charge pour le déploiement du système de fichiers Amazon FSX pour NetApp ONTAP et la création de machines virtuelles de stockage. Le guide d'installation et d'administration contient maintenant des instructions sur l'utilisation de Terraform à partir de la Codebox.</block>
   <block id="38bd169945a371832b0b65c9086b1792" category="doc">Charges de travail des bases de données</block>
   <block id="4d82a1ec1af02725042c8c785564ee7a" category="doc">Amazon FSX pour NetApp ONTAP</block>
@@ -33,7 +31,6 @@
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">Configuration et administration</block>
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">Workloads VMware</block>
   <block id="a41d6b8d358bc9ae448d19a2d13faa53" category="section-title">4 août 2024</block>
-  <block id="021ac29d3012fd7caab5a70c75ae987f" category="section-title">7 juillet 2024</block>
   <block id="f565eb47bc8c215541fe00205d9b37d3" category="doc">Explorer les économies via la personnalisation</block>
   <block id="bfbd25ddeba7cedc974f1a5a1d0a295c" category="paragraph">Vous pouvez désormais personnaliser les paramètres de configuration de Microsoft SQL Server sur Amazon EC2 avec FSX pour Windows File Server et le stockage Elastic Block Store dans le calculateur d'économies. En fonction de vos besoins en stockage, vous constaterez peut-être que le stockage FSX pour ONTAP est le plus économique pour vos workloads de base de données.</block>
   <block id="f94c119bb7d164adbb1a390a249741e0" category="section-title">Accédez au calculateur d'économies depuis la page d'accueil</block>
@@ -46,15 +43,9 @@
   <block id="8b97ffb47ece0280994594aa00a04a55" category="paragraph">Vous pouvez à présent sauvegarder un volume avant de le supprimer. La sauvegarde restera dans le système de fichiers jusqu'à sa suppression.</block>
   <block id="8e9a64bda9d21f945b6489df2e7946e1" category="inline-link-macro">Supprimer un volume</block>
   <block id="2fd1745cefcdce50d6467d96e693f6b7" category="doc">Abonnement RSS</block>
-  <block id="0fa776fabe30e41d70bd8d9c9e64c974" category="paragraph">L'abonnement RSS est disponible sur le <block ref="372504cb6bb48559009ff8f8cdb9a245" category="inline-link-macro-rx"></block>. L'utilisation d'un flux RSS est un moyen facile de consommer et d'être conscient des changements dans l'usine de charge de travail BlueXP .</block>
-  <block id="447fb3de7bec10468f55367375163603" category="inline-image-macro">Capture d'écran du menu déroulant d'aide de la console Workload Factory. Un nouveau bouton permettant de s'abonner à RSS apparaît sous forme d'option dans le menu déroulant.</block>
-  <block id="c508966f04ada556baaaa0b94e781209" category="paragraph"><block ref="c508966f04ada556baaaa0b94e781209" category="inline-image-macro-rx" type="image"></block></block>
   <block id="80f4b5aa553e3a44455088c83954a088" category="section-title">Prise en charge d'une seule stratégie d'autorisation par charge de travail</block>
-  <block id="c876ca70d1ae73b09cdc0004b328448e" category="paragraph">Lorsque vous ajoutez des identifiants AWS dans Workload Factory, vous pouvez désormais sélectionner une règle d'autorisation unique, soit en mode lecture ou automatisation, pour chaque charge de travail et gestion du stockage.</block>
   <block id="41b3a089d4fbacfb53e9a5634cfc6647" category="inline-image-macro">Capture d'écran de la section de configuration des autorisations de la page informations d'identification, dans laquelle vous pouvez sélectionner lecture ou automatisation des stratégies d'autorisations pour la gestion du stockage, les workloads d'IA, les workloads de bases de données et les workloads VMware.</block>
   <block id="fa5f572610383fbc01cbba40c0f535e2" category="paragraph"><block ref="fa5f572610383fbc01cbba40c0f535e2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="287ae8bc216279a75c04344894e04b7f" category="inline-link-macro">Ajoutez les informations d'identification AWS à Workload Factory</block>
-  <block id="1db25aada4bff8233b24c1d7b39230cd" category="paragraph"><block ref="1db25aada4bff8233b24c1d7b39230cd" category="inline-link-macro-rx"></block></block>
   <block id="a268e8a21767df1e979dcf4c47b6f464" category="doc">Migrez vers Amazon EC2</block>
   <block id="8fa53177b9fd9cdb460f43ba4be39618" category="doc">Stratégies de chaquage supplémentaires</block>
   <block id="a0a464c97ca1835adf3bddc803b001cd" category="paragraph">Les workloads d'IA génératifs prennent désormais en charge le traitement en plusieurs phrases et le processus de suppression basé sur les chevauchements pour les sources de données.</block>
@@ -120,4 +111,17 @@
   <block id="5802490bb2e01aff3b4722eee028a516" category="list-text">Visionneuse Codebox : Codebox est maintenant intégré au processus de création de lien. Vous pouvez afficher et copier le modèle CloudFormation à partir de Codebox dans l'usine de la charge de travail avant de rediriger vers AWS pour exécuter l'opération.</block>
   <block id="0d2cf987b55cf15b8f1dec5a05398183" category="list-text">Autorisations requises : les autorisations requises pour exécuter la création de lien dans AWS CloudFormation sont désormais disponibles pour afficher et copier à partir de l'assistant de création de lien dans l'usine de la charge de travail.</block>
   <block id="3874612023324fe909b90a886072b352" category="paragraph"><block ref="3874612023324fe909b90a886072b352" category="inline-link-macro-rx"></block></block>
+  <block id="e5d3c7248ff4540f88c13fbf9252d0a3" category="inline-link-macro">console d'usine de charge de travail</block>
+  <block id="3171014553de64cf509a3b587c8baeb3" category="paragraph">L'abonnement RSS est disponible sur le <block ref="9d5ad87a67c1830e37fdd19a7a179db6" category="inline-link-macro-rx"></block>. L'utilisation d'un flux RSS est un moyen facile de consommer et d'être conscient des changements dans l'usine de la charge de travail BlueXP .</block>
+  <block id="0796995437665af1d920169e03b4542b" category="inline-image-macro">Capture d'écran du menu déroulant d'aide de la console d'usine de la charge de travail. Un nouveau bouton permettant de s'abonner à RSS apparaît sous forme d'option dans le menu déroulant.</block>
+  <block id="482a329f24c123c31a109c24729cb2cd" category="paragraph"><block ref="482a329f24c123c31a109c24729cb2cd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4e47b743d0cc8e0b8906e37286d9b43b" category="paragraph">Lors de l'ajout d'identifiants AWS en usine de workloads, vous pouvez désormais sélectionner une règle d'autorisation unique, en mode lecture ou automatisation, pour chaque charge de travail et pour la gestion du stockage.</block>
+  <block id="9f46892803d8b6c63d3b7f51fd44a421" category="inline-link-macro">Ajoutez les identifiants AWS à l'usine des workloads</block>
+  <block id="d9dd14fb1d1e7ca9c6da6770d9176783" category="paragraph"><block ref="d9dd14fb1d1e7ca9c6da6770d9176783" category="inline-link-macro-rx"></block></block>
+  <block id="dfc4a97a3fe947a314ae908cf036cbfe" category="doc">Intégration en usine des charges de travail dans la console BlueXP</block>
+  <block id="5975f7e9036c78e6217b16f295f0ca75" category="inline-link-macro">Console BlueXP</block>
+  <block id="d2feef96259a41a7842dc5e7af577d63" category="paragraph">Vous pouvez désormais utiliser l'usine de charge de travail à partir de <block ref="391de7a3bac2bc77fa53dffb3f53801a" category="inline-link-macro-rx"></block>. L'expérience de la console BlueXP  offre les mêmes fonctionnalités que la console d'usine de la charge de travail.</block>
+  <block id="717f9c6475fbb39a24ab9942c1a903c0" category="inline-link-macro">Découvrez comment accéder à l'usine des workloads à partir de la console BlueXP</block>
+  <block id="df2137c00b08ad833b0954cdd4247de3" category="paragraph"><block ref="df2137c00b08ad833b0954cdd4247de3" category="inline-link-macro-rx"></block></block>
+  <block id="f462230f4e4289784e8469f2babda8fd" category="section-title">11 novembre 2024</block>
 </blocks>
