@@ -36,7 +36,6 @@
   <block id="80f4b5aa553e3a44455088c83954a088" category="section-title">Prise en charge d'une seule stratégie d'autorisation par charge de travail</block>
   <block id="41b3a089d4fbacfb53e9a5634cfc6647" category="inline-image-macro">Capture d'écran de la section de configuration des autorisations de la page informations d'identification, dans laquelle vous pouvez sélectionner lecture ou automatisation des stratégies d'autorisations pour la gestion du stockage, les workloads d'IA, les workloads de bases de données et les workloads VMware.</block>
   <block id="fa5f572610383fbc01cbba40c0f535e2" category="paragraph"><block ref="fa5f572610383fbc01cbba40c0f535e2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a268e8a21767df1e979dcf4c47b6f464" category="doc">Migrez vers Amazon EC2</block>
   <block id="2792e29ba30bdded6461ac9b9f0816a4" category="doc">Améliorations de VMware migration Advisor</block>
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">Créez un plan de déploiement pour Amazon EC2 à l'aide du conseiller de migration</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
@@ -87,7 +86,6 @@
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">Modifications récentes de l'usine de workloads BlueXP </block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">Ces notes de version décrivent les dernières améliorations apportées aux services cloud qui font partie de l'usine de workloads BlueXP .</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">Notes de mise à jour d'usine de la charge de travail BlueXP </block>
-  <block id="c9b4182f157d4d581536f53df8cd512d" category="paragraph">L'usine de workloads pour VMware prend désormais en charge la migration vers Amazon EC2 à l'aide de VMware migration Advisor.</block>
   <block id="21558f6938275b17b39171353ad95a65" category="paragraph">Cette version de l'usine de workloads pour VMware offre des fonctionnalités améliorées et une meilleure stabilité, ainsi que la possibilité d'importer et d'exporter des plans de migration lors de l'utilisation de VMware migration Advisor.</block>
   <block id="5802490bb2e01aff3b4722eee028a516" category="list-text">Visionneuse Codebox : Codebox est maintenant intégré au processus de création de lien. Vous pouvez afficher et copier le modèle CloudFormation à partir de Codebox dans l'usine de la charge de travail avant de rediriger vers AWS pour exécuter l'opération.</block>
   <block id="0d2cf987b55cf15b8f1dec5a05398183" category="list-text">Autorisations requises : les autorisations requises pour exécuter la création de lien dans AWS CloudFormation sont désormais disponibles pour afficher et copier à partir de l'assistant de création de lien dans l'usine de la charge de travail.</block>
@@ -140,4 +138,9 @@
   <block id="c711d2f72cc16ad2c0919ebe70292834" category="paragraph">L'usine de workloads BlueXP  pour GenAI prend désormais en charge le clonage d'une base de connaissances à partir d'un snapshot. Cela permet une récupération rapide des bases de connaissances et la création de nouvelles bases de connaissances avec les sources de données existantes, et aide à la récupération et au développement des données.</block>
   <block id="53ea9e78bbaa3e1c3ead030a954216c8" category="inline-link-macro">Cloner une base de connaissances</block>
   <block id="23899d33da818933cc59017a222d3f1f" category="paragraph"><block ref="23899d33da818933cc59017a222d3f1f" category="inline-link-macro-rx"></block></block>
+  <block id="1d194f6c398ca78aaffd8c430203e1ec" category="doc">Améliorations d'Amazon EC2 migration Advisor</block>
+  <block id="1e5e06dbbf4cb0bb655126bc90757161" category="paragraph">Cette version de l'usine de workloads BlueXP  pour VMware apporte plusieurs améliorations à l'expérience de migration Advisor :</block>
+  <block id="80384840ba856b44e35be4918f28a26b" category="list-text">*Collecte de données* : l'usine de workloads BlueXP  pour VMware prend en charge la possibilité de collecter des données pour une période spécifique lorsque vous utilisez le conseiller de migration.</block>
+  <block id="2e47bf0e10f6acdee08b3889dc872c4c" category="list-text">*Sélection VM* : l'usine de workloads BlueXP  pour VMware prend désormais en charge la sélection des machines virtuelles que vous souhaitez inclure dans votre déploiement de migration.</block>
+  <block id="3f4f1b85f4effee9c5e9ae9034f0e684" category="list-text">*Quick vs Advanced Experience* : lorsque vous utilisez le conseiller de migration, vous pouvez désormais choisir une expérience de migration rapide, en utilisant RVTools, ou l'expérience avancée, qui utilise le collecteur de données de migration Advisor.</block>
 </blocks>
