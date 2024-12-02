@@ -1,0 +1,19 @@
+= L'optimisation continue permet de résoudre les problèmes de calcul et d'évaluer
+:allow-uri-read: 
+
+
+
+
+=== L'optimisation continue permet de résoudre les problèmes de calcul et d'évaluer
+
+Les bases de données offrent désormais des informations et des recommandations pour vous aider à optimiser les ressources de calcul des instances Microsoft SQL Server. Nous mesurons l'utilisation du processeur et nous nous appuyons sur le service AWS Compute Optimizer pour recommander des types d'instances optimaux et correctement dimensionnés, et vous informer des correctifs disponibles sur le système d'exploitation. L'optimisation des ressources de calcul vous aide à prendre des décisions avisées sur les types d'instances, ce qui vous permet de réaliser des économies et d'utiliser efficacement les ressources.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Optimisez les configurations des ressources de calcul"]
+
+
+
+=== Prise en charge de PostgreSQL
+
+Vous pouvez désormais déployer et gérer des déploiements de serveurs PostgreSQL autonomes dans des bases de données.
+
+link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.html["Créez un serveur PostgreSQL"]

@@ -65,6 +65,46 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/explore-savings.html["Déc
 
 
 
+=== Charges de travail des bases de données
+
+
+
+==== L'optimisation continue permet de résoudre les problèmes de calcul et d'évaluer
+
+Les bases de données offrent désormais des informations et des recommandations pour vous aider à optimiser les ressources de calcul des instances Microsoft SQL Server. Nous mesurons l'utilisation du processeur et nous nous appuyons sur le service AWS Compute Optimizer pour recommander des types d'instances optimaux et correctement dimensionnés, et vous informer des correctifs disponibles sur le système d'exploitation. L'optimisation des ressources de calcul vous aide à prendre des décisions avisées sur les types d'instances, ce qui vous permet de réaliser des économies et d'utiliser efficacement les ressources.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Optimisez les configurations des ressources de calcul"]
+
+
+
+==== Prise en charge de PostgreSQL
+
+Vous pouvez désormais déployer et gérer des déploiements de serveurs PostgreSQL autonomes dans des bases de données.
+
+link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.html["Créez un serveur PostgreSQL"]
+
+
+
+=== Charges de travail GenAI
+
+
+
+==== Cloner une base de connaissances à partir d'un instantané
+
+L'usine de workloads BlueXP  pour GenAI prend désormais en charge le clonage d'une base de connaissances à partir d'un snapshot. Cela permet une récupération rapide des bases de connaissances et la création de nouvelles bases de connaissances avec les sources de données existantes, et aide à la récupération et au développement des données.
+
+link:https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#clone-a-knowledge-base["Cloner une base de connaissances"]
+
+
+
+==== Détection et réplication des clusters ONTAP sur site
+
+Détectez et répliquez les données des clusters ONTAP sur site dans un système de fichiers FSX pour ONTAP afin de les utiliser pour enrichir les bases de connaissances d'IA. Tous les workflows de découverte et de réplication sur site sont possibles à partir du nouvel onglet *On-prlocale ONTAP* de l'inventaire du stockage.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/use-onprem-data.html["Découvrez un cluster ONTAP sur site"]
+
+
+
 == 11 novembre 2024
 
 
@@ -228,26 +268,6 @@ https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.h
 
 
 
-=== Charges de travail des bases de données
-
-
-
-==== Explorer les économies via la personnalisation
-
-Vous pouvez désormais personnaliser les paramètres de configuration de Microsoft SQL Server sur Amazon EC2 avec FSX pour Windows File Server et le stockage Elastic Block Store dans le calculateur d'économies. En fonction de vos besoins en stockage, vous constaterez peut-être que le stockage FSX pour ONTAP est le plus économique pour vos workloads de base de données.
-
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Découvrez les économies réalisées avec FSX for ONTAP pour les workloads de bases de données"^]
-
-
-
-==== Accédez au calculateur d'économies depuis la page d'accueil
-
-Vous pouvez maintenant accéder au calculateur d'économies à partir de la link:https://console.workloads.netapp.com["console d'usine de charge de travail"^]page d'accueil. Pour commencer, faites votre choix dans Elastic Block Store et FSX for Windows File Server.
-
-image:screenshot-explore-savings-home-small.png["capture d'écran de la page d'accueil de la console d'usine de la charge de travail. L'image montre la mosaïque bases de données avec un nouveau bouton Explorer les économies. Cliquez sur le bouton pour ouvrir un menu déroulant. Le menu déroulant comporte deux options : Microsoft SQL Server sur EBS et Microsoft SQL Server sur FSX pour serveur de fichiers Windows."]
-
-
-
 === Workloads VMware
 
 
@@ -255,22 +275,6 @@ image:screenshot-explore-savings-home-small.png["capture d'écran de la page d'a
 ==== Migrez vers Amazon EC2
 
 L'usine de workloads pour VMware prend désormais en charge la migration vers Amazon EC2 à l'aide de VMware migration Advisor.
-
-
-
-=== Charges de travail GenAI
-
-
-
-==== Stratégies de chaquage supplémentaires
-
-Les workloads d'IA génératifs prennent désormais en charge le traitement en plusieurs phrases et le processus de suppression basé sur les chevauchements pour les sources de données.
-
-
-
-==== Volume dédié pour chaque base de connaissances
-
-Les workloads d'IA génératifs créent désormais un volume Amazon FSX pour NetApp ONTAP dédié à chaque nouvelle base de connaissances, en activant des règles Snapshot individuelles pour chaque base de connaissances et en améliorant la protection contre les défaillances et les empoisonnements de données.
 
 
 

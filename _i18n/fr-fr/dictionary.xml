@@ -31,19 +31,12 @@
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">Configuration et administration</block>
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">Workloads VMware</block>
   <block id="a41d6b8d358bc9ae448d19a2d13faa53" category="section-title">4 août 2024</block>
-  <block id="f565eb47bc8c215541fe00205d9b37d3" category="doc">Explorer les économies via la personnalisation</block>
-  <block id="bfbd25ddeba7cedc974f1a5a1d0a295c" category="paragraph">Vous pouvez désormais personnaliser les paramètres de configuration de Microsoft SQL Server sur Amazon EC2 avec FSX pour Windows File Server et le stockage Elastic Block Store dans le calculateur d'économies. En fonction de vos besoins en stockage, vous constaterez peut-être que le stockage FSX pour ONTAP est le plus économique pour vos workloads de base de données.</block>
-  <block id="f94c119bb7d164adbb1a390a249741e0" category="section-title">Accédez au calculateur d'économies depuis la page d'accueil</block>
   <block id="5a41a3272b612d6600223d90afc4ffba" category="section-title">1 septembre 2024</block>
   <block id="2fd1745cefcdce50d6467d96e693f6b7" category="doc">Abonnement RSS</block>
   <block id="80f4b5aa553e3a44455088c83954a088" category="section-title">Prise en charge d'une seule stratégie d'autorisation par charge de travail</block>
   <block id="41b3a089d4fbacfb53e9a5634cfc6647" category="inline-image-macro">Capture d'écran de la section de configuration des autorisations de la page informations d'identification, dans laquelle vous pouvez sélectionner lecture ou automatisation des stratégies d'autorisations pour la gestion du stockage, les workloads d'IA, les workloads de bases de données et les workloads VMware.</block>
   <block id="fa5f572610383fbc01cbba40c0f535e2" category="paragraph"><block ref="fa5f572610383fbc01cbba40c0f535e2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a268e8a21767df1e979dcf4c47b6f464" category="doc">Migrez vers Amazon EC2</block>
-  <block id="8fa53177b9fd9cdb460f43ba4be39618" category="doc">Stratégies de chaquage supplémentaires</block>
-  <block id="a0a464c97ca1835adf3bddc803b001cd" category="paragraph">Les workloads d'IA génératifs prennent désormais en charge le traitement en plusieurs phrases et le processus de suppression basé sur les chevauchements pour les sources de données.</block>
-  <block id="4cb92325ae7034576f6dff7fe48e3254" category="section-title">Volume dédié pour chaque base de connaissances</block>
-  <block id="a023a8333417a130bf6fb2c729aaa7f1" category="paragraph">Les workloads d'IA génératifs créent désormais un volume Amazon FSX pour NetApp ONTAP dédié à chaque nouvelle base de connaissances, en activant des règles Snapshot individuelles pour chaque base de connaissances et en améliorant la protection contre les défaillances et les empoisonnements de données.</block>
   <block id="2792e29ba30bdded6461ac9b9f0816a4" category="doc">Améliorations de VMware migration Advisor</block>
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">Créez un plan de déploiement pour Amazon EC2 à l'aide du conseiller de migration</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
@@ -111,9 +104,6 @@
   <block id="d2feef96259a41a7842dc5e7af577d63" category="paragraph">Vous pouvez désormais utiliser l'usine de charge de travail à partir de <block ref="391de7a3bac2bc77fa53dffb3f53801a" category="inline-link-macro-rx"></block>. L'expérience de la console BlueXP  offre les mêmes fonctionnalités que la console d'usine de la charge de travail.</block>
   <block id="717f9c6475fbb39a24ab9942c1a903c0" category="inline-link-macro">Découvrez comment accéder à l'usine des workloads à partir de la console BlueXP</block>
   <block id="f462230f4e4289784e8469f2babda8fd" category="section-title">11 novembre 2024</block>
-  <block id="e93e8519fa9c34d76ec0735119a46866" category="paragraph">Vous pouvez maintenant accéder au calculateur d'économies à partir de la <block ref="fe6e1b2479e1125e03c713ad62b5343f" category="inline-link-macro-rx"></block>page d'accueil. Pour commencer, faites votre choix dans Elastic Block Store et FSX for Windows File Server.</block>
-  <block id="ab1e050e49bbc49befbca952f74f0443" category="inline-image-macro">capture d'écran de la page d'accueil de la console d'usine de la charge de travail. L'image montre la mosaïque bases de données avec un nouveau bouton Explorer les économies. Cliquez sur le bouton pour ouvrir un menu déroulant. Le menu déroulant comporte deux options : Microsoft SQL Server sur EBS et Microsoft SQL Server sur FSX pour serveur de fichiers Windows.</block>
-  <block id="923f11c15ceba3bc0e4d37309ab27ed2" category="paragraph"><block ref="923f11c15ceba3bc0e4d37309ab27ed2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1a34f743bd98b1658401ce2f8206ff9a" category="paragraph"><block ref="1a34f743bd98b1658401ce2f8206ff9a" category="inline-link-macro-rx"></block></block>
   <block id="c4f10a04f7aa75535a8a0475261393eb" category="doc">Stockage bloc pour systèmes de fichiers scale-out FSX pour ONTAP</block>
   <block id="152983842f852ef5bae46ac675caec95" category="paragraph">Vous pouvez désormais provisionner le stockage bloc sur FSX pour ONTAP lors d'un déploiement de système de fichiers scale-out comptant jusqu'à 6 paires haute disponibilité.</block>
@@ -138,4 +128,16 @@
   <block id="dd0818ef84ecf338be3c795b4a57e5c4" category="inline-link-macro">Découvrez les économies réalisées grâce à FSX for ONTAP en usine de workloads BlueXP</block>
   <block id="f98d47c0920e02232d981da56f082627" category="paragraph"><block ref="f98d47c0920e02232d981da56f082627" category="inline-link-macro-rx"></block></block>
   <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">1 décembre 2024</block>
+  <block id="18caf85143cff2e29943f7fa50a9d531" category="doc">L'optimisation continue permet de résoudre les problèmes de calcul et d'évaluer</block>
+  <block id="275b08f4e33388b6598899e256fe46b3" category="paragraph">Les bases de données offrent désormais des informations et des recommandations pour vous aider à optimiser les ressources de calcul des instances Microsoft SQL Server. Nous mesurons l'utilisation du processeur et nous nous appuyons sur le service AWS Compute Optimizer pour recommander des types d'instances optimaux et correctement dimensionnés, et vous informer des correctifs disponibles sur le système d'exploitation. L'optimisation des ressources de calcul vous aide à prendre des décisions avisées sur les types d'instances, ce qui vous permet de réaliser des économies et d'utiliser efficacement les ressources.</block>
+  <block id="9aa94e25ba754a44d094b78775213e48" category="inline-link-macro">Optimisez les configurations des ressources de calcul</block>
+  <block id="25a5dc6deeba5d476ff665ad9c968a2b" category="paragraph"><block ref="25a5dc6deeba5d476ff665ad9c968a2b" category="inline-link-macro-rx"></block></block>
+  <block id="f3cfd7c95d3ff2b556d90beb191fa77a" category="section-title">Prise en charge de PostgreSQL</block>
+  <block id="49db1f79602c9ba8e5704a68010c4023" category="paragraph">Vous pouvez désormais déployer et gérer des déploiements de serveurs PostgreSQL autonomes dans des bases de données.</block>
+  <block id="3627a14d7dc2feba3834d63a37ebb394" category="inline-link-macro">Créez un serveur PostgreSQL</block>
+  <block id="02b7dd87f2a54e2b540ac84598c20252" category="paragraph"><block ref="02b7dd87f2a54e2b540ac84598c20252" category="inline-link-macro-rx"></block></block>
+  <block id="f8a21101d47aa852f29a4be35904736e" category="doc">Cloner une base de connaissances à partir d'un instantané</block>
+  <block id="c711d2f72cc16ad2c0919ebe70292834" category="paragraph">L'usine de workloads BlueXP  pour GenAI prend désormais en charge le clonage d'une base de connaissances à partir d'un snapshot. Cela permet une récupération rapide des bases de connaissances et la création de nouvelles bases de connaissances avec les sources de données existantes, et aide à la récupération et au développement des données.</block>
+  <block id="53ea9e78bbaa3e1c3ead030a954216c8" category="inline-link-macro">Cloner une base de connaissances</block>
+  <block id="23899d33da818933cc59017a222d3f1f" category="paragraph"><block ref="23899d33da818933cc59017a222d3f1f" category="inline-link-macro-rx"></block></block>
 </blocks>
