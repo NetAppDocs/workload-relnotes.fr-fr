@@ -46,3 +46,5 @@ link:https://www.netapp.com/company/legal/privacy-policy/["https://www.netapp.co
 == Source ouverte
 
 Les fichiers de notification fournissent des informations sur les droits d'auteur et les licences de tiers utilisés dans le logiciel NetApp.
+
+https://docs.netapp.com/us-en/workload-family/media/workload-factory-notice.pdf["Usine de workloads BlueXP"^]
