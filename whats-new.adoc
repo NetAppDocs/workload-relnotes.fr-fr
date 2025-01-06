@@ -78,6 +78,22 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cifs-share.html["G�
 
 
 
+=== Workloads VMware
+
+
+
+==== Améliorations d'Amazon EC2 migration Advisor
+
+Cette version de l'usine de workloads BlueXP  pour VMware apporte plusieurs améliorations à l'expérience de migration Advisor :
+
+* *Enregistrer ou télécharger un plan de migration* : vous pouvez maintenant enregistrer ou télécharger un plan de migration et charger le plan de migration pour remplir le conseiller de migration. Lorsque vous enregistrez un plan de migration, celui-ci est enregistré avec votre compte d'usine de charge de travail.
+* *Amélioration de la sélection des machines virtuelles* : l'usine de workloads BlueXP  pour VMware prend désormais en charge le filtrage et la recherche de la liste des machines virtuelles que vous souhaitez inclure dans votre déploiement de migration.
+
+
+https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["Créez un plan de déploiement pour Amazon EC2 à l'aide du conseiller de migration"]
+
+
+
 === Charges de travail GenAI
 
 
@@ -103,6 +119,18 @@ link:https://docs.netapp.com/us-en/workload-genai/deploy-infrastructure.html["D�
 Si votre instance de moteur d'IA est corrompue ou supprimée, vous pouvez laisser la charge de travail se reconstruire en usine. Workload Factory rattache automatiquement vos bases de connaissances à l'infrastructure une fois la reconstruction terminée, afin qu'elles soient prêtes à l'emploi.
 
 link:https://docs.netapp.com/us-en/workload-genai/troubleshooting.html["Dépannage"]
+
+
+
+=== Configuration et administration
+
+
+
+==== Prise en charge des comptes de service en usine de charges de travail BlueXP 
+
+Les comptes de service sont désormais pris en charge par l'usine de workloads BlueXP . Vous pouvez créer des comptes de service qui agissent en tant qu'utilisateurs de machines pour automatiser les opérations d'infrastructure.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/manage-service-accounts.html["Création et gestion de comptes de service"]
 
 
 
@@ -295,22 +323,6 @@ link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-complianc
 
 
 
-== 19 septembre 2024
-
-
-
-=== Workloads VMware
-
-
-
-==== Améliorations de VMware migration Advisor
-
-Cette version de l'usine de workloads pour VMware offre des fonctionnalités améliorées et une meilleure stabilité, ainsi que la possibilité d'importer et d'exporter des plans de migration lors de l'utilisation de VMware migration Advisor.
-
-https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["Créez un plan de déploiement pour Amazon EC2 à l'aide du conseiller de migration"]
-
-
-
 == 1 septembre 2024
 
 
@@ -334,19 +346,3 @@ Lors de l'ajout d'identifiants AWS en usine de workloads, vous pouvez désormais
 image:screenshot-single-permission-policy-support.png["Capture d'écran de la section de configuration des autorisations de la page informations d'identification, dans laquelle vous pouvez sélectionner lecture ou automatisation des stratégies d'autorisations pour la gestion du stockage, les workloads d'IA, les workloads de bases de données et les workloads VMware."]
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Ajoutez les identifiants AWS à l'usine des workloads"^]
-
-
-
-== 4 août 2024
-
-
-
-=== Configuration et administration
-
-
-
-==== Prise en charge de Terraform
-
-Terraform est pris en charge pour le déploiement du système de fichiers Amazon FSX pour NetApp ONTAP et la création de machines virtuelles de stockage. Le guide d'installation et d'administration contient maintenant des instructions sur l'utilisation de Terraform à partir de la Codebox.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["Utiliser Terraform à partir de Codebox"^]

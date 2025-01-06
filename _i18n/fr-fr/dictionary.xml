@@ -24,22 +24,18 @@
   <block id="efa42d5c66cb9948f402ee559611e12d" category="doc">Prise en charge de Terraform</block>
   <block id="2532cd63354e6e99119077d45134b5ef" category="inline-link-macro">Utiliser Terraform à partir de Codebox</block>
   <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
-  <block id="1571710cf3c95e6290fc41ea04917d42" category="paragraph">Terraform est pris en charge pour le déploiement du système de fichiers Amazon FSX pour NetApp ONTAP et la création de machines virtuelles de stockage. Le guide d'installation et d'administration contient maintenant des instructions sur l'utilisation de Terraform à partir de la Codebox.</block>
   <block id="38bd169945a371832b0b65c9086b1792" category="doc">Charges de travail des bases de données</block>
   <block id="4d82a1ec1af02725042c8c785564ee7a" category="doc">Amazon FSX pour NetApp ONTAP</block>
   <block id="b04deaa23ce22ae0dafa2736e8afebed" category="doc">Charges de travail GenAI</block>
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">Configuration et administration</block>
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">Workloads VMware</block>
-  <block id="a41d6b8d358bc9ae448d19a2d13faa53" category="section-title">4 août 2024</block>
   <block id="5a41a3272b612d6600223d90afc4ffba" category="section-title">1 septembre 2024</block>
   <block id="2fd1745cefcdce50d6467d96e693f6b7" category="doc">Abonnement RSS</block>
   <block id="80f4b5aa553e3a44455088c83954a088" category="section-title">Prise en charge d'une seule stratégie d'autorisation par charge de travail</block>
   <block id="41b3a089d4fbacfb53e9a5634cfc6647" category="inline-image-macro">Capture d'écran de la section de configuration des autorisations de la page informations d'identification, dans laquelle vous pouvez sélectionner lecture ou automatisation des stratégies d'autorisations pour la gestion du stockage, les workloads d'IA, les workloads de bases de données et les workloads VMware.</block>
   <block id="fa5f572610383fbc01cbba40c0f535e2" category="paragraph"><block ref="fa5f572610383fbc01cbba40c0f535e2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2792e29ba30bdded6461ac9b9f0816a4" category="doc">Améliorations de VMware migration Advisor</block>
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">Créez un plan de déploiement pour Amazon EC2 à l'aide du conseiller de migration</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
-  <block id="9f220db04e7195ea3730c9dd5537897c" category="section-title">19 septembre 2024</block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">Découvrez les économies réalisées avec FSX for ONTAP pour les workloads de bases de données</block>
   <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
   <block id="31139fb3d548620b7d82f880e4660606" category="doc">Onglets dans l'inventaire de stockage</block>
@@ -66,7 +62,6 @@
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">Modifications récentes de l'usine de workloads BlueXP </block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">Ces notes de version décrivent les dernières améliorations apportées aux services cloud qui font partie de l'usine de workloads BlueXP .</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">Notes de mise à jour d'usine de la charge de travail BlueXP </block>
-  <block id="21558f6938275b17b39171353ad95a65" category="paragraph">Cette version de l'usine de workloads pour VMware offre des fonctionnalités améliorées et une meilleure stabilité, ainsi que la possibilité d'importer et d'exporter des plans de migration lors de l'utilisation de VMware migration Advisor.</block>
   <block id="e5d3c7248ff4540f88c13fbf9252d0a3" category="inline-link-macro">console d'usine de charge de travail</block>
   <block id="3171014553de64cf509a3b587c8baeb3" category="paragraph">L'abonnement RSS est disponible sur le <block ref="9d5ad87a67c1830e37fdd19a7a179db6" category="inline-link-macro-rx"></block>. L'utilisation d'un flux RSS est un moyen facile de consommer et d'être conscient des changements dans l'usine de la charge de travail BlueXP .</block>
   <block id="0796995437665af1d920169e03b4542b" category="inline-image-macro">Capture d'écran du menu déroulant d'aide de la console d'usine de la charge de travail. Un nouveau bouton permettant de s'abonner à RSS apparaît sous forme d'option dans le menu déroulant.</block>
@@ -159,4 +154,10 @@
   <block id="1691fa3a19bfaa3082dd2f6e01934960" category="paragraph">Si votre instance de moteur d'IA est corrompue ou supprimée, vous pouvez laisser la charge de travail se reconstruire en usine. Workload Factory rattache automatiquement vos bases de connaissances à l'infrastructure une fois la reconstruction terminée, afin qu'elles soient prêtes à l'emploi.</block>
   <block id="231cf4c70d866b616c21baddaeed0696" category="inline-link-macro">Dépannage</block>
   <block id="b23e4d787bd591292c1d5f10247e0e53" category="paragraph"><block ref="b23e4d787bd591292c1d5f10247e0e53" category="inline-link-macro-rx"></block></block>
+  <block id="5baf4417d867f07ce7f16e7810f044d7" category="doc">Prise en charge des comptes de service en usine de charges de travail BlueXP </block>
+  <block id="369af9c9eae8f9673850f588a7ed5272" category="paragraph">Les comptes de service sont désormais pris en charge par l'usine de workloads BlueXP . Vous pouvez créer des comptes de service qui agissent en tant qu'utilisateurs de machines pour automatiser les opérations d'infrastructure.</block>
+  <block id="f932d2619edea0dc69b40e9be53abdc4" category="inline-link-macro">Création et gestion de comptes de service</block>
+  <block id="3d6080aa10267e8c67d5c76a2bc1a9f3" category="paragraph"><block ref="3d6080aa10267e8c67d5c76a2bc1a9f3" category="inline-link-macro-rx"></block></block>
+  <block id="cde718e2f0bf0ef80eb31becc18c4787" category="list-text">*Enregistrer ou télécharger un plan de migration* : vous pouvez maintenant enregistrer ou télécharger un plan de migration et charger le plan de migration pour remplir le conseiller de migration. Lorsque vous enregistrez un plan de migration, celui-ci est enregistré avec votre compte d'usine de charge de travail.</block>
+  <block id="42ec77b942403dfbfa1bb7908218848c" category="list-text">*Amélioration de la sélection des machines virtuelles* : l'usine de workloads BlueXP  pour VMware prend désormais en charge le filtrage et la recherche de la liste des machines virtuelles que vous souhaitez inclure dans votre déploiement de migration.</block>
 </blocks>
