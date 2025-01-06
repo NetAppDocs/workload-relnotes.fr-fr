@@ -40,8 +40,6 @@
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">Créez un plan de déploiement pour Amazon EC2 à l'aide du conseiller de migration</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
   <block id="9f220db04e7195ea3730c9dd5537897c" category="section-title">19 septembre 2024</block>
-  <block id="cf88fa43b4b0e1b1bfb66e894b188442" category="doc">Découvrez les économies réalisées grâce à la détection de serveurs Microsoft SQL sur FSX pour serveur de fichiers Windows</block>
-  <block id="0df73578de7c34ef150c1f37953113f5" category="paragraph">Vous pouvez désormais explorer les économies générées par les serveurs Microsoft SQL détectés sur Amazon EC2 avec FSX pour le stockage de serveur de fichiers Windows dans le calculateur d'économies. Selon vos besoins en stockage et en serveur SQL, le stockage FSX pour ONTAP est probablement le plus économique pour vos workloads de base de données.</block>
   <block id="94bc5d9f2e30e5678caa5a3b2feb4216" category="section-title">29 septembre 2024</block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">Découvrez les économies réalisées avec FSX for ONTAP pour les workloads de bases de données</block>
   <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
@@ -148,4 +146,20 @@
   <block id="1122186beaf8563a5f76bdc23dfd22a5" category="inline-link-macro">Gérer les partages CIFS</block>
   <block id="f59eead66ce9829f954d28d72a4e99b1" category="paragraph"><block ref="f59eead66ce9829f954d28d72a4e99b1" category="inline-link-macro-rx"></block></block>
   <block id="065531f581a60b79025f539bd1ff1cff" category="section-title">5 janvier 2025</block>
+  <block id="f418f614e126c9d215de85f00b5b7a7e" category="doc">Améliorations du tableau de bord bases de données</block>
+  <block id="c18a3eee23770f4e57bfa9ffe245c428" category="paragraph">Une nouvelle conception du tableau de bord inclut les graphiques et améliorations suivants :</block>
+  <block id="47ecffc6ee3a1f9bca5a81d55169b8b6" category="list-text">Le graphique de distribution des hôtes indique le nombre d'hôtes Microsoft SQL Server et d'hôtes PostgreSQL</block>
+  <block id="ec506ecd03b96cac2e19d3abac7aa16e" category="list-text">Les détails de la distribution des instances comprennent le nombre total d'instances détectées et le nombre d'instances gérées de Microsoft SQL Server et PostgreSQL</block>
+  <block id="9bb5ee528a11ed94b071f88a078be55e" category="list-text">Les détails de distribution des bases de données incluent le nombre total de bases de données et le nombre de bases de données Microsoft SQL Server et PostgreSQL gérées</block>
+  <block id="01fe24ee345a62672acb8a16826117d0" category="list-text">Score et États d'optimisation pour les instances gérées et en ligne</block>
+  <block id="341934677d47967f5c6e737476247396" category="list-text">Détails d'optimisation pour les catégories de stockage, de calcul et d'applications</block>
+  <block id="fb2f60a13243e168f321a9de2af52d51" category="list-text">Détails d'optimisation pour les configurations d'instances Microsoft SQL Server, telles que le dimensionnement du stockage, l'infrastructure de stockage, le stockage ONTAP, le calcul et les applications</block>
+  <block id="18168aa68b74c030711fe95b2b74afac" category="list-text">Économies potentielles pour les workloads de base de données s'exécutant sur les environnements de stockage Amazon Elastic Block Store et FSX pour serveur de fichiers Windows par rapport au stockage Amazon FSX pour NetApp ONTAP</block>
+  <block id="1886db6545ee593b7bf9014a318fd354" category="section-title">Nouveau statut « terminé avec problèmes » dans surveillance des travaux</block>
+  <block id="ddd4a54acb0820f07017dcad26528779" category="paragraph">La fonction de surveillance des travaux pour les bases de données fournit désormais le nouvel état « terminé avec problèmes » pour vous permettre d'apprendre quels sous-travaux ont rencontré des problèmes et quels sont les problèmes.</block>
+  <block id="c72aad21ecf48b0a4f27430d70c166da" category="inline-link-macro">Surveillez vos bases de données</block>
+  <block id="5c89f4f6af1a71c2ed6cfac605e94c16" category="paragraph"><block ref="5c89f4f6af1a71c2ed6cfac605e94c16" category="inline-link-macro-rx"></block></block>
+  <block id="fd3039d7fbe9d24b3141aca3c62383a2" category="section-title">Évaluation et optimisation des licences Microsoft SQL Server surprovisionnées</block>
+  <block id="f90a806c02db45741274868bc065ab90" category="paragraph">Le calculateur d'économies évalue maintenant si Enterprise Edition est nécessaire pour votre déploiement Microsoft SQL Server. Si une licence est surprovisionnée, le calculateur recommande la mise à niveau vers une version antérieure. Vous pourrez rétrograder automatiquement la licence dans les bases de données en optimisant l'application.</block>
+  <block id="c5e3fb9d31cd8a0b458ca9e3c4a690f6" category="section-title">6 janvier 2025</block>
 </blocks>
