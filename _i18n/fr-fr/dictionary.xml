@@ -43,9 +43,6 @@
   <block id="cf88fa43b4b0e1b1bfb66e894b188442" category="doc">Découvrez les économies réalisées grâce à la détection de serveurs Microsoft SQL sur FSX pour serveur de fichiers Windows</block>
   <block id="0df73578de7c34ef150c1f37953113f5" category="paragraph">Vous pouvez désormais explorer les économies générées par les serveurs Microsoft SQL détectés sur Amazon EC2 avec FSX pour le stockage de serveur de fichiers Windows dans le calculateur d'économies. Selon vos besoins en stockage et en serveur SQL, le stockage FSX pour ONTAP est probablement le plus économique pour vos workloads de base de données.</block>
   <block id="94bc5d9f2e30e5678caa5a3b2feb4216" category="section-title">29 septembre 2024</block>
-  <block id="cd1df627bd8e5b96916530ffbf4664f6" category="doc">Mises à jour de la création de liens</block>
-  <block id="3721bd571f4111dad2c363436de34c51" category="list-text">Prise en charge de la création manuelle de liens : cette fonctionnalité permet la création autonome dans AWS CloudFormation avec enregistrement manuel du lien ARN. Cette fonctionnalité est utile lorsqu'une équipe de sécurité ou DevOps participe au processus de création de liens.</block>
-  <block id="8997880c88dd70fe80799ee97bb7ac0c" category="inline-link-macro">Créer un lien</block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">Découvrez les économies réalisées avec FSX for ONTAP pour les workloads de bases de données</block>
   <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
   <block id="1ae13d57da1c55ee537cb9dc63916d03" category="paragraph">Vous pouvez désormais protéger les données de vos workloads d'IA générative en utilisant une copie instantanée d'une base de connaissances. Vous pouvez ainsi protéger vos données contre les pertes accidentelles ou tester les modifications apportées aux paramètres de la base de connaissances. Vous pouvez à tout moment restaurer la version précédente du volume de la base de connaissances.</block>
@@ -87,9 +84,6 @@
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">Ces notes de version décrivent les dernières améliorations apportées aux services cloud qui font partie de l'usine de workloads BlueXP .</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">Notes de mise à jour d'usine de la charge de travail BlueXP </block>
   <block id="21558f6938275b17b39171353ad95a65" category="paragraph">Cette version de l'usine de workloads pour VMware offre des fonctionnalités améliorées et une meilleure stabilité, ainsi que la possibilité d'importer et d'exporter des plans de migration lors de l'utilisation de VMware migration Advisor.</block>
-  <block id="5802490bb2e01aff3b4722eee028a516" category="list-text">Visionneuse Codebox : Codebox est maintenant intégré au processus de création de lien. Vous pouvez afficher et copier le modèle CloudFormation à partir de Codebox dans l'usine de la charge de travail avant de rediriger vers AWS pour exécuter l'opération.</block>
-  <block id="0d2cf987b55cf15b8f1dec5a05398183" category="list-text">Autorisations requises : les autorisations requises pour exécuter la création de lien dans AWS CloudFormation sont désormais disponibles pour afficher et copier à partir de l'assistant de création de lien dans l'usine de la charge de travail.</block>
-  <block id="3874612023324fe909b90a886072b352" category="paragraph"><block ref="3874612023324fe909b90a886072b352" category="inline-link-macro-rx"></block></block>
   <block id="e5d3c7248ff4540f88c13fbf9252d0a3" category="inline-link-macro">console d'usine de charge de travail</block>
   <block id="3171014553de64cf509a3b587c8baeb3" category="paragraph">L'abonnement RSS est disponible sur le <block ref="9d5ad87a67c1830e37fdd19a7a179db6" category="inline-link-macro-rx"></block>. L'utilisation d'un flux RSS est un moyen facile de consommer et d'être conscient des changements dans l'usine de la charge de travail BlueXP .</block>
   <block id="0796995437665af1d920169e03b4542b" category="inline-image-macro">Capture d'écran du menu déroulant d'aide de la console d'usine de la charge de travail. Un nouveau bouton permettant de s'abonner à RSS apparaît sous forme d'option dans le menu déroulant.</block>
@@ -145,4 +139,13 @@
   <block id="3f4f1b85f4effee9c5e9ae9034f0e684" category="list-text">*Quick vs Advanced Experience* : lorsque vous utilisez le conseiller de migration, vous pouvez désormais choisir une expérience de migration rapide, en utilisant RVTools, ou l'expérience avancée, qui utilise le collecteur de données de migration Advisor.</block>
   <block id="428b0b39be2352757edeb5f9f12a7bdd" category="inline-link">Usine de workloads BlueXP</block>
   <block id="7cf449620aa459bc5c449db69b07e507" category="paragraph"><block ref="7cf449620aa459bc5c449db69b07e507" category="inline-link-rx"></block></block>
+  <block id="442b133d7d895a50d67d2f8514b6fc0a" category="doc">Améliorations du partage CIFS des volumes</block>
+  <block id="c67048e1717263df3fc8ffc894f40785" category="paragraph">Les améliorations suivantes sont disponibles pour la gestion du partage CIFS pour les volumes d'un système de fichiers Amazon FSX pour ONTAP en usine de workloads BlueXP  :</block>
+  <block id="28ee2134fc1275e4f2052b7bd91a9f8d" category="list-text">Prise en charge de plusieurs partages CIFS sur un volume</block>
+  <block id="aa8a0747da321d7501a2f34bb5326b65" category="list-text">Possibilité de mettre à jour les utilisateurs et les groupes à tout moment</block>
+  <block id="a85d37847efda31b7b7b0ee3ee3cd2ab" category="list-text">Possibilité de mettre à jour les autorisations des utilisateurs et des groupes à tout moment</block>
+  <block id="0c05c06c8c5abf5cf4956491502d212a" category="list-text">Suppression du partage CIFS</block>
+  <block id="1122186beaf8563a5f76bdc23dfd22a5" category="inline-link-macro">Gérer les partages CIFS</block>
+  <block id="f59eead66ce9829f954d28d72a4e99b1" category="paragraph"><block ref="f59eead66ce9829f954d28d72a4e99b1" category="inline-link-macro-rx"></block></block>
+  <block id="065531f581a60b79025f539bd1ff1cff" category="section-title">5 janvier 2025</block>
 </blocks>
