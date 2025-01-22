@@ -29,11 +29,6 @@
   <block id="b04deaa23ce22ae0dafa2736e8afebed" category="doc">Charges de travail GenAI</block>
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">Configuration et administration</block>
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">Workloads VMware</block>
-  <block id="5a41a3272b612d6600223d90afc4ffba" category="section-title">1 septembre 2024</block>
-  <block id="2fd1745cefcdce50d6467d96e693f6b7" category="doc">Abonnement RSS</block>
-  <block id="80f4b5aa553e3a44455088c83954a088" category="section-title">Prise en charge d'une seule stratégie d'autorisation par charge de travail</block>
-  <block id="41b3a089d4fbacfb53e9a5634cfc6647" category="inline-image-macro">Capture d'écran de la section de configuration des autorisations de la page informations d'identification, dans laquelle vous pouvez sélectionner lecture ou automatisation des stratégies d'autorisations pour la gestion du stockage, les workloads d'IA, les workloads de bases de données et les workloads VMware.</block>
-  <block id="fa5f572610383fbc01cbba40c0f535e2" category="paragraph"><block ref="fa5f572610383fbc01cbba40c0f535e2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">Créez un plan de déploiement pour Amazon EC2 à l'aide du conseiller de migration</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">Découvrez les économies réalisées avec FSX for ONTAP pour les workloads de bases de données</block>
@@ -61,13 +56,6 @@
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">Modifications récentes de l'usine de workloads BlueXP </block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">Ces notes de version décrivent les dernières améliorations apportées aux services cloud qui font partie de l'usine de workloads BlueXP .</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">Notes de mise à jour d'usine de la charge de travail BlueXP </block>
-  <block id="e5d3c7248ff4540f88c13fbf9252d0a3" category="inline-link-macro">console d'usine de charge de travail</block>
-  <block id="3171014553de64cf509a3b587c8baeb3" category="paragraph">L'abonnement RSS est disponible sur le <block ref="9d5ad87a67c1830e37fdd19a7a179db6" category="inline-link-macro-rx"></block>. L'utilisation d'un flux RSS est un moyen facile de consommer et d'être conscient des changements dans l'usine de la charge de travail BlueXP .</block>
-  <block id="0796995437665af1d920169e03b4542b" category="inline-image-macro">Capture d'écran du menu déroulant d'aide de la console d'usine de la charge de travail. Un nouveau bouton permettant de s'abonner à RSS apparaît sous forme d'option dans le menu déroulant.</block>
-  <block id="482a329f24c123c31a109c24729cb2cd" category="paragraph"><block ref="482a329f24c123c31a109c24729cb2cd" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="4e47b743d0cc8e0b8906e37286d9b43b" category="paragraph">Lors de l'ajout d'identifiants AWS en usine de workloads, vous pouvez désormais sélectionner une règle d'autorisation unique, en mode lecture ou automatisation, pour chaque charge de travail et pour la gestion du stockage.</block>
-  <block id="9f46892803d8b6c63d3b7f51fd44a421" category="inline-link-macro">Ajoutez les identifiants AWS à l'usine des workloads</block>
-  <block id="d9dd14fb1d1e7ca9c6da6770d9176783" category="paragraph"><block ref="d9dd14fb1d1e7ca9c6da6770d9176783" category="inline-link-macro-rx"></block></block>
   <block id="dfc4a97a3fe947a314ae908cf036cbfe" category="doc">Intégration en usine des charges de travail dans la console BlueXP</block>
   <block id="5975f7e9036c78e6217b16f295f0ca75" category="inline-link-macro">Console BlueXP</block>
   <block id="d2feef96259a41a7842dc5e7af577d63" category="paragraph">Vous pouvez désormais utiliser l'usine de charge de travail à partir de <block ref="391de7a3bac2bc77fa53dffb3f53801a" category="inline-link-macro-rx"></block>. L'expérience de la console BlueXP  offre les mêmes fonctionnalités que la console d'usine de la charge de travail.</block>
@@ -160,4 +148,8 @@
   <block id="cde718e2f0bf0ef80eb31becc18c4787" category="list-text">*Enregistrer ou télécharger un plan de migration* : vous pouvez maintenant enregistrer ou télécharger un plan de migration et charger le plan de migration pour remplir le conseiller de migration. Lorsque vous enregistrez un plan de migration, celui-ci est enregistré avec votre compte d'usine de charge de travail.</block>
   <block id="42ec77b942403dfbfa1bb7908218848c" category="list-text">*Amélioration de la sélection des machines virtuelles* : l'usine de workloads BlueXP  pour VMware prend désormais en charge le filtrage et la recherche de la liste des machines virtuelles que vous souhaitez inclure dans votre déploiement de migration.</block>
   <block id="f2398fe4ddb880ba6c52b376ef9b960c" category="list-text"><block ref="f2398fe4ddb880ba6c52b376ef9b960c" category="inline-link-macro-rx"></block></block>
+  <block id="ca475a2b63c70fedcf8f6650024d480b" category="doc">Autorisations d'usine des workloads BlueXP</block>
+  <block id="5291909ce92037a20a37f7a0c86dd921" category="paragraph">Vous pouvez désormais afficher les autorisations utilisées par l'usine de workloads BlueXP  pour exécuter diverses opérations, depuis la découverte de vos environnements de stockage jusqu'au déploiement des ressources AWS, telles que les systèmes de fichiers dans le stockage ou les bases de connaissances pour les charges de travail GenAI. Vous pouvez afficher les règles et autorisations IAM pour les workloads Storage, Databases, VMware et GenAI.</block>
+  <block id="f157db6a1ae10e7a29a28440d21f5cb8" category="paragraph"><block ref="f157db6a1ae10e7a29a28440d21f5cb8" category="inline-link-macro-rx"></block></block>
+  <block id="43c56433351f336a8ecd0e9efa7ddca4" category="section-title">22 janvier 2025</block>
 </blocks>
