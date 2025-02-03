@@ -84,6 +84,26 @@ link:https://docs.netapp.com/us-en/workload-genai/ai-workloads-overview.html#ben
 
 
 
+=== Configuration et administration
+
+
+
+==== CloudShell est disponible dans la console d'usine des charges de travail BlueXP
+
+CloudShell est disponible à partir de n'importe quel emplacement de la console d'usine de la charge de travail BlueXP . CloudShell vous permet d'utiliser les informations d'identification AWS et ONTAP que vous avez fournies dans votre compte BlueXP  et d'exécuter les commandes de la CLI AWS ou les commandes de la CLI ONTAP dans un environnement de type shell.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["Utilisez CloudShell"]
+
+
+
+==== Mise à jour des autorisations pour les bases de données
+
+L'autorisation suivante est maintenant disponible en _read_ mode pour les bases de données : `iam:SimulatePrincipalPolicy`.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["Journal des modifications de référence des autorisations"]
+
+
+
 == 22 janvier 2025
 
 
@@ -323,22 +343,6 @@ link:https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#clon
 Détectez et répliquez les données des clusters ONTAP sur site dans un système de fichiers FSX pour ONTAP afin de les utiliser pour enrichir les bases de connaissances d'IA. Tous les workflows de découverte et de réplication sur site sont possibles à partir du nouvel onglet *On-prlocale ONTAP* de l'inventaire du stockage.
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/use-onprem-data.html["Découvrez un cluster ONTAP sur site"]
-
-
-
-== 11 novembre 2024
-
-
-
-=== Configuration et administration
-
-
-
-==== Intégration en usine des charges de travail dans la console BlueXP
-
-Vous pouvez désormais utiliser l'usine de charge de travail à partir de link:https://console.bluexp.netapp.com["Console BlueXP"^]. L'expérience de la console BlueXP  offre les mêmes fonctionnalités que la console d'usine de la charge de travail.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["Découvrez comment accéder à l'usine des workloads à partir de la console BlueXP"]
 
 
 
