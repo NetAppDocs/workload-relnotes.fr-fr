@@ -44,6 +44,46 @@ link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.ht
 
 
 
+== 2 février 2025
+
+
+
+=== Charges de travail GenAI
+
+
+
+==== Filtrage de type de fichier pour les sources de données
+
+GenAI prend désormais en charge la sélection de types de fichiers spécifiques à inclure dans l'analyse de la source de données lorsque vous ajoutez une source de données.
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["Ajoutez des sources de données à la base de connaissances"]
+
+
+
+==== Filtrage de date de modification de fichier pour les sources de données
+
+GenAI prend désormais en charge le filtrage des fichiers à inclure dans l'analyse de la source de données par date de modification lorsque vous ajoutez une source de données. Vous pouvez choisir une plage de dates de modification pour les fichiers inclus.
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["Ajoutez des sources de données à la base de connaissances"]
+
+
+
+==== Prise en charge des fichiers image et prise en charge améliorée des fichiers PDF
+
+GenAI prend désormais en charge la numérisation de fichiers image et d'images dans des fichiers PDF (également appelés prise en charge de fichiers multimodaux). Si vous choisissez des fichiers image, le texte des images est numérisé dans la source de données et utilisé comme données. Cette fonction inclut des images dans des documents PDF ; si vous incluez des types de fichiers PDF, les images de chaque PDF sont numérisées pour du texte et ce texte est inclus dans les informations provenant de la source de données.
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["Ajoutez des sources de données à la base de connaissances"]
+
+
+
+==== Recherche hybride et support de redirection
+
+GenAI améliore désormais la pertinence des résultats de recherche grâce à la recherche hybride et à la réorganisation des résultats. La recherche hybride combine les recherches par mots clés avec la recherche vectorielle et sémantique. Les résultats standard de la recherche par mot-clé sont complétés par des correspondances étroites et la nuance linguistique, ce qui améliore la pertinence. GenAI réclasse les résultats de la recherche et ne renvoie que les résultats présentant la plus grande pertinence.
+
+link:https://docs.netapp.com/us-en/workload-genai/ai-workloads-overview.html#benefits-of-using-genai-to-create-generative-ai-applications["Découvrez l'usine de workloads BlueXP  pour GenAI"]
+
+
+
 == 22 janvier 2025
 
 
@@ -329,17 +369,3 @@ L'inventaire de stockage a été mis à jour avec une vue à deux onglets :
 Cette version de Workload Factory pour VMware est dotée d'un assistant de réduction des taux de données. L'assistant de réduction des taux de données vous aide à décider quel ratio convient le mieux à votre inventaire et à votre environnement de stockage VMware lors de la préparation de l'intégration au cloud AWS.
 
 https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["Créez un plan de déploiement pour Amazon EC2 à l'aide du conseiller de migration"]
-
-
-
-=== Charges de travail GenAI
-
-
-
-==== Masquez les informations à caractère personnel avec des limites de données
-
-Le workload Generative ai introduit la fonctionnalité Data rambardes, optimisée par la classification BlueXP . La fonction Data guardrails identifie et masque les informations à caractère personnel (PII) pour vous aider à maintenir la conformité et à renforcer la sécurité de vos données d'entreprise sensibles.
-
-link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#create-and-configure-the-knowledge-base["Créer une base de connaissances"]
-
-link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["Découvrez la classification BlueXP"^]
