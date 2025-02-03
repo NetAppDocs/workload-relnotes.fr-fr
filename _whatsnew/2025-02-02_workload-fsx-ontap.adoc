@@ -1,0 +1,66 @@
+= CloudShell dans la console d'usine de workloads BlueXP
+:allow-uri-read: 
+
+
+
+
+=== CloudShell dans la console d'usine de workloads BlueXP
+
+CloudShell est une fonctionnalité CLI intégrée disponible au sein de l'usine de charges de travail BlueXP  pour le stockage. Vous pouvez utiliser CloudShell pour créer, partager et exécuter des commandes ONTAP ou AWS CLI à partir de plusieurs sessions dans un environnement de type shell à partir de la console d'usine des workloads.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["En savoir plus sur CloudShell en usine de workloads BlueXP"^]
+
+
+
+=== Téléchargement des données d'inventaire
+
+Vous pouvez désormais télécharger les données d'inventaire FSX pour ONTAP dans un fichier Microsoft Excel ou CSV à partir de l'usine de workloads de stockage BlueXP .
+
+image:screenshot-fsx-inventory-download.png["Copie d'écran du stockage en usine de workloads BlueXP  montrant le nouveau bouton de téléchargement pour télécharger les données d'inventaire du système de fichiers FSX pour ONTAP."]
+
+
+
+=== Options de menu supplémentaires du système de fichiers FSX pour ONTAP
+
+Nous avons simplifié les opérations suivantes pour un système de fichiers FSX pour ONTAP à partir de l'onglet FSX pour ONTAP dans le stockage.
+
+* Créez une machine virtuelle de stockage
+* Créer un volume
+* Réplication des données de volume
+
+
+image:screenshot-filesystem-menu-options.png["Capture d'écran de l'onglet FSX pour ONTAP du stockage montrant les nouvelles options de menu permettent de créer une machine virtuelle de stockage, de créer un volume et de répliquer des données de volume."]
+
+
+
+=== Prise en charge de Terraform pour la création de volumes
+
+Vous pouvez maintenant utiliser Terraform à partir de la Codebox pour créer des volumes.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Créer un volume"]
+
+
+
+=== Verrouillage des fichiers avec la fonctionnalité de fichiers immuables
+
+Vous pouvez maintenant verrouiller des fichiers à l'aide de la fonctionnalité fichiers immuables lorsque vous créez un volume pour un système de fichiers FSX pour ONTAP. Le verrouillage des fichiers vous permet, ainsi qu'à d'autres personnes, d'empêcher la suppression accidentelle ou intentionnelle des fichiers pendant une période donnée.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Créer un volume"]
+
+
+
+=== Tracker disponible pour les opérations de surveillance et de suivi
+
+Tracker, une nouvelle fonctionnalité de surveillance est disponible dans Storage. Vous pouvez utiliser Tracker pour surveiller et suivre la progression et l'état des informations d'identification, du stockage et des opérations de liaison, examiner les détails des tâches d'opération et des sous-tâches, diagnostiquer tout problème ou échec, modifier les paramètres pour les opérations ayant échoué et réessayer les opérations ayant échoué.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/monitor-operations.html["Apprenez à surveiller et suivre les opérations avec Tracker"]
+
+
+
+=== Prise en charge des systèmes de fichiers Amazon FSX pour NetApp ONTAP de deuxième génération
+
+Vous pouvez désormais utiliser les systèmes de fichiers de deuxième génération Amazon FSX pour NetApp ONTAP dans l'usine de workloads BlueXP . FSX pour ONTAP les systèmes de fichiers Single-AZ de deuxième génération sont optimisés par jusqu'à 12 paires HA capables d'offrir jusqu'à 72 Gbit/s de débit et 2,400,000 000 IOPS SSD. FSX pour ONTAP les systèmes de fichiers Multi-AZ de deuxième génération sont optimisés par une paire haute disponibilité et offrent une capacité de débit de 6 Gbit/s et 200,000 000 IOPS SSD.
+
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/add-ha-pairs.html["Ajoutez des paires haute disponibilité"]
+* link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/limits.html["Quotas et limites pour Amazon FSX pour NetApp ONTAP"^]
+

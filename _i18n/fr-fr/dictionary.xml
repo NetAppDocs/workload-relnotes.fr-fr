@@ -29,10 +29,6 @@
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">Créez un plan de déploiement pour Amazon EC2 à l'aide du conseiller de migration</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">Découvrez les économies réalisées avec FSX for ONTAP pour les workloads de bases de données</block>
-  <block id="31139fb3d548620b7d82f880e4660606" category="doc">Onglets dans l'inventaire de stockage</block>
-  <block id="d4aa654cea4681dd5ca03650594006c6" category="paragraph">L'inventaire de stockage a été mis à jour avec une vue à deux onglets :</block>
-  <block id="71083868a2ec5abfee9a2647a74612c0" category="list-text">Onglet FSX pour ONTAP : affiche les systèmes de fichiers FSX pour ONTAP dont vous disposez actuellement.</block>
-  <block id="1113c9108b3e58789456954d1c2ea9c2" category="list-text">Onglet économies : affiche les systèmes de stockage Elastic Block Store, FSX for Windows File Server et Elastic File Systems. À partir de là, vous pouvez comparer les économies réalisées avec FSX pour ONTAP pour ces systèmes.</block>
   <block id="ca385f8a90dc256c71e43f23f9b870f2" category="section-title">3 novembre 2024</block>
   <block id="5d743e351f2bc0b96d19c12d46be8be2" category="inline-link-macro">Optimisez vos workloads SQL Server</block>
   <block id="72d1af9ffdd277a1cf7789b588da9b4d" category="paragraph"><block ref="72d1af9ffdd277a1cf7789b588da9b4d" category="inline-link-macro-rx"></block></block>
@@ -165,4 +161,34 @@
   <block id="0d8e78270e3796caacf42c07616b7e32" category="paragraph">L'autorisation suivante est maintenant disponible en _read_ mode pour les bases de données :<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>.</block>
   <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">Journal des modifications de référence des autorisations</block>
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
+  <block id="ed2a329d6f9bf2181ff23014cff23ba5" category="doc">CloudShell dans la console d'usine de workloads BlueXP</block>
+  <block id="5eaddd0f57f7eaddd8610d939876ec8d" category="paragraph">CloudShell est une fonctionnalité CLI intégrée disponible au sein de l'usine de charges de travail BlueXP  pour le stockage. Vous pouvez utiliser CloudShell pour créer, partager et exécuter des commandes ONTAP ou AWS CLI à partir de plusieurs sessions dans un environnement de type shell à partir de la console d'usine des workloads.</block>
+  <block id="09a780ee2763ed81ce7dcd3480b57fe4" category="inline-link-macro">En savoir plus sur CloudShell en usine de workloads BlueXP</block>
+  <block id="feff74472562237513e0ca0c55cd4e38" category="paragraph"><block ref="feff74472562237513e0ca0c55cd4e38" category="inline-link-macro-rx"></block></block>
+  <block id="9be163b55bb1cb61b0ccee4ea40ae6ee" category="section-title">Téléchargement des données d'inventaire</block>
+  <block id="e61fb273c97526db97c128ce9bfc04a9" category="paragraph">Vous pouvez désormais télécharger les données d'inventaire FSX pour ONTAP dans un fichier Microsoft Excel ou CSV à partir de l'usine de workloads de stockage BlueXP .</block>
+  <block id="1d242bf1e7b71fd8602570478aa1bdc8" category="inline-image-macro">Copie d'écran du stockage en usine de workloads BlueXP  montrant le nouveau bouton de téléchargement pour télécharger les données d'inventaire du système de fichiers FSX pour ONTAP.</block>
+  <block id="b8040f0b8b5eff64bb15c9fc0fbc96d6" category="paragraph"><block ref="b8040f0b8b5eff64bb15c9fc0fbc96d6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="eae91301e6256990d5311778eafea0e5" category="section-title">Options de menu supplémentaires du système de fichiers FSX pour ONTAP</block>
+  <block id="0ad83f6b2d6e8bf103be3683c0c87ef9" category="paragraph">Nous avons simplifié les opérations suivantes pour un système de fichiers FSX pour ONTAP à partir de l'onglet FSX pour ONTAP dans le stockage.</block>
+  <block id="8272f5b23e79d0ee33bd5151dcddc454" category="list-text">Créez une machine virtuelle de stockage</block>
+  <block id="dc88dce8ec264777b2f90ec0af744f43" category="list-text">Créer un volume</block>
+  <block id="8221d5fcbb1b8ef8a3fa535553679b44" category="list-text">Réplication des données de volume</block>
+  <block id="bb8210b8fea9fd35bf14070e9b9f7cf9" category="inline-image-macro">Capture d'écran de l'onglet FSX pour ONTAP du stockage montrant les nouvelles options de menu permettent de créer une machine virtuelle de stockage, de créer un volume et de répliquer des données de volume.</block>
+  <block id="2a10a5b76871c42edb3807a0dec574ae" category="paragraph"><block ref="2a10a5b76871c42edb3807a0dec574ae" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2f72c2c06d295d3f5420254934ac77b1" category="section-title">Prise en charge de Terraform pour la création de volumes</block>
+  <block id="7f28d622584eb6b05ee5ce1609e2de38" category="paragraph">Vous pouvez maintenant utiliser Terraform à partir de la Codebox pour créer des volumes.</block>
+  <block id="d3156376048c94102c97709d5ff05e75" category="paragraph"><block ref="d3156376048c94102c97709d5ff05e75" category="inline-link-macro-rx"></block></block>
+  <block id="eb139dd9cb815e502d04047858e7c930" category="section-title">Verrouillage des fichiers avec la fonctionnalité de fichiers immuables</block>
+  <block id="849a110e76510a6394e4b27714d0bc20" category="paragraph">Vous pouvez maintenant verrouiller des fichiers à l'aide de la fonctionnalité fichiers immuables lorsque vous créez un volume pour un système de fichiers FSX pour ONTAP. Le verrouillage des fichiers vous permet, ainsi qu'à d'autres personnes, d'empêcher la suppression accidentelle ou intentionnelle des fichiers pendant une période donnée.</block>
+  <block id="ea3d4df6f8aff21b2dfe549c5ecf9775" category="section-title">Tracker disponible pour les opérations de surveillance et de suivi</block>
+  <block id="c016252819aa3f6ede2b315b76b5c5b2" category="paragraph">Tracker, une nouvelle fonctionnalité de surveillance est disponible dans Storage. Vous pouvez utiliser Tracker pour surveiller et suivre la progression et l'état des informations d'identification, du stockage et des opérations de liaison, examiner les détails des tâches d'opération et des sous-tâches, diagnostiquer tout problème ou échec, modifier les paramètres pour les opérations ayant échoué et réessayer les opérations ayant échoué.</block>
+  <block id="7512718e82771ab0f98e51652a2e97c6" category="inline-link-macro">Apprenez à surveiller et suivre les opérations avec Tracker</block>
+  <block id="30babb51ab17a107228fe65a4e65418b" category="paragraph"><block ref="30babb51ab17a107228fe65a4e65418b" category="inline-link-macro-rx"></block></block>
+  <block id="c1c23b72df9b53434f3c5ef6963cd2c1" category="section-title">Prise en charge des systèmes de fichiers Amazon FSX pour NetApp ONTAP de deuxième génération</block>
+  <block id="327da4942931ea47a06f556d15726878" category="paragraph">Vous pouvez désormais utiliser les systèmes de fichiers de deuxième génération Amazon FSX pour NetApp ONTAP dans l'usine de workloads BlueXP . FSX pour ONTAP les systèmes de fichiers Single-AZ de deuxième génération sont optimisés par jusqu'à 12 paires HA capables d'offrir jusqu'à 72 Gbit/s de débit et 2,400,000 000 IOPS SSD. FSX pour ONTAP les systèmes de fichiers Multi-AZ de deuxième génération sont optimisés par une paire haute disponibilité et offrent une capacité de débit de 6 Gbit/s et 200,000 000 IOPS SSD.</block>
+  <block id="a22d0116b85624117006e75d98d659db" category="inline-link-macro">Ajoutez des paires haute disponibilité</block>
+  <block id="8a34eb45ca4cf03ce0d5e71fbfafb73a" category="list-text"><block ref="8a34eb45ca4cf03ce0d5e71fbfafb73a" category="inline-link-macro-rx"></block></block>
+  <block id="eeb5242f698ac9fda34591a326f4c0a3" category="inline-link-macro">Quotas et limites pour Amazon FSX pour NetApp ONTAP</block>
+  <block id="94f917accd36ed25f8a73175e8d4cdfb" category="list-text"><block ref="94f917accd36ed25f8a73175e8d4cdfb" category="inline-link-macro-rx"></block></block>
 </blocks>
