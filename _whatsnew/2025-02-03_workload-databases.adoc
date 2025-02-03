@@ -1,0 +1,24 @@
+= Analyse des coûts et planification de la migration des environnements de base de données sur site
+:allow-uri-read: 
+
+
+
+
+=== Analyse des coûts et planification de la migration des environnements de base de données sur site
+
+Usine de workloads BlueXP  pour les bases de données détecte, analyse et vous aide à planifier la migration de bases de données sur site vers Amazon FSX pour NetApp ONTAP. À l'aide du calculateur d'économies, vous pouvez estimer le coût d'exécution de votre environnement de base de données sur site dans le cloud et consulter les recommandations de migration de votre environnement de base de données sur site vers le cloud.
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Découvrez les économies réalisées pour les environnements de base de données sur site"]
+
+
+
+=== Nouvelles évaluations d'optimisation pour les bases de données
+
+Les évaluations suivantes sont désormais disponibles en usine de workloads BlueXP  pour les bases de données. Ces évaluations portent principalement sur la détection et la protection contre les vulnérabilités de sécurité potentielles, ainsi que sur la détection et la réduction des goulets d'étranglement au niveau des performances.
+
+* *Configuration de mise à l'échelle côté réception (RSS)* : vérifie si la configuration RSS est activée et si le nombre de files d'attente est défini sur la valeur recommandée. L'évaluation fournit également des recommandations pour optimiser la configuration RSS.
+* *Degré maximum de configuration du serveur de parallélisme (MAXDOP)* : l'évaluation vérifie si MAXDOP est correctement configuré et fournit des recommandations pour optimiser les performances.
+* *Correctifs Microsoft SQL Server* : l'évaluation vérifie si les derniers correctifs sont installés sur les instances SQL Server et fournit des recommandations pour installer les derniers correctifs.
+
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Optimiser les configurations"]

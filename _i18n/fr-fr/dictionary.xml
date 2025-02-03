@@ -21,9 +21,6 @@
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">Les fichiers de notification fournissent des informations sur les droits d'auteur et les licences de tiers utilisés dans le logiciel NetApp.</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">Quoi de neuf</block>
   <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">Modifications récentes</block>
-  <block id="efa42d5c66cb9948f402ee559611e12d" category="doc">Prise en charge de Terraform</block>
-  <block id="2532cd63354e6e99119077d45134b5ef" category="inline-link-macro">Utiliser Terraform à partir de Codebox</block>
-  <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
   <block id="38bd169945a371832b0b65c9086b1792" category="doc">Charges de travail des bases de données</block>
   <block id="4d82a1ec1af02725042c8c785564ee7a" category="doc">Amazon FSX pour NetApp ONTAP</block>
   <block id="b04deaa23ce22ae0dafa2736e8afebed" category="doc">Charges de travail GenAI</block>
@@ -37,13 +34,8 @@
   <block id="71083868a2ec5abfee9a2647a74612c0" category="list-text">Onglet FSX pour ONTAP : affiche les systèmes de fichiers FSX pour ONTAP dont vous disposez actuellement.</block>
   <block id="1113c9108b3e58789456954d1c2ea9c2" category="list-text">Onglet économies : affiche les systèmes de stockage Elastic Block Store, FSX for Windows File Server et Elastic File Systems. À partir de là, vous pouvez comparer les économies réalisées avec FSX pour ONTAP pour ces systèmes.</block>
   <block id="ca385f8a90dc256c71e43f23f9b870f2" category="section-title">3 novembre 2024</block>
-  <block id="0928468cb2283b21e6802a78c6a64e3a" category="doc">Optimisez en continu vos workloads Microsoft SQL Server avec les bases de données</block>
-  <block id="e73fa899152fb6836032fef4e1c95da4" category="paragraph">La fabrique de workloads BlueXP  propose des conseils continus et des rambardes afin d'assurer une optimisation continue et le respect des meilleures pratiques pour le composant de stockage de vos workloads Microsoft SQL Server sur Amazon FSX pour NetApp ONTAP. Cette fonctionnalité analyse en continu votre environnement Microsoft SQL Server hors ligne et vous fournit un rapport complet d'informations, d'opportunités et de recommandations pour vous aider à atteindre des niveaux de performance, de rentabilité et de conformité élevés.</block>
   <block id="5d743e351f2bc0b96d19c12d46be8be2" category="inline-link-macro">Optimisez vos workloads SQL Server</block>
   <block id="72d1af9ffdd277a1cf7789b588da9b4d" category="paragraph"><block ref="72d1af9ffdd277a1cf7789b588da9b4d" category="inline-link-macro-rx"></block></block>
-  <block id="822802a1673e79cb7dbd54947e4dc32c" category="paragraph">Vous pouvez maintenant utiliser Terraform à partir de la Codebox pour déployer Microsoft SQL Server.</block>
-  <block id="83f5267b900a40e93e73e9ace47d4412" category="inline-link-macro">Créez un serveur de base de données</block>
-  <block id="d83b54de9b50110195e4bf3c1f3c6a67" category="list-text"><block ref="d83b54de9b50110195e4bf3c1f3c6a67" category="inline-link-macro-rx"></block></block>
   <block id="3197d9ffc65dc1fe1469440d8891e79d" category="doc">Aide de VMware migration Advisor sur le taux de réduction des données</block>
   <block id="10ced15d9df199f8cb002561b8728770" category="paragraph">Cette version de Workload Factory pour VMware est dotée d'un assistant de réduction des taux de données. L'assistant de réduction des taux de données vous aide à décider quel ratio convient le mieux à votre inventaire et à votre environnement de stockage VMware lors de la préparation de l'intégration au cloud AWS.</block>
   <block id="17e908b1a02b6ec45f4e125877322d0f" category="doc">Masquez les informations à caractère personnel avec des limites de données</block>
@@ -152,4 +144,16 @@
   <block id="5291909ce92037a20a37f7a0c86dd921" category="paragraph">Vous pouvez désormais afficher les autorisations utilisées par l'usine de workloads BlueXP  pour exécuter diverses opérations, depuis la découverte de vos environnements de stockage jusqu'au déploiement des ressources AWS, telles que les systèmes de fichiers dans le stockage ou les bases de connaissances pour les charges de travail GenAI. Vous pouvez afficher les règles et autorisations IAM pour les workloads Storage, Databases, VMware et GenAI.</block>
   <block id="f157db6a1ae10e7a29a28440d21f5cb8" category="paragraph"><block ref="f157db6a1ae10e7a29a28440d21f5cb8" category="inline-link-macro-rx"></block></block>
   <block id="43c56433351f336a8ecd0e9efa7ddca4" category="section-title">22 janvier 2025</block>
+  <block id="efc2466e55cc45101064c2ade9e1ac96" category="doc">Analyse des coûts et planification de la migration des environnements de base de données sur site</block>
+  <block id="b070dbce75db746d44b4965253ae3c9f" category="paragraph">Usine de workloads BlueXP  pour les bases de données détecte, analyse et vous aide à planifier la migration de bases de données sur site vers Amazon FSX pour NetApp ONTAP. À l'aide du calculateur d'économies, vous pouvez estimer le coût d'exécution de votre environnement de base de données sur site dans le cloud et consulter les recommandations de migration de votre environnement de base de données sur site vers le cloud.</block>
+  <block id="ae5954c9b41b0bfb09043a4117743d2d" category="inline-link-macro">Découvrez les économies réalisées pour les environnements de base de données sur site</block>
+  <block id="9621b726ce4b31f0b7bc139a85ef6f38" category="paragraph"><block ref="9621b726ce4b31f0b7bc139a85ef6f38" category="inline-link-macro-rx"></block></block>
+  <block id="6003a521aa2fb4eca1577921d2f2d6ec" category="section-title">Nouvelles évaluations d'optimisation pour les bases de données</block>
+  <block id="a66d8cac65b4a62026dda75c54de5093" category="paragraph">Les évaluations suivantes sont désormais disponibles en usine de workloads BlueXP  pour les bases de données. Ces évaluations portent principalement sur la détection et la protection contre les vulnérabilités de sécurité potentielles, ainsi que sur la détection et la réduction des goulets d'étranglement au niveau des performances.</block>
+  <block id="41e5288ef108e483da5a07bf4a8c654d" category="list-text">*Configuration de mise à l'échelle côté réception (RSS)* : vérifie si la configuration RSS est activée et si le nombre de files d'attente est défini sur la valeur recommandée. L'évaluation fournit également des recommandations pour optimiser la configuration RSS.</block>
+  <block id="20c22843405fd91269ed56974f603ebf" category="list-text">*Degré maximum de configuration du serveur de parallélisme (MAXDOP)* : l'évaluation vérifie si MAXDOP est correctement configuré et fournit des recommandations pour optimiser les performances.</block>
+  <block id="288748eac82542205cccb2a59e324600" category="list-text">*Correctifs Microsoft SQL Server* : l'évaluation vérifie si les derniers correctifs sont installés sur les instances SQL Server et fournit des recommandations pour installer les derniers correctifs.</block>
+  <block id="d1e68728a28b7936858b1484445ef50f" category="inline-link-macro">Optimiser les configurations</block>
+  <block id="7c2632b8df180cfa1528450b19070928" category="paragraph"><block ref="7c2632b8df180cfa1528450b19070928" category="inline-link-macro-rx"></block></block>
+  <block id="b19ee84dca9cb059a9aa42ed54c05752" category="section-title">3 février 2025</block>
 </blocks>
