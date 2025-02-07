@@ -1,6 +1,14 @@
-= Filtrage de type de fichier pour les sources de données
+= Prise en charge des modèles de base Amazon Nova
 :allow-uri-read: 
 
+
+
+
+=== Prise en charge des modèles de base Amazon Nova
+
+GenAI prend désormais en charge les modèles de base Amazon Nova. Amazon Nova micro, Amazon Nova Lite et Amazon Nova Pro sont pris en charge.
+
+link:https://docs.netapp.com/us-en/workload-genai/requirements.html["Exigences GenAI"]
 
 
 

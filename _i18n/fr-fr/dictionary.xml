@@ -191,4 +191,8 @@
   <block id="8a34eb45ca4cf03ce0d5e71fbfafb73a" category="list-text"><block ref="8a34eb45ca4cf03ce0d5e71fbfafb73a" category="inline-link-macro-rx"></block></block>
   <block id="eeb5242f698ac9fda34591a326f4c0a3" category="inline-link-macro">Quotas et limites pour Amazon FSX pour NetApp ONTAP</block>
   <block id="94f917accd36ed25f8a73175e8d4cdfb" category="list-text"><block ref="94f917accd36ed25f8a73175e8d4cdfb" category="inline-link-macro-rx"></block></block>
+  <block id="9a7d43c72f0d1a35c2a2cdfb58c6cc0d" category="doc">Prise en charge des modèles de base Amazon Nova</block>
+  <block id="ba0908c46e81d6dfcc41f1af42be123c" category="paragraph">GenAI prend désormais en charge les modèles de base Amazon Nova. Amazon Nova micro, Amazon Nova Lite et Amazon Nova Pro sont pris en charge.</block>
+  <block id="43b842fd441ce1ce92d22fb0ca25a507" category="inline-link-macro">Exigences GenAI</block>
+  <block id="5ddfb412189af7bcce0a056c9fcef326" category="paragraph"><block ref="5ddfb412189af7bcce0a056c9fcef326" category="inline-link-macro-rx"></block></block>
 </blocks>
