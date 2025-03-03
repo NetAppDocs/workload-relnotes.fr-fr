@@ -1,0 +1,32 @@
+= Améliorations du chatbot intégrées
+:allow-uri-read: 
+
+
+
+
+=== Améliorations du chatbot intégrées
+
+Vous pouvez désormais copier des questions et des réponses directement dans le presse-papiers, ajuster la taille de la fenêtre de discussion et modifier son titre. De plus, les réponses de discussion peuvent maintenant inclure des tableaux, qui sont également copyables.
+
+link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["Testez une base de connaissances GenAI"]
+
+
+
+=== Aide à la citation de réponse par chat
+
+Les réponses à la discussion incluent maintenant des citations qui répertorient les fichiers et les segments de données utilisés pour générer la réponse.
+
+link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["Testez une base de connaissances GenAI"]
+
+
+
+=== Prise en charge améliorée des types de fichiers
+
+Cette version de GenAI fournit une prise en charge améliorée des fichiers :
+
+* Les modèles de chat offrent une prise en charge CSV améliorée. Cela permet d'obtenir des réponses plus utiles lors de l'interrogation de données à partir de fichiers CSV.
+* GenAI peut désormais ingérer des fichiers Apache parquet à partir de sources de données.
+* GenAI prend désormais en charge l'ingestion de fichiers Microsoft Word DOCX contenant des images.
+
+
+link:https://review.docs.netapp.com/us-en/workload-genai_mar-2-release/identify-data-sources.html#supported-data-source-file-formats["Formats de fichiers de source de données pris en charge"]
