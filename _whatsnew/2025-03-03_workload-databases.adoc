@@ -1,0 +1,47 @@
+= Configuration haute disponibilité PostgreSQL et création rapide
+:allow-uri-read: 
+
+
+
+
+=== Configuration haute disponibilité PostgreSQL et création rapide
+
+Deux nouvelles fonctionnalités prises en charge par l'usine de workloads BlueXP  pour les bases de données :
+
+* Configuration PostgreSQL haute disponibilité (HA) : vous pouvez désormais déployer une configuration haute disponibilité pour le serveur PostgreSQL.
+* Création rapide : vous pouvez utiliser cette option de déploiement rapide pour créer un serveur PostgreSQL avec une configuration haute disponibilité et les meilleures pratiques intégrées.
+
+
+link:https://review.docs.netapp.com/us-en/workload-databases_explore-savings-updates/create-postgresql-server.html["Créez un serveur PostgreSQL"]
+
+
+
+=== Prise en charge de Terraform pour la création de serveur PostgreSQL
+
+Vous pouvez maintenant utiliser Terraform à partir de Codebox pour déployer PostgreSQL.
+
+* link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.html["Créez un serveur de base de données PostgreSQL"^]
+* link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["Utiliser Terraform à partir de Codebox"^]
+
+
+
+
+=== Évaluation de la résilience pour la planification des snapshots locaux
+
+Une nouvelle évaluation de la résilience est disponible pour les charges de travail de la base de données. Nous évaluons si les volumes de vos instances Microsoft SQL Server disposent de règles de snapshot planifiées valides. Les copies Snapshot sont des copies instantanées de vos données et contribuent à la résilience de vos environnements de base de données en cas de perte de données.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Optimiser les configurations"]
+
+
+
+=== Correction MAXDOP pour les charges de travail de base de données
+
+L'usine de charges de travail BlueXP  pour les bases de données prend désormais en charge la correction pour la configuration maximale du serveur de degré de parallélisme (MAXDOP). Lorsque la configuration MAXDOP n'est pas optimale, vous pouvez laisser BlueXP  charge de travail usine optimiser la configuration pour vous.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Optimiser les configurations"]
+
+
+
+=== Rapport d'analyse des économies par e-mail
+
+Lorsque vous découvrez les économies pour vos environnements de stockage Amazon Elastic Block Store et FSX pour serveur de fichiers Windows par rapport à FSX pour ONTAP, vous pouvez désormais envoyer le rapport de recommandations par e-mail à vous-même, aux membres de l'équipe et aux clients.
