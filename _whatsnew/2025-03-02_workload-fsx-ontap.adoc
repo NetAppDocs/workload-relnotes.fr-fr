@@ -1,0 +1,50 @@
+= Amélioration de la gestion automatique de la capacité
+:allow-uri-read: 
+
+
+
+
+=== Amélioration de la gestion automatique de la capacité
+
+Lorsque la gestion automatique de la capacité est activée, l'usine de workloads BlueXP  vérifie à présent si un système de fichiers a atteint son seuil de capacité toutes les 30 minutes au lieu de toutes les 2 heures.
+
+L'usine de charges de travail recherche également les inodes disponibles dans les volumes et augmente leur nombre en fonction des seuils configurés de gestion automatique de la capacité.
+
+Le paramètre IOPS provisionnées n'est plus affecté lorsque le seuil de capacité est atteint.
+
+
+
+=== Snapshots immuables
+
+Vous pouvez désormais verrouiller les snapshots, les rendant immuables, pour une période de conservation spécifique. Le verrouillage empêche les accès non autorisés et les suppressions malveillantes des snapshots. Vous pouvez activer des snapshots immuables lors de la création de règles relatives aux snapshots, lors de la création manuelle de snapshots et après la création de snapshots.
+
+
+
+=== Mise à jour des fichiers immuables
+
+Vous pouvez maintenant apporter les modifications suivantes à votre configuration de fichiers immuables : règle de conservation, période de conservation, période de validation automatique et mode d'ajout des volumes.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-immutable-files.html["Gérer les fichiers immuables"^]
+
+
+
+=== Amélioration de la réplication des données
+
+* Réplication entre comptes : la réplication entre deux comptes AWS est prise en charge dans la console d'usine des workloads BlueXP  ainsi que la gestion de la réplication.
+* Réplication du volume de protection des données : les volumes de protection des données prennent désormais en charge la réplication en cascade, lorsque les volumes sont répliqués à partir de volumes répliqués.
++
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/cascade-replication.html["Réplication d'un volume de protection des données"]
+
+* Mettre en pause et reprendre la réplication : vous pouvez interrompre (arrêter) les mises à jour de réplication planifiées du volume source vers le volume de destination, puis reprendre la planification de réplication lorsque vous êtes prêt. Pendant la pause, les volumes source et de destination deviennent indépendants et le volume de destination passe de la lecture seule à la lecture-écriture.
++
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/pause-resume-replication.html["Mettre en pause et reprendre une relation de réplication"]
+
+
+
+
+
+=== Événements CloudShell dans Tracker
+
+Vous pouvez désormais suivre les événements CloudShell dans Tracker.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/monitor-operations.html["Apprenez à surveiller et suivre les opérations avec Tracker"]
