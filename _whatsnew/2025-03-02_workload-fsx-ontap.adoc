@@ -24,7 +24,7 @@ Vous pouvez désormais verrouiller les snapshots, les rendant immuables, pour un
 
 Vous pouvez maintenant apporter les modifications suivantes à votre configuration de fichiers immuables : règle de conservation, période de conservation, période de validation automatique et mode d'ajout des volumes.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-immutable-files.html["Gérer les fichiers immuables"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-immutable-files.html["Gérer les fichiers immuables"]
 
 
 

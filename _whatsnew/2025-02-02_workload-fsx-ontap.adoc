@@ -8,7 +8,7 @@
 
 CloudShell est une fonctionnalité CLI intégrée disponible au sein de l'usine de charges de travail BlueXP  pour le stockage. Vous pouvez utiliser CloudShell pour créer, partager et exécuter des commandes ONTAP ou AWS CLI à partir de plusieurs sessions dans un environnement de type shell à partir de la console d'usine des workloads.
 
-link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["En savoir plus sur CloudShell en usine de workloads BlueXP"^]
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["En savoir plus sur CloudShell en usine de workloads BlueXP"]
 
 
 

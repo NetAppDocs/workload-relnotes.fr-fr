@@ -127,7 +127,6 @@
   <block id="ed2a329d6f9bf2181ff23014cff23ba5" category="doc">CloudShell dans la console d'usine de workloads BlueXP</block>
   <block id="5eaddd0f57f7eaddd8610d939876ec8d" category="paragraph">CloudShell est une fonctionnalité CLI intégrée disponible au sein de l'usine de charges de travail BlueXP  pour le stockage. Vous pouvez utiliser CloudShell pour créer, partager et exécuter des commandes ONTAP ou AWS CLI à partir de plusieurs sessions dans un environnement de type shell à partir de la console d'usine des workloads.</block>
   <block id="09a780ee2763ed81ce7dcd3480b57fe4" category="inline-link-macro">En savoir plus sur CloudShell en usine de workloads BlueXP</block>
-  <block id="feff74472562237513e0ca0c55cd4e38" category="paragraph"><block ref="feff74472562237513e0ca0c55cd4e38" category="inline-link-macro-rx"></block></block>
   <block id="9be163b55bb1cb61b0ccee4ea40ae6ee" category="section-title">Téléchargement des données d'inventaire</block>
   <block id="e61fb273c97526db97c128ce9bfc04a9" category="paragraph">Vous pouvez désormais télécharger les données d'inventaire FSX pour ONTAP dans un fichier Microsoft Excel ou CSV à partir de l'usine de workloads de stockage BlueXP .</block>
   <block id="1d242bf1e7b71fd8602570478aa1bdc8" category="inline-image-macro">Copie d'écran du stockage en usine de workloads BlueXP  montrant le nouveau bouton de téléchargement pour télécharger les données d'inventaire du système de fichiers FSX pour ONTAP.</block>
@@ -167,7 +166,6 @@
   <block id="b811c826e0c0b54d5803fe35cb209c82" category="section-title">Mise à jour des fichiers immuables</block>
   <block id="a321ab5f7c12f7cdaa9d6077d68dc055" category="paragraph">Vous pouvez maintenant apporter les modifications suivantes à votre configuration de fichiers immuables : règle de conservation, période de conservation, période de validation automatique et mode d'ajout des volumes.</block>
   <block id="a864feef5272f034d55e1119c5495be8" category="inline-link-macro">Gérer les fichiers immuables</block>
-  <block id="0825291b8f1461ab76888807d639764b" category="paragraph"><block ref="0825291b8f1461ab76888807d639764b" category="inline-link-macro-rx"></block></block>
   <block id="2915f18b56c3e4e3c1ef137551d9a65d" category="section-title">Amélioration de la réplication des données</block>
   <block id="114e60d7d0f811f597761cf833328a96" category="list-text">Réplication entre comptes : la réplication entre deux comptes AWS est prise en charge dans la console d'usine des workloads BlueXP  ainsi que la gestion de la réplication.</block>
   <block id="6fa19d46a9961be1aeabe428c8550d2f" category="list-text">Réplication du volume de protection des données : les volumes de protection des données prennent désormais en charge la réplication en cascade, lorsque les volumes sont répliqués à partir de volumes répliqués.</block>
@@ -215,4 +213,6 @@
   <block id="b4a4e72af96c527b186a3d8f12952f22" category="list-text">*Attribution automatique améliorée du système de fichiers* : l'affectation du système de fichiers Amazon FSX pour NetApp ONTAP a été améliorée afin de mieux optimiser les coûts et de minimiser le débit.</block>
   <block id="4666cc74583e6d5c1f202a52bee57a9b" category="list-text"><block ref="4666cc74583e6d5c1f202a52bee57a9b" category="inline-link-macro-rx"></block></block>
   <block id="7115d78353263dbb2dbe063624f9f601" category="list-text"><block ref="7115d78353263dbb2dbe063624f9f601" category="inline-link-macro-rx"></block></block>
+  <block id="95712b1074d83e6727c42aa16be5af5a" category="paragraph"><block ref="95712b1074d83e6727c42aa16be5af5a" category="inline-link-macro-rx"></block></block>
+  <block id="815e02f013485997d1d56438f0bf1505" category="paragraph"><block ref="815e02f013485997d1d56438f0bf1505" category="inline-link-macro-rx"></block></block>
 </blocks>
