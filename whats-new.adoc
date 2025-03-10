@@ -100,10 +100,6 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-immutable-files.htm
 ==== Amélioration de la réplication des données
 
 * Réplication entre comptes : la réplication entre deux comptes AWS est prise en charge dans la console d'usine des workloads BlueXP  ainsi que la gestion de la réplication.
-* Réplication du volume de protection des données : les volumes de protection des données prennent désormais en charge la réplication en cascade, lorsque les volumes sont répliqués à partir de volumes répliqués.
-+
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/cascade-replication.html["Réplication d'un volume de protection des données"]
-
 * Mettre en pause et reprendre la réplication : vous pouvez interrompre (arrêter) les mises à jour de réplication planifiées du volume source vers le volume de destination, puis reprendre la planification de réplication lorsque vous êtes prêt. Pendant la pause, les volumes source et de destination deviennent indépendants et le volume de destination passe de la lecture seule à la lecture-écriture.
 +
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/pause-resume-replication.html["Mettre en pause et reprendre une relation de réplication"]
