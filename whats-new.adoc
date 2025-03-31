@@ -15,6 +15,30 @@ Découvrez les derniers changements apportés aux charges de travail de l'usine 
 
 
 
+== 2025-03-30
+
+
+
+=== Configuration et administration
+
+
+
+==== CloudShell signale les erreurs générées par l'IA pour les commandes de l'interface de ligne de commande ONTAP
+
+Lorsque vous utilisez CloudShell, chaque fois que vous exécutez une commande de l'interface de ligne de commande ONTAP et qu'une erreur se produit, vous pouvez obtenir des réponses d'erreur générées par l'IA incluant une description de l'échec, la cause de l'échec et une résolution détaillée.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["Utilisez CloudShell"]
+
+
+
+==== iam:mise à jour des autorisations SimulatePermissionPolicy
+
+Vous pouvez désormais gérer les `iam:SimulatePrincipalPolicy` autorisations à partir de la console d'usine des charges de travail lorsque vous ajoutez des informations d'identification de compte AWS supplémentaires ou que vous ajoutez une nouvelle fonctionnalité de charge de travail telle que la charge de travail GenAI.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["Journal des modifications de référence des autorisations"]
+
+
+
 == 2025-03-03
 
 
@@ -446,18 +470,6 @@ link:https://docs.netapp.com/us-en/workload-genai/deploy-infrastructure.html["D�
 Si votre instance de moteur d'IA est corrompue ou supprimée, vous pouvez laisser la charge de travail se reconstruire en usine. Workload Factory rattache automatiquement vos bases de connaissances à l'infrastructure une fois la reconstruction terminée, afin qu'elles soient prêtes à l'emploi.
 
 link:https://docs.netapp.com/us-en/workload-genai/troubleshooting.html["Dépannage"]
-
-
-
-=== Configuration et administration
-
-
-
-==== Prise en charge des comptes de service en usine de charges de travail BlueXP 
-
-Les comptes de service sont désormais pris en charge par l'usine de workloads BlueXP . Vous pouvez créer des comptes de service qui agissent en tant qu'utilisateurs de machines pour automatiser les opérations d'infrastructure.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/manage-service-accounts.html["Création et gestion de comptes de service"]
 
 
 

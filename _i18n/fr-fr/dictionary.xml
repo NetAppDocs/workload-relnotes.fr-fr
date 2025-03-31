@@ -80,10 +80,6 @@
   <block id="1691fa3a19bfaa3082dd2f6e01934960" category="paragraph">Si votre instance de moteur d'IA est corrompue ou supprimée, vous pouvez laisser la charge de travail se reconstruire en usine. Workload Factory rattache automatiquement vos bases de connaissances à l'infrastructure une fois la reconstruction terminée, afin qu'elles soient prêtes à l'emploi.</block>
   <block id="231cf4c70d866b616c21baddaeed0696" category="inline-link-macro">Dépannage</block>
   <block id="b23e4d787bd591292c1d5f10247e0e53" category="paragraph"><block ref="b23e4d787bd591292c1d5f10247e0e53" category="inline-link-macro-rx"></block></block>
-  <block id="5baf4417d867f07ce7f16e7810f044d7" category="doc">Prise en charge des comptes de service en usine de charges de travail BlueXP </block>
-  <block id="369af9c9eae8f9673850f588a7ed5272" category="paragraph">Les comptes de service sont désormais pris en charge par l'usine de workloads BlueXP . Vous pouvez créer des comptes de service qui agissent en tant qu'utilisateurs de machines pour automatiser les opérations d'infrastructure.</block>
-  <block id="f932d2619edea0dc69b40e9be53abdc4" category="inline-link-macro">Création et gestion de comptes de service</block>
-  <block id="3d6080aa10267e8c67d5c76a2bc1a9f3" category="paragraph"><block ref="3d6080aa10267e8c67d5c76a2bc1a9f3" category="inline-link-macro-rx"></block></block>
   <block id="cde718e2f0bf0ef80eb31becc18c4787" category="list-text">*Enregistrer ou télécharger un plan de migration* : vous pouvez maintenant enregistrer ou télécharger un plan de migration et charger le plan de migration pour remplir le conseiller de migration. Lorsque vous enregistrez un plan de migration, celui-ci est enregistré avec votre compte d'usine de charge de travail.</block>
   <block id="42ec77b942403dfbfa1bb7908218848c" category="list-text">*Amélioration de la sélection des machines virtuelles* : l'usine de workloads BlueXP  pour VMware prend désormais en charge le filtrage et la recherche de la liste des machines virtuelles que vous souhaitez inclure dans votre déploiement de migration.</block>
   <block id="f2398fe4ddb880ba6c52b376ef9b960c" category="list-text"><block ref="f2398fe4ddb880ba6c52b376ef9b960c" category="inline-link-macro-rx"></block></block>
@@ -209,4 +205,9 @@
   <block id="815e02f013485997d1d56438f0bf1505" category="paragraph"><block ref="815e02f013485997d1d56438f0bf1505" category="inline-link-macro-rx"></block></block>
   <block id="292e876f4d1d5af73b815913bd3d9b26" category="doc">Configuration PostgreSQL haute disponibilité</block>
   <block id="047e8f86b83bb2e8d4c34b1dc560257b" category="paragraph">Vous pouvez maintenant déployer une configuration haute disponibilité pour le serveur PostgreSQL.</block>
+  <block id="42bc8432872c22cf4fdbb156ae58a17e" category="doc">CloudShell signale les erreurs générées par l'IA pour les commandes de l'interface de ligne de commande ONTAP</block>
+  <block id="3450754e7ec63bd0a961376c9928752a" category="paragraph">Lorsque vous utilisez CloudShell, chaque fois que vous exécutez une commande de l'interface de ligne de commande ONTAP et qu'une erreur se produit, vous pouvez obtenir des réponses d'erreur générées par l'IA incluant une description de l'échec, la cause de l'échec et une résolution détaillée.</block>
+  <block id="4ef50e373522b91f7df59d5cba69a8b7" category="section-title">iam:mise à jour des autorisations SimulatePermissionPolicy</block>
+  <block id="906699741ebd9905a07af900abcfd438" category="paragraph">Vous pouvez désormais gérer les<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block> autorisations à partir de la console d'usine des charges de travail lorsque vous ajoutez des informations d'identification de compte AWS supplémentaires ou que vous ajoutez une nouvelle fonctionnalité de charge de travail telle que la charge de travail GenAI.</block>
+  <block id="186057b8c375bff9b600d22bf8686fc5" category="section-title">2025-03-30</block>
 </blocks>
