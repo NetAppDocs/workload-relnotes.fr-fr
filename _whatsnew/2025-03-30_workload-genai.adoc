@@ -1,0 +1,41 @@
+= Prise en charge améliorée des types de fichiers
+:allow-uri-read: 
+
+
+
+
+=== Prise en charge améliorée des types de fichiers
+
+Cette version de GenAI introduit la prise en charge des formats de fichiers JSON et JSONP lors de l'ingénification `.json` des fichiers à partir de sources de données. Les fichiers JSON avec des objets imbriqués sont pris en charge, avec une prise en charge limitée des tableaux imbriqués.
+
+link:https://review.docs.netapp.com/us-en/workload-genai_mar-2-release/identify-data-sources.html#supported-data-source-file-formats["Formats de fichiers de source de données pris en charge"]
+
+
+
+=== Prise en charge de l'internationalisation de l'exemple d'application de chatbot externe
+
+Vous pouvez désormais facilement modifier l'interface utilisateur de l'exemple d'application de chatbot externe GenAI en une langue ou un environnement local différent.
+
+link:https://github.com/NetApp/FSx-ONTAP-samples-scripts/tree/main/AI/GenAI-ChatBot-application-sample#netapp-workload-factory-genai-sample-application["Exemple d'application externe de chatbot GenAI"]
+
+
+
+=== Support pour le modèle de chat Anthropique Claude Sonnet 3.7
+
+GenAI inclut maintenant le support pour le modèle de chat Anthropique Claude 3.7 Sonnet. Les fonctionnalités bêta de Claude 3.7 Sonnet permettent jusqu'à 128 K jetons de sortie par demande et prennent en charge de nouvelles actions d'utilisation d'ordinateur. Claude 3.7 le mode de pensée étendue Sonnet sera pris en charge dans une future version de GenAI.
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["Créer une base de connaissances GenAI"]
+
+
+
+=== Prise en charge de l'ajout de sources de données à partir de partages NFS/SMB génériques
+
+En utilisant l'API des fabrique de workloads, vous pouvez désormais ajouter une source de données à partir d'un partage NFSv3, NFSv4 ou SMB générique. Lorsque vous ajoutez une source de données à partir d'un partage NFS ou SMB, le volume de la base de connaissances reste sur un volume Amazon FSX pour NetApp ONTAP. L'interface utilisateur Web d'usine de la charge de travail prendra en charge cette fonctionnalité dans une prochaine version.
+
+
+
+=== Prise en charge du peering VPC
+
+Vous pouvez désormais déployer une infrastructure GenAI dans la link:https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html["Clouds privés virtuels peering (VPC)"^]même région et utiliser le même compte AWS. Vous pouvez déployer le moteur d'IA dans un VPC, puis créer une base de connaissances dans un VPC à peering, et sélectionner les systèmes de fichiers Amazon FSX pour NetApp ONTAP qui résident dans un VPC à peering.
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["Créer une base de connaissances GenAI"]

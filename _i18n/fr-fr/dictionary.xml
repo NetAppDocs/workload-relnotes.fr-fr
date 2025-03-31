@@ -35,12 +35,8 @@
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">Modifications récentes de l'usine de workloads BlueXP </block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">Ces notes de version décrivent les dernières améliorations apportées aux services cloud qui font partie de l'usine de workloads BlueXP .</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">Notes de mise à jour d'usine de la charge de travail BlueXP </block>
-  <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">1 décembre 2024</block>
   <block id="1d194f6c398ca78aaffd8c430203e1ec" category="doc">Améliorations d'Amazon EC2 migration Advisor</block>
   <block id="1e5e06dbbf4cb0bb655126bc90757161" category="paragraph">Cette version de l'usine de workloads BlueXP  pour VMware apporte plusieurs améliorations à l'expérience de migration Advisor :</block>
-  <block id="80384840ba856b44e35be4918f28a26b" category="list-text">*Collecte de données* : l'usine de workloads BlueXP  pour VMware prend en charge la possibilité de collecter des données pour une période spécifique lorsque vous utilisez le conseiller de migration.</block>
-  <block id="2e47bf0e10f6acdee08b3889dc872c4c" category="list-text">*Sélection VM* : l'usine de workloads BlueXP  pour VMware prend désormais en charge la sélection des machines virtuelles que vous souhaitez inclure dans votre déploiement de migration.</block>
-  <block id="3f4f1b85f4effee9c5e9ae9034f0e684" category="list-text">*Quick vs Advanced Experience* : lorsque vous utilisez le conseiller de migration, vous pouvez désormais choisir une expérience de migration rapide, en utilisant RVTools, ou l'expérience avancée, qui utilise le collecteur de données de migration Advisor.</block>
   <block id="428b0b39be2352757edeb5f9f12a7bdd" category="inline-link">Usine de workloads BlueXP</block>
   <block id="7cf449620aa459bc5c449db69b07e507" category="paragraph"><block ref="7cf449620aa459bc5c449db69b07e507" category="inline-link-rx"></block></block>
   <block id="065531f581a60b79025f539bd1ff1cff" category="section-title">5 janvier 2025</block>
@@ -60,18 +56,6 @@
   <block id="fd3039d7fbe9d24b3141aca3c62383a2" category="section-title">Évaluation et optimisation des licences Microsoft SQL Server surprovisionnées</block>
   <block id="f90a806c02db45741274868bc065ab90" category="paragraph">Le calculateur d'économies évalue maintenant si Enterprise Edition est nécessaire pour votre déploiement Microsoft SQL Server. Si une licence est surprovisionnée, le calculateur recommande la mise à niveau vers une version antérieure. Vous pourrez rétrograder automatiquement la licence dans les bases de données en optimisant l'application.</block>
   <block id="c5e3fb9d31cd8a0b458ca9e3c4a690f6" category="section-title">6 janvier 2025</block>
-  <block id="a117d99fd0597e840921767ec50fe791" category="doc">Nom de snapshot personnalisé</block>
-  <block id="34df51ccce053f8aef051fe069f6004a" category="paragraph">Vous pouvez maintenant fournir un nom d'instantané pour un instantané ad hoc.</block>
-  <block id="af467f026dd1b56c8564e770bf39737f" category="inline-link-macro">Protégez une base de connaissances avec des instantanés</block>
-  <block id="2cbaa1be80e354895c4d9e497cad82ad" category="paragraph"><block ref="2cbaa1be80e354895c4d9e497cad82ad" category="inline-link-macro-rx"></block></block>
-  <block id="63713d130d6ced83e06b8a2f84ca4236" category="section-title">Nom d'instance de moteur d'IA personnalisé</block>
-  <block id="5a22f1756638135653917db715aeec43" category="paragraph">Vous pouvez maintenant attribuer un nom personnalisé à l'instance du moteur d'IA pendant le déploiement.</block>
-  <block id="e379b913896cf9bdd4e2d6717212215a" category="inline-link-macro">Déployez l'infrastructure GenAI</block>
-  <block id="c3e29d6f9db8b5f89b548e4659ce60ad" category="paragraph"><block ref="c3e29d6f9db8b5f89b548e4659ce60ad" category="inline-link-macro-rx"></block></block>
-  <block id="cc78f676d3193b6273b428bb17c26dd7" category="section-title">Reconstruction de l'infrastructure GenAI corrompue ou manquante</block>
-  <block id="1691fa3a19bfaa3082dd2f6e01934960" category="paragraph">Si votre instance de moteur d'IA est corrompue ou supprimée, vous pouvez laisser la charge de travail se reconstruire en usine. Workload Factory rattache automatiquement vos bases de connaissances à l'infrastructure une fois la reconstruction terminée, afin qu'elles soient prêtes à l'emploi.</block>
-  <block id="231cf4c70d866b616c21baddaeed0696" category="inline-link-macro">Dépannage</block>
-  <block id="b23e4d787bd591292c1d5f10247e0e53" category="paragraph"><block ref="b23e4d787bd591292c1d5f10247e0e53" category="inline-link-macro-rx"></block></block>
   <block id="cde718e2f0bf0ef80eb31becc18c4787" category="list-text">*Enregistrer ou télécharger un plan de migration* : vous pouvez maintenant enregistrer ou télécharger un plan de migration et charger le plan de migration pour remplir le conseiller de migration. Lorsque vous enregistrez un plan de migration, celui-ci est enregistré avec votre compte d'usine de charge de travail.</block>
   <block id="42ec77b942403dfbfa1bb7908218848c" category="list-text">*Amélioration de la sélection des machines virtuelles* : l'usine de workloads BlueXP  pour VMware prend désormais en charge le filtrage et la recherche de la liste des machines virtuelles que vous souhaitez inclure dans votre déploiement de migration.</block>
   <block id="f2398fe4ddb880ba6c52b376ef9b960c" category="list-text"><block ref="f2398fe4ddb880ba6c52b376ef9b960c" category="inline-link-macro-rx"></block></block>
@@ -219,4 +203,20 @@
   <block id="1680d9abb7a22a23c44b7a4b6381f160" category="list-text">_Équilibré (auto)_</block>
   <block id="ba8ad03a370d66806f12b2e607ea29c7" category="list-text">_Optimisation des coûts (tous)_</block>
   <block id="c9c6a4f8a60589f93e4860841bc03333" category="list-text">_Optimisation des performances (snapshots uniquement)_</block>
+  <block id="f3a4976ab2464242211263cea7e247f9" category="paragraph">Cette version de GenAI introduit la prise en charge des formats de fichiers JSON et JSONP lors de l'ingénification<block ref="cc8f0c0e5a5cef9b33f236a0a9c19ca0" prefix=" " category="inline-code"></block> des fichiers à partir de sources de données. Les fichiers JSON avec des objets imbriqués sont pris en charge, avec une prise en charge limitée des tableaux imbriqués.</block>
+  <block id="0a8f6f086d5f30a416a61fd3606f1025" category="section-title">Prise en charge de l'internationalisation de l'exemple d'application de chatbot externe</block>
+  <block id="a2f4023c744ab1521036ee54ec2e15ba" category="paragraph">Vous pouvez désormais facilement modifier l'interface utilisateur de l'exemple d'application de chatbot externe GenAI en une langue ou un environnement local différent.</block>
+  <block id="5b8a8facbec8623a03d7cae8b62bfeb7" category="inline-link-macro">Exemple d'application externe de chatbot GenAI</block>
+  <block id="4d79fade08f1e8c2d92bbdf0e3237924" category="paragraph"><block ref="4d79fade08f1e8c2d92bbdf0e3237924" category="inline-link-macro-rx"></block></block>
+  <block id="26ea891fa4f63d071728537d886e0f6c" category="section-title">Support pour le modèle de chat Anthropique Claude Sonnet 3.7</block>
+  <block id="4c58515c1bd9657f223b7731d306475c" category="paragraph">GenAI inclut maintenant le support pour le modèle de chat Anthropique Claude 3.7 Sonnet. Les fonctionnalités bêta de Claude 3.7 Sonnet permettent jusqu'à 128 K jetons de sortie par demande et prennent en charge de nouvelles actions d'utilisation d'ordinateur. Claude 3.7 le mode de pensée étendue Sonnet sera pris en charge dans une future version de GenAI.</block>
+  <block id="16cb0b733a26e9afa11f388e6d83aec1" category="inline-link-macro">Créer une base de connaissances GenAI</block>
+  <block id="fe72cb2aff5f7bf6138e806921c5d3d6" category="paragraph"><block ref="fe72cb2aff5f7bf6138e806921c5d3d6" category="inline-link-macro-rx"></block></block>
+  <block id="40bd8fe426c37e97f38be2c5a2728752" category="section-title">Prise en charge de l'ajout de sources de données à partir de partages NFS/SMB génériques</block>
+  <block id="1813c42a79840f7d495281cf050a30dc" category="paragraph">En utilisant l'API des fabrique de workloads, vous pouvez désormais ajouter une source de données à partir d'un partage NFSv3, NFSv4 ou SMB générique. Lorsque vous ajoutez une source de données à partir d'un partage NFS ou SMB, le volume de la base de connaissances reste sur un volume Amazon FSX pour NetApp ONTAP. L'interface utilisateur Web d'usine de la charge de travail prendra en charge cette fonctionnalité dans une prochaine version.</block>
+  <block id="fbc7eedf5c13a549330a0c3f52777db8" category="section-title">Prise en charge du peering VPC</block>
+  <block id="52bc46202bc9013e258f32f66b8bf88a" category="inline-link-macro">Clouds privés virtuels peering (VPC)</block>
+  <block id="93dbde0ee04c36dce05b96f3551f8606" category="paragraph">Vous pouvez désormais déployer une infrastructure GenAI dans la <block ref="f008838004ac43a2c4a5b39672df7daf" category="inline-link-macro-rx"></block>même région et utiliser le même compte AWS. Vous pouvez déployer le moteur d'IA dans un VPC, puis créer une base de connaissances dans un VPC à peering, et sélectionner les systèmes de fichiers Amazon FSX pour NetApp ONTAP qui résident dans un VPC à peering.</block>
+  <block id="6e62567f7c9b240a118b25fc64f2991f" category="list-text">*Conseils améliorés d'attribution de volume* : les informations d'affectation de volume des étapes « classifier » et « Package » du conseiller de migration EC2 offrent une meilleure lisibilité et une plus grande facilité d'utilisation. Des informations plus utiles s'affichent sur chaque volume pour vous permettre de mieux identifier les volumes et de déterminer comment les attribuer.</block>
+  <block id="5fc07f589f318bbf4f9475dbf3754c9f" category="list-text">*Améliorations de l'efficacité du script du collecteur de données* : le script du collecteur de données EC2 migration Advisor optimise l'utilisation du processeur lors de la collecte de données pour les déploiements de machines virtuelles plus petits.</block>
 </blocks>

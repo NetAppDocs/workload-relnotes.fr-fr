@@ -58,6 +58,64 @@ Lorsque vous sélectionnez une règle de Tiering lors de la création de volumes
 
 
 
+=== Workloads VMware
+
+
+
+==== Améliorations d'Amazon EC2 migration Advisor
+
+Cette version de la fabrique de workloads BlueXP  pour VMware apporte plusieurs améliorations à l'expérience de l'outil de conseil en migration Amazon EC2 :
+
+* *Conseils améliorés d'attribution de volume* : les informations d'affectation de volume des étapes « classifier » et « Package » du conseiller de migration EC2 offrent une meilleure lisibilité et une plus grande facilité d'utilisation. Des informations plus utiles s'affichent sur chaque volume pour vous permettre de mieux identifier les volumes et de déterminer comment les attribuer.
+* *Améliorations de l'efficacité du script du collecteur de données* : le script du collecteur de données EC2 migration Advisor optimise l'utilisation du processeur lors de la collecte de données pour les déploiements de machines virtuelles plus petits.
+
+
+https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["Créez un plan de déploiement pour Amazon EC2 à l'aide du conseiller de migration"]
+
+
+
+=== Charges de travail GenAI
+
+
+
+==== Prise en charge améliorée des types de fichiers
+
+Cette version de GenAI introduit la prise en charge des formats de fichiers JSON et JSONP lors de l'ingénification `.json` des fichiers à partir de sources de données. Les fichiers JSON avec des objets imbriqués sont pris en charge, avec une prise en charge limitée des tableaux imbriqués.
+
+link:https://review.docs.netapp.com/us-en/workload-genai_mar-2-release/identify-data-sources.html#supported-data-source-file-formats["Formats de fichiers de source de données pris en charge"]
+
+
+
+==== Prise en charge de l'internationalisation de l'exemple d'application de chatbot externe
+
+Vous pouvez désormais facilement modifier l'interface utilisateur de l'exemple d'application de chatbot externe GenAI en une langue ou un environnement local différent.
+
+link:https://github.com/NetApp/FSx-ONTAP-samples-scripts/tree/main/AI/GenAI-ChatBot-application-sample#netapp-workload-factory-genai-sample-application["Exemple d'application externe de chatbot GenAI"]
+
+
+
+==== Support pour le modèle de chat Anthropique Claude Sonnet 3.7
+
+GenAI inclut maintenant le support pour le modèle de chat Anthropique Claude 3.7 Sonnet. Les fonctionnalités bêta de Claude 3.7 Sonnet permettent jusqu'à 128 K jetons de sortie par demande et prennent en charge de nouvelles actions d'utilisation d'ordinateur. Claude 3.7 le mode de pensée étendue Sonnet sera pris en charge dans une future version de GenAI.
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["Créer une base de connaissances GenAI"]
+
+
+
+==== Prise en charge de l'ajout de sources de données à partir de partages NFS/SMB génériques
+
+En utilisant l'API des fabrique de workloads, vous pouvez désormais ajouter une source de données à partir d'un partage NFSv3, NFSv4 ou SMB générique. Lorsque vous ajoutez une source de données à partir d'un partage NFS ou SMB, le volume de la base de connaissances reste sur un volume Amazon FSX pour NetApp ONTAP. L'interface utilisateur Web d'usine de la charge de travail prendra en charge cette fonctionnalité dans une prochaine version.
+
+
+
+==== Prise en charge du peering VPC
+
+Vous pouvez désormais déployer une infrastructure GenAI dans la link:https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html["Clouds privés virtuels peering (VPC)"^]même région et utiliser le même compte AWS. Vous pouvez déployer le moteur d'IA dans un VPC, puis créer une base de connaissances dans un VPC à peering, et sélectionner les systèmes de fichiers Amazon FSX pour NetApp ONTAP qui résident dans un VPC à peering.
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["Créer une base de connaissances GenAI"]
+
+
+
 === Configuration et administration
 
 
@@ -460,55 +518,6 @@ Cette version de l'usine de workloads BlueXP  pour VMware apporte plusieurs am�
 
 * *Enregistrer ou télécharger un plan de migration* : vous pouvez maintenant enregistrer ou télécharger un plan de migration et charger le plan de migration pour remplir le conseiller de migration. Lorsque vous enregistrez un plan de migration, celui-ci est enregistré avec votre compte d'usine de charge de travail.
 * *Amélioration de la sélection des machines virtuelles* : l'usine de workloads BlueXP  pour VMware prend désormais en charge le filtrage et la recherche de la liste des machines virtuelles que vous souhaitez inclure dans votre déploiement de migration.
-
-
-https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["Créez un plan de déploiement pour Amazon EC2 à l'aide du conseiller de migration"]
-
-
-
-=== Charges de travail GenAI
-
-
-
-==== Nom de snapshot personnalisé
-
-Vous pouvez maintenant fournir un nom d'instantané pour un instantané ad hoc.
-
-link:https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#protect-a-knowledge-base-with-snapshots["Protégez une base de connaissances avec des instantanés"]
-
-
-
-==== Nom d'instance de moteur d'IA personnalisé
-
-Vous pouvez maintenant attribuer un nom personnalisé à l'instance du moteur d'IA pendant le déploiement.
-
-link:https://docs.netapp.com/us-en/workload-genai/deploy-infrastructure.html["Déployez l'infrastructure GenAI"]
-
-
-
-==== Reconstruction de l'infrastructure GenAI corrompue ou manquante
-
-Si votre instance de moteur d'IA est corrompue ou supprimée, vous pouvez laisser la charge de travail se reconstruire en usine. Workload Factory rattache automatiquement vos bases de connaissances à l'infrastructure une fois la reconstruction terminée, afin qu'elles soient prêtes à l'emploi.
-
-link:https://docs.netapp.com/us-en/workload-genai/troubleshooting.html["Dépannage"]
-
-
-
-== 1 décembre 2024
-
-
-
-=== Workloads VMware
-
-
-
-==== Améliorations d'Amazon EC2 migration Advisor
-
-Cette version de l'usine de workloads BlueXP  pour VMware apporte plusieurs améliorations à l'expérience de migration Advisor :
-
-* *Collecte de données* : l'usine de workloads BlueXP  pour VMware prend en charge la possibilité de collecter des données pour une période spécifique lorsque vous utilisez le conseiller de migration.
-* *Sélection VM* : l'usine de workloads BlueXP  pour VMware prend désormais en charge la sélection des machines virtuelles que vous souhaitez inclure dans votre déploiement de migration.
-* *Quick vs Advanced Experience* : lorsque vous utilisez le conseiller de migration, vous pouvez désormais choisir une expérience de migration rapide, en utilisant RVTools, ou l'expérience avancée, qui utilise le collecteur de données de migration Advisor.
 
 
 https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["Créez un plan de déploiement pour Amazon EC2 à l'aide du conseiller de migration"]
