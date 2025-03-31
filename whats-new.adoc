@@ -106,6 +106,8 @@ link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["Cr�
 
 En utilisant l'API des fabrique de workloads, vous pouvez désormais ajouter une source de données à partir d'un partage NFSv3, NFSv4 ou SMB générique. Lorsque vous ajoutez une source de données à partir d'un partage NFS ou SMB, le volume de la base de connaissances reste sur un volume Amazon FSX pour NetApp ONTAP. L'interface utilisateur Web d'usine de la charge de travail prendra en charge cette fonctionnalité dans une prochaine version.
 
+link:https://console.workloads.netapp.com/api-doc["Utilisez l'API d'usine des workloads"^]
+
 
 
 ==== Prise en charge du peering VPC
