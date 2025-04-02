@@ -36,3 +36,11 @@ Lorsque vous sélectionnez une règle de Tiering lors de la création de volumes
 * _Optimisation des coûts (tous)_
 * _Optimisation des performances (snapshots uniquement)_
 
+
+
+
+=== Détails du groupe de sécurité pour la création du système de fichiers
+
+Un groupe de sécurité est créé dans le cadre du processus de création du système de fichiers FSX pour ONTAP. Les détails des groupes de sécurité, notamment les protocoles, les ports et les rôles, sont désormais disponibles.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["Créez un système de fichiers"]
