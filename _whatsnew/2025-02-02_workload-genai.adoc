@@ -30,7 +30,7 @@ link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-
 
 === Prise en charge des fichiers image et prise en charge améliorée des fichiers PDF
 
-GenAI prend désormais en charge la numérisation de fichiers image et d'images dans des fichiers PDF (également appelés prise en charge de fichiers multimodaux). Si vous choisissez des fichiers image, le texte des images est numérisé dans la source de données et utilisé comme données. Cette fonction inclut des images dans des documents PDF ; si vous incluez des types de fichiers PDF, les images de chaque PDF sont numérisées pour du texte et ce texte est inclus dans les informations provenant de la source de données.
+GenAI prend désormais en charge l'amélioration des réponses aux requêtes de la base de connaissances grâce à des informations tirées des images et des descriptions de graphiques, ainsi que du texte du document, ce qui permet d'obtenir des réponses plus riches et de meilleure qualité. GenAI peut désormais numériser des fichiers image et des images dans des fichiers PDF (également appelés prise en charge de fichiers multimodaux). Si vous choisissez de numériser des images ou des fichiers PDF, le texte des images (y compris les images intégrées aux documents PDF) est numérisé dans la source de données et les informations issues des numérisations sont incluses dans les réponses aux requêtes de la base de connaissances.
 
 link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["Ajoutez des sources de données à la base de connaissances"]
 
@@ -38,6 +38,6 @@ link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-
 
 === Recherche hybride et support de redirection
 
-GenAI améliore désormais la pertinence des résultats de recherche grâce à la recherche hybride et à la réorganisation des résultats. La recherche hybride combine les recherches par mots clés avec la recherche vectorielle et sémantique. Les résultats standard de la recherche par mot-clé sont complétés par des correspondances étroites et la nuance linguistique, ce qui améliore la pertinence. GenAI réclasse les résultats de la recherche et ne renvoie que les résultats présentant la plus grande pertinence.
+GenAI peut désormais améliorer considérablement la pertinence et l'exactitude des résultats de recherche grâce à la recherche hybride et au réclassement des résultats. La recherche hybride combine les points forts de la recherche classique basée sur des mots-clés avec des techniques de recherche sémantique basées sur des vecteurs denses et avancées. Les résultats standard de la recherche par mot-clé sont complétés par des correspondances étroites et la nuance linguistique, ce qui améliore la pertinence. GenAI affine ensuite ces résultats en utilisant des modèles de classement avancés, tels que Cohere Rerank et Amazon Rerank, et donne les résultats les plus pertinents. Cette fonctionnalité est disponible pour les bases de connaissances nouvellement créées.
 
 link:https://docs.netapp.com/us-en/workload-genai/ai-workloads-overview.html#benefits-of-using-genai-to-create-generative-ai-applications["Découvrez l'usine de workloads BlueXP  pour GenAI"]

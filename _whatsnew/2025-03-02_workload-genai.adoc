@@ -26,7 +26,7 @@ Cette version de GenAI fournit une prise en charge améliorée des fichiers :
 
 * Les modèles de chat offrent une prise en charge CSV améliorée. Cela permet d'obtenir des réponses plus utiles lors de l'interrogation de données à partir de fichiers CSV.
 * GenAI peut désormais ingérer des fichiers Apache parquet à partir de sources de données.
-* GenAI prend désormais en charge l'ingestion de fichiers Microsoft Word DOCX contenant des images.
+* GenAI prend désormais en charge l'ingestion de fichiers Microsoft Word DOCX contenant des images. Les images intégrées aux documents DOCX sont numérisées et les informations textuelles des images intégrées sont incluses dans les réponses aux requêtes de la base de connaissances.
 
 
 link:https://review.docs.netapp.com/us-en/workload-genai_mar-2-release/identify-data-sources.html#supported-data-source-file-formats["Formats de fichiers de source de données pris en charge"]
