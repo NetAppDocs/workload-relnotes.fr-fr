@@ -147,7 +147,6 @@
   <block id="20fae993429f53ad24302c4bea3332d1" category="list-text">Les modèles de chat offrent une prise en charge CSV améliorée. Cela permet d'obtenir des réponses plus utiles lors de l'interrogation de données à partir de fichiers CSV.</block>
   <block id="820ddf0d1fd0a9cf5aaea49d2b400838" category="list-text">GenAI peut désormais ingérer des fichiers Apache parquet à partir de sources de données.</block>
   <block id="939bf2b00dbe77d4a65f4d265a755136" category="inline-link-macro">Formats de fichiers de source de données pris en charge</block>
-  <block id="9e64c0f3360c80d2707e71b213c5fc58" category="paragraph"><block ref="9e64c0f3360c80d2707e71b213c5fc58" category="inline-link-macro-rx"></block></block>
   <block id="cec87a8931004e5402a3f18575682723" category="paragraph">Cette version de la fabrique de workloads BlueXP  pour VMware apporte plusieurs améliorations à l'expérience de l'outil de conseil en migration Amazon EC2 :</block>
   <block id="13ba1ae4c82947e19de7e94ee0eaab45" category="list-text">*Estimation du type d'instance* : migration Advisor peut désormais examiner les exigences de votre environnement et fournir un type d'instance Amazon EC2 estimé pour chaque machine virtuelle. Vous pouvez choisir d'inclure le type d'instance estimé pour chaque machine virtuelle pendant l'étape Scope de l'assistant de migration.</block>
   <block id="3006f7737352e976899743eaf6e2b28e" category="list-text">*Possibilité de recommander des volumes Amazon EBS* : le conseiller en migration peut désormais recommander la migration des volumes de données vers Amazon Elastic Block Store (EBS) plutôt que vers Amazon FSX pour NetApp ONTAP en raison des besoins spécifiques en termes de capacité ou de performances d'une région donnée.</block>
@@ -224,4 +223,5 @@
   <block id="c4f70f11159098cce8873623bffb07aa" category="inline-link-macro">Créez un serveur PostgreSQL en usine de charges de travail BlueXP</block>
   <block id="5963667f9fe01282fae9030cccbd24a3" category="paragraph"><block ref="5963667f9fe01282fae9030cccbd24a3" category="inline-link-macro-rx"></block></block>
   <block id="813bb11b4f90c862c2b7c2d35cc082ff" category="section-title">2025-04-04</block>
+  <block id="b70e34d229298faea8d481f1cfdd32a9" category="paragraph"><block ref="b70e34d229298faea8d481f1cfdd32a9" category="inline-link-macro-rx"></block></block>
 </blocks>

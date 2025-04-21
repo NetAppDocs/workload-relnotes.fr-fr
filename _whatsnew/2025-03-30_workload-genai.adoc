@@ -8,7 +8,7 @@
 
 Cette version de GenAI introduit la prise en charge des formats de fichiers JSON et JSONP lors de l'ingénification `.json` des fichiers à partir de sources de données. Les fichiers JSON avec des objets imbriqués sont pris en charge, avec une prise en charge limitée des tableaux imbriqués.
 
-link:https://review.docs.netapp.com/us-en/workload-genai_mar-2-release/identify-data-sources.html#supported-data-source-file-formats["Formats de fichiers de source de données pris en charge"]
+link:https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html#supported-data-source-file-formats["Formats de fichiers de source de données pris en charge"]
 
 
 
