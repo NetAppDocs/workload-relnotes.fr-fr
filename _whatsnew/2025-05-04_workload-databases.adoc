@@ -1,0 +1,51 @@
+= Améliorations du tableau de bord
+:allow-uri-read: 
+
+
+
+
+=== Améliorations du tableau de bord
+
+* Des vues multi-comptes et inter-régions sont disponibles lorsque vous naviguez entre les onglets dans la console BlueXP  Workload Factory. Ces nouvelles vues améliorent la gestion, la surveillance et l'optimisation des ressources.
+* À partir de la mosaïque *économies potentielles* du tableau de bord, vous pourrez rapidement consulter les économies que vous pourriez réaliser en passant à FSX pour ONTAP à partir d'Amazon Elastic Block Store ou d'Amazon FSX pour serveur de fichiers Windows.
+
+
+
+
+=== Analyse ad hoc disponible pour les configurations de base de données
+
+L'usine de workloads BlueXP  pour les bases de données analyse automatiquement les instances Microsoft SQL Server gérées avec FSX pour le stockage ONTAP en vue d'identifier les problèmes de configuration potentiels. Désormais, en plus de l'acquisition quotidienne, vous pouvez numériser à tout moment.
+
+
+
+=== Suppression des dossiers d'évaluation sur place
+
+Après avoir étudié les économies réalisées pour un hôte sur site Microsoft SQL Server, vous avez la possibilité de supprimer l'enregistrement hôte sur site de l'usine de charge de travail BlueXP .
+
+
+
+=== Optimisation améliorée
+
+
+
+==== Nettoyage des clones
+
+L'évaluation et la correction du nettoyage des clones permettent d'identifier et de gérer les clones anciens et coûteux. Les clones de plus de 60 jours peuvent être actualisés ou supprimés de la console d'usine de la charge de travail BlueXP .
+
+
+
+==== Reporter et ignorer l'analyse de la configuration
+
+Certaines configurations peuvent ne pas s'appliquer à vos environnements de base de données. Vous pouvez à présent différer de 30 jours l'analyse d'une configuration donnée ou rejeter l'analyse.
+
+
+
+=== Suppression des dossiers d'évaluation sur place
+
+Après avoir étudié les économies réalisées pour un hôte sur site Microsoft SQL Server, vous avez la possibilité de supprimer l'enregistrement hôte sur site de l'usine de charge de travail BlueXP .
+
+
+
+=== Mise à jour de la terminologie des autorisations
+
+L'interface utilisateur et la documentation de l'usine de la charge de travail utilisent désormais « lecture seule » pour faire référence aux autorisations de lecture et « lecture-écriture » pour faire référence aux autorisations d'automatisation.
