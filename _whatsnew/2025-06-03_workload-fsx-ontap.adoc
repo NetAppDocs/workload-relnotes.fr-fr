@@ -1,0 +1,43 @@
+= Amélioration de la croissance automatique du volume
+:allow-uri-read: 
+
+
+
+
+=== Amélioration de la croissance automatique du volume
+
+Vous pouvez désormais définir la taille de croissance automatique de vos volumes afin que la taille du volume puisse croître au-delà de la taille provisionnée pour les besoins de l'entreprise et les exigences des applications.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/edit-volume-autogrow.html["Activer la croissance automatique de volumes"]
+
+
+
+=== Mise à jour de l'analyse bien architecturée
+
+Workload Factory analyse désormais vos systèmes de fichiers FSx for ONTAP afin de vérifier l'efficacité du stockage, notamment en termes de compactage, de compression et de déduplication des données. L'efficacité du stockage mesure l'efficacité avec laquelle les systèmes de fichiers utilisent l'espace disponible.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Visualisez l'état d'efficacité du stockage bien conçu"]
+
+
+
+=== Améliorations du tableau de bord de stockage
+
+À partir d'aujourd'hui, lorsque vous ouvrez la charge de travail Stockage depuis la console Workload Factory, vous accédez au *Tableau de bord*. Ce nouveau tableau de bord offre une vue d'ensemble de vos systèmes FSx for ONTAP, incluant le nombre de systèmes de fichiers, la capacité totale des SSD, l'état de l'architecture, la protection des données et l'intégrité de la relation de réplication.
+
+
+
+=== Améliorations de l'onglet Volumes
+
+La charge de travail Stockage a apporté des améliorations à l'onglet « Volumes » d'un système de fichiers FSx for ONTAP dans la console Workload Factory. Ces améliorations incluent :
+
+* *Nouvelles cartes* : capacité SSD, pool de capacité et protection autonome contre les ransomwares (ARP)
+* *Nouvelles colonnes* : Répartition de la capacité, Capacité SSD utilisée, Pool de capacité utilisée et Efficacité SSD
+
+
+
+
+=== Mise à jour de l'efficacité du stockage pour la création de volumes
+
+Lors de la création d'un nouveau volume, les fonctions d'efficacité du stockage, notamment le compactage, la compression et la déduplication des données, sont activées par défaut.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Créer un nouveau volume dans la fabrique de charges de travail"]
