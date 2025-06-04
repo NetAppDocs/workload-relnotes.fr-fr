@@ -317,11 +317,11 @@ L'interface utilisateur et la documentation de l'usine de la charge de travail u
 
 
 
-==== Prise en charge de NetApp ONTAP Connector pour Amazon Q
+==== Prise en charge du connecteur NetApp pour Amazon Q Business
 
-Cette version de GenAI introduit la prise en charge de NetApp ONTAP Connector pour Amazon Q, qui vous permet de créer des connecteurs pour Amazon Q Business. Profitez rapidement et facilement de l'assistant IA Amazon Q Business avec moins de configuration initiale qu'en construisant une base de connaissances GenAI pour le socle Amazon.
+Cette version de GenAI introduit la prise en charge de NetApp Connector pour Amazon Q Business, vous permettant de créer des connecteurs pour Amazon Q Business. Profitez rapidement et facilement de l'assistant IA Amazon Q Business avec moins de configuration initiale qu'en construisant une base de connaissances GenAI pour le socle Amazon.
 
-link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["Créez un connecteur GenAI pour Amazon Q Business"]
+link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["Créer un connecteur NetApp pour Amazon Q Business"]
 
 
 
@@ -339,7 +339,7 @@ GenAI prend désormais en charge les modèles de chat supplémentaires suivants 
 
 GenAI prend en charge les modèles de chaque fournisseur pris en charge par Amazon Bedrock : link:https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html["Modèles de base pris en charge dans Amazon Bedrock"^]
 
-link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["Créer une base de connaissances GenAI"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["Créer une base de connaissances GenAI"]
 
 
 
