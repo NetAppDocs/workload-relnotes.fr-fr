@@ -1,0 +1,25 @@
+= Détection PostgreSQL et Oracle
+:allow-uri-read: 
+
+
+
+
+=== Détection PostgreSQL et Oracle
+
+Vous pouvez désormais découvrir les instances exécutant des bases de données PostgreSQL et des déploiements de bases de données Oracle sur votre compte AWS depuis la console Workload Factory. Les instances découvertes apparaîtront dans l'inventaire des bases de données.
+
+
+
+=== Terminologie « Optimisation » mise à jour
+
+Auparavant appelée « Optimisation », Workload Factory utilise désormais « problèmes bien architecturés » et « état bien architecturé » pour décrire l'analyse des configurations de base de données et « correctif » pour décrire la correction des opportunités d'amélioration des configurations de base de données afin de répondre aux recommandations des meilleures pratiques.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-overview.html["Analyse de configuration pour les environnements de base de données dans Workload Factory"]
+
+
+
+=== Intégration améliorée pour les instances hôtes
+
+Au lieu des termes « non détecté », « non géré » ou « géré » pour la gestion des instances hôtes, Workload Factory utilise désormais « registre » pour l'intégration des instances hôtes. Le nouveau processus d'enregistrement inclut l'authentification et la préparation des instances hôtes afin que vous puissiez créer, surveiller, analyser et corriger les ressources dans vos configurations de base de données depuis la console Workload Factory. L'étape de préparation du processus d'enregistrement indique si vos instances hôtes sont prêtes à être gérées.
+
+link:https://docs.netapp.com/us-en/workload-databases/manage-instance.html["Gestion des instances"]
