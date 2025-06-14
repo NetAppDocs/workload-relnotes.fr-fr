@@ -390,6 +390,14 @@ Lorsque vous utilisez BlueXP  Workload Factory CloudShell, vous pouvez commence
 
 L'interface utilisateur et la documentation de l'usine de charge de travail utilisent désormais « lecture seule » pour faire référence aux autorisations de lecture et « lecture/écriture » pour faire référence aux autorisations d'automatisation.
 
+Directive non résolue dans <stdin> - include::_include/workload-builders.adoc[] :leveloffset: +1
+
+
+
+=== Mise à jour de la terminologie des autorisations
+
+L'interface utilisateur et la documentation de l'usine de charge de travail utilisent désormais « lecture seule » pour faire référence aux autorisations de lecture et « lecture/écriture » pour faire référence aux autorisations d'automatisation.
+
 
 
 == 2025-04-04
@@ -578,3 +586,17 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["Uti
 L'autorisation suivante est maintenant disponible en _read_ mode pour les bases de données : `iam:SimulatePrincipalPolicy`.
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["Journal des modifications de référence des autorisations"]
+
+
+
+== 2024-12-01
+
+Directive non résolue dans <stdin> - include::_include/workload-builders.adoc[] :leveloffset: +1
+
+
+
+=== Création de la version initiale de la charge de travail
+
+L'usine de charges de travail BlueXP  pour Builders simplifie la consommation et l'accès aux versions logicielles, éliminant ainsi le besoin d'outils ou de scripts personnalisés. Il vous permet de consommer des versions logicielles sous forme de clones instantanés intégrés à Perforce Helix Core comme espace de travail pratique pour vos processus de développement, ce qui vous fait gagner du temps et des ressources.
+
+La version initiale permet de gérer des projets et des espaces de travail, et d'automatiser les actions avec Codebox. Vous pouvez également intégrer Builders à Perforce Helix Core, afin de gérer différentes versions de chaque projet et de passer rapidement de l'une à l'autre.

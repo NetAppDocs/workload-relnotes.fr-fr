@@ -1,0 +1,11 @@
+= Création de la version initiale de la charge de travail
+:allow-uri-read: 
+
+
+
+
+=== Création de la version initiale de la charge de travail
+
+L'usine de charges de travail BlueXP  pour Builders simplifie la consommation et l'accès aux versions logicielles, éliminant ainsi le besoin d'outils ou de scripts personnalisés. Il vous permet de consommer des versions logicielles sous forme de clones instantanés intégrés à Perforce Helix Core comme espace de travail pratique pour vos processus de développement, ce qui vous fait gagner du temps et des ressources.
+
+La version initiale permet de gérer des projets et des espaces de travail, et d'automatiser les actions avec Codebox. Vous pouvez également intégrer Builders à Perforce Helix Core, afin de gérer différentes versions de chaque projet et de passer rapidement de l'une à l'autre.
