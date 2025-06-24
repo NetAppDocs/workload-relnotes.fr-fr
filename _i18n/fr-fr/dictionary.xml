@@ -232,7 +232,6 @@
   <block id="4cd460e2c71c2ffba346f4471ea0fa00" category="doc">Création de la version initiale de la charge de travail</block>
   <block id="01885fa7b72aa9d947d8efa49fb4b8cd" category="paragraph">L'usine de charges de travail BlueXP  pour Builders simplifie la consommation et l'accès aux versions logicielles, éliminant ainsi le besoin d'outils ou de scripts personnalisés. Il vous permet de consommer des versions logicielles sous forme de clones instantanés intégrés à Perforce Helix Core comme espace de travail pratique pour vos processus de développement, ce qui vous fait gagner du temps et des ressources.</block>
   <block id="5f9f7bdd8b86c6cc583afabbd903007c" category="paragraph">La version initiale permet de gérer des projets et des espaces de travail, et d'automatiser les actions avec Codebox. Vous pouvez également intégrer Builders à Perforce Helix Core, afin de gérer différentes versions de chaque projet et de passer rapidement de l'une à l'autre.</block>
-  <block id="e562428972beeca78a1b44b300444717" category="paragraph">Directive non résolue dans &lt;stdin&gt; - include::_include/workload-builders.adoc[] :leveloffset: +1</block>
   <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">2024-12-01</block>
   <block id="fc031ba945e09cb6053f39527ae4937f" category="doc">Prise en charge du clonage</block>
   <block id="e0fa1f53117aa72ea1061c2daaead5bc" category="paragraph">Vous pouvez désormais cloner un projet dans la Workload Factory de BlueXP pour Builders. Lorsque vous clonez un projet, Builders crée un nouveau projet à partir d'un snapshot, avec la même configuration que l'original. Le clonage est utile pour créer rapidement des projets similaires ou à des fins de test. Vous pouvez monter le nouveau clone de projet en suivant les instructions de Builders.</block>
@@ -244,4 +243,5 @@
   <block id="f3a98886e89c22ab1a8df16ff87d5b3c" category="section-title">Mise à jour des autorisations pour les bases de données</block>
   <block id="0d8e78270e3796caacf42c07616b7e32" category="paragraph">L'autorisation suivante est maintenant disponible en _read_ mode pour les bases de données :<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>.</block>
   <block id="1d8ce1cfc87620dad9c49f1de100a4fb" category="section-title">2025-02-02</block>
+  <block id="959d33fa69dccfa15152c69ba90f9d41" category="doc">Charges de travail des constructeurs</block>
 </blocks>
