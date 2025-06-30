@@ -18,8 +18,8 @@ link:https://docs.netapp.com/us-en/workload-databases/optimize-overview.html["An
 
 
 
-=== Intégration améliorée pour les instances hôtes
+=== Intégration améliorée pour les instances
 
-Au lieu des termes « non détecté », « non géré » ou « géré » pour la gestion des instances hôtes, Workload Factory utilise désormais « registre » pour l'intégration des instances hôtes. Le nouveau processus d'enregistrement inclut l'authentification et la préparation des instances hôtes afin que vous puissiez créer, surveiller, analyser et corriger les ressources dans vos configurations de base de données depuis la console Workload Factory. L'étape de préparation du processus d'enregistrement indique si vos instances hôtes sont prêtes à être gérées.
+Au lieu des termes « non détecté », « non géré » ou « géré » pour la gestion des instances, Workload Factory utilise désormais « registre » pour l'intégration des instances. Le nouveau processus d'enregistrement inclut l'authentification et la préparation des instances afin que vous puissiez créer, surveiller, analyser et corriger les ressources dans vos configurations de base de données depuis la console Workload Factory. L'étape de préparation du processus d'enregistrement indique si vos instances sont prêtes à être gérées.
 
 link:https://docs.netapp.com/us-en/workload-databases/manage-instance.html["Gestion des instances"]
