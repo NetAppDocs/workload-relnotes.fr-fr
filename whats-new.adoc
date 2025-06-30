@@ -15,6 +15,36 @@ Découvrez les derniers changements apportés aux charges de travail de l'usine 
 
 
 
+== 2025-06-29
+
+
+
+=== Workloads VMware
+
+
+
+==== Présentation de la prise en charge du conseiller de migration pour Amazon Elastic VMware Service
+
+L'usine de charges de travail BlueXP pour VMware prend désormais en charge Amazon Elastic VMware Service. Grâce à l'assistant de migration, vous pouvez migrer rapidement vos charges de travail VMware sur site vers Amazon Elastic VMware Service. Vous optimisez ainsi vos coûts et bénéficiez d'un meilleur contrôle sur votre environnement VMware sans avoir à refactoriser ou à repenser la plateforme de vos applications.
+
+https://docs.netapp.com/us-en/workload-vmware/launch-migration-advisor-evs-manual.html["Créer un plan de déploiement pour Amazon EVS à l'aide du conseiller de migration"]
+
+
+
+=== Charges de travail GenAI
+
+
+
+==== Prise en charge des sources de données hébergées sur des systèmes de fichiers NFS/SMB génériques
+
+Vous pouvez désormais ajouter une source de données à partir d'un partage SMB ou NFS générique. Cela vous permet d'inclure des fichiers stockés sur des volumes hébergés par des systèmes de fichiers autres qu'Amazon FSx pour NetApp ONTAP.
+
+https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["Ajouter des sources de données à une base de connaissances"]
+
+https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add-data-sources-to-the-connector["Ajouter des sources de données à un connecteur"]
+
+
+
 == 2025-06-16
 
 
@@ -498,50 +528,6 @@ https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.h
 
 
 
-=== Charges de travail GenAI
-
-
-
-==== Prise en charge améliorée des types de fichiers
-
-Cette version de GenAI introduit la prise en charge des formats de fichiers JSON et JSONP lors de l'ingénification `.json` des fichiers à partir de sources de données. Les fichiers JSON avec des objets imbriqués sont pris en charge, avec une prise en charge limitée des tableaux imbriqués.
-
-link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/identify-data-sources-knowledge-base.html#supported-data-source-file-formats["Formats de fichiers de source de données pris en charge"]
-
-
-
-==== Prise en charge de l'internationalisation de l'exemple d'application de chatbot externe
-
-Vous pouvez désormais facilement modifier l'interface utilisateur de l'exemple d'application de chatbot externe GenAI en une langue ou un environnement local différent.
-
-link:https://github.com/NetApp/FSx-ONTAP-samples-scripts/tree/main/AI/GenAI-ChatBot-application-sample#netapp-workload-factory-genai-sample-application["Exemple d'application externe de chatbot GenAI"]
-
-
-
-==== Support pour le modèle de chat Anthropique Claude Sonnet 3.7
-
-GenAI inclut maintenant le support pour le modèle de chat Anthropique Claude 3.7 Sonnet. Les fonctionnalités bêta de Claude 3.7 Sonnet permettent jusqu'à 128 K jetons de sortie par demande et prennent en charge de nouvelles actions d'utilisation d'ordinateur. Claude 3.7 le mode de pensée étendue Sonnet sera pris en charge dans une future version de GenAI.
-
-link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["Créer une base de connaissances GenAI"]
-
-
-
-==== Prise en charge de l'ajout de sources de données à partir de partages NFS/SMB génériques
-
-En utilisant l'API des fabrique de workloads, vous pouvez désormais ajouter une source de données à partir d'un partage NFSv3, NFSv4 ou SMB générique. Lorsque vous ajoutez une source de données à partir d'un partage NFS ou SMB, le volume de la base de connaissances reste sur un volume Amazon FSX pour NetApp ONTAP. L'interface utilisateur Web d'usine de la charge de travail prendra en charge cette fonctionnalité dans une prochaine version.
-
-link:https://console.workloads.netapp.com/api-doc["Utilisez l'API d'usine des workloads"^]
-
-
-
-==== Prise en charge du peering VPC
-
-Vous pouvez désormais déployer une infrastructure GenAI dans la link:https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html["Clouds privés virtuels peering (VPC)"^]même région et utiliser le même compte AWS. Vous pouvez déployer le moteur d'IA dans un VPC, puis créer une base de connaissances dans un VPC à peering, et sélectionner les systèmes de fichiers Amazon FSX pour NetApp ONTAP qui résident dans un VPC à peering.
-
-link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["Créer une base de connaissances GenAI"]
-
-
-
 === Configuration et administration
 
 
@@ -559,27 +545,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["Uti
 Vous pouvez désormais gérer les `iam:SimulatePrincipalPolicy` autorisations à partir de la console d'usine des charges de travail lorsque vous ajoutez des informations d'identification de compte AWS supplémentaires ou que vous ajoutez une nouvelle fonctionnalité de charge de travail telle que la charge de travail GenAI.
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["Journal des modifications de référence des autorisations"]
-
-
-
-== 2025-03-02
-
-
-
-=== Workloads VMware
-
-
-
-==== Améliorations d'Amazon EC2 migration Advisor
-
-Cette version de la fabrique de workloads BlueXP  pour VMware apporte plusieurs améliorations à l'expérience de l'outil de conseil en migration Amazon EC2 :
-
-* *Estimation du type d'instance* : migration Advisor peut désormais examiner les exigences de votre environnement et fournir un type d'instance Amazon EC2 estimé pour chaque machine virtuelle. Vous pouvez choisir d'inclure le type d'instance estimé pour chaque machine virtuelle pendant l'étape Scope de l'assistant de migration.
-* *Possibilité de recommander des volumes Amazon EBS* : le conseiller en migration peut désormais recommander la migration des volumes de données vers Amazon Elastic Block Store (EBS) plutôt que vers Amazon FSX pour NetApp ONTAP en raison des besoins spécifiques en termes de capacité ou de performances d'une région donnée.
-* *Attribution automatique améliorée du système de fichiers* : l'affectation du système de fichiers Amazon FSX pour NetApp ONTAP a été améliorée afin de mieux optimiser les coûts et de minimiser le débit.
-
-
-https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["Créez un plan de déploiement pour Amazon EC2 à l'aide du conseiller de migration"]
 
 
 
