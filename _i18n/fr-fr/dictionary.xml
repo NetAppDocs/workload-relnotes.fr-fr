@@ -233,4 +233,7 @@
   <block id="c0ae6f0ec7cb1322a1c6b72f77e783f2" category="paragraph">Le service de notification de l'usine de charge de travail BlueXP permet à l'usine de charge de travail d'envoyer des notifications au service d'alertes BlueXP ou à une rubrique Amazon SNS. Les notifications envoyées aux alertes BlueXP apparaissent dans le panneau des alertes BlueXP. Lorsque la fabrique de charges de travail publie des notifications dans une rubrique Amazon SNS, les abonnés à cette rubrique (tels que les personnes ou d'autres applications) reçoivent les notifications aux points de terminaison configurés pour cette rubrique (tels que les e-mails ou les SMS).</block>
   <block id="76490568879e4523bb6bd6d8263472a9" category="inline-link">Configurer les notifications de l'usine de charge de travail BlueXP</block>
   <block id="533a43c23a4d81612b2392465e022a51" category="paragraph"><block ref="533a43c23a4d81612b2392465e022a51" category="inline-link-rx"></block></block>
+  <block id="f3a98886e89c22ab1a8df16ff87d5b3c" category="doc">Mise à jour des autorisations pour les bases de données</block>
+  <block id="cb30bdb55bb8a7a0530a31a5e6cdd0bb" category="paragraph">L'autorisation suivante est désormais disponible en mode _lecture seule_ pour les bases de données : <block ref="f63e0d20057299c9c16bd0c2c9e92a5c" prefix=" " category="inline-code"></block> .</block>
+  <block id="e429c7230e4b94caf26e6020e5ea6f7a" category="paragraph"><block ref="e429c7230e4b94caf26e6020e5ea6f7a" category="inline-link-rx"></block></block>
 </blocks>
