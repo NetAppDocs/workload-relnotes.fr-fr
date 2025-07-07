@@ -14,14 +14,13 @@ Workload Factory fournit les notifications suivantes pour les bases de données�
 
 * Rapport bien conçu
 * Déploiement de l'hôte
-* La protection
 
 
 
 
 === Amélioration de l'intégration pour l'enregistrement des instances
 
-Workload Factory for Databases a amélioré son processus d'intégration pour l'enregistrement des instances exécutées sur Amazon FSx pour le stockage NetApp ONTAP. Vous pouvez désormais sélectionner des instances en masse pour l'enregistrement. Une fois l'instance enregistrée, vous pouvez créer et gérer les ressources hôtes de la base de données dans la console Workload Factory.
+Workload Factory for Databases a amélioré son processus d'intégration pour l'enregistrement des instances exécutées sur Amazon FSx pour le stockage NetApp ONTAP. Vous pouvez désormais sélectionner des instances en masse pour l'enregistrement. Une fois qu'une instance est enregistrée, vous pouvez créer et gérer les ressources de base de données dans la console de l'usine de charge de travail.
 
 link:https://docs.netapp.com/us-en/workload-databases/manage-instance.html["Gestion des instances"]
 
@@ -29,22 +28,22 @@ link:https://docs.netapp.com/us-en/workload-databases/manage-instance.html["Gest
 
 === Analyse et correction du paramètre de délai d'expiration d'E/S multipath de Microsoft
 
-L'état « bien architecturé » de vos instances d'hôte de base de données inclut désormais l'analyse et la correction du délai d'expiration des E/S multi-chemins Microsoft (MPIO). Définir ce délai à 60 secondes garantit la connectivité et la stabilité du stockage FSx for ONTAP lors des basculements. Si le paramètre MPIO n'est pas correctement défini, Workload Factory fournira un correctif pour définir ce délai à 60 secondes.
+L'état bien architecturé de vos instances de base de données inclut désormais l'analyse et le correctif pour le paramètre de délai d'expiration Microsoft Multipath I/O (MPIO). Définir ce délai à 60 secondes garantit la connectivité et la stabilité du stockage FSx for ONTAP lors des basculements. Si le paramètre MPIO n'est pas correctement défini, Workload Factory fournira un correctif pour définir ce délai à 60 secondes.
 
 link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implémenter des configurations de base de données bien architecturées dans Workload Factory"]
 
 
 
-=== Améliorations des graphiques dans l'inventaire de l'hôte
+=== Améliorations des graphiques dans l'inventaire des instances
 
-Depuis l'écran d'inventaire de l'hôte, divers graphiques d'utilisation des ressources, comme le débit et les IOPS, affichent désormais des données sur 7 jours, ce qui vous permet de surveiller plus efficacement les performances des nœuds SQL depuis la console Workload Factory. Les indicateurs de performance collectés auprès des nœuds SQL sont enregistrés dans Amazon CloudWatch et peuvent être utilisés pour Logs Insights ou intégrés à d'autres services d'analyse de votre environnement.
+À partir de l'écran d'inventaire des instances, divers graphiques d'utilisation des ressources tels que le débit et les IOPS affichent désormais 7 jours de données afin que vous puissiez surveiller plus efficacement les performances des nœuds SQL à partir de la console de l'usine de charge de travail. Les indicateurs de performance collectés auprès des nœuds SQL sont enregistrés dans Amazon CloudWatch et peuvent être utilisés pour Logs Insights ou intégrés à d'autres services d'analyse de votre environnement.
 
-À partir des onglets Instances et Bases de données de l'inventaire de l'hôte, nous avons amélioré la description et la visualisation de la protection de l'hôte.
+À partir des onglets Instances et Bases de données de l'inventaire, nous avons amélioré la description et la visualisation pour la protection.
 
 
 
 === Prise en charge de l'authentification Windows dans Workload Factory
 
-Désormais, Workload Factory prend en charge l'authentification SQL Server à l'aide d'utilisateurs authentifiés Windows pour enregistrer les instances d'hôte et bénéficier des fonctionnalités de gestion d'hôte.
+Désormais, Workload Factory prend en charge l'authentification SQL Server à l'aide d'utilisateurs authentifiés Windows pour enregistrer des instances et bénéficier des fonctionnalités de gestion.
 
-link:https://docs.netapp.com/us-en/workload-databases/register-instance.html["Enregistrer les instances d'hôte dans la fabrique de charges de travail pour les bases de données"]
+link:https://docs.netapp.com/us-en/workload-databases/register-instance.html["Enregistrer des instances dans la fabrique de charges de travail pour les bases de données"]
