@@ -64,20 +64,8 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["A
 
 
 
-=== Améliorations de la création de liens
-
-Les améliorations suivantes ont été apportées au processus de création de liens dans la console de l’usine de charge de travail.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["Connectez-vous à un système de fichiers FSX pour ONTAP via un lien Lambda"]
-
-
-
-==== Gérer le rôle d'exécution et les autorisations IAM lors de la création du lien
+=== Gérer le rôle d'exécution et les autorisations IAM lors de la création du lien
 
 Vous pouvez désormais gérer le rôle d'exécution IAM et la politique d'autorisations associée en créant un lien dans la console Workload Factory. Un lien établit la connectivité entre votre compte Workload Factory et un ou plusieurs systèmes de fichiers FSx for ONTAP. Vous disposez de deux options pour attribuer le rôle d'exécution IAM et les autorisations associées : automatiquement ou par l'utilisateur. La gestion du rôle d'exécution et de la politique d'autorisations associée dans Workload Factory vous évite d'avoir recours à du code tiers.
 
-
-
-==== Prise en charge de Terraform pour la création de liens
-
-Vous pouvez désormais utiliser Terraform depuis Codebox pour créer un lien à associer à un système de fichiers FSx for ONTAP. Cette fonctionnalité est réservée aux utilisateurs qui créent des liens manuellement.
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["Connectez-vous à un système de fichiers FSX pour ONTAP via un lien Lambda"]
