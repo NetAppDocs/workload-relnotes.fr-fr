@@ -15,6 +15,38 @@ Découvrez les derniers changements apportés aux charges de travail de l'usine 
 
 
 
+== 04/08/2025
+
+
+
+=== Charges de travail des bases de données
+
+
+
+==== Une analyse bien conçue inclut la validation de clusters à haute disponibilité
+
+L’analyse bien conçue inclut désormais la validation des clusters à haute disponibilité. Cette validation vérifie toutes les configurations liées au cluster côté serveur, y compris la disponibilité et la configuration du disque sur les deux nœuds, la configuration du cluster Windows et la préparation au basculement. Cela garantit que le cluster Windows est correctement configuré et peut basculer avec succès en cas de besoin.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implémenter des configurations de base de données bien architecturées dans Workload Factory"]
+
+
+
+==== Menu à plusieurs niveaux disponible pour les instances
+
+La console de l'usine de charge de travail inclut désormais un menu à plusieurs niveaux pour les instances. Ce changement fournit une structure de navigation plus organisée et intuitive pour la gestion des instances. Les options de menu pour la gestion des instances incluent l'affichage du tableau de bord de l'instance, l'affichage des bases de données, la création d'une base de données et la création d'un clone sandbox.
+
+image:manage-instance-table-menu.png["Une capture d'écran du menu de la table d'instance avec une structure de menu à plusieurs niveaux. Sélectionnez le menu de la table d'instance, puis gérez l'instance pour afficher les bases de données, créer une base de données et créer un clone sandbox."]
+
+
+
+==== Nouvelle option d'authentification pour explorer les économies
+
+Quand le `NT Authority\SYSTEM` Si l'utilisateur ne dispose pas des autorisations suffisantes sur Microsoft SQL Server, vous pouvez vous authentifier avec les informations d'identification SQL Server ou ajouter les autorisations SQL Server manquantes à `NT Authority\SYSTEM` .
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Explorez les économies potentielles pour vos environnements de base de données avec Amazon FSx for NetApp ONTAP"]
+
+
+
 == 03/08/2025
 
 
@@ -390,58 +422,6 @@ link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledg
 
 
 == 2025-05-04
-
-
-
-=== Charges de travail des bases de données
-
-
-
-==== Améliorations du tableau de bord
-
-* Des vues multi-comptes et inter-régions sont disponibles lorsque vous naviguez entre les onglets dans la console BlueXP  Workload Factory. Ces nouvelles vues améliorent la gestion, la surveillance et l'optimisation des ressources.
-* À partir de la mosaïque *économies potentielles* du tableau de bord, vous pourrez rapidement consulter les économies que vous pourriez réaliser en passant à FSX pour ONTAP à partir d'Amazon Elastic Block Store ou d'Amazon FSX pour serveur de fichiers Windows.
-
-
-
-
-==== Analyse ad hoc disponible pour les configurations de base de données
-
-L'usine de workloads BlueXP  pour les bases de données analyse automatiquement les instances Microsoft SQL Server gérées avec FSX pour le stockage ONTAP en vue d'identifier les problèmes de configuration potentiels. Désormais, en plus de l'acquisition quotidienne, vous pouvez numériser à tout moment.
-
-
-
-==== Suppression des dossiers d'évaluation sur place
-
-Après avoir étudié les économies réalisées pour un hôte sur site Microsoft SQL Server, vous avez la possibilité de supprimer l'enregistrement hôte sur site de l'usine de charge de travail BlueXP .
-
-
-
-==== Optimisation améliorée
-
-
-
-===== Nettoyage des clones
-
-L'évaluation et la correction du nettoyage des clones permettent d'identifier et de gérer les clones anciens et coûteux. Les clones de plus de 60 jours peuvent être actualisés ou supprimés de la console d'usine de la charge de travail BlueXP .
-
-
-
-===== Reporter et ignorer l'analyse de la configuration
-
-Certaines configurations peuvent ne pas s'appliquer à vos environnements de base de données. Vous pouvez à présent différer de 30 jours l'analyse d'une configuration donnée ou rejeter l'analyse.
-
-
-
-==== Suppression des dossiers d'évaluation sur place
-
-Après avoir étudié les économies réalisées pour un hôte sur site Microsoft SQL Server, vous avez la possibilité de supprimer l'enregistrement hôte sur site de l'usine de charge de travail BlueXP .
-
-
-
-==== Mise à jour de la terminologie des autorisations
-
-L'interface utilisateur et la documentation de l'usine de charge de travail utilisent désormais « lecture seule » pour faire référence aux autorisations de lecture et « lecture/écriture » pour faire référence aux autorisations d'automatisation.
 
 
 

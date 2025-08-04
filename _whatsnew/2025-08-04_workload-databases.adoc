@@ -1,0 +1,27 @@
+= Une analyse bien conçue inclut la validation de clusters à haute disponibilité
+:allow-uri-read: 
+
+
+
+
+=== Une analyse bien conçue inclut la validation de clusters à haute disponibilité
+
+L’analyse bien conçue inclut désormais la validation des clusters à haute disponibilité. Cette validation vérifie toutes les configurations liées au cluster côté serveur, y compris la disponibilité et la configuration du disque sur les deux nœuds, la configuration du cluster Windows et la préparation au basculement. Cela garantit que le cluster Windows est correctement configuré et peut basculer avec succès en cas de besoin.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implémenter des configurations de base de données bien architecturées dans Workload Factory"]
+
+
+
+=== Menu à plusieurs niveaux disponible pour les instances
+
+La console de l'usine de charge de travail inclut désormais un menu à plusieurs niveaux pour les instances. Ce changement fournit une structure de navigation plus organisée et intuitive pour la gestion des instances. Les options de menu pour la gestion des instances incluent l'affichage du tableau de bord de l'instance, l'affichage des bases de données, la création d'une base de données et la création d'un clone sandbox.
+
+image:manage-instance-table-menu.png["Une capture d'écran du menu de la table d'instance avec une structure de menu à plusieurs niveaux. Sélectionnez le menu de la table d'instance, puis gérez l'instance pour afficher les bases de données, créer une base de données et créer un clone sandbox."]
+
+
+
+=== Nouvelle option d'authentification pour explorer les économies
+
+Quand le `NT Authority\SYSTEM` Si l'utilisateur ne dispose pas des autorisations suffisantes sur Microsoft SQL Server, vous pouvez vous authentifier avec les informations d'identification SQL Server ou ajouter les autorisations SQL Server manquantes à `NT Authority\SYSTEM` .
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Explorez les économies potentielles pour vos environnements de base de données avec Amazon FSx for NetApp ONTAP"]
