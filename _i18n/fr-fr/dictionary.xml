@@ -39,14 +39,11 @@
   <block id="2004b4ad1feb57e1e4505f5888cfbb60" category="paragraph"><block ref="2004b4ad1feb57e1e4505f5888cfbb60" category="inline-link-macro-rx"></block></block>
   <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">Journal des modifications de référence des autorisations</block>
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
-  <block id="cec87a8931004e5402a3f18575682723" category="paragraph">Cette version de la fabrique de workloads BlueXP  pour VMware apporte plusieurs améliorations à l'expérience de l'outil de conseil en migration Amazon EC2 :</block>
   <block id="3450754e7ec63bd0a961376c9928752a" category="paragraph">Lorsque vous utilisez CloudShell, chaque fois que vous exécutez une commande de l'interface de ligne de commande ONTAP et qu'une erreur se produit, vous pouvez obtenir des réponses d'erreur générées par l'IA incluant une description de l'échec, la cause de l'échec et une résolution détaillée.</block>
   <block id="4ef50e373522b91f7df59d5cba69a8b7" category="section-title">iam:mise à jour des autorisations SimulatePermissionPolicy</block>
   <block id="906699741ebd9905a07af900abcfd438" category="paragraph">Vous pouvez désormais gérer les<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block> autorisations à partir de la console d'usine des charges de travail lorsque vous ajoutez des informations d'identification de compte AWS supplémentaires ou que vous ajoutez une nouvelle fonctionnalité de charge de travail telle que la charge de travail GenAI.</block>
   <block id="186057b8c375bff9b600d22bf8686fc5" category="section-title">2025-03-30</block>
   <block id="16cb0b733a26e9afa11f388e6d83aec1" category="inline-link-macro">Créer une base de connaissances GenAI</block>
-  <block id="6e62567f7c9b240a118b25fc64f2991f" category="list-text">*Conseils améliorés d'attribution de volume* : les informations d'affectation de volume des étapes « classifier » et « Package » du conseiller de migration EC2 offrent une meilleure lisibilité et une plus grande facilité d'utilisation. Des informations plus utiles s'affichent sur chaque volume pour vous permettre de mieux identifier les volumes et de déterminer comment les attribuer.</block>
-  <block id="5fc07f589f318bbf4f9475dbf3754c9f" category="list-text">*Améliorations de l'efficacité du script du collecteur de données* : le script du collecteur de données EC2 migration Advisor optimise l'utilisation du processeur lors de la collecte de données pour les déploiements de machines virtuelles plus petits.</block>
   <block id="ef74d01649997b60252254da8a1573fd" category="doc">CloudShell signale les réponses d'erreur générées par l'IA pour les commandes de l'interface de ligne de commande ONTAP</block>
   <block id="8bb788607f31f673e25d0ba34b09a14d" category="doc">Optimisation améliorée</block>
   <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
@@ -228,4 +225,10 @@
   <block id="0162ca60ba3c63c1058d5815f318b75b" category="inline-link-macro">Créer un partage CIFS pour un volume</block>
   <block id="5f08db4267e771ad7b348d338d92e0e6" category="paragraph"><block ref="5f08db4267e771ad7b348d338d92e0e6" category="inline-link-macro-rx"></block></block>
   <block id="2aaab0bce595a1e20244bc8b6b14559c" category="section-title">03/08/2025</block>
+  <block id="424013c53fd9187a66e051bb44ddaa34" category="doc">Prise en charge améliorée du conseiller de migration pour Amazon Elastic VMware Service</block>
+  <block id="37ac2db5bb5bc7f50e3b58bbb706b64b" category="paragraph">Le conseiller de migration Amazon Elastic VMware Service prend désormais en charge le déploiement et le montage automatiques de votre système de fichiers Amazon FSx for NetApp ONTAP . Cela vous permet de commencer à déployer vos machines virtuelles sur les systèmes de fichiers FSx pour ONTAP lorsque la migration vers l'environnement Amazon EVS est terminée.</block>
+  <block id="93c34ab13f70b21f6935de45dacb9ae3" category="section-title">Calculez les économies réalisées lors de la migration vers Amazon Elastic VMware Service</block>
+  <block id="b1da4fce8da5117e3a9e1041d1749074" category="paragraph">Vous pouvez désormais explorer les économies potentielles liées à la migration de vos charges de travail VMware vers Amazon Elastic VMware Service (EVS). Le calculateur d'économies vous permet de comparer les coûts d'utilisation d'Amazon EVS avec et sans Amazon FSx for NetApp ONTAP comme stockage sous-jacent. Le calculateur affiche les économies potentielles en temps réel à mesure que vous ajustez les caractéristiques de votre environnement.</block>
+  <block id="b5ddf28fa6b1419129cc60c87384d5f3" category="inline-link">Découvrez les économies réalisées avec Amazon Elastic VMware Service avec BlueXP workload factory</block>
+  <block id="e5201134512b46a1979954f15ddb8c25" category="paragraph"><block ref="e5201134512b46a1979954f15ddb8c25" category="inline-link-rx"></block></block>
 </blocks>

@@ -100,6 +100,26 @@ link:https://review.docs.netapp.com/us-en/workload-fsx-ontap_grogu-5684-wa-dismi
 
 
 
+=== Workloads VMware
+
+
+
+==== Prise en charge améliorée du conseiller de migration pour Amazon Elastic VMware Service
+
+Le conseiller de migration Amazon Elastic VMware Service prend désormais en charge le déploiement et le montage automatiques de votre système de fichiers Amazon FSx for NetApp ONTAP . Cela vous permet de commencer à déployer vos machines virtuelles sur les systèmes de fichiers FSx pour ONTAP lorsque la migration vers l'environnement Amazon EVS est terminée.
+
+https://docs.netapp.com/us-en/workload-vmware/launch-migration-advisor-evs-manual.html["Créer un plan de déploiement pour Amazon EVS à l'aide du conseiller de migration"]
+
+
+
+==== Calculez les économies réalisées lors de la migration vers Amazon Elastic VMware Service
+
+Vous pouvez désormais explorer les économies potentielles liées à la migration de vos charges de travail VMware vers Amazon Elastic VMware Service (EVS). Le calculateur d'économies vous permet de comparer les coûts d'utilisation d'Amazon EVS avec et sans Amazon FSx for NetApp ONTAP comme stockage sous-jacent. Le calculateur affiche les économies potentielles en temps réel à mesure que vous ajustez les caractéristiques de votre environnement.
+
+https://docs.netapp.com/us-en/workload-vmware/calculate-evs-savings.html["Découvrez les économies réalisées avec Amazon Elastic VMware Service avec BlueXP workload factory"]
+
+
+
 == 2025-06-30
 
 
@@ -508,22 +528,6 @@ L'interface utilisateur et la documentation de l'usine de charge de travail util
 
 
 == 2025-03-30
-
-
-
-=== Workloads VMware
-
-
-
-==== Améliorations d'Amazon EC2 migration Advisor
-
-Cette version de la fabrique de workloads BlueXP  pour VMware apporte plusieurs améliorations à l'expérience de l'outil de conseil en migration Amazon EC2 :
-
-* *Conseils améliorés d'attribution de volume* : les informations d'affectation de volume des étapes « classifier » et « Package » du conseiller de migration EC2 offrent une meilleure lisibilité et une plus grande facilité d'utilisation. Des informations plus utiles s'affichent sur chaque volume pour vous permettre de mieux identifier les volumes et de déterminer comment les attribuer.
-* *Améliorations de l'efficacité du script du collecteur de données* : le script du collecteur de données EC2 migration Advisor optimise l'utilisation du processeur lors de la collecte de données pour les déploiements de machines virtuelles plus petits.
-
-
-https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["Créez un plan de déploiement pour Amazon EC2 à l'aide du conseiller de migration"]
 
 
 
