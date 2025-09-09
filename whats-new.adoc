@@ -15,6 +15,52 @@ Découvrez les derniers changements apportés aux charges de travail de l'usine 
 
 
 
+== 01/09/2025
+
+
+
+=== Charges de travail des bases de données
+
+
+
+==== Analyseur de journaux d'erreurs basé sur l'IA Agentic
+
+L'analyseur de journaux d'erreurs basé sur l'IA Agentic est une nouvelle fonctionnalité qui exploite des algorithmes d'apprentissage automatique avancés pour détecter et analyser automatiquement les erreurs dans les fichiers journaux. Cet outil vise à rationaliser le processus de dépannage en fournissant aux développeurs des informations et des recommandations exploitables basées sur les modèles qu'il identifie dans les journaux.
+
+link:https://docs.netapp.com/us-en/workload-databases/analyze-error-logs.html["En savoir plus sur l'analyseur de journaux d'erreurs basé sur l'IA Agentic"]
+
+
+
+==== Support Oracle
+
+Workload Factory inclut la prise en charge des bases de données Oracle. Dans la console Workload Factory, vous pouvez afficher vos bases de données Oracle à partir de l'inventaire, enregistrer des bases de données pour utiliser des fonctionnalités avancées dans Workload Factory et analyser les bases de données Oracle pour les aligner sur les meilleures pratiques à l'aide de la fonctionnalité bien architecturée. L'analyse bien architecturée détermine si les configurations de stockage des bases de données Oracle sont optimisées. Vous pouvez utiliser ces informations pour prendre des décisions éclairées concernant vos déploiements de bases de données et garantir leur fonctionnement efficace.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implémenter des configurations de base de données bien architecturées dans Workload Factory"]
+
+
+
+==== Prise en charge des déploiements Microsoft SQL Server sur les systèmes de fichiers FSx for ONTAP de deuxième génération
+
+Workload Factory prend en charge les déploiements Microsoft SQL Server sur les systèmes de fichiers FSx de deuxième génération pour ONTAP . Cette amélioration vous permet de tirer parti des dernières fonctionnalités et améliorations de performances disponibles dans les systèmes de fichiers de deuxième génération tout en gérant vos charges de travail SQL Server.
+
+
+
+==== Authentification Windows pour la protection de SQL Server
+
+L'authentification des instances Microsoft SQL Server avec les informations d'identification Windows est intégrée au flux de travail pour préparer les hôtes Microsoft SQL Server à la protection avec la BlueXP backup and recovery. Il s’agissait auparavant d’une étape préalable à effectuer manuellement. Au lieu de cela, vous serez invité à partager les informations d’identification Windows avec un accès administratif si vous n’avez pas enregistré les hôtes dans la fabrique de charges de travail à l’aide des informations d’identification Windows.
+
+link:https://docs.netapp.com/us-en/workload-databases/protect-sql-server.html["Découvrez comment protéger les charges de travail Microsoft SQL Server via la console Workload Factory"] .
+
+
+
+==== Une analyse bien conçue inclut l'alignement MTU pour SQL Server
+
+L'analyse bien conçue évalue et corrige le désalignement de l'unité de transmission maximale (MTU) sur les points de terminaison pour Microsoft SQL Server sur FSx pour le stockage ONTAP . L’alignement des paramètres MTU permet d’optimiser les performances du réseau et de réduire la latence des charges de travail SQL Server.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implémenter des configurations de base de données bien architecturées dans Workload Factory"]
+
+
+
 == 12/08/2025
 
 
@@ -23,7 +69,7 @@ Découvrez les derniers changements apportés aux charges de travail de l'usine 
 
 
 
-==== La BlueXP backup and recovery prennent désormais en charge la charge de travail Microsoft SQL Server
+==== La BlueXP backup and recovery prennent désormais en charge les charges de travail Microsoft SQL Server
 
 La BlueXP backup and recovery vous permettent de sauvegarder, restaurer, vérifier et cloner des bases de données et des groupes de disponibilité Microsoft SQL Server. À partir de la console de l’usine de charge de travail, vous pouvez accéder et utiliser la BlueXP backup and recovery pour protéger les charges de travail Microsoft SQL Server.
 
@@ -187,60 +233,6 @@ link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledg
 NetApp fournit désormais un serveur Model Context Protocol (MCP) avec une BlueXP workload factory pour GenAI. Vous pouvez installer le serveur localement pour permettre aux clients MCP externes de découvrir et de récupérer les résultats de requête à partir d'une base de connaissances GenAI.
 
 link:https://github.com/NetApp/mcp/tree/main/NetApp-KnowledgeBase-MCP-server["Serveur GenAI MCP de l'usine de charge de travail NetApp"^]
-
-
-
-== 2025-06-30
-
-
-
-=== Charges de travail des bases de données
-
-
-
-==== Prise en charge du service de notification de l'usine de charge de travail BlueXP
-
-Le service de notification de l'usine de charge de travail BlueXP permet à l'usine de charge de travail d'envoyer des notifications au service d'alertes BlueXP ou à une rubrique Amazon SNS. Les notifications envoyées aux alertes BlueXP apparaissent dans le panneau des alertes BlueXP. Lorsque la fabrique de charges de travail publie des notifications dans une rubrique Amazon SNS, les abonnés à cette rubrique (tels que les personnes ou d'autres applications) reçoivent les notifications aux points de terminaison configurés pour cette rubrique (tels que les e-mails ou les SMS).
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Configurer les notifications de l'usine de charge de travail BlueXP"^]
-
-Workload Factory fournit les notifications suivantes pour les bases de données :
-
-* Rapport bien conçu
-* Déploiement de l'hôte
-
-
-
-
-==== Amélioration de l'intégration pour l'enregistrement des instances
-
-Workload Factory for Databases a amélioré son processus d'intégration pour l'enregistrement des instances exécutées sur Amazon FSx pour le stockage NetApp ONTAP. Vous pouvez désormais sélectionner des instances en masse pour l'enregistrement. Une fois qu'une instance est enregistrée, vous pouvez créer et gérer les ressources de base de données dans la console de l'usine de charge de travail.
-
-link:https://docs.netapp.com/us-en/workload-databases/manage-instance.html["Gestion des instances"]
-
-
-
-==== Analyse et correction du paramètre de délai d'expiration d'E/S multipath de Microsoft
-
-L'état bien architecturé de vos instances de base de données inclut désormais l'analyse et le correctif pour le paramètre de délai d'expiration Microsoft Multipath I/O (MPIO). Définir ce délai à 60 secondes garantit la connectivité et la stabilité du stockage FSx for ONTAP lors des basculements. Si le paramètre MPIO n'est pas correctement défini, Workload Factory fournira un correctif pour définir ce délai à 60 secondes.
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implémenter des configurations de base de données bien architecturées dans Workload Factory"]
-
-
-
-==== Améliorations des graphiques dans l'inventaire des instances
-
-À partir de l'écran d'inventaire des instances, divers graphiques d'utilisation des ressources tels que le débit et les IOPS affichent désormais 7 jours de données afin que vous puissiez surveiller plus efficacement les performances des nœuds SQL à partir de la console de l'usine de charge de travail. Les indicateurs de performance collectés auprès des nœuds SQL sont enregistrés dans Amazon CloudWatch et peuvent être utilisés pour Logs Insights ou intégrés à d'autres services d'analyse de votre environnement.
-
-À partir des onglets Instances et Bases de données de l'inventaire, nous avons amélioré la description et la visualisation pour la protection.
-
-
-
-==== Prise en charge de l'authentification Windows dans Workload Factory
-
-Désormais, Workload Factory prend en charge l'authentification SQL Server à l'aide d'utilisateurs authentifiés Windows pour enregistrer des instances et bénéficier des fonctionnalités de gestion.
-
-link:https://docs.netapp.com/us-en/workload-databases/register-instance.html["Enregistrer des instances dans la fabrique de charges de travail pour les bases de données"]
 
 
 
