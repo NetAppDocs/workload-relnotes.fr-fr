@@ -1,0 +1,45 @@
+= Améliorations du rapport d'inventaire de stockage
+:allow-uri-read: 
+
+
+
+
+=== Améliorations du rapport d'inventaire de stockage
+
+Workload Factory a amélioré les données signalées pour vos systèmes de fichiers FSx for ONTAP . Le rapport téléchargeable depuis la page d'inventaire FSx for ONTAP inclut les nouvelles colonnes suivantes :
+
+* SSD utilisé : indique la valeur de la capacité SSD utilisée
+* Utilisation du SSD : indique le pourcentage de capacité du SSD utilisé
+* Utilisation du débit : affiche l'utilisation moyenne et maximale des 30 derniers jours
+* Utilisation des E/S : affiche l'utilisation moyenne et maximale des E/S au cours des 30 derniers jours
+* Utilisation du processeur : affiche l'utilisation moyenne et maximale du processeur au cours des 30 derniers jours
+
+
+
+
+=== Améliorations de la gestion des instantanés
+
+Workload Factory a apporté plusieurs améliorations pour afficher les détails des instantanés de volume et gérer les instantanés de volume. Ces améliorations vous permettent de mieux comprendre l’état de vos instantanés et de protéger vos données.
+
+image:screenshot-menu-view-volume-details.png["Capture d'écran qui montre le menu du volume FSx pour ONTAP avec les actions de base, puis affiche les détails du volume."]
+
+Des éléments supplémentaires apparaissent dans les détails du volume sous l'onglet Protection :
+
+* Nom de la politique d'instantané
+* Réservation d'espace instantané
+* Capacité de réservation d'espace instantané
+
+
+image:screenshot-volume-details-protection.png["Capture d'écran qui montre les détails du volume FSx pour ONTAP avec l'onglet de protection ouvert."]
+
+Le nouvel écran de gestion des instantanés est accessible à partir d'un volume ; il fournit des informations sur la politique d'instantané du volume et inclut un tableau avec tous les instantanés de volume. Le tableau affiche les détails de l'instantané suivants : heure de création, taille, heure d'expiration, protection immuable de l'instantané et étiquettes. À partir de l'écran de gestion, vous pouvez modifier la stratégie de snapshot du volume, créer un snapshot manuellement et modifier, accéder, restaurer et supprimer des snapshots.
+
+image:screenshot-manage-snapshots-screen.png["Capture d'écran qui montre l'écran de gestion des instantanés."]
+
+
+
+=== Diminution de la capacité de stockage SSD disponible
+
+Workload Factory prend en charge la réduction de la capacité du disque SSD (Solid State Drive) de vos systèmes de fichiers de première et deuxième génération. Grâce à la capacité élastique du système de fichiers, vous pouvez ajuster dynamiquement la capacité de vos systèmes de fichiers pour répondre aux besoins de vos charges de travail.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/increase-file-system-capacity.html["Ajuster la capacité du système de fichiers"]
