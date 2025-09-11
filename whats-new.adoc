@@ -15,7 +15,7 @@ Découvrez les derniers changements apportés aux charges de travail de l'usine 
 
 
 
-== 09/09/2025
+== 09 septembre 2025
 
 
 
@@ -65,7 +65,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/increase-file-system-capac
 
 
 
-== 01/09/2025
+== 01 septembre 2025
 
 
 
@@ -111,7 +111,7 @@ link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.ht
 
 
 
-== 12/08/2025
+== 12 août 2025
 
 
 
@@ -129,7 +129,7 @@ Pour plus de détails sur la BlueXP backup and recovery, reportez-vous aulink:ht
 
 
 
-== 04/08/2025
+== 04 août 2025
 
 
 
@@ -161,7 +161,7 @@ link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Expl
 
 
 
-== 03/08/2025
+== 03 août 2025
 
 
 
@@ -286,7 +286,61 @@ link:https://github.com/NetApp/mcp/tree/main/NetApp-KnowledgeBase-MCP-server["Se
 
 
 
-== 2025-06-29
+== 30 juin 2025
+
+
+
+=== Charges de travail des bases de données
+
+
+
+==== Prise en charge du service de notification de l'usine de charge de travail BlueXP
+
+Le service de notification de l'usine de charge de travail BlueXP permet à l'usine de charge de travail d'envoyer des notifications au service d'alertes BlueXP ou à une rubrique Amazon SNS. Les notifications envoyées aux alertes BlueXP apparaissent dans le panneau des alertes BlueXP. Lorsque la fabrique de charges de travail publie des notifications dans une rubrique Amazon SNS, les abonnés à cette rubrique (tels que les personnes ou d'autres applications) reçoivent les notifications aux points de terminaison configurés pour cette rubrique (tels que les e-mails ou les SMS).
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Configurer les notifications de l'usine de charge de travail BlueXP"^]
+
+Workload Factory fournit les notifications suivantes pour les bases de données :
+
+* Rapport bien conçu
+* Déploiement de l'hôte
+
+
+
+
+==== Amélioration de l'intégration pour l'enregistrement des instances
+
+Workload Factory for Databases a amélioré son processus d'intégration pour l'enregistrement des instances exécutées sur Amazon FSx for NetApp ONTAP .  Vous pouvez désormais sélectionner des instances en masse pour l’enregistrement.  Une fois qu'une instance est enregistrée, vous pouvez créer et gérer les ressources de base de données dans la console de l'usine de charge de travail.
+
+link:https://docs.netapp.com/us-en/workload-databases/manage-instance.html["Gestion des instances"]
+
+
+
+==== Analyse et correction du paramètre de délai d'expiration d'E/S multipath de Microsoft
+
+L'état bien architecturé de vos instances de base de données inclut désormais l'analyse et le correctif pour le paramètre de délai d'expiration Microsoft Multipath I/O (MPIO).  La définition du délai d'expiration MPIO sur 60 secondes garantit la connectivité et la stabilité du stockage FSx for ONTAP pendant les basculements.  Si le paramètre MPIO n'est pas défini en conséquence, Workload Factory fournira un correctif pour définir la valeur du délai d'expiration MPIO sur 60 secondes.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implémenter des configurations de base de données bien architecturées dans Workload Factory"]
+
+
+
+==== Améliorations des graphiques dans l'inventaire des instances
+
+À partir de l'écran d'inventaire des instances, divers graphiques d'utilisation des ressources tels que le débit et les IOPS affichent désormais 7 jours de données afin que vous puissiez surveiller plus efficacement les performances des nœuds SQL à partir de la console de l'usine de charge de travail.  Les mesures de performances collectées à partir des nœuds SQL seront enregistrées dans Amazon CloudWatch, qui peut être utilisé pour Logs Insights ou intégré à d'autres services d'analyse dans votre environnement.
+
+À partir des onglets Instances et Bases de données de l'inventaire, nous avons amélioré la description et la visualisation pour la protection.
+
+
+
+==== Prise en charge de l'authentification Windows dans Workload Factory
+
+Désormais, Workload Factory prend en charge l'authentification SQL Server à l'aide d'utilisateurs authentifiés Windows pour enregistrer des instances et bénéficier des fonctionnalités de gestion.
+
+link:https://docs.netapp.com/us-en/workload-databases/register-instance.html["Enregistrer des instances dans la fabrique de charges de travail pour les bases de données"]
+
+
+
+== 29 juin 2025
 
 
 
@@ -408,7 +462,7 @@ https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html[
 
 
 
-== 2025-06-16
+== 16 juin 2025
 
 
 
@@ -421,117 +475,3 @@ https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html[
 Vous pouvez désormais cloner un projet dans la Workload Factory de BlueXP pour Builders. Lorsque vous clonez un projet, Builders crée un nouveau projet à partir d'un snapshot, avec la même configuration que l'original. Le clonage est utile pour créer rapidement des projets similaires ou à des fins de test. Vous pouvez monter le nouveau clone de projet en suivant les instructions de Builders.
 
 https://docs.netapp.com/us-en/workload-builders/version-projects.html["Gérer les versions de l'usine de charge de travail BlueXP pour les projets Builders"]
-
-
-
-== 2025-06-03
-
-
-
-=== Charges de travail GenAI
-
-
-
-==== Tracker disponible pour les opérations de surveillance et de suivi
-
-La fonctionnalité de surveillance Tracker est désormais disponible dans GenAI. Vous pouvez utiliser Tracker pour surveiller et suivre la progression et l'état des opérations en attente, en cours et terminées, consulter les détails des tâches et sous-tâches opérationnelles, diagnostiquer les problèmes ou les échecs, modifier les paramètres des opérations ayant échoué et relancer les opérations ayant échoué.
-
-link:https://docs.netapp.com/us-en/workload-genai/general/monitor-operations.html["Surveillez les opérations de charge de travail avec Tracker dans l'usine de charge de travail BlueXP"]
-
-
-
-==== Choisir un modèle de reranker pour une base de connaissances
-
-Vous pouvez désormais améliorer la pertinence des résultats de requêtes reclassés en sélectionnant un modèle de reranking spécifique à utiliser avec une base de connaissances. GenAI prend en charge les modèles Cohere Rerank et Amazon Rerank.
-
-link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["Créer une base de connaissances GenAI"]
-
-
-
-== 2025-05-04
-
-
-
-=== Workloads VMware
-
-
-
-==== Améliorations d'Amazon EC2 migration Advisor
-
-Cette version de la fabrique de workloads BlueXP  pour VMware offre les améliorations suivantes à l'expérience de migration Advisor dans Amazon EC2 :
-
-*Informations sur l'infrastructure de données NetApp en tant que source de données* : la fabrique de workloads se connecte désormais directement aux informations sur l'infrastructure de données NetApp pour collecter des informations sur le déploiement VMware lorsque vous utilisez le collecteur de données EC2 migration Advisor.
-
-https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["Créez un plan de déploiement pour Amazon EC2 à l'aide du conseiller de migration"]
-
-
-
-==== Mise à jour de la terminologie des autorisations
-
-L'interface utilisateur et la documentation de l'usine de charge de travail utilisent désormais « lecture seule » pour faire référence aux autorisations de lecture et « lecture/écriture » pour faire référence aux autorisations d'automatisation.
-
-
-
-=== Configuration et administration
-
-
-
-==== Prise en charge de CloudShell avec remplissage automatique
-
-Lorsque vous utilisez BlueXP  Workload Factory CloudShell, vous pouvez commencer à taper une commande et appuyer sur la touche Tab pour afficher les options disponibles. S'il existe plusieurs possibilités, l'interface de ligne de commande affiche une liste de suggestions. Cette fonction améliore la productivité en réduisant au minimum les erreurs et en accélérant l'exécution des commandes.
-
-
-
-==== Mise à jour de la terminologie des autorisations
-
-L'interface utilisateur et la documentation de l'usine de charge de travail utilisent désormais « lecture seule » pour faire référence aux autorisations de lecture et « lecture/écriture » pour faire référence aux autorisations d'automatisation.
-
-
-
-=== Charges de travail des constructeurs
-
-
-
-==== Mise à jour de la terminologie des autorisations
-
-L'interface utilisateur et la documentation de l'usine de charge de travail utilisent désormais « lecture seule » pour faire référence aux autorisations de lecture et « lecture/écriture » pour faire référence aux autorisations d'automatisation.
-
-
-
-== 2025-03-30
-
-
-
-=== Configuration et administration
-
-
-
-==== CloudShell signale les réponses d'erreur générées par l'IA pour les commandes de l'interface de ligne de commande ONTAP
-
-Lorsque vous utilisez CloudShell, chaque fois que vous exécutez une commande de l'interface de ligne de commande ONTAP et qu'une erreur se produit, vous pouvez obtenir des réponses d'erreur générées par l'IA incluant une description de l'échec, la cause de l'échec et une résolution détaillée.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["Utilisez CloudShell"]
-
-
-
-==== iam:mise à jour des autorisations SimulatePermissionPolicy
-
-Vous pouvez désormais gérer les `iam:SimulatePrincipalPolicy` autorisations à partir de la console d'usine des charges de travail lorsque vous ajoutez des informations d'identification de compte AWS supplémentaires ou que vous ajoutez une nouvelle fonctionnalité de charge de travail telle que la charge de travail GenAI.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["Journal des modifications de référence des autorisations"]
-
-
-
-== 2024-12-01
-
-
-
-=== Charges de travail des constructeurs
-
-
-
-==== Création de la version initiale de la charge de travail
-
-L'usine de charges de travail BlueXP  pour Builders simplifie la consommation et l'accès aux versions logicielles, éliminant ainsi le besoin d'outils ou de scripts personnalisés. Il vous permet de consommer des versions logicielles sous forme de clones instantanés intégrés à Perforce Helix Core comme espace de travail pratique pour vos processus de développement, ce qui vous fait gagner du temps et des ressources.
-
-La version initiale permet de gérer des projets et des espaces de travail, et d'automatiser les actions avec Codebox. Vous pouvez également intégrer Builders à Perforce Helix Core, afin de gérer différentes versions de chaque projet et de passer rapidement de l'une à l'autre.

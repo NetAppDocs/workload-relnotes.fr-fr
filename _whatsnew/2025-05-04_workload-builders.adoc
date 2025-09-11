@@ -1,9 +1,0 @@
-= Mise à jour de la terminologie des autorisations
-:allow-uri-read: 
-
-
-
-
-=== Mise à jour de la terminologie des autorisations
-
-L'interface utilisateur et la documentation de l'usine de charge de travail utilisent désormais « lecture seule » pour faire référence aux autorisations de lecture et « lecture/écriture » pour faire référence aux autorisations d'automatisation.

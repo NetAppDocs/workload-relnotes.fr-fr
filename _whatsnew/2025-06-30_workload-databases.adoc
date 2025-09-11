@@ -1,0 +1,49 @@
+= Prise en charge du service de notification de l'usine de charge de travail BlueXP
+:allow-uri-read: 
+
+
+
+
+=== Prise en charge du service de notification de l'usine de charge de travail BlueXP
+
+Le service de notification de l'usine de charge de travail BlueXP permet à l'usine de charge de travail d'envoyer des notifications au service d'alertes BlueXP ou à une rubrique Amazon SNS. Les notifications envoyées aux alertes BlueXP apparaissent dans le panneau des alertes BlueXP. Lorsque la fabrique de charges de travail publie des notifications dans une rubrique Amazon SNS, les abonnés à cette rubrique (tels que les personnes ou d'autres applications) reçoivent les notifications aux points de terminaison configurés pour cette rubrique (tels que les e-mails ou les SMS).
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Configurer les notifications de l'usine de charge de travail BlueXP"^]
+
+Workload Factory fournit les notifications suivantes pour les bases de données :
+
+* Rapport bien conçu
+* Déploiement de l'hôte
+
+
+
+
+=== Amélioration de l'intégration pour l'enregistrement des instances
+
+Workload Factory for Databases a amélioré son processus d'intégration pour l'enregistrement des instances exécutées sur Amazon FSx for NetApp ONTAP .  Vous pouvez désormais sélectionner des instances en masse pour l’enregistrement.  Une fois qu'une instance est enregistrée, vous pouvez créer et gérer les ressources de base de données dans la console de l'usine de charge de travail.
+
+link:https://docs.netapp.com/us-en/workload-databases/manage-instance.html["Gestion des instances"]
+
+
+
+=== Analyse et correction du paramètre de délai d'expiration d'E/S multipath de Microsoft
+
+L'état bien architecturé de vos instances de base de données inclut désormais l'analyse et le correctif pour le paramètre de délai d'expiration Microsoft Multipath I/O (MPIO).  La définition du délai d'expiration MPIO sur 60 secondes garantit la connectivité et la stabilité du stockage FSx for ONTAP pendant les basculements.  Si le paramètre MPIO n'est pas défini en conséquence, Workload Factory fournira un correctif pour définir la valeur du délai d'expiration MPIO sur 60 secondes.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implémenter des configurations de base de données bien architecturées dans Workload Factory"]
+
+
+
+=== Améliorations des graphiques dans l'inventaire des instances
+
+À partir de l'écran d'inventaire des instances, divers graphiques d'utilisation des ressources tels que le débit et les IOPS affichent désormais 7 jours de données afin que vous puissiez surveiller plus efficacement les performances des nœuds SQL à partir de la console de l'usine de charge de travail.  Les mesures de performances collectées à partir des nœuds SQL seront enregistrées dans Amazon CloudWatch, qui peut être utilisé pour Logs Insights ou intégré à d'autres services d'analyse dans votre environnement.
+
+À partir des onglets Instances et Bases de données de l'inventaire, nous avons amélioré la description et la visualisation pour la protection.
+
+
+
+=== Prise en charge de l'authentification Windows dans Workload Factory
+
+Désormais, Workload Factory prend en charge l'authentification SQL Server à l'aide d'utilisateurs authentifiés Windows pour enregistrer des instances et bénéficier des fonctionnalités de gestion.
+
+link:https://docs.netapp.com/us-en/workload-databases/register-instance.html["Enregistrer des instances dans la fabrique de charges de travail pour les bases de données"]
