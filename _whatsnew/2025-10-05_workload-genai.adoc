@@ -16,7 +16,7 @@ BlueXP a été renommé et repensé pour mieux refléter le rôle qu'il joue dan
 
 link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["Créer un connecteur NetApp pour Amazon Q Business"]
 
-link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add-data-sources-to-the-connector["6320af7d92cd5d357460c5cbc5f642a9"]
+link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add-data-sources-to-the-connector["Ajouter des sources de données à un connecteur"]
 
 
 
