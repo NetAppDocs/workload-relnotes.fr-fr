@@ -2,16 +2,16 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, administration, amazon fsx for netapp ontap, databases, genai, vmware' 
-summary: 'Découvrez les derniers changements apportés aux charges de travail de l"usine BlueXP .' 
+summary: Découvrez les modifications les plus récentes apportées aux charges de travail qui font partie de NetApp Workload Factory. 
 ---
-= Modifications récentes de l'usine de workloads BlueXP 
+= Modifications récentes dans NetApp Workload Factory
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
 
 
 [role="lead"]
-Découvrez les derniers changements apportés aux charges de travail de l'usine BlueXP .
+Découvrez les modifications les plus récentes apportées aux charges de travail qui font partie de NetApp Workload Factory.
 
 
 
@@ -459,3 +459,13 @@ https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#ch
 Le service de notification de l'usine de charge de travail BlueXP permet à l'usine de charge de travail d'envoyer des notifications au service d'alertes BlueXP ou à une rubrique Amazon SNS. Les notifications envoyées aux alertes BlueXP apparaissent dans le panneau des alertes BlueXP. Lorsque la fabrique de charges de travail publie des notifications dans une rubrique Amazon SNS, les abonnés à cette rubrique (tels que les personnes ou d'autres applications) reçoivent les notifications aux points de terminaison configurés pour cette rubrique (tels que les e-mails ou les SMS).
 
 https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Configurer les notifications de l'usine de charge de travail BlueXP"]
+
+
+
+== 16 juin 2025
+
+
+
+=== Charges de travail des constructeurs
+
+Directive non résolue dans <stdin> - include::_whatsnew/2025-06-16_workload-builders.adoc[leveloffset=+1]

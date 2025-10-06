@@ -19,12 +19,12 @@ settings:
   langs: fr-fr,us-en,de-de,es-es,it-it,pt-br,ja-jp,ko-kr,zh-cn,zh-tw
 sidebar:
   entries:
-  - title: Notes de mise à jour d'usine de la charge de travail BlueXP 
+  - title: Notes de version de NetApp Workload Factory
     url: "/index.html"
   - title: Modifications récentes
     url: "/whats-new.html"
   - title: Mentions légales
     url: "/legal-notices.html"
 product-family:
-  name: BlueXP workload factory
+  name: NetApp Workload Factory
   repo: workload-family

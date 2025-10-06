@@ -26,12 +26,6 @@
   <block id="b04deaa23ce22ae0dafa2736e8afebed" category="doc">Charges de travail GenAI</block>
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">Configuration et administration</block>
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">Workloads VMware</block>
-  <block id="d2705530e45ff55c7a7db4a1196a8b0d" category="summary">Découvrez les derniers changements apportés aux charges de travail de l'usine BlueXP .</block>
-  <block id="482a03f8810c074753dd4da1f075dc70" category="doc">Modifications récentes de l'usine de workloads BlueXP </block>
-  <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">Ces notes de version décrivent les dernières améliorations apportées aux services cloud qui font partie de l'usine de workloads BlueXP .</block>
-  <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">Notes de mise à jour d'usine de la charge de travail BlueXP </block>
-  <block id="428b0b39be2352757edeb5f9f12a7bdd" category="inline-link">Usine de workloads BlueXP</block>
-  <block id="7cf449620aa459bc5c449db69b07e507" category="paragraph"><block ref="7cf449620aa459bc5c449db69b07e507" category="inline-link-rx"></block></block>
   <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">Journal des modifications de référence des autorisations</block>
   <block id="16cb0b733a26e9afa11f388e6d83aec1" category="inline-link-macro">Créer une base de connaissances GenAI</block>
   <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
@@ -206,4 +200,12 @@
   <block id="b77e8ec0a3425747f32b3dbc303adecb" category="section-title">30 juin 2025</block>
   <block id="7454fc4c14df2a987637928e569efe3a" category="section-title">29 juin 2025</block>
   <block id="edfbca9622799a953a48987a288fe283" category="paragraph">Workload Factory prend en charge la réduction de la capacité du disque SSD (Solid State Drive) de vos systèmes de fichiers de deuxième génération. Grâce à la capacité élastique du système de fichiers, vous pouvez ajuster dynamiquement la capacité de vos systèmes de fichiers pour répondre aux besoins de vos charges de travail.</block>
+  <block id="aeb31c9f8c311597856b129ab948b4e6" category="inline-link">Usine de charges de travail NetApp</block>
+  <block id="55f7843f27571db97da76bdf68a76d22" category="paragraph"><block ref="55f7843f27571db97da76bdf68a76d22" category="inline-link-rx"></block></block>
+  <block id="da0e88c69cf2ddf39d5537c04ab2fc69" category="summary">Découvrez les modifications les plus récentes apportées aux charges de travail qui font partie de NetApp Workload Factory.</block>
+  <block id="374d5bd32bb9ae08b0f703942e0fe21c" category="doc">Modifications récentes dans NetApp Workload Factory</block>
+  <block id="f6db487abe903d447c5070f569416c3a" category="section-title">16 juin 2025</block>
+  <block id="7d8a5882e1c618b27e728777a89e9734" category="paragraph">Directive non résolue dans &lt;stdin&gt; - include::_whatsnew/2025-06-16_workload-builders.adoc[leveloffset=+1]</block>
+  <block id="ed09318eed7d979b31cfb4afc3b11097" category="sidebar">Ces notes de publication décrivent les améliorations récentes apportées aux services cloud qui font partie de NetApp Workload Factory.</block>
+  <block id="9ff48e1eaa80562d8bc97f2d59b40e41" category="sidebar">Notes de version de NetApp Workload Factory</block>
 </blocks>
