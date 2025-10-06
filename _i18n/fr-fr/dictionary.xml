@@ -26,55 +26,13 @@
   <block id="b04deaa23ce22ae0dafa2736e8afebed" category="doc">Charges de travail GenAI</block>
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">Configuration et administration</block>
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">Workloads VMware</block>
-  <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">Journal des modifications de référence des autorisations</block>
   <block id="16cb0b733a26e9afa11f388e6d83aec1" category="inline-link-macro">Créer une base de connaissances GenAI</block>
   <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
-  <block id="e4b0d36f0e7c4f3745520d8f27ed510b" category="section-title">Améliorations du tableau de bord de stockage</block>
   <block id="959d33fa69dccfa15152c69ba90f9d41" category="doc">Charges de travail des constructeurs</block>
-  <block id="944ee388209d33a3bf1b309c6acdf693" category="doc">Prise en charge des sources de données hébergées sur des systèmes de fichiers NFS/SMB génériques</block>
-  <block id="9a7d241f00b55d0e00761313cced5dd8" category="paragraph">Vous pouvez désormais ajouter une source de données à partir d'un partage SMB ou NFS générique. Cela vous permet d'inclure des fichiers stockés sur des volumes hébergés par des systèmes de fichiers autres qu'Amazon FSx pour NetApp ONTAP.</block>
-  <block id="5cba57d460e5683815517b44a7811760" category="inline-link">Ajouter des sources de données à une base de connaissances</block>
-  <block id="b37629096d44c6fda917848365c84ebe" category="paragraph"><block ref="b37629096d44c6fda917848365c84ebe" category="inline-link-rx"></block></block>
-  <block id="6320af7d92cd5d357460c5cbc5f642a9" category="inline-link">Ajouter des sources de données à un connecteur</block>
-  <block id="5cd676bef1867c904c092c33ad4a8f2d" category="paragraph"><block ref="5cd676bef1867c904c092c33ad4a8f2d" category="inline-link-rx"></block></block>
-  <block id="1832a7f4d2abf297aa0cee87f4c043e3" category="doc">Présentation de la prise en charge du conseiller de migration pour Amazon Elastic VMware Service</block>
-  <block id="0a2319b536912bd5824ac0880375783c" category="paragraph">L'usine de charges de travail BlueXP pour VMware prend désormais en charge Amazon Elastic VMware Service. Grâce à l'assistant de migration, vous pouvez migrer rapidement vos charges de travail VMware sur site vers Amazon Elastic VMware Service. Vous optimisez ainsi vos coûts et bénéficiez d'un meilleur contrôle sur votre environnement VMware sans avoir à refactoriser ou à repenser la plateforme de vos applications.</block>
   <block id="e64998710319712d47612cc187a1dc35" category="inline-link">Créer un plan de déploiement pour Amazon EVS à l'aide du conseiller de migration</block>
   <block id="e38866fbf1fd8067b38b878041582246" category="paragraph"><block ref="e38866fbf1fd8067b38b878041582246" category="inline-link-rx"></block></block>
-  <block id="64c17706e0528a5c44c7beee628cc101" category="doc">Prise en charge du service de notification de l'usine de charge de travail BlueXP</block>
-  <block id="c0ae6f0ec7cb1322a1c6b72f77e783f2" category="paragraph">Le service de notification de l'usine de charge de travail BlueXP permet à l'usine de charge de travail d'envoyer des notifications au service d'alertes BlueXP ou à une rubrique Amazon SNS. Les notifications envoyées aux alertes BlueXP apparaissent dans le panneau des alertes BlueXP. Lorsque la fabrique de charges de travail publie des notifications dans une rubrique Amazon SNS, les abonnés à cette rubrique (tels que les personnes ou d'autres applications) reçoivent les notifications aux points de terminaison configurés pour cette rubrique (tels que les e-mails ou les SMS).</block>
-  <block id="76490568879e4523bb6bd6d8263472a9" category="inline-link">Configurer les notifications de l'usine de charge de travail BlueXP</block>
-  <block id="533a43c23a4d81612b2392465e022a51" category="paragraph"><block ref="533a43c23a4d81612b2392465e022a51" category="inline-link-rx"></block></block>
-  <block id="f3a98886e89c22ab1a8df16ff87d5b3c" category="doc">Mise à jour des autorisations pour les bases de données</block>
-  <block id="cb30bdb55bb8a7a0530a31a5e6cdd0bb" category="paragraph">L'autorisation suivante est désormais disponible en mode _lecture seule_ pour les bases de données : <block ref="f63e0d20057299c9c16bd0c2c9e92a5c" prefix=" " category="inline-code"></block> .</block>
-  <block id="e429c7230e4b94caf26e6020e5ea6f7a" category="paragraph"><block ref="e429c7230e4b94caf26e6020e5ea6f7a" category="inline-link-rx"></block></block>
-  <block id="a10c281531128badfefa7086b353ead0" category="paragraph"><block ref="a10c281531128badfefa7086b353ead0" category="inline-link-macro-rx"></block></block>
-  <block id="16608889ffd4210e3527b28d2cabeee1" category="paragraph">Le tableau de bord Stockage de la console Workload Factory inclut de nouvelles cartes pour les opportunités d'économies. La carte en haut du tableau de bord affiche le nombre d'opportunités d'économies pour les environnements de stockage exécutés sur Amazon Elastic Block Store (EBS), Amazon FSx for Windows File Server et Amazon Elastic File Systems (EFS). En bas du tableau de bord, trois nouvelles cartes affichent les opportunités d'économies par service de stockage Amazon : EBS, FSx for Windows File Server et EFS. À partir de chaque carte, vous pouvez explorer les opportunités d'économies plus en détail.</block>
-  <block id="e2fc557edefb4b2854999f60dbd0d379" category="paragraph">À partir de la carte de couverture de protection et de la carte d'intégrité des relations de réplication de FSx for ONTAP, vous pouvez vérifier la présence de volumes partiellement protégés dans vos systèmes de fichiers FSx for ONTAP et identifier les problèmes liés aux relations de réplication. Dans les deux cas, vous pouvez prendre des mesures pour résoudre les problèmes.</block>
-  <block id="34ccfe489231e34890602e4f0419b843" category="section-title">Améliorations de l'onglet Volume</block>
-  <block id="f659fbcb502240d4138a6337d4da17d5" category="paragraph">L'onglet Volumes de la console Workload Factory a été amélioré pour offrir une vue plus complète de vos systèmes de fichiers FSx for ONTAP. Ces améliorations incluent de nouvelles cartes pour la capacité SSD, le pool de capacité et la protection autonome contre les ransomwares NetApp avec IA (ARP/AI). Ces cartes résument l'utilisation de la capacité et la protection ARP/AI pour tous les volumes du système de fichiers.</block>
-  <block id="c1c23b72df9b53434f3c5ef6963cd2c1" category="section-title">Prise en charge des systèmes de fichiers Amazon FSX pour NetApp ONTAP de deuxième génération</block>
-  <block id="7efd44dd06c377a68f3fc78abf7d91fb" category="paragraph">Workload Factory prend désormais en charge les systèmes de fichiers Amazon FSx for NetApp ONTAP de deuxième génération. Vous pouvez créer, gérer et surveiller des systèmes de fichiers de deuxième génération dans la console Workload Factory. Toutes les nouvelles régions commerciales sont prises en charge.</block>
-  <block id="cd0ce691a9b616ae8983f22db2fb8a6d" category="inline-link-macro">Créer un système de fichiers de deuxième génération dans Workload Factory</block>
-  <block id="f784f74601a71805db546f7b6842f0e5" category="paragraph"><block ref="f784f74601a71805db546f7b6842f0e5" category="inline-link-macro-rx"></block></block>
-  <block id="094caa4bbbbdba779d6ef8c57b995856" category="section-title">Prise en charge du volume FlexVol pour rééquilibrer la capacité du volume</block>
-  <block id="ab0d60978b39ce0cb886ec1fbf91bad8" category="paragraph">Les volumes FlexVol sont détectables dans la console Workload Factory. Vous pouvez vérifier l'équilibre de vos volumes FlexVol et les rééquilibrer pour redistribuer la capacité lorsque des déséquilibres apparaissent au fil du temps, dus à l'ajout de nouveaux fichiers et à leur croissance.</block>
-  <block id="226bb141f0b474b8b8d4e55bfe659a94" category="inline-link-macro">Rééquilibrer la capacité d'un volume FlexVol</block>
-  <block id="7f11a5de29d58c93cc212be8cf51b761" category="paragraph"><block ref="7f11a5de29d58c93cc212be8cf51b761" category="inline-link-macro-rx"></block></block>
-  <block id="d7581ee541e7cfa51fd2f75f93b7e64e" category="section-title">Mise à jour de la terminologie</block>
-  <block id="6e0c2d8cb551de024f6700ca0407257e" category="paragraph">Le terme « Autonomous Ransomware Protection » (ARP) a été mis à jour en « NetApp Autonomous Ransomware Protection with AI » (ARP/AI) dans la console de l'usine de charge de travail.</block>
-  <block id="d474538a7c98b462c08197d24f7c1c60" category="section-title">ARP/AI activé par défaut pour les nouveaux volumes</block>
-  <block id="6a3bf8c141dbbeed37af8236f412b19a" category="paragraph">Lorsque vous créez un volume dans la console Workload Factory, la protection autonome contre les ransomwares NetApp avec IA (ARP/AI) est activée par défaut si le système de fichiers dispose d'une stratégie ARP/AI. Cela signifie que le volume est automatiquement protégé contre les attaques de ransomware grâce à des fonctionnalités de détection et de réponse basées sur l'IA.</block>
-  <block id="7e0b28b27ce3985a4a8d693330a04cb7" category="inline-link-macro">Créer un volume dans la fabrique de charges de travail</block>
-  <block id="3bf76f3556904b928c43201c04108364" category="paragraph"><block ref="3bf76f3556904b928c43201c04108364" category="inline-link-macro-rx"></block></block>
-  <block id="442d07125b5c2363eae9c33039172225" category="section-title">Prise en charge de la réplication pour les fichiers immuables</block>
-  <block id="6250cd311debe5758acc69f81921ab78" category="paragraph">Workload Factory prend en charge la réplication de volumes immuables d'un système FSx for ONTAP vers un autre système de fichiers FSx for ONTAP afin de protéger les données critiques contre toute suppression accidentelle ou attaque malveillante comme les rançongiciels. Le volume cible et son système de fichiers hôte sont immuables, ou verrouillés, et les données du système de fichiers cible ne peuvent être ni modifiées ni supprimées avant la fin de la période de conservation.</block>
-  <block id="b6fc33d7434bb860ad528753113881b1" category="inline-link-macro">Apprenez à créer une relation de réplication</block>
-  <block id="d3dbddfb353eaaa957947efb04ca7013" category="paragraph"><block ref="d3dbddfb353eaaa957947efb04ca7013" category="inline-link-macro-rx"></block></block>
   <block id="37b002845528ac0296b86d28bb71e5a5" category="inline-link-macro">Connectez-vous à un système de fichiers FSX pour ONTAP via un lien Lambda</block>
   <block id="bdd7f454c54673987f53c40f8e5b8072" category="paragraph"><block ref="bdd7f454c54673987f53c40f8e5b8072" category="inline-link-macro-rx"></block></block>
-  <block id="5c44c7d986372ccb1d679985b5416b64" category="section-title">Gérer le rôle d'exécution et les autorisations IAM lors de la création du lien</block>
-  <block id="43f8bec3c8d83ff27c8f5d629cd49d4d" category="paragraph">Vous pouvez désormais gérer le rôle d'exécution IAM et la politique d'autorisations associée en créant un lien dans la console Workload Factory. Un lien établit la connectivité entre votre compte Workload Factory et un ou plusieurs systèmes de fichiers FSx for ONTAP. Vous disposez de deux options pour attribuer le rôle d'exécution IAM et les autorisations associées : automatiquement ou par l'utilisateur. La gestion du rôle d'exécution et de la politique d'autorisations associée dans Workload Factory vous évite d'avoir recours à du code tiers.</block>
   <block id="c4363ade7c2d208d79dee9b60bc51922" category="inline-link-macro">Implémenter des configurations de base de données bien architecturées dans Workload Factory</block>
   <block id="a05724b342c36062e480732f660ae9d4" category="paragraph"><block ref="a05724b342c36062e480732f660ae9d4" category="inline-link-macro-rx"></block></block>
   <block id="6a6ae8005c209a1567f9003ea9e5cebe" category="doc">Améliorations apportées à l'onglet Relations de réplication</block>
@@ -176,36 +134,19 @@
   <block id="52574bdc9ce79e7e568096fa39264d72" category="section-title">Diminution de la capacité de stockage SSD disponible</block>
   <block id="298ae1d1e13ebe1f0f22936b7ea9ce33" category="inline-link-macro">Ajuster la capacité du système de fichiers</block>
   <block id="6b4be3b501bf6ae8984293c02d4d610b" category="paragraph"><block ref="6b4be3b501bf6ae8984293c02d4d610b" category="inline-link-macro-rx"></block></block>
-  <block id="c836d737c77c0dbce2c99a2b01c719fd" category="paragraph">Workload Factory fournit les notifications suivantes pour les bases de données :</block>
-  <block id="33e3371223dba19c723617802e06af8d" category="list-text">Rapport bien conçu</block>
-  <block id="d415d128365eca1587931ed756de7819" category="list-text">Déploiement de l'hôte</block>
-  <block id="8306ce5f84163ec6839ec7518f30183a" category="section-title">Amélioration de l'intégration pour l'enregistrement des instances</block>
-  <block id="d2240cc857b28c2cc0c761811ebb0e4d" category="paragraph">Workload Factory for Databases a amélioré son processus d'intégration pour l'enregistrement des instances exécutées sur Amazon FSx for NetApp ONTAP .  Vous pouvez désormais sélectionner des instances en masse pour l’enregistrement.  Une fois qu'une instance est enregistrée, vous pouvez créer et gérer les ressources de base de données dans la console de l'usine de charge de travail.</block>
-  <block id="4f91bce4a20615964f35d2fd97ddb2e1" category="inline-link-macro">Gestion des instances</block>
-  <block id="68d9261728b0a851ce7bc78b7cfd2a69" category="paragraph"><block ref="68d9261728b0a851ce7bc78b7cfd2a69" category="inline-link-macro-rx"></block></block>
-  <block id="2e91c32877a8bf4a56c1853f92a414ba" category="section-title">Analyse et correction du paramètre de délai d'expiration d'E/S multipath de Microsoft</block>
-  <block id="55dedf6eed5a2ce8c260a3944723e099" category="paragraph">L'état bien architecturé de vos instances de base de données inclut désormais l'analyse et le correctif pour le paramètre de délai d'expiration Microsoft Multipath I/O (MPIO).  La définition du délai d'expiration MPIO sur 60 secondes garantit la connectivité et la stabilité du stockage FSx for ONTAP pendant les basculements.  Si le paramètre MPIO n'est pas défini en conséquence, Workload Factory fournira un correctif pour définir la valeur du délai d'expiration MPIO sur 60 secondes.</block>
-  <block id="0f6f8a7d2c62793903fd07b4a68f2192" category="section-title">Améliorations des graphiques dans l'inventaire des instances</block>
-  <block id="6bb06f6a313d1245a77bdcc02f151dcd" category="paragraph">À partir de l'écran d'inventaire des instances, divers graphiques d'utilisation des ressources tels que le débit et les IOPS affichent désormais 7 jours de données afin que vous puissiez surveiller plus efficacement les performances des nœuds SQL à partir de la console de l'usine de charge de travail.  Les mesures de performances collectées à partir des nœuds SQL seront enregistrées dans Amazon CloudWatch, qui peut être utilisé pour Logs Insights ou intégré à d'autres services d'analyse dans votre environnement.</block>
-  <block id="8984f42ceef01f063ea7a1078e620318" category="paragraph">À partir des onglets Instances et Bases de données de l'inventaire, nous avons amélioré la description et la visualisation pour la protection.</block>
-  <block id="4698c78219bd6bc2a4fb47e8f4149213" category="section-title">Prise en charge de l'authentification Windows dans Workload Factory</block>
-  <block id="e6884d3b77d68ac903da5836a6c33345" category="paragraph">Désormais, Workload Factory prend en charge l'authentification SQL Server à l'aide d'utilisateurs authentifiés Windows pour enregistrer des instances et bénéficier des fonctionnalités de gestion.</block>
-  <block id="8373481dd509f9b495f59748db1aa76d" category="inline-link-macro">Enregistrer des instances dans la fabrique de charges de travail pour les bases de données</block>
-  <block id="b8419cf58039d1a67d2046abd157e28b" category="paragraph"><block ref="b8419cf58039d1a67d2046abd157e28b" category="inline-link-macro-rx"></block></block>
   <block id="b271a75b2d121a8cb5f59ae458394323" category="section-title">09 septembre 2025</block>
   <block id="595dacca64a0bfa1f3ae49b78ce41d38" category="section-title">01 septembre 2025</block>
   <block id="d341f0c47f4b7ad5cc1b4c9bb210cfda" category="section-title">12 août 2025</block>
   <block id="3488d38349240c72f75d081c2a79fa3b" category="section-title">04 août 2025</block>
   <block id="613abd0d9da6f7ee37d283174e11fcaf" category="section-title">03 août 2025</block>
-  <block id="b77e8ec0a3425747f32b3dbc303adecb" category="section-title">30 juin 2025</block>
-  <block id="7454fc4c14df2a987637928e569efe3a" category="section-title">29 juin 2025</block>
   <block id="edfbca9622799a953a48987a288fe283" category="paragraph">Workload Factory prend en charge la réduction de la capacité du disque SSD (Solid State Drive) de vos systèmes de fichiers de deuxième génération. Grâce à la capacité élastique du système de fichiers, vous pouvez ajuster dynamiquement la capacité de vos systèmes de fichiers pour répondre aux besoins de vos charges de travail.</block>
   <block id="aeb31c9f8c311597856b129ab948b4e6" category="inline-link">Usine de charges de travail NetApp</block>
   <block id="55f7843f27571db97da76bdf68a76d22" category="paragraph"><block ref="55f7843f27571db97da76bdf68a76d22" category="inline-link-rx"></block></block>
   <block id="da0e88c69cf2ddf39d5537c04ab2fc69" category="summary">Découvrez les modifications les plus récentes apportées aux charges de travail qui font partie de NetApp Workload Factory.</block>
   <block id="374d5bd32bb9ae08b0f703942e0fe21c" category="doc">Modifications récentes dans NetApp Workload Factory</block>
-  <block id="f6db487abe903d447c5070f569416c3a" category="section-title">16 juin 2025</block>
-  <block id="7d8a5882e1c618b27e728777a89e9734" category="paragraph">Directive non résolue dans &lt;stdin&gt; - include::_whatsnew/2025-06-16_workload-builders.adoc[leveloffset=+1]</block>
   <block id="ed09318eed7d979b31cfb4afc3b11097" category="sidebar">Ces notes de publication décrivent les améliorations récentes apportées aux services cloud qui font partie de NetApp Workload Factory.</block>
   <block id="9ff48e1eaa80562d8bc97f2d59b40e41" category="sidebar">Notes de version de NetApp Workload Factory</block>
+  <block id="2bbead322f2dd5c4a40fbd66537e304f" category="doc">BlueXP workload factory désormais NetApp Workload Factory</block>
+  <block id="9c80606adc6065bc48c6d99fbb8c3f1d" category="paragraph">BlueXP a été renommé et repensé pour mieux refléter le rôle qu'il joue dans la gestion de votre infrastructure de données. Par conséquent, BlueXP workload factory a été renommée NetApp Workload Factory.</block>
+  <block id="7fe837fc0a93acdad81da1d440ee3fd2" category="section-title">05 octobre 2025</block>
 </blocks>
