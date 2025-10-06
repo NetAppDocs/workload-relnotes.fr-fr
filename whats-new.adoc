@@ -29,6 +29,56 @@ BlueXP a été renommé et repensé pour mieux refléter le rôle qu'il joue dan
 
 
 
+=== Charges de travail des bases de données
+
+
+
+==== BlueXP workload factory désormais NetApp Workload Factory
+
+BlueXP a été renommé et repensé pour mieux refléter le rôle qu'il joue dans la gestion de votre infrastructure de données. Par conséquent, BlueXP workload factory a été renommée NetApp Workload Factory.
+
+
+
+==== Améliorations pour Oracle dans la console Workload Factory
+
+
+
+===== Écran des ressources de la base de données Oracle
+
+Chaque base de données Oracle dispose de son propre écran de ressources dédié disponible dans l'inventaire des bases de données. L'écran des ressources fournit un aperçu avec le nom de la base de données, l'état (en ligne ou hors ligne), la location et le type de déploiement. Sont également inclus des graphiques contenant les données suivantes sur une période de trois mois : utilisation du processeur, latence, IOPS et débit. L'utilisation de la capacité fournit la taille totale de la base de données, la taille des données écrites, la capacité du disque SSD utilisée et la capacité de stockage du pool utilisée.
+
+À partir de l'écran des ressources, vous pouvez afficher des informations sur le serveur Oracle (modèle de déploiement, système d'exploitation, édition, version, etc.), l'emplacement (compte AWS, région, zone de disponibilité et sous-réseau), le stockage et le calcul (détails du système de fichiers FSx for ONTAP , type d'instance de base de données et LUN et volumes associés) et la connectivité (VPC et protocole d'accès). Vous pouvez également vérifier l'état bien architecturé des configurations de base de données et afficher les bases de données enfichables (PDB) associées à la base de données.
+
+
+
+===== Prise en charge des bases de données enfichables Oracle
+
+Les bases de données Oracle enfichables sont visibles dans l'inventaire des bases de données et à partir de l'écran des ressources de leur base de données conteneur parent. Les informations suivantes sur vos PDB sont disponibles : nom de la CDB, nom de l'hôte, état de protection, taille de la base de données, système de fichiers FSx pour ONTAP , informations d'identification AWS, compte AWS et région.
+
+
+
+===== Analyse bien architecturée pour Oracle
+
+L'analyse bien architecturée comprend des évaluations des problèmes de configuration avec la disposition du stockage pour les bases de données Oracle sur NFS ou sur iSCSI avec ou sans gestion automatique du stockage (ASM) et des problèmes de configuration de stockage sur le système d'exploitation pour Oracle sur les LUN iSCSI. Vous pouvez utiliser ces informations pour prendre des décisions éclairées concernant vos déploiements de bases de données et garantir leur fonctionnement efficace.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implémenter des configurations de base de données bien architecturées dans Workload Factory"]
+
+
+
+==== Améliorations de l'inventaire des bases de données
+
+À partir de l’écran d’instance dans l’inventaire des bases de données, les options permettant de corriger, de reporter et d’ignorer un problème de configuration sont disponibles pour une ou plusieurs instances pour Microsoft SQL Server ou pour une ou plusieurs bases de données pour Oracle.
+
+
+
+==== Optimisez vos économies grâce au calculateur de stockage pour Amazon Elastic Block Store (EBS)
+
+Workload Factory peut analyser votre utilisation des performances EBS, puis suggérer la configuration FSx for ONTAP la meilleure et la plus rentable afin que vous puissiez économiser davantage en passant à FSx for ONTAP.
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["Découvrez les économies réalisées sur les environnements de stockage détectés dans la console Workload Factory"]
+
+
+
 === Configuration et administration
 
 
@@ -120,6 +170,14 @@ BlueXP a été renommé et repensé pour mieux refléter le rôle qu'il joue dan
 Le centre de planification des charges de travail VMware vous permet d'afficher et de gérer votre inventaire de machines virtuelles et vos plans de migration à partir d'un seul endroit. Vous pouvez télécharger et enregistrer plusieurs inventaires de machines virtuelles à partir de différents environnements et commencer à planifier une migration vers le service AWS EC2 ou Amazon Elastic VMware pour l'un d'entre eux. Vous pouvez également créer et enregistrer des plans de migration AWS EC2 ou EVS.
 
 https://docs.netapp.com/us-en/workload-vmware/explore-planning-center.html["Explorez le centre de planification des charges de travail VMware"]
+
+
+
+==== Présentation de la prise en charge du conseiller de migration pour Amazon Elastic VMware Service
+
+BlueXP Workload Factory pour VMware vous permet désormais d'utiliser le conseiller de migration Amazon Elastic VMware Service pour migrer rapidement vos charges de travail VMware sur site vers Amazon Elastic VMware Service. Une fois que vous avez créé un plan de migration à l’aide du conseiller de migration, il est automatiquement enregistré dans la liste des plans de migration du centre de planification.
+
+https://docs.netapp.com/us-en/workload-vmware/launch-migration-advisor-evs.html["Créer un plan de déploiement pour Amazon EVS à l'aide du conseiller de migration"]
 
 
 
@@ -418,7 +476,7 @@ link:https://review.docs.netapp.com/us-en/workload-fsx-ontap_grogu-5684-wa-dismi
 
 ==== Prise en charge améliorée du conseiller de migration pour Amazon Elastic VMware Service
 
-Le conseiller de migration Amazon Elastic VMware Service prend désormais en charge le déploiement et le montage automatiques de votre système de fichiers Amazon FSx for NetApp ONTAP . Cela vous permet de commencer à déployer vos machines virtuelles sur les systèmes de fichiers FSx pour ONTAP lorsque la migration vers l'environnement Amazon EVS est terminée.
+NetApp Workload Factory prend désormais en charge le déploiement et le montage automatiques de votre système de fichiers Amazon FSx for NetApp ONTAP . Cela vous permet de commencer à déployer vos machines virtuelles sur les systèmes de fichiers FSx for ONTAP une fois la migration vers l'environnement Amazon EVS terminée.
 
 https://docs.netapp.com/us-en/workload-vmware/launch-migration-advisor-evs-manual.html["Créer un plan de déploiement pour Amazon EVS à l'aide du conseiller de migration"]
 
