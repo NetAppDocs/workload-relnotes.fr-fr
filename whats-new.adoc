@@ -15,6 +15,26 @@ Découvrez les modifications les plus récentes apportées aux charges de travai
 
 
 
+== 06 octobre 2025
+
+
+
+=== Configuration et administration
+
+
+
+==== BlueXP workload factory désormais NetApp Workload Factory
+
+BlueXP a été renommé et repensé pour mieux refléter le rôle qu'il joue dans la gestion de votre infrastructure de données. Par conséquent, BlueXP workload factory a été renommée NetApp Workload Factory.
+
+
+
+==== Intégration de Ask Me avec MCP
+
+Ask Me, l'assistant IA de Workload Factory, est intégré au protocole de contexte de modèle (MCP). À l'aide de MCP, Ask Me s'interface en toute sécurité avec des environnements externes et interroge les outils API pour fournir des réponses adaptées à votre environnement de stockage spécifique.
+
+
+
 == 05 octobre 2025
 
 
@@ -70,6 +90,18 @@ link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledg
 Si le modèle d'intégration, de chat ou de reclassement que vous avez choisi dispose de paramètres d'inférence, vous pouvez désormais sélectionner un type d'inférence. Cela vous permet de mieux adapter les performances du chatbot et les besoins en ressources à vos besoins.
 
 link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["Créer une base de connaissances GenAI"]
+
+
+
+=== Configuration et administration
+
+
+
+==== Nouvelle notification pour le stockage
+
+Le service de notification NetApp Workload Factory inclut la notification des problèmes bien architecturés pour le stockage.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Notifications pour NetApp Workload Factory"]
 
 
 
