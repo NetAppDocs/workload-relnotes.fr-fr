@@ -1,0 +1,35 @@
+= BlueXP workload factory désormais NetApp Workload Factory
+:allow-uri-read: 
+
+
+
+
+=== BlueXP workload factory désormais NetApp Workload Factory
+
+BlueXP a été renommé et repensé pour mieux refléter le rôle qu'il joue dans la gestion de votre infrastructure de données. Par conséquent, BlueXP workload factory a été renommée NetApp Workload Factory.
+
+
+
+=== Prise en charge de l'ajout de sources de données NFS/SMB génériques dans les connecteurs NetApp pour Amazon Q Business
+
+À l’aide de l’API Workload Factory, vous pouvez désormais ajouter une source de données à partir d’un partage NFSv3, NFSv4 ou SMB générique à un connecteur NetApp pour Amazon Q Business. Cela vous permet d'inclure des fichiers stockés sur des volumes hébergés par des systèmes de fichiers autres qu'Amazon Amazon FSx for NetApp ONTAP.
+
+link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["Créer un connecteur NetApp pour Amazon Q Business"]
+
+link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add-data-sources-to-the-connector["6320af7d92cd5d357460c5cbc5f642a9"]
+
+
+
+=== Configuration avancée du chat pour les bases de connaissances
+
+Vous pouvez désormais configurer des paramètres de chat avancés applicables au modèle de chat de la base de connaissances, tels que la longueur de la réponse, la température, les paramètres de raisonnement, etc. Certains de ces paramètres, tels que les paramètres de récence et de temps de modification, les paramètres de récupération avancés et l'invite système, ne sont disponibles qu'à l'aide de l'API Workload Factory.
+
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["Créer une base de connaissances GenAI"]
+
+
+
+=== La sélection du type d'inférence est désormais prise en charge pour les modèles d'intégration, de discussion et de reclassement
+
+Si le modèle d'intégration, de chat ou de reclassement que vous avez choisi dispose de paramètres d'inférence, vous pouvez désormais sélectionner un type d'inférence. Cela vous permet de mieux adapter les performances du chatbot et les besoins en ressources à vos besoins.
+
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["Créer une base de connaissances GenAI"]
