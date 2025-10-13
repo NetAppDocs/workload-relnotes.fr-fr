@@ -43,3 +43,11 @@ image:screenshot-manage-snapshots-screen.png["Capture d'écran qui montre l'écr
 Workload Factory prend en charge la réduction de la capacité du disque SSD (Solid State Drive) de vos systèmes de fichiers de deuxième génération. Grâce à la capacité élastique du système de fichiers, vous pouvez ajuster dynamiquement la capacité de vos systèmes de fichiers pour répondre aux besoins de vos charges de travail.
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/increase-file-system-capacity.html["Ajuster la capacité du système de fichiers"]
+
+
+
+=== Nouvelle notification pour le stockage
+
+Le service de notification de l'usine de charge de travail inclut des notifications de réussite et d'échec pour la gestion automatique de la capacité de stockage.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Notifications pour BlueXP workload factory"^]
