@@ -35,7 +35,7 @@ Vous pouvez effectuer les opérations de gestion des volumes de cache suivantes 
 * Supprimer un volume de cache
 
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html["Gérer les volumes de cache"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html["Gérer les volumes de cache"]
 
 
 
@@ -43,7 +43,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html[
 
 Vous pouvez activer la gestion automatique des inodes sans avoir besoin d'activer la gestion automatique de la capacité.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-management.html["Activer la gestion automatique des inodes"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-management.html["Activer la gestion automatique des inodes"]
 
 
 
@@ -57,7 +57,7 @@ Des alertes de seuil sont disponibles pour la capacité et l'utilisation des ino
 
 Vous pouvez réduire la taille des volumes NFS et SMB/CIFS dans NetApp Workload Factory. Cette fonctionnalité permet une meilleure gestion des ressources de stockage en vous permettant de réduire la taille des volumes qui ne sont plus nécessaires à leur capacité actuelle.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/adjust-volume-capacity.html["Diminuer la capacité d'un volume"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/adjust-volume-capacity.html["Diminuer la capacité d'un volume"]
 
 
 
@@ -88,7 +88,7 @@ Workload Factory offre une plus grande clarté quant aux autorisations requises 
 
 Lors de l'ajout d'identifiants, vous pouvez sélectionner une ou plusieurs de ces stratégies d'autorisation en fonction du niveau d'accès que vous souhaitez accorder à Workload Factory.
 
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Référence des autorisations de Workload Factory"^]
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Référence des autorisations de Workload Factory"]
 
 
 
@@ -96,7 +96,7 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.ht
 
 Vous pouvez créer un coffre-fort numérique en utilisant FSx for ONTAP comme source ou cible dans l'architecture du coffre-fort numérique. Les coffres-forts numériques offrent un environnement sécurisé et isolé pour le stockage des données critiques, les protégeant ainsi des ransomwares et autres cybermenaces.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-cyber-vault.html["Configurer un coffre-fort numérique avec FSx pour ONTAP"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-cyber-vault.html["Configurer un coffre-fort numérique avec FSx pour ONTAP"]
 
 
 
@@ -157,6 +157,34 @@ link:https://docs.netapp.com/us-en/workload-databases/protect-sql-server.html["P
 Vous pouvez filtrer et afficher les journaux d'erreurs de Microsoft SQL Server par balises orientées infrastructure lorsque vous utilisez la fonctionnalité d'analyse des erreurs dans Workload Factory. Cette amélioration vous permet de trier, de dépanner et de résoudre rapidement les problèmes.
 
 link:https://docs.netapp.com/us-en/workload-databases/analyze-error-logs.html["Analyser les journaux d'erreurs avec filtrage par étiquette"^]
+
+
+
+=== Configuration et administration
+
+
+
+==== Mise à jour des autorisations
+
+Dans cette version, nous avons apporté des mises à jour importantes aux politiques d'autorisation pour le stockage, les bases de données et les charges de travail VMware afin d'améliorer la sécurité et le contrôle des utilisateurs. Vous pouvez personnaliser vos paramètres d'autorisation de manière plus précise, en ajoutant ou en supprimant des autorisations selon vos besoins.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Référence des autorisations pour Workload Factory"]
+
+
+
+==== Nouvelle notification pour le stockage
+
+Le service de notification NetApp Workload Factory inclut la notification pour la gestion automatique des inodes pour le stockage.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Notifications pour NetApp Workload Factory"]
+
+
+
+==== Avertissements de seuil pour la gestion automatique de la capacité et des inodes
+
+La gestion automatique de la capacité et des inodes pour le stockage peut être configurée avec un seuil d'alerte qui déclenche une notification du service de notification Workload Factory. Pour utiliser cette fonctionnalité, vous devez d'abord activer le service de notification Workload Factory.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Configurer les notifications pour NetApp Workload Factory"]
 
 
 

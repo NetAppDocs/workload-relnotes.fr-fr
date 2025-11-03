@@ -16,7 +16,7 @@ Vous pouvez effectuer les opérations de gestion des volumes de cache suivantes 
 * Supprimer un volume de cache
 
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html["Gérer les volumes de cache"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html["Gérer les volumes de cache"]
 
 
 
@@ -24,7 +24,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html[
 
 Vous pouvez activer la gestion automatique des inodes sans avoir besoin d'activer la gestion automatique de la capacité.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-management.html["Activer la gestion automatique des inodes"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-management.html["Activer la gestion automatique des inodes"]
 
 
 
@@ -38,7 +38,7 @@ Des alertes de seuil sont disponibles pour la capacité et l'utilisation des ino
 
 Vous pouvez réduire la taille des volumes NFS et SMB/CIFS dans NetApp Workload Factory. Cette fonctionnalité permet une meilleure gestion des ressources de stockage en vous permettant de réduire la taille des volumes qui ne sont plus nécessaires à leur capacité actuelle.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/adjust-volume-capacity.html["Diminuer la capacité d'un volume"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/adjust-volume-capacity.html["Diminuer la capacité d'un volume"]
 
 
 
@@ -69,7 +69,7 @@ Workload Factory offre une plus grande clarté quant aux autorisations requises 
 
 Lors de l'ajout d'identifiants, vous pouvez sélectionner une ou plusieurs de ces stratégies d'autorisation en fonction du niveau d'accès que vous souhaitez accorder à Workload Factory.
 
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Référence des autorisations de Workload Factory"^]
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Référence des autorisations de Workload Factory"]
 
 
 
@@ -77,4 +77,4 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.ht
 
 Vous pouvez créer un coffre-fort numérique en utilisant FSx for ONTAP comme source ou cible dans l'architecture du coffre-fort numérique. Les coffres-forts numériques offrent un environnement sécurisé et isolé pour le stockage des données critiques, les protégeant ainsi des ransomwares et autres cybermenaces.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-cyber-vault.html["Configurer un coffre-fort numérique avec FSx pour ONTAP"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-cyber-vault.html["Configurer un coffre-fort numérique avec FSx pour ONTAP"]
