@@ -1,0 +1,59 @@
+= Améliorations du tableau de bord
+:allow-uri-read: 
+
+
+
+
+=== Améliorations du tableau de bord
+
+Le nouveau tableau de bord est simplifié et mieux organisé pour offrir une vue d'ensemble plus claire de vos ressources de base de données et des fonctionnalités clés de Workload Factory sur un seul écran ; une carte met en évidence les ressources de base de données, une carte fournit des informations sur le score et l'analyse de l'architecture, une carte affiche l'analyse des erreurs, deux cartes affichent le coût mensuel et les économies potentielles, et une carte affiche des informations sur les environnements de test.
+
+
+
+=== Analyse bien architecturée pour Oracle
+
+L'analyse bien conçue comprend les évaluations et les correctifs suivants pour les configurations Oracle :
+
+* Système d'exploitation de configuration de stockage utilisant le protocole NFS : évalue et corrige les problèmes de configuration NFS pour les déploiements de bases de données Oracle existants.
+* Système d'exploitation de configuration de stockage utilisant le protocole iSCSI : évalue et corrige les problèmes de configuration iSCSI pour les déploiements de bases de données Oracle existants.
+* Système d'exploitation de configuration de stockage utilisant Automatic Storage Management (ASM) : évalue les problèmes de configuration avec la configuration ASM pour les déploiements de bases de données Oracle existants.
+
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implémenter des configurations de base de données bien architecturées dans Workload Factory"]
+
+
+
+=== Modifications des autorisations pour Workload Factory pour les bases de données
+
+Workload Factory for Databases a mis à jour les politiques d'autorisation afin de clarifier les exigences pour des actions spécifiques et d'offrir une granularité permettant de sélectionner uniquement les autorisations nécessaires. Lorsque vous ajouterez des informations d'identification, vous aurez le choix entre trois options d'autorisation au lieu du modèle d'autorisation précédent qui était _lecture seule_ et _lecture/écriture_. Le nouveau modèle d'autorisations décompose les politiques d'autorisation comme suit :
+
+* Visualisation, planification et analyse : consultez l’inventaire des ressources de votre base de données, évaluez leur état, examinez l’analyse de l’architecture de vos configurations, accédez à l’analyse des journaux d’erreurs et explorez les économies potentielles.
+* _Opérations et correction_ : effectuez les tâches opérationnelles liées à vos ressources de base de données et corrigez les problèmes de configuration de la base de données et du système de stockage de fichiers FSx pour ONTAP sous-jacent.
+* _Création d'hôtes de base de données_ : déployer les hôtes de base de données et le système de stockage de fichiers FSx pour ONTAP sous-jacent conformément aux meilleures pratiques
+
+
+Lors de l'ajout d'identifiants, vous pouvez sélectionner une ou plusieurs de ces stratégies d'autorisation en fonction du niveau d'accès que vous souhaitez accorder à Workload Factory for Databases.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Référence des autorisations de Workload Factory"^]
+
+
+
+=== Écran de tableau de bord bien conçu ajouté
+
+Un nouvel écran de tableau de bord _bien conçu_ a été ajouté au menu Bases de données. Cet écran vous permet d'obtenir une vue d'ensemble de l'état de configuration de l'ensemble de votre parc de bases de données.
+
+
+
+=== Protection des modifications pour les déploiements de bases de données dans NetApp Backup and Recovery
+
+Depuis la console Workload Factory, vous pouvez sélectionner l'option permettant de modifier la protection d'une ressource protégée, puis vous serez redirigé vers la section Sauvegarde et restauration de la NetApp Console où vous pourrez modifier la stratégie ou la planification de protection.
+
+link:https://docs.netapp.com/us-en/workload-databases/protect-sql-server.html["Protection contre la modification pour les déploiements de bases de données"]
+
+
+
+=== Le filtrage des erreurs par étiquettes est disponible pour la fonction d'analyse des erreurs.
+
+Vous pouvez filtrer et afficher les journaux d'erreurs de Microsoft SQL Server par balises orientées infrastructure lorsque vous utilisez la fonctionnalité d'analyse des erreurs dans Workload Factory. Cette amélioration vous permet de trier, de dépanner et de résoudre rapidement les problèmes.
+
+link:https://docs.netapp.com/us-en/workload-databases/analyze-error-logs.html["Analyser les journaux d'erreurs avec filtrage par étiquette"^]

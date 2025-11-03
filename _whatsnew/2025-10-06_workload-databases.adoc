@@ -42,7 +42,7 @@ link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.ht
 
 
 
-=== Optimisez vos économies grâce au calculateur de stockage pour Amazon Elastic Block Store (EBS)
+=== Optimisez les économies en fonction de l'utilisation d'Amazon Elastic Block Store (EBS)
 
 Workload Factory peut analyser votre utilisation des performances EBS, puis suggérer la configuration FSx for ONTAP la meilleure et la plus rentable afin que vous puissiez économiser davantage en passant à FSx for ONTAP.
 
