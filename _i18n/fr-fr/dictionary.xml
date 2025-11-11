@@ -35,12 +35,8 @@
   <block id="4a854a1349dc1900974f3bf6a9552245" category="section-title">Mises à jour d'analyse bien conçues</block>
   <block id="bfebf248126ee0c8c192d7442b03e1a1" category="inline-link-macro">Affichez l'état bien architecturé de vos systèmes de fichiers FSx for ONTAP</block>
   <block id="2a708c78876e2ad54c0b8577c3b2bbd5" category="paragraph"><block ref="2a708c78876e2ad54c0b8577c3b2bbd5" category="inline-link-macro-rx"></block></block>
-  <block id="412038dfc7c530b95fd4f54ca173992c" category="paragraph">La BlueXP backup and recovery vous permettent de sauvegarder, restaurer, vérifier et cloner des bases de données et des groupes de disponibilité Microsoft SQL Server. À partir de la console de l’usine de charge de travail, vous pouvez accéder et utiliser la BlueXP backup and recovery pour protéger les charges de travail Microsoft SQL Server.</block>
   <block id="0eabf86e93873fc39b5a49903ec1c780" category="inline-link-macro">Découvrez comment protéger les charges de travail Microsoft SQL Server via la console Workload Factory</block>
-  <block id="7b26957c70db2d24aefeef252ab7b883" category="inline-link-macro">Présentation de la protection des charges de travail Microsoft SQL avec la BlueXP backup and recovery</block>
-  <block id="6f452244df857c1e0fc35a2a40650322" category="paragraph">Pour plus de détails sur la BlueXP backup and recovery, reportez-vous au<block ref="b3db6ed8425306b30d05a9028a6a4afe" category="inline-link-macro-rx"></block> .</block>
   <block id="82776afd94423c79dbb6478467a55ee1" category="paragraph"><block ref="01ada1ee9ae7e42f0ced5cd933931e08" category="inline-link-macro-rx"></block> .</block>
-  <block id="1d7888e9a7739b1a3282310704484ae5" category="doc">La BlueXP backup and recovery prennent désormais en charge les charges de travail Microsoft SQL Server</block>
   <block id="c66ae4617a5e7b903fa49494f6025fe3" category="doc">Analyseur de journaux d'erreurs basé sur l'IA Agentic</block>
   <block id="9d9b1a38d2c7c04daeaa22b4ab5a3d5d" category="paragraph">L'analyseur de journaux d'erreurs basé sur l'IA Agentic est une nouvelle fonctionnalité qui exploite des algorithmes d'apprentissage automatique avancés pour détecter et analyser automatiquement les erreurs dans les fichiers journaux. Cet outil vise à rationaliser le processus de dépannage en fournissant aux développeurs des informations et des recommandations exploitables basées sur les modèles qu'il identifie dans les journaux.</block>
   <block id="b8b677d9dba6a14dd05b3a0eb592a9c5" category="inline-link-macro">En savoir plus sur l'analyseur de journaux d'erreurs basé sur l'IA Agentic</block>
@@ -78,7 +74,6 @@
   <block id="6b4be3b501bf6ae8984293c02d4d610b" category="paragraph"><block ref="6b4be3b501bf6ae8984293c02d4d610b" category="inline-link-macro-rx"></block></block>
   <block id="b271a75b2d121a8cb5f59ae458394323" category="section-title">09 septembre 2025</block>
   <block id="595dacca64a0bfa1f3ae49b78ce41d38" category="section-title">01 septembre 2025</block>
-  <block id="d341f0c47f4b7ad5cc1b4c9bb210cfda" category="section-title">12 août 2025</block>
   <block id="edfbca9622799a953a48987a288fe283" category="paragraph">Workload Factory prend en charge la réduction de la capacité du disque SSD (Solid State Drive) de vos systèmes de fichiers de deuxième génération. Grâce à la capacité élastique du système de fichiers, vous pouvez ajuster dynamiquement la capacité de vos systèmes de fichiers pour répondre aux besoins de vos charges de travail.</block>
   <block id="aeb31c9f8c311597856b129ab948b4e6" category="inline-link">Usine de charges de travail NetApp</block>
   <block id="55f7843f27571db97da76bdf68a76d22" category="paragraph"><block ref="55f7843f27571db97da76bdf68a76d22" category="inline-link-rx"></block></block>
@@ -199,7 +194,6 @@
   <block id="d9fff61478503c71474a780705c79af6" category="list-text">Visualisation, planification et analyse : consultez l’inventaire des ressources de votre base de données, évaluez leur état, examinez l’analyse de l’architecture de vos configurations, accédez à l’analyse des journaux d’erreurs et explorez les économies potentielles.</block>
   <block id="9ef8eb2bc51c8c6f6ba459302a542484" category="list-text">_Opérations et correction_ : effectuez les tâches opérationnelles liées à vos ressources de base de données et corrigez les problèmes de configuration de la base de données et du système de stockage de fichiers FSx pour ONTAP sous-jacent.</block>
   <block id="3f285f24375531d34b8b7d73726b69bc" category="list-text">_Création d'hôtes de base de données_ : déployer les hôtes de base de données et le système de stockage de fichiers FSx pour ONTAP sous-jacent conformément aux meilleures pratiques</block>
-  <block id="6ca55df595e9339b20f869e49eb0d710" category="paragraph">Lors de l'ajout d'identifiants, vous pouvez sélectionner une ou plusieurs de ces stratégies d'autorisation en fonction du niveau d'accès que vous souhaitez accorder à Workload Factory for Databases.</block>
   <block id="034b7227f8903ae8faac7359c9b3d064" category="section-title">Écran de tableau de bord bien conçu ajouté</block>
   <block id="7a524d371f7a263dae481eea0bc3de88" category="paragraph">Un nouvel écran de tableau de bord _bien conçu_ a été ajouté au menu Bases de données. Cet écran vous permet d'obtenir une vue d'ensemble de l'état de configuration de l'ensemble de votre parc de bases de données.</block>
   <block id="54543cd5b64fb08ea26d865ed21c8691" category="section-title">Protection des modifications pour les déploiements de bases de données dans NetApp Backup and Recovery</block>
@@ -236,4 +230,5 @@
   <block id="1d194f6c398ca78aaffd8c430203e1ec" category="section-title">Améliorations de l'assistant de migration Amazon EC2</block>
   <block id="bd926a6dc82c9eb9135d58e6c5a33568" category="paragraph">Cette version de NetApp Workload Factory pour VMware apporte plusieurs améliorations à l'expérience du conseiller de migration :</block>
   <block id="62057df0ae6e346379f483246f31203b" category="list-text">*Enregistrer ou télécharger un plan de migration* : Vous pouvez désormais enregistrer ou télécharger un plan de migration au format PDF ou CSV. Lorsque vous enregistrez un plan de migration, celui-ci est enregistré sur votre compte Workload Factory.</block>
+  <block id="d0892726ec1e74441a4a801494ed29bb" category="paragraph">Lors de l'ajout d'informations d'identification, vous pouvez sélectionner une ou plusieurs de ces stratégies d'autorisation en fonction du niveau d'accès que vous souhaitez accorder à Workload Factory for Databases.</block>
 </blocks>

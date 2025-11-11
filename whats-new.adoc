@@ -132,7 +132,7 @@ Workload Factory for Databases a mis à jour les politiques d'autorisation afin 
 * _Création d'hôtes de base de données_ : déployer les hôtes de base de données et le système de stockage de fichiers FSx pour ONTAP sous-jacent conformément aux meilleures pratiques
 
 
-Lors de l'ajout d'identifiants, vous pouvez sélectionner une ou plusieurs de ces stratégies d'autorisation en fonction du niveau d'accès que vous souhaitez accorder à Workload Factory for Databases.
+Lors de l'ajout d'informations d'identification, vous pouvez sélectionner une ou plusieurs de ces stratégies d'autorisation en fonction du niveau d'accès que vous souhaitez accorder à Workload Factory for Databases.
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Référence des autorisations de Workload Factory"^]
 
@@ -560,21 +560,3 @@ link:https://docs.netapp.com/us-en/workload-databases/protect-sql-server.html["D
 L'analyse bien conçue évalue et corrige le désalignement de l'unité de transmission maximale (MTU) sur les points de terminaison pour Microsoft SQL Server sur FSx pour le stockage ONTAP . L’alignement des paramètres MTU permet d’optimiser les performances du réseau et de réduire la latence des charges de travail SQL Server.
 
 link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implémenter des configurations de base de données bien architecturées dans Workload Factory"]
-
-
-
-== 12 août 2025
-
-
-
-=== Charges de travail des bases de données
-
-
-
-==== La BlueXP backup and recovery prennent désormais en charge les charges de travail Microsoft SQL Server
-
-La BlueXP backup and recovery vous permettent de sauvegarder, restaurer, vérifier et cloner des bases de données et des groupes de disponibilité Microsoft SQL Server. À partir de la console de l’usine de charge de travail, vous pouvez accéder et utiliser la BlueXP backup and recovery pour protéger les charges de travail Microsoft SQL Server.
-
-link:https://docs.netapp.com/us-en/workload-databases/protect-sql-server.html["Découvrez comment protéger les charges de travail Microsoft SQL Server via la console Workload Factory"] .
-
-Pour plus de détails sur la BlueXP backup and recovery, reportez-vous aulink:https://docs.netapp.com/us-en/bluexp-backup-recovery/br-use-mssql-protect-overview.html["Présentation de la protection des charges de travail Microsoft SQL avec la BlueXP backup and recovery"^] .

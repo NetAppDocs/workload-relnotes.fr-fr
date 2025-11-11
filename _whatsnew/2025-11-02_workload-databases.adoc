@@ -32,7 +32,7 @@ Workload Factory for Databases a mis à jour les politiques d'autorisation afin 
 * _Création d'hôtes de base de données_ : déployer les hôtes de base de données et le système de stockage de fichiers FSx pour ONTAP sous-jacent conformément aux meilleures pratiques
 
 
-Lors de l'ajout d'identifiants, vous pouvez sélectionner une ou plusieurs de ces stratégies d'autorisation en fonction du niveau d'accès que vous souhaitez accorder à Workload Factory for Databases.
+Lors de l'ajout d'informations d'identification, vous pouvez sélectionner une ou plusieurs de ces stratégies d'autorisation en fonction du niveau d'accès que vous souhaitez accorder à Workload Factory for Databases.
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Référence des autorisations de Workload Factory"^]
 
