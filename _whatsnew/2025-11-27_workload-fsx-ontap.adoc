@@ -53,3 +53,11 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-fsx-tags.html["Gér
 Vous pouvez augmenter ou diminuer la capacité des volumes de cache depuis la console Workload Factory.
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html["Gérer les volumes de cache dans Workload Factory"]
+
+
+
+=== Prise en charge des points d'accès AWS S3 pour FSx for ONTAP
+
+Grâce à cette fonctionnalité, vous pouvez créer des volumes à l'aide de points d'accès S3 depuis la console Workload Factory. En utilisant un point d'accès S3, vous pouvez accéder aux données de fichiers résidant sur des volumes SMB/CIFS ou NFS via les API AWS S3. Cela vous permet d'intégrer vos données existantes avec GenAI, ML et les analyses des services AWS qui prennent en charge les points d'accès S3.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Créer un volume"]

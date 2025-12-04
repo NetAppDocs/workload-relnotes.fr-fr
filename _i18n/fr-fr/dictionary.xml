@@ -263,4 +263,10 @@
   <block id="f80c2c54334d4ddca4016b89152c6684" category="list-text"><block ref="93804e96d3f417a0088c564647dd28e9" prefix="" category="inline-code"></block></block>
   <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">Journal des modifications de référence des autorisations</block>
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
+  <block id="01f76f754caa3b688233762c1b9391f6" category="section-title">Prise en charge des points d'accès AWS S3 pour FSx for ONTAP</block>
+  <block id="3b8b774c9a2fdbcd783a971c096ca5f2" category="paragraph">Grâce à cette fonctionnalité, vous pouvez créer des volumes à l'aide de points d'accès S3 depuis la console Workload Factory. En utilisant un point d'accès S3, vous pouvez accéder aux données de fichiers résidant sur des volumes SMB/CIFS ou NFS via les API AWS S3. Cela vous permet d'intégrer vos données existantes avec GenAI, ML et les analyses des services AWS qui prennent en charge les points d'accès S3.</block>
+  <block id="dc88dce8ec264777b2f90ec0af744f43" category="inline-link-macro">Créer un volume</block>
+  <block id="d3156376048c94102c97709d5ff05e75" category="paragraph"><block ref="d3156376048c94102c97709d5ff05e75" category="inline-link-macro-rx"></block></block>
+  <block id="d30cb805d7270ac0b7cc06375888e47f" category="paragraph">NetApp Workload Factory prend en charge les points d'accès AWS S3 pour vos systèmes de fichiers FSx for ONTAP . Vous pouvez créer des volumes à l'aide de points d'accès S3, attribuer des points d'accès S3 à un volume existant et gérer les points d'accès S3 depuis la console Workload Factory. En utilisant un point d'accès S3, vous pouvez accéder aux données de fichiers résidant sur des volumes SMB/CIFS ou NFS via les API AWS S3. Cela vous permet d'intégrer vos données existantes avec GenAI, ML et les analyses des services AWS qui prennent en charge les points d'accès S3.</block>
+  <block id="788c421d379c47cc27e8fdc18771f4c7" category="section-title">2 décembre 2025</block>
 </blocks>
