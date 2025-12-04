@@ -8,4 +8,6 @@
 
 NetApp Workload Factory prend en charge les points d'accès AWS S3 pour vos systèmes de fichiers FSx for ONTAP . Vous pouvez créer des volumes à l'aide de points d'accès S3, attribuer des points d'accès S3 à un volume existant et gérer les points d'accès S3 depuis la console Workload Factory. En utilisant un point d'accès S3, vous pouvez accéder aux données de fichiers résidant sur des volumes SMB/CIFS ou NFS via les API AWS S3. Cela vous permet d'intégrer vos données existantes avec GenAI, ML et les analyses des services AWS qui prennent en charge les points d'accès S3.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Créer un volume"]
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Créer un volume à l'aide de points d'accès S3"]
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["Gérer les points d'accès S3 pour un volume"]
+
