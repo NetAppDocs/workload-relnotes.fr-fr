@@ -1,0 +1,18 @@
+= Améliorations de l'intégration d'Active Directory
+:allow-uri-read: 
+
+
+
+
+=== Améliorations de l'intégration d'Active Directory
+
+Workload Factory for Databases inclut trois nouveaux champs Active Directory (AD) lors du déploiement de Microsoft SQL Server à l'aide de l'option *Création avancée*. Ces améliorations vous permettent de spécifier les préférences de jonction à Active Directory et d'utiliser un compte de service géré.
+
+Les nouveaux champs AD sont :
+
+* Contrôleur de domaine préféré
+* Parcours privilégié au sein de l'unité organisationnelle
+* Groupe Active Directory cible
+
+
+link:https://docs.netapp.com/us-en/workload-databases/create-database.html["Déployer Microsoft SQL Server"]
