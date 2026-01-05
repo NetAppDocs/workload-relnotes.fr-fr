@@ -19,6 +19,70 @@ Découvrez les modifications les plus récentes apportées aux charges de travai
 
 
 
+=== Amazon FSX pour NetApp ONTAP
+
+
+
+==== Mises à jour d'analyse bien conçues
+
+Workload Factory analyse vos systèmes de fichiers FSx pour ONTAP pour les configurations suivantes :
+
+* La protection autonome contre les ransomwares NetApp (ARP/AI) désactivée inclut les périphériques de stockage par blocs : vérifie si ARP/AI est désactivé sur les volumes de périphériques de stockage par blocs
+* Mode d'écriture de la relation de cache : vérifie si le mode d'écriture est optimal pour la charge de travail du volume de cache.
+* Suppression des sauvegardes inutiles : vérifie si les sauvegardes sont obsolètes ou inutiles et peuvent être supprimées pour réduire les coûts.
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Affichez l'état bien architecturé de vos systèmes de fichiers FSx for ONTAP"]
+
+
+
+==== Intégration de l'assistant IA à la page d'accueil de Ask me
+
+La page d'accueil de la console Workload Factory intègre l'assistant IA Ask me, vous permettant de poser des questions sur votre propre infrastructure de stockage, d'obtenir des informations personnalisées directement à partir de votre environnement et de consulter les conversations précédentes. Vous pouvez interagir avec « Demandez-moi » pour comprendre vos charges de travail, résoudre les problèmes et en savoir plus sur Workload Factory, le tout sans quitter la console.
+
+
+
+==== Utilisation du principal utilisateur IAM dans les stratégies d'autorisation basées sur les ressources de liaison Lambda
+
+Les liens Lambda utilisés pour connecter votre compte Workload Factory à un ou plusieurs systèmes de fichiers FSx for ONTAP afin d'effectuer des opérations ONTAP avancées utilisent désormais le principal utilisateur IAM pour les autorisations de stratégie basées sur les ressources. Cette modification permet une meilleure adéquation avec les meilleures pratiques du secteur en matière d'accès aux ressources AWS.
+
+
+
+==== Écran d'analyse ajouté pour l'analyseur IA des événements EMS
+
+Un nouvel écran _Analyse_ a été ajouté au menu Stockage. À partir de cet écran, vous pouvez utiliser la fonctionnalité d'analyse IA pour les événements FSx for ONTAP EMS.
+
+
+
+==== Améliorations apportées aux périphériques de stockage par blocs dans NetApp Workload Factory
+
+Les améliorations suivantes ont été apportées aux périphériques de stockage par blocs.
+
+
+
+===== Création de périphérique de blocage
+
+NetApp Workload Factory prend en charge la création de périphériques de stockage par blocs utilisant le protocole iSCSI sur les systèmes de fichiers FSx pour ONTAP afin que vous puissiez mieux prendre en charge vos applications métier (LOB) depuis la console Workload Factory.
+
+
+
+===== Améliorations de la gestion des périphériques de bloc
+
+NetApp Workload Factory inclut les améliorations suivantes pour link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-devices.html["gestion des périphériques de stockage"]. Vous pouvez désormais effectuer les tâches suivantes depuis la console Workload Factory :
+
+* Gérer l'accès client
+* Données de bloc d'archivage
+* Supprimer un périphérique de blocage
+
+
+
+
+===== Prise en charge d'ARP/AI sur les volumes FlexVol contenant des périphériques de stockage par blocs
+
+Vous pouvez activer link:https://docs.netapp.com/us-en/workload-fsx-ontap/ransomware-protection.html["Protection autonome contre les ransomwares NetApp avec IA (ARP/AI)"] sur les volumes FlexVol contenant des périphériques de stockage par blocs. L'activation d'ARP/AI permet de détecter les attaques de ransomware grâce à l'IA et facilite la récupération des données.
+
+
+
 === Charges de travail des bases de données
 
 
