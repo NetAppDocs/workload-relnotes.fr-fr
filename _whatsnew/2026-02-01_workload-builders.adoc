@@ -1,0 +1,37 @@
+= Filtrage amélioré du tableau de bord avec des balises personnalisables
+:allow-uri-read: 
+
+
+
+
+=== Filtrage amélioré du tableau de bord avec des balises personnalisables
+
+Vous pouvez désormais configurer jusqu'à cinq filtres personnalisés sur le tableau de bord EDA en fonction de vos balises AWS. Chaque filtre personnalisé comprend un nom de label, une clé de balise AWS et un type de sélection (sélection unique ou multiple).
+
+La sélection multiple vous permet de sélectionner plusieurs valeurs simultanément, tandis que la sélection unique vous limite à une valeur à la fois. Les filtres personnalisés apparaissent dans l'ordre dans lequel vous les configurez, ce qui facilite l'organisation de vos filtres les plus fréquemment utilisés.
+
+Si vous ne configurez pas de filtres personnalisés, les filtres par défaut (système de fichiers, type de volume et plage horaire) restent disponibles afin que vous puissiez continuer à consulter et à interagir avec vos tableaux de bord.
+
+https://docs.netapp.com/us-en/workload-eda/task-configure-dashboard.html["En savoir plus sur la configuration des filtres personnalisés"^].
+
+
+
+=== Vue des détails du volume pour une analyse granulaire des performances
+
+Le tableau de bord propose désormais deux modes d'affichage : Total view et Volume view. Le mode Total view affiche des indicateurs agrégés pour l'ensemble des volumes, tandis que le mode Volume view présente les performances individuelles des 10 principaux volumes au fil du temps.
+
+En mode Volume, des infobulles interactives s'affichent au survol de la souris et fournissent des informations détaillées pour chaque volume, y compris le nom du volume, les métriques et les valeurs spécifiques à un moment donné. Lorsque les mêmes volumes apparaissent dans plusieurs composants, un code couleur cohérent facilite le suivi de volumes spécifiques à travers différentes métriques.
+
+https://docs.netapp.com/us-en/workload-eda/task-configure-dashboard.html#view-volume-details["En savoir plus sur l'affichage des détails du volume"^].
+
+
+
+=== Analyse de la latence pour la surveillance proactive des performances
+
+L'analyse de latence vous permet de surveiller la latence de lecture et d'écriture des volumes sur vos systèmes de fichiers FSx for ONTAP. Vous pouvez configurer des seuils d'alerte et d'événements critiques personnalisables afin d'identifier proactivement les goulots d'étranglement des performances avant qu'ils n'affectent vos charges de travail EDA.
+
+Le tableau des événements de latence affiche tous les événements d'avertissement et critiques, vous permettant de surveiller les performances des volumes et d'identifier les volumes qui nécessitent une optimisation.
+
+Cette fonctionnalité nécessite des identifiants AWS et est accessible depuis le menu Latency du tableau de bord EDA.
+
+https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html["En savoir plus sur l'analyse de latence"^].
