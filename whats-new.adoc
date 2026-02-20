@@ -15,6 +15,46 @@ Découvrez les modifications les plus récentes apportées aux charges de travai
 
 
 
+== 16 février 2026
+
+
+
+=== Amazon FSX pour NetApp ONTAP
+
+
+
+==== Prise en charge de la migration des VM de stockage
+
+NetApp Workload Factory prend désormais en charge la migration des machines virtuelles de stockage. Cette fonctionnalité permet la migration des données et des configurations des systèmes de stockage ONTAP depuis des systèmes ONTAP sur site ou des systèmes de fichiers FSx for ONTAP de première génération vers des systèmes de fichiers FSx for ONTAP de deuxième génération. Vous pouvez répliquer les données et les paramètres de configuration des machines virtuelles de stockage vers le nouveau système de fichiers avec une interruption minimale et une perturbation réduite pour les utilisateurs et les applications.
+
+Pour utiliser cette fonctionnalité, link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["créer une relation de réplication"] et sélectionnez *Migration* comme cas d'utilisation. Pour mener à bien le processus de migration, vous devez link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html#cut-over-replication-for-migration-use-cases["basculer la machine virtuelle de stockage et ses volumes répliqués"] immédiatement pour migrer définitivement les données et les paramètres de configuration de la machine virtuelle de stockage vers le système de fichiers FSx for ONTAP cible.
+
+
+
+== 02 février 2026
+
+
+
+=== Charges de travail des bases de données
+
+
+
+==== Économies améliorées pour plusieurs hôtes de base de données sur Microsoft SQL Server en local
+
+L'analyse des économies pour le stockage sur site de Microsoft SQL Server a été améliorée afin de fournir une solution de stockage consolidée pour plusieurs hôtes de base de données sur un seul système de fichiers FSx for ONTAP. Cette consolidation optimise les coûts de stockage en réduisant le nombre de systèmes de fichiers nécessaires pour plusieurs hôtes de base de données, ce qui permet d'améliorer les économies.
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["Explorez les économies pour les hôtes détectés sur Microsoft SQL Server sur site"]
+
+
+
+==== Analyse bien architecturée pour Oracle
+
+L'analyse bien architecturée comprend quatre nouvelles sous-évaluations pour l'analyse de la configuration de stockage pour Oracle : activation de dNFS, résolution IP cohérente de dNFS, fichier de configuration dNFS, et dNFS `nosharecache`. Ces évaluations concernent l'activation et la configuration de Direct NFS (dNFS) pour votre environnement Oracle, qui contourne le client NFS hôte et effectue les opérations de fichiers NFS directement sur un serveur NFS, améliorant les performances d'E/S et diminuant la charge sur l'hôte et le système de stockage car les E/S sont effectuées de manière plus efficace.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implémenter des configurations de base de données bien architecturées dans Workload Factory"]
+
+
+
 == 01 février 2026
 
 
@@ -47,7 +87,7 @@ Plusieurs améliorations ont été apportées aux capacités de gestion des poin
 
 Grâce à l'activation des métadonnées pour les points d'accès S3, NetApp Workload Factory analyse automatiquement vos compartiments AWS S3 et remplit les tables S3 afin de vous fournir un aperçu clair de tous les objets, de leurs métadonnées, attributs et balises. L'accès à ces informations vous permet de conserver le contrôle, la visibilité et la confiance dans les données dont vous êtes responsable, tout en réduisant la charge opérationnelle.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["Afficher les détails des points d'accès S3 dans les systèmes de fichiers FSx for ONTAP"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["Afficher les détails des points d'accès S3 dans les systèmes de fichiers FSx for ONTAP"]
 
 
 
@@ -55,7 +95,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.ht
 
 NetApp Workload Factory offre des opérations de gestion supplémentaires pour les points d'accès S3. Vous pouvez consulter les détails des points d'accès, modifier les points d'accès S3 existants, et ajouter ou supprimer des balises de points d'accès S3 depuis l'interface NetApp Workload Factory, ce qui simplifie vos tâches de gestion du stockage objet.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["Gérez les points d'accès S3 dans NetApp Workload Factory"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["Gérez les points d'accès S3 dans NetApp Workload Factory"]
 
 
 
@@ -64,7 +104,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.ht
 Workload Factory analyse vos systèmes de fichiers FSx pour ONTAP pour les configurations suivantes :
 
 * Optimiser la taille du volume de cache : vérifie si le dimensionnement automatique et le nettoyage sont activés sur les volumes de cache afin de maintenir une taille optimale et de concentrer le cache sur les données chaudes pour une efficacité maximale.
-* Périphériques de stockage bloc orphelins : il est recommandé d’archiver les données du périphérique de stockage bloc ou de supprimer un périphérique de stockage bloc s’il n’a pas été utilisé pendant sept jours consécutifs.
+* Périphériques de stockage inactifs : recommande d’archiver les données du périphérique de stockage ou de supprimer un périphérique de stockage s’il n’a pas été utilisé pendant sept jours consécutifs.
 * Rapports logiques de la VM de stockage : vérifie si le paramètre de rapport par défaut d’une VM de stockage est défini sur logique, ce qui offre une meilleure visibilité sur l’utilisation du stockage au niveau du volume.
 
 
@@ -76,7 +116,7 @@ Trois nouvelles cartes ont été ajoutées à l'onglet Block devices dans la cha
 
 * Efficacités du stockage : affiche la capacité de stockage utilisée et disponible ; la capacité utilisée est ventilée par niveaux de stockage SSD et pool de capacité.
 * Appareils protégés : affiche le pourcentage d’appareils de stockage bloc disposant d’instantanés, de réplication à distance, de protection autonome contre les ransomwares (ARP/AI) NetApp et de sauvegardes.
-* Périphériques orphelins : cette section indique si des périphériques de stockage bloc n’ont pas été utilisés pendant sept jours consécutifs, ce qui vous permet d’identifier et de gérer efficacement les ressources inutilisées. À partir de là, vous pouvez link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-devices.html#view-block-device-details["récupérer de l'espace pour les périphériques bloc inutilisés"].
+* Périphériques orphelins : cette section indique si des périphériques de stockage bloc n’ont pas été utilisés pendant sept jours consécutifs, ce qui vous permet d’identifier et de gérer efficacement les ressources inutilisées. À partir de là, vous pouvez link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-devices.html#archive-the-data-of-an-inactive-block-device["récupérer de l'espace pour les périphériques bloc inutilisés"].
 
 
 
@@ -85,8 +125,8 @@ Trois nouvelles cartes ont été ajoutées à l'onglet Block devices dans la cha
 
 NetApp Workload Factory prend en charge la création et la gestion de groupes d'initiateurs (igroups) pour le stockage bloc dans les systèmes de fichiers FSx for ONTAP. Les groupes d'initiateurs connectent les périphériques de stockage bloc (LUN) aux ressources de calcul autorisées à y accéder, fournissant une couche d'autorisation pour le stockage bloc dans les environnements SAN.
 
-* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-igroup.html["Créez un groupe d'initiateurs dans NetApp Workload Factory"^]
-* link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-igroups.html["Gérer les groupes d'initiateurs existants dans NetApp Workload Factory"^]
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-igroup.html["Créez un groupe d'initiateurs dans NetApp Workload Factory"]
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-igroups.html["Gérer les groupes d'initiateurs existants dans NetApp Workload Factory"]
 
 
 
@@ -156,7 +196,7 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.ht
 
 
 
-=== Charges de travail des constructeurs
+=== Charges de travail EDA
 
 
 
@@ -292,7 +332,7 @@ La page d'accueil de la console Workload Factory intègre l'assistant IA Ask me,
 
 
 
-=== Charges de travail des constructeurs
+=== Charges de travail EDA
 
 
 

@@ -15,7 +15,7 @@ settings:
     - workload-vmware
     - workload-genai
     - workload-setup-admin
-    - workload-builders
+    - workload-eda
   langs: fr-fr,us-en,de-de,es-es,it-it,pt-br,ja-jp,ko-kr,zh-cn,zh-tw
 sidebar:
   entries:

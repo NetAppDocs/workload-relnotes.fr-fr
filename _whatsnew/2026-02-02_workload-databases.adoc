@@ -1,0 +1,19 @@
+= Économies améliorées pour plusieurs hôtes de base de données sur Microsoft SQL Server en local
+:allow-uri-read: 
+
+
+
+
+=== Économies améliorées pour plusieurs hôtes de base de données sur Microsoft SQL Server en local
+
+L'analyse des économies pour le stockage sur site de Microsoft SQL Server a été améliorée afin de fournir une solution de stockage consolidée pour plusieurs hôtes de base de données sur un seul système de fichiers FSx for ONTAP. Cette consolidation optimise les coûts de stockage en réduisant le nombre de systèmes de fichiers nécessaires pour plusieurs hôtes de base de données, ce qui permet d'améliorer les économies.
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["Explorez les économies pour les hôtes détectés sur Microsoft SQL Server sur site"]
+
+
+
+=== Analyse bien architecturée pour Oracle
+
+L'analyse bien architecturée comprend quatre nouvelles sous-évaluations pour l'analyse de la configuration de stockage pour Oracle : activation de dNFS, résolution IP cohérente de dNFS, fichier de configuration dNFS, et dNFS `nosharecache`. Ces évaluations concernent l'activation et la configuration de Direct NFS (dNFS) pour votre environnement Oracle, qui contourne le client NFS hôte et effectue les opérations de fichiers NFS directement sur un serveur NFS, améliorant les performances d'E/S et diminuant la charge sur l'hôte et le système de stockage car les E/S sont effectuées de manière plus efficace.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implémenter des configurations de base de données bien architecturées dans Workload Factory"]

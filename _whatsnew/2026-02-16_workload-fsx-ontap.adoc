@@ -1,0 +1,11 @@
+= Prise en charge de la migration des VM de stockage
+:allow-uri-read: 
+
+
+
+
+=== Prise en charge de la migration des VM de stockage
+
+NetApp Workload Factory prend désormais en charge la migration des machines virtuelles de stockage. Cette fonctionnalité permet la migration des données et des configurations des systèmes de stockage ONTAP depuis des systèmes ONTAP sur site ou des systèmes de fichiers FSx for ONTAP de première génération vers des systèmes de fichiers FSx for ONTAP de deuxième génération. Vous pouvez répliquer les données et les paramètres de configuration des machines virtuelles de stockage vers le nouveau système de fichiers avec une interruption minimale et une perturbation réduite pour les utilisateurs et les applications.
+
+Pour utiliser cette fonctionnalité, link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["créer une relation de réplication"] et sélectionnez *Migration* comme cas d'utilisation. Pour mener à bien le processus de migration, vous devez link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html#cut-over-replication-for-migration-use-cases["basculer la machine virtuelle de stockage et ses volumes répliqués"] immédiatement pour migrer définitivement les données et les paramètres de configuration de la machine virtuelle de stockage vers le système de fichiers FSx for ONTAP cible.
