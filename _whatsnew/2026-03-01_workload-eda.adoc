@@ -1,0 +1,39 @@
+= Tableau de bord de synthèse pour la gestion du stockage EDA
+:allow-uri-read: 
+
+
+
+
+=== Tableau de bord de synthèse pour la gestion du stockage EDA
+
+En tant qu'administrateur informatique gérant des dizaines de systèmes de fichiers FSx for ONTAP, vous pouvez utiliser le tableau de bord de synthèse pour répondre aux questions opérationnelles courantes concernant l'état du cluster, son utilisation et l'emplacement des volumes.
+
+Le tableau de bord de synthèse comprend :
+
+* *État de santé du cluster* : Informations résumées en haut du tableau de bord qui mettent en évidence les performances, la capacité, la disponibilité, la protection et les événements de sécurité de vos clusters.
+* *Tableau des clusters* : un tableau consultable, filtrable et paginé affichant la capacité SSD, le pool de capacité et les métriques de débit par cluster, avec prise en charge de la personnalisation des colonnes et de l’exportation CSV.
+
+
+L'ancien tableau de bord principal est désormais accessible dans l'onglet *Projet*. Les onglets EDA sont maintenant ordonnés : Vue d'ensemble, Latence, Projet, CI/CD.
+
+https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["En savoir plus sur le tableau de bord de présentation"^].
+
+
+
+=== Analyse automatisée de la latence
+
+L'analyse de latence inclut désormais une analyse de base automatisée. Lorsque des événements de latence sont détectés, le système analyse automatiquement les métriques du centre de délai QoS ONTAP afin d'identifier la source des problèmes de latence.
+
+L'analyse de base évalue les politiques QoS, les performances du disque, les problèmes de réseau et les configurations du cluster afin de fournir des informations immédiates dans la colonne Details du tableau des événements de latence.
+
+https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#understanding-basic-analysis["En savoir plus sur l'analyse de latence de base"^].
+
+
+
+=== Nouveau signet Ask Me disponible dans Workload Factory
+
+Nous avons ajouté un nouveau raccourci Ask Me sur chaque écran de la console Workload Factory. Cette amélioration vous permet d'accéder plus facilement et plus rapidement à Ask Me chaque fois que vous avez besoin d'aide. Ask Me est notre assistant IA, qui vous permet de poser des questions sur vos propres environnements de charge de travail, d'obtenir des informations personnalisées directement à partir de votre environnement et de consulter les conversations précédentes.
+
+Vous pouvez ouvrir Ask Me depuis n'importe quelle page en cliquant sur le nouveau signet. Cela lance Ask Me dans un panneau latéral sans interrompre votre travail en cours et offre des explications et des recommandations rapides en rapport avec ce que vous faites actuellement.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html#features["En savoir plus sur Ask Me"^]

@@ -1,0 +1,51 @@
+= Évaluation ponctuelle
+:allow-uri-read: 
+
+
+
+
+=== Évaluation ponctuelle
+
+Workload Factory propose désormais une évaluation ponctuelle pour analyser la configuration de vos déploiements de bases de données à tout moment : nouveaux déploiements, post-migration, dépannage, etc. Vous recevrez des recommandations pour vous aider à optimiser vos configurations de déploiement et à respecter les bonnes pratiques. C'est l'occasion d'utiliser la fonctionnalité bien architecturée sans vous engager pleinement dans le processus de configuration. Vous pouvez évaluer vos bases de données sans stocker d'identifiants dans Workload Factory, sans enregistrer de ressources de base de données ni configurer de connexions externes.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Effectuez une évaluation ponctuelle de vos déploiements de base de données"]
+
+
+
+=== Prise en charge de l'enregistrement des groupes de disponibilité Always On sur Microsoft SQL Server et de Data Guard sur Oracle
+
+Vous pouvez désormais découvrir et enregistrer des instances Microsoft SQL Server avec le modèle de déploiement Always On availability group (AOAG) et des bases de données Oracle avec le modèle de déploiement Data Guard dans la charge de travail Bases de données de NetApp Workload Factory. Cette amélioration permet une meilleure gestion des ressources SQL Server et Oracle au sein de la console Workload Factory.
+
+Après avoir enregistré vos instances AOAG et vos bases de données Data Guard, vous pouvez profiter des différentes fonctionnalités dans NetApp Workload Factory for Databases, telles que la consultation des détails des ressources et l'analyse des journaux d'erreurs.
+
+Workload Factory for Databases prend également en charge l'analyse bien architecturée des instances Microsoft SQL Server avec le modèle de déploiement AOAG. Vous pouvez analyser les configurations de vos instances SQL Server dans un groupe de disponibilité et recevoir des recommandations pour optimiser vos configurations de déploiement et vous conformer aux bonnes pratiques. Enregistrez vos instances AOAG pour activer cette fonctionnalité.
+
+link:https://docs.netapp.com/us-en/workload-databases/register-instance.html#register-a-sql-server-instance["Enregistrez les ressources dans NetApp Workload Factory for Databases"]
+
+
+
+=== Analyse bien architecturée pour Oracle
+
+L'analyse bien conçue inclut les *correctifs du système d'exploitation* pour Oracle afin de vérifier si vous disposez des derniers correctifs sur le système d'exploitation et vous indiquer comment les installer.
+
+De plus, l'analyse d'architecture optimisée pour Oracle vous avertit lorsqu'une configuration, comme l'agencement du stockage, a des dépendances avec d'autres configurations. La notification vous indique quelles actions entreprendre pour optimiser les configurations liées afin que toutes les recommandations que nous fournissons soient optimales.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implémenter des configurations de base de données bien architecturées dans Workload Factory"]
+
+
+
+=== Analyse des coûts et planification de la migration des environnements de base de données Oracle sur site
+
+Workload Factory for Databases analyse désormais et vous aide à planifier la migration de la base de données Oracle sur site vers Amazon FSx for NetApp ONTAP. Vous pouvez utiliser le calculateur d'économies pour estimer le coût d'exécution de votre environnement de base de données Oracle sur site dans le cloud et consulter les recommandations pour migrer votre environnement de base de données sur site vers le cloud.
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Explorez les économies pour les environnements de base de données sur site"]
+
+
+
+=== Nouveau signet Ask Me disponible dans Workload Factory
+
+Nous avons ajouté un nouveau raccourci Ask Me sur chaque écran de la console Workload Factory. Cette amélioration vous permet d'accéder plus facilement et plus rapidement à Ask Me chaque fois que vous avez besoin d'aide. Ask Me est notre assistant IA, qui vous permet de poser des questions sur vos propres environnements de charge de travail, d'obtenir des informations personnalisées directement à partir de votre environnement et de consulter les conversations précédentes.
+
+Vous pouvez ouvrir Ask Me depuis n'importe quelle page en cliquant sur le nouveau signet. Cela lance Ask Me dans un panneau latéral sans interrompre votre travail en cours et offre des explications et des recommandations rapides en rapport avec ce que vous faites actuellement.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html#features["En savoir plus sur Ask Me"^]
