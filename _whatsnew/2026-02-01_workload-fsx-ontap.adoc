@@ -57,7 +57,7 @@ Trois nouvelles cartes ont été ajoutées à l'onglet Block devices dans la cha
 
 * Efficacités du stockage : affiche la capacité de stockage utilisée et disponible ; la capacité utilisée est ventilée par niveaux de stockage SSD et pool de capacité.
 * Appareils protégés : affiche le pourcentage d’appareils de stockage bloc disposant d’instantanés, de réplication à distance, de protection autonome contre les ransomwares (ARP/AI) NetApp et de sauvegardes.
-* Périphériques orphelins : cette section indique si des périphériques de stockage bloc n’ont pas été utilisés pendant sept jours consécutifs, ce qui vous permet d’identifier et de gérer efficacement les ressources inutilisées. À partir de là, vous pouvez link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-devices.html#archive-the-data-of-an-inactive-block-device["récupérer de l'espace pour les périphériques bloc inutilisés"].
+* Périphériques orphelins : cette section indique si des périphériques de stockage bloc n’ont pas été utilisés pendant sept jours consécutifs, ce qui vous permet d’identifier et de gérer efficacement les ressources inutilisées. À partir de là, vous pouvez link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html#archive-the-data-of-an-inactive-block-device["récupérer de l'espace pour les périphériques bloc inutilisés"].
 
 
 
