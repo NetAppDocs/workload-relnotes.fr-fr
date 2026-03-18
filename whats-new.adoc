@@ -558,26 +558,3 @@ Workload Factory pour EDA vous aide à optimiser FSx pour ONTAP sur plusieurs sy
 ==== Intégration de l'assistant IA à la page d'accueil de Ask me
 
 La page d'accueil de la console Workload Factory intègre l'assistant IA Ask me, vous permettant de poser des questions sur votre propre infrastructure de stockage, d'obtenir des informations personnalisées directement à partir de votre environnement et de consulter les conversations précédentes. Vous pouvez interagir avec « Demandez-moi » pour comprendre vos charges de travail, résoudre les problèmes et en savoir plus sur Workload Factory, le tout sans quitter la console.
-
-
-
-== 18 décembre 2025
-
-
-
-=== Charges de travail des bases de données
-
-
-
-==== Améliorations de l'intégration d'Active Directory
-
-Workload Factory for Databases inclut trois nouveaux champs Active Directory (AD) lors du déploiement de Microsoft SQL Server à l'aide de l'option *Création avancée*. Ces améliorations vous permettent de spécifier les préférences de jonction à Active Directory et d'utiliser un compte de service géré.
-
-Les nouveaux champs AD sont :
-
-* Contrôleur de domaine préféré
-* Parcours privilégié au sein de l'unité organisationnelle
-* Groupe Active Directory cible
-
-
-link:https://docs.netapp.com/us-en/workload-databases/create-database.html["Déployer Microsoft SQL Server"]
