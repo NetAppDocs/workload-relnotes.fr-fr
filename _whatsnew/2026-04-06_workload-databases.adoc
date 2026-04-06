@@ -1,0 +1,32 @@
+= Analyse bien architecturée pour Oracle
+:allow-uri-read: 
+
+
+
+
+=== Analyse bien architecturée pour Oracle
+
+L'analyse bien architecturée inclut les nouvelles configurations suivantes pour Oracle :
+
+* *Mises à jour critiques d'Oracle* : évalue les correctifs de sécurité manquants pour les installations de bases de données autogérées Oracle prises en charge.
+* *Réplication interrégionale* : vérifie si la réplication interrégionale (CRR) est activée pour vos systèmes de fichiers FSx for ONTAP servant des bases de données Oracle.
+* *Instantanés cohérents au niveau des applications* : vérifie si la base de données Oracle est protégée par des instantanés cohérents au niveau des applications avec NetApp SnapCenter.
+
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implémenter des configurations de base de données bien architecturées dans Workload Factory"]
+
+
+
+=== Évaluation ponctuelle pour Oracle
+
+Workload Factory propose désormais une évaluation ponctuelle pour analyser la configuration de vos déploiements de bases de données Oracle, à tout moment : nouveaux déploiements, post-migration, dépannage, etc. Vous recevrez des recommandations pour vous aider à optimiser vos configurations de déploiement et à vous conformer aux bonnes pratiques. C'est l'occasion d'utiliser la fonctionnalité bien architecturée sans vous engager pleinement dans le processus de configuration. Vous pouvez évaluer vos bases de données sans stocker d'identifiants dans Workload Factory, sans enregistrer de ressources de base de données ni configurer de connexions externes.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Effectuez une évaluation ponctuelle de vos déploiements de bases de données Oracle"]
+
+
+
+=== Amélioration des économies pour plusieurs bases de données Oracle
+
+Nous avons amélioré l'analyse des économies pour Oracle afin de fournir une solution de stockage consolidée pour plusieurs bases de données Oracle sur site sur un seul système de fichiers FSx for ONTAP. Cette consolidation optimise les coûts de stockage en réduisant le nombre de systèmes de fichiers nécessaires pour plusieurs bases de données, ce qui conduit à une amélioration des économies.
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["Découvrez les économies pour les bases de données détectées sur Oracle sur site"]

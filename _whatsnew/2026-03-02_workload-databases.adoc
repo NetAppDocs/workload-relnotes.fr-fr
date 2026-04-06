@@ -1,12 +1,12 @@
-= Évaluation ponctuelle
+= Évaluation ponctuelle pour SQL Server
 :allow-uri-read: 
 
 
 
 
-=== Évaluation ponctuelle
+=== Évaluation ponctuelle pour SQL Server
 
-Workload Factory propose désormais une évaluation ponctuelle pour analyser la configuration de vos déploiements de bases de données à tout moment : nouveaux déploiements, post-migration, dépannage, etc. Vous recevrez des recommandations pour vous aider à optimiser vos configurations de déploiement et à respecter les bonnes pratiques. C'est l'occasion d'utiliser la fonctionnalité bien architecturée sans vous engager pleinement dans le processus de configuration. Vous pouvez évaluer vos bases de données sans stocker d'identifiants dans Workload Factory, sans enregistrer de ressources de base de données ni configurer de connexions externes.
+Workload Factory propose désormais une évaluation ponctuelle pour analyser la configuration de vos déploiements de bases de données SQL Server à tout moment : nouveaux déploiements, post-migration, dépannage, etc. Vous recevrez des recommandations pour vous aider à optimiser vos configurations de déploiement et à vous conformer aux bonnes pratiques. C'est l'occasion d'utiliser la fonctionnalité bien architecturée sans vous engager pleinement dans le processus de configuration. Vous pouvez évaluer vos bases de données sans stocker d'identifiants dans Workload Factory, sans enregistrer de ressources de base de données ni configurer de connexions externes.
 
 link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Effectuez une évaluation ponctuelle de vos déploiements de base de données"]
 
