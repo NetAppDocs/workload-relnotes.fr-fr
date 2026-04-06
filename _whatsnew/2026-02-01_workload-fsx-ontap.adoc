@@ -28,7 +28,7 @@ Plusieurs améliorations ont été apportées aux capacités de gestion des poin
 
 La nouvelle table d'inventaire analyse automatiquement vos compartiments AWS S3 et alimente les tables S3 pour vous offrir un aperçu clair de tous les objets, de leurs métadonnées, attributs et balises. L'accès à ces informations vous permet de garder le contrôle, la visibilité et la confiance dans les données dont vous êtes responsable, tout en réduisant la charge opérationnelle. Vous pouvez activer cette fonctionnalité lors de la création et de l'association de points d'accès S3 ou lors de la modification de points d'accès existants.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-s3-access-point.html["Créez et associez un point d'accès à un volume dans NetApp Workload Factory"]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-s3-access-points.html["Créez et associez un point d'accès à un volume dans NetApp Workload Factory"]
 
 
 
