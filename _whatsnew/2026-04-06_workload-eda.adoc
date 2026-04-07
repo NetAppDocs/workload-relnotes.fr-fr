@@ -1,0 +1,37 @@
+= Recommandations en matière de capacité EDA
+:allow-uri-read: 
+
+
+
+
+=== Recommandations en matière de capacité EDA
+
+Workload Factory analyse désormais automatiquement la capacité SSD de chaque cluster FSx for ONTAP dans votre inventaire EDA et génère des recommandations de capacité lorsque des ajustements sont nécessaires. L'algorithme s'exécute toutes les 24 heures pour chaque cluster.
+
+Lorsqu'une recommandation est identifiée :
+
+* Vous recevez immédiatement un e-mail ou une notification WAD (non incluse dans le résumé hebdomadaire).
+* Un indicateur lumineux apparaît sur le cluster concerné dans le tableau des clusters.
+* Un résumé sur le tableau de bord Vue d'ensemble affiche le nombre total de clusters avec des recommandations actives.
+
+
+Sélectionnez un cluster comportant une recommandation active pour consulter la recommandation, qui explique la modification suggérée et la justification.
+
+https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html#capacity-recommendations["Apprenez-en davantage sur les recommandations en matière de capacité"^].
+
+
+
+=== Analyse automatisée de la latence de l'IA
+
+L'analyse de la latence inclut désormais l'analyse des agents d'IA.
+
+Pour les scénarios complexes impliquant des données ou une latence de cluster, vous pouvez faire appel à une analyse par agent d'IA pour obtenir :
+
+* Identification détaillée des causes profondes
+* Liste des clients EC2 concernés
+* Étapes de remédiation spécifiques
+
+
+L'analyse par agent d'IA nécessite la configuration ARN du modèle Amazon Bedrock et est disponible à la demande pour les scénarios où une analyse de base recommande une investigation plus approfondie. L'agent d'IA peut identifier des problèmes tels que les volumes excessifs de trafic, les configurations de points de montage non optimales, FlexGroup, les besoins de rééquilibrage et les exigences de montée en charge horizontale.
+
+https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#run-ai-agent-analysis["Apprenez-en davantage sur l'analyse des agents IA"^].
