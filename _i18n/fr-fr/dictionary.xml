@@ -241,4 +241,6 @@
   <block id="0e3bc65341eefea76b4aa913be37a4d6" category="paragraph">L'analyse par agent d'IA nécessite la configuration ARN du modèle Amazon Bedrock et est disponible à la demande pour les scénarios où une analyse de base recommande une investigation plus approfondie. L'agent d'IA peut identifier des problèmes tels que les volumes excessifs de trafic, les configurations de points de montage non optimales, FlexGroup, les besoins de rééquilibrage et les exigences de montée en charge horizontale.</block>
   <block id="3a0eea1249d5ea83860d68d281f6c97b" category="inline-link">Apprenez-en davantage sur l'analyse des agents IA</block>
   <block id="af2687c5a2b9873716f0987242df8169" category="paragraph"><block ref="2915288e95b80b72c9de65e94d4fc279" category="inline-link-rx"></block>.</block>
+  <block id="d08fabf4c0fdff2290096692a4ffa28a" category="section-title">Dernier temps d'accès pour les périphériques de blocs</block>
+  <block id="fa4bdc942217a8579f785220b2742233" category="paragraph">Workload Factory indique le dernier temps d'accès aux périphériques de stockage par blocs. L'heure est basée sur votre dernier accès à l'igroup dans Workload Factory. Savoir quand chaque périphérique de stockage par blocs a été utilisé pour la dernière fois vous permet d'optimiser vos ressources.</block>
 </blocks>
