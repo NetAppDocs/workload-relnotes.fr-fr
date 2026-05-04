@@ -15,6 +15,40 @@ Découvrez les modifications les plus récentes apportées aux charges de travai
 
 
 
+== 3 mai 2026
+
+
+
+=== Amazon FSX pour NetApp ONTAP
+
+
+
+==== Clonage de périphériques de bloc
+
+Workload Factory propose des clones pour vos périphériques de stockage bloc afin que vous puissiez provisionner rapidement des copies inscriptibles et efficaces de vos données tout en contrôlant la capacité, l'accès et le cycle de vie.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html["Gérez le stockage bloc dans NetApp Workload Factory"]
+
+
+
+==== Étiquettes EC2 sur les périphériques de stockage bloc
+
+Le tableau des périphériques de stockage bloc comprend désormais une colonne affichant les étiquettes des hôtes EC2 qui consomment chaque périphérique de stockage bloc. Cela vous aide à identifier quel hôte utilise chaque périphérique de stockage bloc lors du dépannage ou des audits.
+
+Pour créer des étiquettes sur chaque périphérique de bloc, déployez une instance EC2 à l'aide de notre script utilisateur fourni.
+
+link:https://github.com/NetApp/FSx-ONTAP-samples-scripts/tree/main/Management-Utilities/ec2-user-data-iscsi-create-and-mount["Script de données utilisateur EC2 pour attribuer des balises aux périphériques de stockage bloc"]
+
+
+
+==== Tendances de capacité pour les systèmes de fichiers FSx for ONTAP
+
+Découvrez les tendances de capacité SSD directement depuis la vue d'ensemble de vos systèmes de fichiers FSx for ONTAP. La nouvelle carte de gestion de la capacité offre une vue complète des tendances d'utilisation du mois précédent. Cette analyse inclut une comparaison entre la capacité réellement utilisée et la capacité allouée, permettant ainsi une évaluation claire de l'utilisation des ressources.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-capacity-automatically.html["Gérez automatiquement la capacité dans NetApp Workload Factory"]
+
+
+
 == 06 avril 2026
 
 
