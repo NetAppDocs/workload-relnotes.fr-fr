@@ -1,0 +1,29 @@
+= Notifications par e-mail et SNS en cas d'événements de latence
+:allow-uri-read: 
+
+
+
+
+=== Notifications par e-mail et SNS en cas d'événements de latence
+
+Vous pouvez désormais recevoir des notifications automatiques en cas de détection d'événements de latence sur vos volumes FSx for ONTAP. Configurez les notifications par e-mail ou Amazon SNS dans les paramètres de Workload Factory pour recevoir des alertes en temps réel lorsque les volumes dépassent les seuils de latence que vous avez définis.
+
+Les notifications sont envoyées au niveau du système de fichiers et comprennent des détails sur tous les volumes affectés, les niveaux de gravité, les comparaisons de seuils et un lien direct vers la page Latence pour l'analyse.
+
+https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#configure-latency-notifications["Apprenez à configurer les notifications de latence"^].
+
+
+
+=== Visualisation de l'évolution de la latence à l'aide de graphiques interactifs
+
+Le panneau d'analyse de latence comprend désormais une interface à onglets pour une analyse de latence complète :
+
+* *Aperçu* : Consultez les résultats de l’analyse de base automatisée indiquant quel composant est à l’origine de la latence
+* *Au fil du temps* : Visualisez le comportement de la latence du volume grâce à un graphique interactif sur plusieurs périodes (1 heure, 3 heures, 12 heures, 24 heures ou 72 heures)
+
+
+L'onglet *Au fil du temps* affiche les données de latence brutes CloudWatch (lecture ou écriture, selon l'alarme déclenchée) avec des lignes de seuil d'avertissement et de critique, des indicateurs de dépassement et des métriques détaillées pour chaque violation.
+
+Cette visualisation complète vous aide à identifier les tendances, à comprendre si les problèmes de latence sont récurrents ou isolés et à prendre des décisions plus éclairées concernant leur résolution.
+
+https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html["Apprenez à analyser les tendances de latence"^].
