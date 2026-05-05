@@ -185,4 +185,12 @@
   <block id="7eec84a410cc084b608a43e90acfccd1" category="paragraph">Cette visualisation complète vous aide à identifier les tendances, à comprendre si les problèmes de latence sont récurrents ou isolés et à prendre des décisions plus éclairées concernant leur résolution.</block>
   <block id="7d36db06649fc95af5dde34418ae17ae" category="inline-link">Apprenez à analyser les tendances de latence</block>
   <block id="89bed93f6bbf811d8bd82c2b7fbc1dea" category="paragraph"><block ref="ed7c0b83df2858b326a608c49012d510" category="inline-link-rx"></block>.</block>
+  <block id="15407be309823d0bd0fd1f09d53ccd89" category="doc">Notifications par e-mail pour Workload Factory</block>
+  <block id="a1ed0466beff73a72b5d95ef2b956e83" category="paragraph">Vous pouvez désormais recevoir les notifications de Workload Factory par e-mail sans configurer de rubrique Amazon SNS. Activez les notifications par e-mail pour envoyer des notifications à toutes les adresses e-mail associées au compte.</block>
+  <block id="1c6cc010b2ec0805e327534ebbfb3973" category="paragraph">Vous pouvez configurer les notifications par e-mail depuis la console Workload Factory ou la NetApp Console. La NetApp Console offre également la possibilité de configurer les notifications NetApp Console qui s'affichent sous l'icône de cloche.</block>
+  <block id="f76fbee6bb24fc9289f051c59b4058b2" category="paragraph">Si vous configurez les notifications dans NetApp Console, NetApp Console prend en charge la distribution des notifications. Les paramètres de notification dans la console Workload Factory deviennent en lecture seule afin d’éviter les notifications en double.</block>
+  <block id="b2dfd446bf724d5a49ad6d34fffa8cd5" category="section-title">Nouvelle notification concernant la latence EDA</block>
+  <block id="72139a3373d3afc6254af7e39dc3cd2a" category="paragraph">Le service de notification NetApp Workload Factory inclut la notification de latence EDA qui vous avertit lorsque la latence d'une opération EDA dépasse un certain seuil.</block>
+  <block id="7c1a1feb7968ed15d338ae3e7284dd4e" category="inline-link-macro">Configurer les notifications de Workload Factory</block>
+  <block id="06c8d6de7277fbcb62791ed118b9bc96" category="paragraph"><block ref="06c8d6de7277fbcb62791ed118b9bc96" category="inline-link-macro-rx"></block></block>
 </blocks>
