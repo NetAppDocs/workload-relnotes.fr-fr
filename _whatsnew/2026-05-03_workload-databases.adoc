@@ -1,0 +1,37 @@
+= Analyse bien architecturée pour Oracle
+:allow-uri-read: 
+
+
+
+
+=== Analyse bien architecturée pour Oracle
+
+L'analyse bien architecturée inclut les nouvelles configurations suivantes pour Oracle :
+
+* *Configuration de sauvegarde* : vérifie si vos bases de données Oracle sont protégées par AWS Backup ou par des sauvegardes FSx pour ONTAP.
+* *Nettoyage des clones* : recommande de supprimer les clones obsolètes ou inutilisés afin de réduire les coûts de stockage.
+
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implémenter des configurations de base de données bien architecturées dans Workload Factory"]
+
+
+
+=== Calcul automatique des économies pour les bases de données Oracle sur Amazon Elastic Block Store (EBS)
+
+Workload Factory analyse automatiquement le coût du stockage EBS utilisé pour les bases de données Oracle, puis suggère la configuration FSx for ONTAP la plus performante et la plus économique. Vous pouvez sélectionner plusieurs hôtes EBS à analyser et comparer ensuite le coût d'exécution de ces hôtes sur EBS par rapport à FSx for ONTAP.
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["Découvrez les économies pour les hôtes EBS détectés"]
+
+
+
+=== Vérification préalable de la configuration CRR
+
+Lorsque vous activez la réplication interrégionale (CRR) pour votre base de données, la charge de travail de base de données vérifie si le système de fichiers FSx for ONTAP possède une liaison et une configuration de réplication associées. Le cas échéant, la charge de travail de base de données vous redirige vers l’assistant de réplication de la charge de travail de stockage FSx for ONTAP afin de gérer les prérequis de liaison de la même manière que le stockage.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implémenter des configurations de base de données bien architecturées dans Workload Factory"]
+
+
+
+=== LUN associés pour les bases de données Microsoft SQL Server
+
+Vous pouvez désormais visualiser les LUN mappées aux bases de données Microsoft SQL Server dans Workload Factory depuis l'écran Inventaire. Cela vous permet d'identifier facilement les LUN associées à chaque base de données, ce qui facilite la gestion et l'optimisation de vos ressources de stockage.
