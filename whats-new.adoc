@@ -37,6 +37,62 @@ link:calculate-evs-savings.html["Calculez les économies estimées pour EVS"]
 
 
 
+=== Amazon FSX pour NetApp ONTAP
+
+
+
+==== Nouveau tableau de bord bien conçu disponible pour tous les systèmes FSx for ONTAP
+
+L'analyse bien architecturée est désormais disponible pour les systèmes de fichiers FSx for ONTAP depuis le nouveau tableau de bord bien architecturé dans NetApp Workload Factory. Le nouveau tableau de bord offre une vue centralisée de tous vos systèmes de fichiers, tous comptes et régions confondus, ainsi que de leurs configurations en un seul endroit. Une notification contextuelle apparaît lorsque vous consultez l’onglet *Well-architected* depuis un système de fichiers. Accédez au nouveau tableau de bord en sélectionnant *Well-architected* dans le menu de navigation de gauche de Workload Factory.
+
+Vous pouvez toujours accéder à l'analyse bien architecturée pour un système de fichiers spécifique et à partir de l'option de menu *Well-architected* dans Storage.
+
+
+
+==== Nouvelles recommandations dans l'analyse bien architecturée
+
+Workload Factory inclut désormais les configurations suivantes dans l'analyse bien architecturée pour les systèmes de fichiers FSx for ONTAP :
+
+* Connecter l’hôte au nœud de basculement : vérifie si les hôtes sont connectés au nœud de basculement dans un système de fichiers FSx for ONTAP en mode actif-passif et suggère de connecter les hôtes au nœud de basculement pour plus de fiabilité.
+* Connecter l'hôte au nœud préféré : vérifie si les hôtes sont connectés à leurs périphériques de blocs via le nœud préféré et suggère de connecter les hôtes au nœud préféré pour une efficacité des performances.
+
+
+
+
+==== Explorateur de volumes
+
+Volumes Explorer vous offre une vue simple et consultable de tous vos volumes dans NetApp Workload Factory. Identifiez rapidement les volumes dédiés aux charges de travail par blocs ou par fichiers. Consultez la taille logique, la capacité physique utilisée et l’utilisation des fonctionnalités d’efficacité du stockage (compression, déduplication et compactage) de chaque volume. Filtrez et triez les volumes par nom, état (disponible/défaillant), latence, taille, capacité utilisée et fonctionnalités de protection.
+
+
+
+==== Améliorations du délai de réplication
+
+
+
+===== Notifications par e-mail améliorées en cas de retards de réplication
+
+Les notifications par e-mail concernant les retards de réplication contiennent désormais plus de détails sur la relation concernée. Cette notification vous permet d'identifier rapidement la relation concernée et de l'examiner dans la console Workload Factory.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/track-replication-delays.html["Activer les notifications en cas de retard de réplication"]
+
+
+
+===== Exporter les données de délai de réplication au format CSV
+
+Vous pouvez désormais exporter les données de délai de réplication vers un fichier CSV afin de les analyser dans une feuille de calcul et de les partager avec d'autres.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/track-replication-delays.html["Suivi des délais de réplication"]
+
+
+
+==== Amélioration de la création de périphériques de bloc
+
+Workload Factory prend en charge la création de périphériques de blocs à partir d'un instantané de volume.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-block-device.html["Créez un périphérique de stockage par blocs à partir d'un instantané de volume dans Workload Factory"]
+
+
+
 === Configuration et administration
 
 
