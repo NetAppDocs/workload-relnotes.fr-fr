@@ -179,4 +179,10 @@
   <block id="8dd5201c5cc5a3396ebbb0eed3c4385d" category="inline-link">Apprenez à analyser les tendances de latence à l'aide de plusieurs graphiques</block>
   <block id="96f2a9474e94ea84ba4915ee29411c85" category="paragraph"><block ref="6741c3b9db1b1d3c4d7831b9652aaaca" category="inline-link-rx"></block>.</block>
   <block id="1cdbc8bcb26cc8d5e894a97b9e7f269f" category="section-title">05 juillet 2026</block>
+  <block id="992672ecff7fe59cf2782ddb79f58e1d" category="doc">Tableaux de bord personnalisés</block>
+  <block id="2865e3ecb86dc9391d13f92e53f2a2ac" category="paragraph">Créez des tableaux de bord basés sur l'IA, adaptés à vos charges de travail et à vos priorités, pour visualiser facilement les performances de vos opérations. Au lieu de vous fier à des vues fixes, les tableaux de bord personnalisés vous permettent de vous concentrer sur les informations les plus importantes.</block>
+  <block id="4ebed31793305164cd5e1b71336c2244" category="paragraph">Il vous suffit de décrire en langage clair ce que vous souhaitez suivre, et l'IA créera un tableau de bord en fonction de votre demande. Par exemple, vous pouvez suivre l'état de la reprise après sinistre, la capacité et les coûts dans les différentes régions, la conformité de la protection du stockage et d'autres indicateurs opérationnels.</block>
+  <block id="f2c8c03b6d33f0a06783ce6241b381a6" category="paragraph">Les tableaux de bord personnalisés sont en lecture seule, ils ne peuvent donc pas modifier vos paramètres de stockage ni de charge de travail. Toute personne disposant d’un compte Workload Factory peut consulter et gérer ces tableaux de bord, ce qui permet aux équipes de partager facilement des informations et de rester alignées.</block>
+  <block id="7f7fdf6329959f984b3ff303ae5ac37f" category="inline-link-macro">En savoir plus sur les tableaux de bord personnalisés</block>
+  <block id="b95d6b8ad9f73321f9cc2385811deedb" category="paragraph"><block ref="b95d6b8ad9f73321f9cc2385811deedb" category="inline-link-macro-rx"></block></block>
 </blocks>
