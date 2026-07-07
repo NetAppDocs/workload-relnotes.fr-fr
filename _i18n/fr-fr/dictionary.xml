@@ -185,4 +185,13 @@
   <block id="f2c8c03b6d33f0a06783ce6241b381a6" category="paragraph">Les tableaux de bord personnalisés sont en lecture seule, ils ne peuvent donc pas modifier vos paramètres de stockage ni de charge de travail. Toute personne disposant d’un compte Workload Factory peut consulter et gérer ces tableaux de bord, ce qui permet aux équipes de partager facilement des informations et de rester alignées.</block>
   <block id="7f7fdf6329959f984b3ff303ae5ac37f" category="inline-link-macro">En savoir plus sur les tableaux de bord personnalisés</block>
   <block id="b95d6b8ad9f73321f9cc2385811deedb" category="paragraph"><block ref="b95d6b8ad9f73321f9cc2385811deedb" category="inline-link-macro-rx"></block></block>
+  <block id="7e2652d4b25a337c594774fc14c2ab17" category="section-title">Définir la fréquence de notification de latence</block>
+  <block id="39b4011c4c170e1b29e7d8710812c644" category="paragraph">Vous pouvez désormais choisir la fréquence de réception des notifications par e-mail en cas de dépassement de latence :</block>
+  <block id="9b4c72b587622d268ed8a5a315219fb5" category="list-text">*Me le rappeler chaque jour (Recommandé)* : Recevez une notification lorsqu’un nouveau problème survient sur un système de fichiers FSx for ONTAP.</block>
+  <block id="b1960d91c54aac51310626fca3cc3b48" category="paragraph">Si plusieurs problèmes de latence surviennent sur le même système de fichiers au cours d'une même journée, vous ne recevrez qu'un seul courriel.</block>
+  <block id="a6f20e83b8038d1aeb40bd01b25f763e" category="paragraph">Après l'envoi d'une alerte de latence pour un système de fichiers, Workload Factory attend 24 heures avant d'envoyer une autre alerte pour ce système de fichiers.</block>
+  <block id="e2a4178b795c9afb4497b6549895fe0f" category="list-text">*Notification en cas de dépassement de latence (toutes les 20 minutes)* : Recevez une notification lorsqu’un dépassement est détecté, jusqu’à une fois toutes les 20 minutes.</block>
+  <block id="943fb48a5bde64c680308a09af0a0832" category="paragraph">Les notifications quotidiennes sont activées par défaut afin de réduire le volume d'e-mails tout en vous alertant des problèmes de latence. Vous pouvez modifier votre préférence de notification lors de la configuration de la surveillance de la latence ou de la modification des paramètres de seuil.</block>
+  <block id="7a13522750dff612c4af95a525a5075b" category="inline-link">Apprenez à configurer la surveillance de la latence</block>
+  <block id="496e68c00adfe40e8730acfccde74f6b" category="paragraph"><block ref="9cf52e304b2518ca53073fc069c5a89c" category="inline-link-rx"></block>.</block>
 </blocks>

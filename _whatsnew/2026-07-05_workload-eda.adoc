@@ -22,3 +22,23 @@ Ces graphiques vous aident à visualiser les relations entre la latence, les IOP
 Les graphiques de performance ne sont désormais disponibles que lorsque les identifiants AWS sont fournis. Les liens FSx for ONTAP sont nécessaires uniquement pour la répartition des composants dans l'analyse de base et l'analyse IA.
 
 https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html["Apprenez à analyser les tendances de latence à l'aide de plusieurs graphiques"^].
+
+
+
+=== Définir la fréquence de notification de latence
+
+Vous pouvez désormais choisir la fréquence de réception des notifications par e-mail en cas de dépassement de latence :
+
+* *Me le rappeler chaque jour (Recommandé)* : Recevez une notification lorsqu’un nouveau problème survient sur un système de fichiers FSx for ONTAP.
+
+
+Si plusieurs problèmes de latence surviennent sur le même système de fichiers au cours d'une même journée, vous ne recevrez qu'un seul courriel.
+
+Après l'envoi d'une alerte de latence pour un système de fichiers, Workload Factory attend 24 heures avant d'envoyer une autre alerte pour ce système de fichiers.
+
+* *Notification en cas de dépassement de latence (toutes les 20 minutes)* : Recevez une notification lorsqu’un dépassement est détecté, jusqu’à une fois toutes les 20 minutes.
+
+
+Les notifications quotidiennes sont activées par défaut afin de réduire le volume d'e-mails tout en vous alertant des problèmes de latence. Vous pouvez modifier votre préférence de notification lors de la configuration de la surveillance de la latence ou de la modification des paramètres de seuil.
+
+https://docs.netapp.com/us-en/workload-eda/task-configure-latency-monitoring.html["Apprenez à configurer la surveillance de la latence"^].
