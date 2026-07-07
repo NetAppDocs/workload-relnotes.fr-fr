@@ -33,6 +33,35 @@ link:calculate-evs-savings.html["Calculez les économies estimées pour EVS"]
 
 
 
+== 05 juillet 2026
+
+
+
+=== Charges de travail EDA
+
+
+
+==== Analyse de latence améliorée avec graphiques d'IOPS et de débit
+
+Le panneau d'analyse de latence affiche désormais des graphiques de performance synchronisés dans l'onglet *Évolution dans le temps* :
+
+* *Graphique de latence* : Affiche l’évolution de la latence au fil du temps, avec des lignes de seuil et des alertes lorsque les limites sont dépassées.
+* *Graphique IOPS* : Affiche les opérations par seconde, avec des lignes de seuil et des indicateurs de dépassements de limites antérieurs.
+* *Graphique de débit* : Affiche les taux de transfert de données (DataReadBytes ou DataWriteBytes).
+
+
+Tous les graphiques utilisent la même chronologie et affichent automatiquement les indicateurs corrects selon qu'il s'agisse d'une lecture ou d'une écriture.
+
+Un nouveau filtre vous permet de basculer entre Tout, Lecture, Écriture ou opérations de Métadonnées pour une analyse plus détaillée.
+
+Ces graphiques vous aident à visualiser les relations entre la latence, les IOPS et le débit, ce qui facilite la recherche des causes des problèmes de performance et la décision quant à la manière de les résoudre.
+
+Les graphiques de performance ne sont désormais disponibles que lorsque les identifiants AWS sont fournis. Les liens FSx for ONTAP sont nécessaires uniquement pour la répartition des composants dans l'analyse de base et l'analyse IA.
+
+https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html["Apprenez à analyser les tendances de latence à l'aide de plusieurs graphiques"^].
+
+
+
 == 01 juin 2026
 
 
