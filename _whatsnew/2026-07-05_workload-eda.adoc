@@ -4,6 +4,7 @@
 
 
 
+[[enhanced-latency-analysis-with-iops-and-throughput-graphs]]
 === Analyse de latence améliorée avec graphiques d'IOPS et de débit
 
 Le panneau d'analyse de latence affiche désormais des graphiques de performance synchronisés dans l'onglet *Évolution dans le temps* :
@@ -25,6 +26,7 @@ https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html["App
 
 
 
+[[set-latency-notification-frequency]]
 === Définir la fréquence de notification de latence
 
 Vous pouvez désormais choisir la fréquence de réception des notifications par e-mail en cas de dépassement de latence :

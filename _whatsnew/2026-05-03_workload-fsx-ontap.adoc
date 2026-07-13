@@ -4,6 +4,7 @@
 
 
 
+[[block-device-clones]]
 === Clonage de périphériques de bloc
 
 Workload Factory propose des clones pour vos périphériques de stockage bloc afin que vous puissiez provisionner rapidement des copies inscriptibles et efficaces de vos données tout en contrôlant la capacité, l'accès et le cycle de vie.
@@ -12,6 +13,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html[
 
 
 
+[[ec2-tags-on-block-devices]]
 === Étiquettes EC2 sur les périphériques de stockage bloc
 
 Le tableau des périphériques de stockage bloc comprend désormais une colonne affichant les étiquettes des hôtes EC2 qui consomment chaque périphérique de stockage bloc. Cela vous aide à identifier quel hôte utilise chaque périphérique de stockage bloc lors du dépannage ou des audits.
@@ -22,6 +24,7 @@ link:https://github.com/NetApp/FSx-ONTAP-samples-scripts/tree/main/Management-Ut
 
 
 
+[[capacity-trends-for-fsx-for-ontap-file-systems]]
 === Tendances de capacité pour les systèmes de fichiers FSx for ONTAP
 
 Découvrez les tendances de capacité SSD directement depuis la vue d'ensemble de vos systèmes de fichiers FSx for ONTAP. La nouvelle carte de gestion de la capacité affiche les tendances d'utilisation du mois précédent. Cette analyse compare la capacité réelle et la capacité allouée, ce qui facilite l'évaluation de l'utilisation des ressources.
@@ -30,6 +33,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-capacity-automatica
 
 
 
+[[pdf-report-of-the-well-architected-status-of-fsx-for-ontap-file-systems]]
 === Rapport PDF sur l'état bien architecturé des systèmes de fichiers FSx pour ONTAP
 
 Après analyse, vous pouvez télécharger un rapport PDF sur l'état d'architecture de vos systèmes de fichiers FSx for ONTAP pour vos archives ou pour le partager avec vos équipes.

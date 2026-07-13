@@ -4,4 +4,5 @@
 
 
 
+[[eda-workloads]]
 === Charges de travail EDA

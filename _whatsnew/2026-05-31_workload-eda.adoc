@@ -4,6 +4,7 @@
 
 
 
+[[ssd-capacity-increase-management-modes-and-automation]]
 === Modes de gestion de l'augmentation de la capacité SSD et automatisation
 
 Workload Factory propose désormais des modes de gestion de l'augmentation de la capacité SSD adaptés à vos préférences opérationnelles :
@@ -19,6 +20,7 @@ link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html
 
 
 
+[[bulk-edit-ssd-capacity-increase-management-parameters]]
 === Modification en masse des paramètres de gestion de l'augmentation de la capacité SSD
 
 Vous pouvez désormais ajuster les paramètres de gestion de l'augmentation de la capacité SSD sur plusieurs systèmes de fichiers depuis le tableau de bord Vue d'ensemble. Sélectionnez un ou plusieurs clusters dans le tableau Clusters et modifiez en masse les valeurs Seuil (10-90 %), Historique (1-200 heures) et Prochaine (1-200 heures).
@@ -29,6 +31,7 @@ link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html
 
 
 
+[[capacity-decision-points-visualization]]
 === Visualisation des points de décision en matière de capacité
 
 Le graphique d'utilisation des SSD affiche désormais les points de décision indiquant le moment où des recommandations de capacité ont été générées ou des actions automatisées ont été entreprises.
@@ -43,6 +46,7 @@ link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html
 
 
 
+[[link-configured-status-in-clusters-table]]
 === État de configuration du lien dans la table Clusters
 
 Le tableau Clusters du tableau de bord Vue d'ensemble comprend désormais une colonne Lien associé indiquant si un lien FSx for ONTAP est configuré pour chaque système de fichiers. L'état de la connexion est validé quotidiennement, ce qui vous permet d'identifier les systèmes de fichiers nécessitant une configuration de lien ou pouvant présenter des problèmes de connectivité.
@@ -51,6 +55,7 @@ link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html
 
 
 
+[[support-for-aws-govcloud-us-in-netapp-workload-factory]]
 === Prise en charge d'AWS GovCloud (US) dans NetApp Workload Factory
 
 NetApp Workload Factory prend en charge les comptes AWS GovCloud (US). En utilisant un compte GovCloud, vous pouvez déployer et gérer des charges de travail de stockage dans les régions AWS GovCloud (US).
