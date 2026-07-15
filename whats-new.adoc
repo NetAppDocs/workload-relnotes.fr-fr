@@ -84,6 +84,12 @@ link:learn-custom-dashboards.html["En savoir plus sur les tableaux de bord perso
 
 
 
+==== Suppression de la charge de travail GenAI de Workload Factory
+
+La charge de travail GenAI a été supprimée de la console Workload Factory.
+
+
+
 [[eda-workloads]]
 === Charges de travail EDA
 
