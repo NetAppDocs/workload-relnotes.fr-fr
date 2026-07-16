@@ -1,26 +1,22 @@
-= Analyse de latence améliorée avec graphiques d'IOPS et de débit
+= Analyse de la latence améliorée avec graphiques synchronisés de la latence, d'IOPS et de débit
 :allow-uri-read: 
 
 
 
 
-[[enhanced-latency-analysis-with-iops-and-throughput-graphs]]
-=== Analyse de latence améliorée avec graphiques d'IOPS et de débit
+[[enhanced-latency-analysis-with-synchronized-latency-iops-and-throughput-charts]]
+=== Analyse de la latence améliorée avec graphiques synchronisés de la latence, d'IOPS et de débit
 
-Le panneau d'analyse de latence affiche désormais des graphiques de performance synchronisés dans l'onglet *Évolution dans le temps* :
+Le panneau d'analyse de latence comprend désormais une page *Analyse détaillée de la latence* avec des graphiques de performance synchronisés :
 
 * *Graphique de latence* : Affiche l’évolution de la latence au fil du temps, avec des lignes de seuil et des alertes lorsque les limites sont dépassées.
 * *Graphique IOPS* : Affiche les opérations par seconde, avec des lignes de seuil et des indicateurs de dépassements de limites antérieurs.
-* *Graphique de débit* : Affiche les taux de transfert de données (DataReadBytes ou DataWriteBytes).
+* *Graphique de débit* : Affiche les taux de transfert de données (DataReadBytes ou DataWriteBytes). Lorsque l’option Métadonnées est sélectionnée dans le filtre, le graphique de débit n’affiche aucune donnée.
 
 
 Tous les graphiques utilisent la même chronologie et affichent automatiquement les indicateurs corrects selon qu'il s'agisse d'une lecture ou d'une écriture.
 
-Un nouveau filtre vous permet de basculer entre Tout, Lecture, Écriture ou opérations de Métadonnées pour une analyse plus détaillée.
-
-Ces graphiques vous aident à visualiser les relations entre la latence, les IOPS et le débit, ce qui facilite la recherche des causes des problèmes de performance et la décision quant à la manière de les résoudre.
-
-Les graphiques de performance ne sont désormais disponibles que lorsque les identifiants AWS sont fournis. Les liens FSx for ONTAP sont nécessaires uniquement pour la répartition des composants dans l'analyse de base et l'analyse IA.
+Vous pouvez ajuster l'affichage et corréler les pics de latence avec les variations d'IOPS et de débit. Les indicateurs de violation et les détails affichés au survol vous permettent de voir quand les seuils ont été dépassés et d'examiner les indicateurs clés de la violation détectée.
 
 https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html["Apprenez à analyser les tendances de latence à l'aide de plusieurs graphiques"^].
 
