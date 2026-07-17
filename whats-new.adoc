@@ -67,6 +67,12 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-block-device.html["
 
 
 
+==== Étiquetage de la charge de travail pour les volumes et les périphériques de blocs
+
+Workload Factory identifie et étiquette désormais les volumes et les périphériques de bloc selon leur charge de travail ou application principale. Vous pouvez attribuer des balises prédéfinies telles que Microsoft SQL Server ou Oracle Database, ou créer des balises personnalisées pour vos applications. Les balises peuvent être appliquées à des ressources individuelles ou héritées par les ressources de stockage connectées. Cela vous aide à aligner les configurations de stockage sur les exigences des charges de travail, à comprendre l'impact des incidents et à résoudre les problèmes plus efficacement.
+
+
+
 [[setup-and-administration]]
 === Configuration et administration
 
