@@ -15,6 +15,74 @@ Découvrez les modifications les plus récentes apportées aux charges de travai
 
 
 
+[[03-august-2026]]
+== 03 août 2026
+
+
+
+[[setup-and-administration]]
+=== Configuration et administration
+
+
+
+==== Politiques d'autorisation IAM mises à jour pour les bases de données
+
+Les autorisations pour les bases de données ont été mises à jour afin d'améliorer l'accès aux fonctionnalités et de limiter l'accès SSM lorsque cela n'est pas nécessaire.
+
+Les autorisations de consultation, de planification et d'analyse sont limitées aux documents AWS SSM. Avec ces autorisations, vous pouvez consulter les hôtes, les instances et les bases de données. Vous pouvez également exécuter une analyse bien architecturée de base à la demande de vos ressources.
+
+Les autorisations d'opérations et de correction vous permettent d'apporter des modifications à vos ressources, d'analyser les journaux d'erreurs, d'obtenir une analyse complète et bien architecturée de vos ressources et de résoudre les problèmes de configuration.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Référence des autorisations"] === Tableaux de bord personnalisés
+
+
+
+===== Notifications pour les tableaux de bord personnalisés
+
+Workload Factory vous avertit désormais lorsque votre tableau de bord personnalisé est prêt ou en cas d'échec de sa création.
+
+Une fois votre tableau de bord personnalisé créé, vous recevrez une notification contenant un lien direct pour le consulter. En cas d'échec de la création, vous recevrez une notification avec un lien vers l’inventaire des tableaux de bord personnalisés pour réessayer.
+
+Cela vous permet de savoir quand votre tableau de bord est prêt et facilite sa consultation ou sa recréation.
+
+link:create-custom-dashboard.html["Apprenez à créer des tableaux de bord personnalisés"]
+
+link:configure-notifications.html["Découvrez comment configurer les notifications"]
+
+
+
+===== Tableaux de bord personnalisés privés et publics
+
+Les tableaux de bord personnalisés incluent désormais des paramètres de partage. Vous pouvez garder un tableau de bord privé ou le partager avec votre équipe.
+
+Par défaut, les nouveaux tableaux de bord sont privés et visibles uniquement par vous. Vous pouvez rendre un tableau de bord public à tout moment pour le partager avec tous les utilisateurs de votre compte Workload Factory.
+
+Chaque carte du tableau de bord affiche une étiquette « Private » ou « Public » afin que vous puissiez rapidement voir quels tableaux de bord sont partagés.
+
+link:learn-custom-dashboards.html#dashboard-visibility-and-sharing["Découvrez la visibilité et le partage des tableaux de bord"]
+
+link:manage-custom-dashboards.html#change-dashboard-visibility["Apprenez à partager des tableaux de bord"]
+
+
+
+==== Administration des fonctionnalités d'IA
+
+Vous pouvez contrôler l'accès aux fonctionnalités d'IA au sein de votre organisation grâce aux paramètres suivants dans l'administration de Workload Factory.
+
+* Utilisez NetApp-managed Bedrock (recommandé et activé par défaut, avec des limites de crédit mensuelles)
+* Désactivez toutes les fonctionnalités d'IA
+
+
+La nouvelle page d'administration vous permet de gérer ces paramètres en un seul endroit.
+
+Les fonctionnalités d'IA incluent Ask Me, des tableaux de bord personnalisés, un générateur de règles et des analyseurs pour EMS, les journaux de base de données et la latence des volumes.
+
+Si les fonctionnalités d'IA sont désactivées, les utilisateurs verront un message indiquant que l'IA est indisponible.
+
+link:manage-genai-features.html["Découvrez comment gérer les fonctionnalités d'IA"]
+
+
+
 [[06-july-2026]]
 == 06 juillet 2026
 
@@ -356,148 +424,3 @@ link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html
 ==== Prise en charge d'AWS GovCloud (US) dans NetApp Workload Factory
 
 NetApp Workload Factory prend en charge les comptes AWS GovCloud (US). En utilisant un compte GovCloud, vous pouvez déployer et gérer des charges de travail de stockage dans les régions AWS GovCloud (US).
-
-
-
-[[03-may-2026]]
-== 3 mai 2026
-
-
-
-[[amazon-fsx-for-netapp-ontap]]
-=== Amazon FSX pour NetApp ONTAP
-
-
-
-==== Clonage de périphériques de bloc
-
-Workload Factory propose des clones pour vos périphériques de stockage bloc afin que vous puissiez provisionner rapidement des copies inscriptibles et efficaces de vos données tout en contrôlant la capacité, l'accès et le cycle de vie.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html["Gérez le stockage bloc dans NetApp Workload Factory"]
-
-
-
-==== Étiquettes EC2 sur les périphériques de stockage bloc
-
-Le tableau des périphériques de stockage bloc comprend désormais une colonne affichant les étiquettes des hôtes EC2 qui consomment chaque périphérique de stockage bloc. Cela vous aide à identifier quel hôte utilise chaque périphérique de stockage bloc lors du dépannage ou des audits.
-
-Pour créer des étiquettes sur chaque périphérique de bloc, déployez une instance EC2 à l'aide de notre script utilisateur fourni.
-
-link:https://github.com/NetApp/FSx-ONTAP-samples-scripts/tree/main/Management-Utilities/ec2-user-data-iscsi-create-and-mount["Script de données utilisateur EC2 pour attribuer des balises aux périphériques de stockage bloc"]
-
-
-
-==== Tendances de capacité pour les systèmes de fichiers FSx for ONTAP
-
-Découvrez les tendances de capacité SSD directement depuis la vue d'ensemble de vos systèmes de fichiers FSx for ONTAP. La nouvelle carte de gestion de la capacité affiche les tendances d'utilisation du mois précédent. Cette analyse compare la capacité réelle et la capacité allouée, ce qui facilite l'évaluation de l'utilisation des ressources.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-capacity-automatically.html["Gérez automatiquement la capacité dans NetApp Workload Factory"]
-
-
-
-==== Rapport PDF sur l'état bien architecturé des systèmes de fichiers FSx pour ONTAP
-
-Après analyse, vous pouvez télécharger un rapport PDF sur l'état d'architecture de vos systèmes de fichiers FSx for ONTAP pour vos archives ou pour le partager avec vos équipes.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Consultez l'état d'architecture optimale de vos systèmes de fichiers FSx for ONTAP dans NetApp Workload Factory"]
-
-
-
-[[database-workloads]]
-=== Charges de travail des bases de données
-
-
-
-==== Analyse bien architecturée pour Oracle
-
-L'analyse bien architecturée inclut les nouvelles configurations suivantes pour Oracle :
-
-* *Configuration de sauvegarde* : vérifie si vos bases de données Oracle sont protégées par AWS Backup ou par des sauvegardes FSx pour ONTAP.
-* *Nettoyage des clones* : recommande de supprimer les clones obsolètes ou inutilisés afin de réduire les coûts de stockage.
-
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implémenter des configurations de base de données bien architecturées dans Workload Factory"]
-
-
-
-==== Calcul automatique des économies pour les bases de données Oracle sur Amazon Elastic Block Store (EBS)
-
-Workload Factory analyse automatiquement le coût du stockage EBS utilisé pour les bases de données Oracle, puis suggère la configuration FSx for ONTAP la plus performante et la plus économique. Vous pouvez sélectionner plusieurs hôtes EBS à analyser et comparer ensuite le coût d'exécution de ces hôtes sur EBS par rapport à FSx for ONTAP.
-
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["Découvrez les économies pour les hôtes EBS détectés"]
-
-
-
-==== Vérification préalable de la configuration CRR
-
-Lorsque vous activez la réplication interrégionale (CRR) pour votre base de données, la charge de travail de base de données vérifie si le système de fichiers FSx for ONTAP possède une liaison et une configuration de réplication associées. Le cas échéant, la charge de travail de base de données vous redirige vers l’assistant de réplication de la charge de travail de stockage FSx for ONTAP afin de gérer les prérequis de liaison de la même manière que le stockage.
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implémenter des configurations de base de données bien architecturées dans Workload Factory"]
-
-
-
-==== LUN associés pour les bases de données Microsoft SQL Server
-
-Vous pouvez désormais visualiser les LUN mappées aux bases de données Microsoft SQL Server dans Workload Factory depuis l'écran Inventaire. Cela vous permet d'identifier facilement les LUN associées à chaque base de données, ce qui facilite la gestion et l'optimisation de vos ressources de stockage.
-
-
-
-[[setup-and-administration]]
-=== Configuration et administration
-
-
-
-==== Notifications par e-mail pour Workload Factory
-
-Vous pouvez désormais recevoir les notifications de Workload Factory par e-mail sans configurer de rubrique Amazon SNS. Activez les notifications par e-mail pour envoyer des notifications à toutes les adresses e-mail associées au compte.
-
-Vous pouvez configurer les notifications par e-mail depuis la console Workload Factory ou la NetApp Console. La NetApp Console offre également la possibilité de configurer les notifications NetApp Console qui s'affichent sous l'icône de cloche.
-
-Si vous configurez les notifications dans NetApp Console, NetApp Console prend en charge la distribution des notifications. Les paramètres de notification dans la console Workload Factory deviennent en lecture seule afin d’éviter les notifications en double.
-
-
-
-==== Nouvelle notification concernant la latence EDA
-
-Le service de notification NetApp Workload Factory inclut la notification de latence EDA qui vous avertit lorsque la latence d'une opération EDA dépasse un certain seuil.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Configurer les notifications de Workload Factory"]
-
-
-
-==== Nouvelle notification pour les systèmes de fichiers FSx for ONTAP
-
-Le service de notification NetApp Workload Factory inclut une notification contenant un récapitulatif mensuel des coûts de votre compte, indiquant les tendances de dépenses, les variations inhabituelles et les meilleures opportunités d'économies pour les systèmes de fichiers FSx for ONTAP.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Configurer les notifications de Workload Factory"]
-
-
-
-[[eda-workloads]]
-=== Charges de travail EDA
-
-
-
-==== Notifications par e-mail et SNS en cas d'événements de latence
-
-Vous pouvez désormais recevoir des notifications automatiques en cas de détection d'événements de latence sur vos volumes FSx for ONTAP. Configurez les notifications par e-mail ou Amazon SNS dans les paramètres de Workload Factory pour recevoir des alertes en temps réel lorsque les volumes dépassent les seuils de latence que vous avez définis.
-
-Les notifications sont envoyées au niveau du système de fichiers et comprennent des détails sur tous les volumes affectés, les niveaux de gravité, les comparaisons de seuils et un lien direct vers la page Latence pour l'analyse.
-
-https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#configure-latency-notifications["Apprenez à configurer les notifications de latence"^].
-
-
-
-==== Visualisation de l'évolution de la latence à l'aide de graphiques interactifs
-
-Le panneau d'analyse de latence comprend désormais une interface à onglets pour une analyse de latence complète :
-
-* *Aperçu* : Consultez les résultats de l’analyse de base automatisée indiquant quel composant est à l’origine de la latence
-* *Au fil du temps* : Visualisez le comportement de la latence du volume grâce à un graphique interactif sur plusieurs périodes (1 heure, 3 heures, 12 heures, 24 heures ou 72 heures)
-
-
-L'onglet *Au fil du temps* affiche les données de latence brutes CloudWatch (lecture ou écriture, selon l'alarme déclenchée) avec des lignes de seuil d'avertissement et de critique, des indicateurs de dépassement et des métriques détaillées pour chaque violation.
-
-Cette visualisation complète vous aide à identifier les tendances, à comprendre si les problèmes de latence sont récurrents ou isolés et à prendre des décisions plus éclairées concernant leur résolution.
-
-https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html["Apprenez à analyser les tendances de latence"^].
