@@ -20,6 +20,37 @@ Découvrez les modifications les plus récentes apportées aux charges de travai
 
 
 
+[[database-workloads]]
+=== Charges de travail des bases de données
+
+
+
+==== Modifications de configuration pour Oracle et Microsoft SQL Server dans l'analyse bien architecturée
+
+Plusieurs configurations de bases de données ont été combinées et renommées selon les configurations suivantes dans l'analyse bien architecturée.
+
+* *Gestion de l'espace des périphériques de stockage* : comprend la réservation d'espace, l'allocation d'espace et la réserve fractionnaire
+* *Optimisation du stockage* : comprend la compression, la déduplication et le compactage
+* *Optimisation de la hiérarchisation/du coût total de possession* : comprend la politique de hiérarchisation et le nombre minimal de jours de refroidissement par niveau
+* *Planifiez des instantanés locaux* : inclut la règle d’instantané
+
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-overview.html["Analyse de configuration dans Workload Factory"]
+
+
+
+==== Politiques d'autorisation IAM mises à jour pour les bases de données
+
+Les autorisations pour les bases de données ont été mises à jour afin d'améliorer l'accès aux fonctionnalités et de limiter l'accès SSM lorsque cela n'est pas nécessaire.
+
+Les autorisations de consultation, de planification et d'analyse sont limitées aux documents AWS SSM. Avec ces autorisations, vous pouvez consulter les hôtes, les instances et les bases de données. Vous pouvez également exécuter une analyse bien architecturée de base à la demande de vos ressources.
+
+Les autorisations d'opérations et de correction vous permettent d'apporter des modifications à vos ressources, d'analyser les journaux d'erreurs, d'obtenir une analyse complète et bien architecturée de vos ressources et de résoudre les problèmes de configuration.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Référence des autorisations"^]
+
+
+
 [[setup-and-administration]]
 === Configuration et administration
 
@@ -33,7 +64,11 @@ Les autorisations de consultation, de planification et d'analyse sont limitées 
 
 Les autorisations d'opérations et de correction vous permettent d'apporter des modifications à vos ressources, d'analyser les journaux d'erreurs, d'obtenir une analyse complète et bien architecturée de vos ressources et de résoudre les problèmes de configuration.
 
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Référence des autorisations"] === Tableaux de bord personnalisés
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Référence des autorisations"]
+
+
+
+==== Tableaux de bord personnalisés
 
 
 
