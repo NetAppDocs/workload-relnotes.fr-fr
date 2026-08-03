@@ -166,17 +166,13 @@
   <block id="7a99102fbba6a5729480bc61967c8423" category="paragraph">Une fois votre tableau de bord personnalisé créé, vous recevrez une notification contenant un lien direct pour le consulter. En cas d'échec de la création, vous recevrez une notification avec un lien vers l’inventaire des tableaux de bord personnalisés pour réessayer.</block>
   <block id="a9402b6e97b8b59ffa86012d5cfb7f9a" category="paragraph">Cela vous permet de savoir quand votre tableau de bord est prêt et facilite sa consultation ou sa recréation.</block>
   <block id="359ab637c5369e269d0e004308b6c089" category="inline-link-macro">Apprenez à créer des tableaux de bord personnalisés</block>
-  <block id="2b4fe8741ca59e9e85fecaff24736613" category="paragraph"><block ref="2b4fe8741ca59e9e85fecaff24736613" category="inline-link-macro-rx"></block></block>
   <block id="863d814c29385fa8ebfd13bc1c1c7e96" category="inline-link-macro">Découvrez comment configurer les notifications</block>
-  <block id="19fa6c73a4251f43a74dc700e68a79f1" category="paragraph"><block ref="19fa6c73a4251f43a74dc700e68a79f1" category="inline-link-macro-rx"></block></block>
   <block id="27a522e1e6e4d9921e08ab5e7ad99158" category="section-title">Tableaux de bord personnalisés privés et publics</block>
   <block id="add4e669fb22c004f4eef61607cc5df8" category="paragraph">Les tableaux de bord personnalisés incluent désormais des paramètres de partage. Vous pouvez garder un tableau de bord privé ou le partager avec votre équipe.</block>
   <block id="1bdd40db25752f704baa9b254470fb9a" category="paragraph">Par défaut, les nouveaux tableaux de bord sont privés et visibles uniquement par vous. Vous pouvez rendre un tableau de bord public à tout moment pour le partager avec tous les utilisateurs de votre compte Workload Factory.</block>
   <block id="26e05170ba3616166d4659e72d415450" category="paragraph">Chaque carte du tableau de bord affiche une étiquette « Private » ou « Public » afin que vous puissiez rapidement voir quels tableaux de bord sont partagés.</block>
   <block id="29f897a53b188561913c2393050ce43a" category="inline-link-macro">Découvrez la visibilité et le partage des tableaux de bord</block>
-  <block id="c5d5a7386c6c7c68f8d62de175cd235f" category="paragraph"><block ref="c5d5a7386c6c7c68f8d62de175cd235f" category="inline-link-macro-rx"></block></block>
   <block id="c0bb5d7518380c44f5710f0803f9b3f4" category="inline-link-macro">Apprenez à partager des tableaux de bord</block>
-  <block id="15bb464c4011a82a1976bc518af9f860" category="paragraph"><block ref="15bb464c4011a82a1976bc518af9f860" category="inline-link-macro-rx"></block></block>
   <block id="b6ea1239e82705b159df88578e6fb6f0" category="section-title">Administration des fonctionnalités d'IA</block>
   <block id="1c7ba82e26fc30a97a625aaad623e4f4" category="paragraph">Vous pouvez contrôler l'accès aux fonctionnalités d'IA au sein de votre organisation grâce aux paramètres suivants dans l'administration de Workload Factory.</block>
   <block id="e585625dd2a0a8e71ca8d8a269834ba9" category="list-text">Utilisez NetApp-managed Bedrock (recommandé et activé par défaut, avec des limites de crédit mensuelles)</block>
@@ -185,7 +181,6 @@
   <block id="cd89624525aeeba4f9fce9dcfb6d9a91" category="paragraph">Les fonctionnalités d'IA incluent Ask Me, des tableaux de bord personnalisés, un générateur de règles et des analyseurs pour EMS, les journaux de base de données et la latence des volumes.</block>
   <block id="dc363e90d503e57b6cddc555e2f96d5f" category="paragraph">Si les fonctionnalités d'IA sont désactivées, les utilisateurs verront un message indiquant que l'IA est indisponible.</block>
   <block id="48dc51848c127d267cdd7ab1bcd0fe5e" category="inline-link-macro">Découvrez comment gérer les fonctionnalités d'IA</block>
-  <block id="56d2e09cbb0a828478db20ff2d11774d" category="paragraph"><block ref="56d2e09cbb0a828478db20ff2d11774d" category="inline-link-macro-rx"></block></block>
   <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">03 août 2026</block>
   <block id="1eda45f1f79ca6e9d6b738032665f7c6" category="doc">Analyse de la latence de l'IA avec contrôle des coûts</block>
   <block id="b171182b7dc211a76d3e7cecbdf5e425" category="paragraph">En tant qu'administrateur de Workload Factory, vous pouvez contrôler l'accès à l'analyse de latence de l'IA au sein de votre organisation.</block>
@@ -238,4 +233,9 @@
   <block id="5874b771173388bd46c8912da31750a0" category="paragraph"><block ref="5874b771173388bd46c8912da31750a0" category="inline-link-macro-rx"></block></block>
   <block id="c041c2dfd235a9062883922df8e04748" category="paragraph"><block ref="c041c2dfd235a9062883922df8e04748" category="inline-link-macro-rx"></block></block>
   <block id="167e20b67f84068555b3081057c696b8" category="paragraph"><block ref="167e20b67f84068555b3081057c696b8" category="inline-link-macro-rx"></block></block>
+  <block id="0e23d2a91e2fd1a7eb141ceb8cd9ddcf" category="paragraph"><block ref="0e23d2a91e2fd1a7eb141ceb8cd9ddcf" category="inline-link-macro-rx"></block></block>
+  <block id="d972d2e4f90697cd9aea0ea06c6d65ea" category="paragraph"><block ref="d972d2e4f90697cd9aea0ea06c6d65ea" category="inline-link-macro-rx"></block></block>
+  <block id="5243974c66976ebd592df24b62b1b9bf" category="paragraph"><block ref="5243974c66976ebd592df24b62b1b9bf" category="inline-link-macro-rx"></block></block>
+  <block id="a8d7b4c293e04e8a879f9be70ed380ba" category="paragraph"><block ref="a8d7b4c293e04e8a879f9be70ed380ba" category="inline-link-macro-rx"></block></block>
+  <block id="8d20116cd01bc3ce31dae628497af0dc" category="paragraph"><block ref="8d20116cd01bc3ce31dae628497af0dc" category="inline-link-macro-rx"></block></block>
 </blocks>
