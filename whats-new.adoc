@@ -160,7 +160,7 @@ Dans le tableau de bord optimisé, chaque configuration relative aux volumes inc
 
 Les charges de travail ne sont pas étiquetées lorsque l'administrateur désactive les fonctionnalités d'IA. Si les fonctionnalités d'IA sont désactivées dans les paramètres de votre compte Workload Factory, le service d'étiquetage n'identifiera ni ne classera les charges de travail sur vos ressources de stockage.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-genai-features.html["Découvrez l'administration de l'IA"^].
+link:https://docs.netapp.com/us-en/workload-setup-admin/manage-genai-features.html["Découvrez l'administration de l'IA"^].
 
 
 
