@@ -83,6 +83,37 @@ link:manage-genai-features.html["Découvrez comment gérer les fonctionnalités 
 
 
 
+[[eda-workloads]]
+=== Charges de travail EDA
+
+
+
+==== Analyse de la latence de l'IA avec contrôle des coûts
+
+En tant qu'administrateur de Workload Factory, vous pouvez contrôler l'accès à l'analyse de latence de l'IA au sein de votre organisation.
+
+* *NetApp-crédits IA gérés* : Si votre administrateur l’active, vous pouvez utiliser l’analyse IA via l’intégration Amazon Bedrock gérée par NetApp. Aucune configuration supplémentaire n’est requise. Votre utilisation mensuelle est limitée par votre budget attribué. Si vous atteignez votre limite mensuelle, les fonctionnalités alimentées par l’IA sont désactivées et vous verrez un message.
+* *Désactivé par l'administrateur* : Si votre administrateur désactive les fonctionnalités d'IA, les options d'analyse d'IA seront grisées et vous verrez un message indiquant que la fonctionnalité est désactivée.
+
+
+
+
+==== Gestion de l'augmentation du débit élastique
+
+Vous pouvez désormais gérer le comportement d'augmentation du débit depuis la page Vue d'ensemble EDA pour un ou plusieurs systèmes de fichiers FSx for ONTAP sélectionnés.
+
+* *Sélection du mode* : Choisissez *Automate* ou *Recommend*.
+* *Mises à jour groupées* : Sélectionnez un ou plusieurs systèmes de fichiers et appliquez les modifications de mode et de paramètres en une seule action.
+* *Dialogue de gestion du débit* : Modifiez les paramètres d’augmentation du débit avec les valeurs par défaut EDA dans la boîte de dialogue.
+* *Paramètres avancés* : Configurez des paramètres de décision de débit supplémentaires dans une section *Configuration avancée* extensible.
+* *Visibilité du tableau* : Une nouvelle colonne *Gestion du débit* est disponible dans le tableau Clusters et peut être activée dans les paramètres de colonne.
+* *Configuration de la carte supérieure* : La carte supérieure prend désormais en charge la configuration du mode d’augmentation du débit, similaire à la gestion des SSD.
+
+
+link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["Découvrez comment utiliser le tableau de bord Overview"^].
+
+
+
 [[06-july-2026]]
 == 06 juillet 2026
 

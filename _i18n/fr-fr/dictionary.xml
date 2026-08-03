@@ -188,4 +188,18 @@
   <block id="48dc51848c127d267cdd7ab1bcd0fe5e" category="inline-link-macro">Découvrez comment gérer les fonctionnalités d'IA</block>
   <block id="56d2e09cbb0a828478db20ff2d11774d" category="paragraph"><block ref="56d2e09cbb0a828478db20ff2d11774d" category="inline-link-macro-rx"></block></block>
   <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">03 août 2026</block>
+  <block id="1eda45f1f79ca6e9d6b738032665f7c6" category="doc">Analyse de la latence de l'IA avec contrôle des coûts</block>
+  <block id="b171182b7dc211a76d3e7cecbdf5e425" category="paragraph">En tant qu'administrateur de Workload Factory, vous pouvez contrôler l'accès à l'analyse de latence de l'IA au sein de votre organisation.</block>
+  <block id="4c9d3f8b46f94437f92a47d3612a2829" category="list-text">*NetApp-crédits IA gérés* : Si votre administrateur l’active, vous pouvez utiliser l’analyse IA via l’intégration Amazon Bedrock gérée par NetApp. Aucune configuration supplémentaire n’est requise. Votre utilisation mensuelle est limitée par votre budget attribué. Si vous atteignez votre limite mensuelle, les fonctionnalités alimentées par l’IA sont désactivées et vous verrez un message.</block>
+  <block id="67ee5da1047f90d8a684f7e0d2ca1944" category="list-text">*Désactivé par l'administrateur* : Si votre administrateur désactive les fonctionnalités d'IA, les options d'analyse d'IA seront grisées et vous verrez un message indiquant que la fonctionnalité est désactivée.</block>
+  <block id="69e316ff96b412dd2a5045f8dd2f433c" category="section-title">Gestion de l'augmentation du débit élastique</block>
+  <block id="a01f5f5609c9aee121b699114cfe006f" category="paragraph">Vous pouvez désormais gérer le comportement d'augmentation du débit depuis la page Vue d'ensemble EDA pour un ou plusieurs systèmes de fichiers FSx for ONTAP sélectionnés.</block>
+  <block id="9c3ee7dcbca3424fcc3c760549aa303d" category="list-text">*Sélection du mode* : Choisissez *Automate* ou *Recommend*.</block>
+  <block id="b9722197734c8293fedc4e7c6db77abe" category="list-text">*Mises à jour groupées* : Sélectionnez un ou plusieurs systèmes de fichiers et appliquez les modifications de mode et de paramètres en une seule action.</block>
+  <block id="1a97c66f134399c6e8ddf03e8cd9055e" category="list-text">*Dialogue de gestion du débit* : Modifiez les paramètres d’augmentation du débit avec les valeurs par défaut EDA dans la boîte de dialogue.</block>
+  <block id="0e71e5ed033b79a12a3d33146bbef832" category="list-text">*Paramètres avancés* : Configurez des paramètres de décision de débit supplémentaires dans une section *Configuration avancée* extensible.</block>
+  <block id="3c559babe76da927fd273d0640ba2089" category="list-text">*Visibilité du tableau* : Une nouvelle colonne *Gestion du débit* est disponible dans le tableau Clusters et peut être activée dans les paramètres de colonne.</block>
+  <block id="b353daec82916c89eec0f9b0557132c1" category="list-text">*Configuration de la carte supérieure* : La carte supérieure prend désormais en charge la configuration du mode d’augmentation du débit, similaire à la gestion des SSD.</block>
+  <block id="e6ae1bdcdd4c1d6a5bc23c326f27ff3f" category="inline-link-macro">Découvrez comment utiliser le tableau de bord Overview</block>
+  <block id="070faad8fac25fb3d4c659a4b7497b19" category="paragraph"><block ref="0a3eee7cb6c31ec86c09cd7ae18ee1d3" category="inline-link-macro-rx"></block>.</block>
 </blocks>
