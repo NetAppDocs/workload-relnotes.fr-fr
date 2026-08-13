@@ -13,7 +13,6 @@ settings:
     - workload-fsx-ontap
     - workload-databases
     - workload-vmware
-    - workload-genai
     - workload-setup-admin
     - workload-eda
   langs: fr-fr,us-en,de-de,es-es,it-it,pt-br,ja-jp,ko-kr,zh-cn,zh-tw
