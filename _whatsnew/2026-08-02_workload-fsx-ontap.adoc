@@ -69,3 +69,10 @@ Vous pouvez désormais exporter les données de délai de réplication vers un f
 Vous pouvez désormais envoyer les événements du point d'accès S3 à la rubrique SNS selon une planification définie. Chaque mise à jour inclut tous les événements survenus depuis la dernière mise à jour.
 
 Pour configurer les notifications pour les événements S3, link:https://docs.netapp.com/us-en/workload-fsx-ontap/edit-s3-access-points.html["modifier les points d'accès S3"] et sélectionnez *Envoyer les événements S3 par SNS* dans la section *Tableau du journal*.
+
+
+
+[[ontap-features-displayed-in-volumes-explorer]]
+=== Fonctionnalités ONTAP affichées dans l'explorateur de volumes
+
+L'explorateur de volumes intègre désormais les fonctionnalités ONTAP dans le tableau des volumes. Ces fonctionnalités offrent une visibilité plus détaillée sur la configuration et l'état de vos volumes, notamment la couverture de protection, l'état de la protection autonome contre les ransomwares (ARP/AI), l'efficacité du stockage, la stratégie de hiérarchisation et l'extension automatique des volumes.

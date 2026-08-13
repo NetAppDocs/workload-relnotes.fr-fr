@@ -37,7 +37,6 @@
   <block id="06c8d6de7277fbcb62791ed118b9bc96" category="paragraph"><block ref="06c8d6de7277fbcb62791ed118b9bc96" category="inline-link-macro-rx"></block></block>
   <block id="394b492bc5d751a9928357af63eeb4df" category="section-title">Nouvelle notification pour les systèmes de fichiers FSx for ONTAP</block>
   <block id="ed577820f4fec6bbade3e14c5eb7020d" category="doc">Prise en charge d'AWS GovCloud (US) dans NetApp Workload Factory</block>
-  <block id="699b8f027b66b237760179b118b65c6e" category="paragraph">NetApp Workload Factory prend en charge les comptes AWS GovCloud (US). En utilisant un compte GovCloud, vous pouvez déployer et gérer des charges de travail GenAI dans les régions AWS GovCloud (US).</block>
   <block id="92ee6e4d72d15689a675017ce0db2fa1" category="section-title">31 mai 2026</block>
   <block id="779d05f80e557ffb6b9d91002c8c535c" category="doc">Économies personnalisées pour les hôtes Oracle sur Amazon Elastic Block Store</block>
   <block id="3a4be47663e2fa751113137a974a3fbf" category="paragraph">NetApp Workload Factory for Databases vous permet de personnaliser les économies réalisées pour les hôtes Oracle sur Amazon Elastic Block Store (EBS). Vous pouvez ajuster plusieurs champs comme la fréquence des instantanés, le nombre de copies clonées et les détails des volumes pour voir comment ils affectent vos économies.</block>
@@ -238,4 +237,6 @@
   <block id="5243974c66976ebd592df24b62b1b9bf" category="paragraph"><block ref="5243974c66976ebd592df24b62b1b9bf" category="inline-link-macro-rx"></block></block>
   <block id="a8d7b4c293e04e8a879f9be70ed380ba" category="paragraph"><block ref="a8d7b4c293e04e8a879f9be70ed380ba" category="inline-link-macro-rx"></block></block>
   <block id="8d20116cd01bc3ce31dae628497af0dc" category="paragraph"><block ref="8d20116cd01bc3ce31dae628497af0dc" category="inline-link-macro-rx"></block></block>
+  <block id="935b1e26eff078e94b224d92e0db898a" category="section-title">Fonctionnalités ONTAP affichées dans l'explorateur de volumes</block>
+  <block id="2d4406cf931edb2fbd5ab72e7eb07c66" category="paragraph">L'explorateur de volumes intègre désormais les fonctionnalités ONTAP dans le tableau des volumes. Ces fonctionnalités offrent une visibilité plus détaillée sur la configuration et l'état de vos volumes, notamment la couverture de protection, l'état de la protection autonome contre les ransomwares (ARP/AI), l'efficacité du stockage, la stratégie de hiérarchisation et l'extension automatique des volumes.</block>
 </blocks>
