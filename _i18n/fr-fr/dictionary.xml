@@ -168,4 +168,8 @@
   <block id="8d8c52a0c2cdf249c1bf6acdbd825469" category="doc">Nouvelle expérience d'intégration pour les identifiants et les liens</block>
   <block id="4f9abf683fceb68d04e55eccea1aef30" category="paragraph">Workload Factory améliore l'expérience d'intégration pour les identifiants et les liens, ce qui facilite la prise en main. Après avoir créé votre compte et vous être connecté, sélectionnez *Commencer* dans n'importe quelle tuile de charge de travail, par exemple *Storage*, et la page suivante vous guide étape par étape dans le processus de configuration.</block>
   <block id="1641126472d40ab162e3acf05ac611ba" category="section-title">30 août 2026</block>
+  <block id="c329a6ebc8c0891e88889203e3e31c39" category="doc">Création de liens disponible depuis la page Links</block>
+  <block id="ef8e743556b96fe2947729361cb5835f" category="paragraph">Vous pouvez désormais créer des liens directement depuis la page Liens du menu Administration, en plus de la page d'inventaire FSx for ONTAP et de la page de présentation du système de fichiers.</block>
+  <block id="b65fab1584e1a15fb6cd01b1fb573a1f" category="inline-link-macro">En savoir plus sur la création de liens</block>
+  <block id="2fb8fbf9eac6cb7cdbca3e8cae581dd0" category="paragraph"><block ref="ac8902bc899b18c41d3bea9bfd9e1e86" category="inline-link-macro-rx"></block>.</block>
 </blocks>
