@@ -33,6 +33,14 @@ link:create-link.html["En savoir plus sur la création de liens"].
 
 
 
+==== Identification de la charge de travail
+
+* NetApp Workload Factory identifie désormais les charges de travail des hôtes connectés au stockage FSx for ONTAP déployé dans une région différente.
+* La logique améliorée de détection de la charge de travail découvre désormais des types de charge de travail supplémentaires et améliore la précision des résultats.
+
+
+
+
 [[database-workloads]]
 === Charges de travail des bases de données
 

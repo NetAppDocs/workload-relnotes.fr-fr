@@ -10,3 +10,12 @@
 Vous pouvez désormais créer des liens directement depuis la page Liens du menu Administration, en plus de la page d'inventaire FSx for ONTAP et de la page de présentation du système de fichiers.
 
 link:create-link.html["En savoir plus sur la création de liens"].
+
+
+
+[[workload-identification]]
+=== Identification de la charge de travail
+
+* NetApp Workload Factory identifie désormais les charges de travail des hôtes connectés au stockage FSx for ONTAP déployé dans une région différente.
+* La logique améliorée de détection de la charge de travail découvre désormais des types de charge de travail supplémentaires et améliore la précision des résultats.
+
