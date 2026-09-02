@@ -181,4 +181,8 @@
   <block id="c82db17d9640cb358a39977100613e95" category="section-title">Identification de la charge de travail</block>
   <block id="9c2440b961ba52df8467b29a146f98ba" category="list-text">NetApp Workload Factory identifie désormais les charges de travail des hôtes connectés au stockage FSx for ONTAP déployé dans une région différente.</block>
   <block id="c48db719590b6821db48e6238f4be1c4" category="list-text">La logique améliorée de détection de la charge de travail découvre désormais des types de charge de travail supplémentaires et améliore la précision des résultats.</block>
+  <block id="431b3c73dcd090440f753c5d3af80bb0" category="section-title">1er juin 2026</block>
+  <block id="04c0507bac5db3815eb05149e687293a" category="paragraph">Directive non résolue dans &lt;stdin&gt; - include::_whatsnew/2026-06-01_workload-databases.adoc[leveloffset=+1]</block>
+  <block id="92ee6e4d72d15689a675017ce0db2fa1" category="section-title">31 mai 2026</block>
+  <block id="a5f1df54f2f444fcc2dd868e0f219417" category="paragraph">Directive non résolue dans &lt;stdin&gt; - include::_whatsnew/2026-05-31_workload-fsx-ontap.adoc[leveloffset=+1] === Charges de travail VMware Directive non résolue dans &lt;stdin&gt; - include::_whatsnew/2026-05-31_workload-vmware.adoc[leveloffset=+1] === Installation et administration Directive non résolue dans &lt;stdin&gt; - include::_whatsnew/2026-05-31_workload-setup-admin.adoc[leveloffset=+1] === Charges de travail EDA Directive non résolue dans &lt;stdin&gt; - include::_whatsnew/2026-05-31_workload-eda.adoc[leveloffset=+1]</block>
 </blocks>

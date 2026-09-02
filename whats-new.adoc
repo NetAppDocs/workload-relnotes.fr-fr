@@ -415,3 +415,27 @@ Après l'envoi d'une alerte de latence pour un système de fichiers, Workload Fa
 Les notifications quotidiennes sont activées par défaut afin de réduire le volume d'e-mails tout en vous alertant des problèmes de latence. Vous pouvez modifier votre préférence de notification lors de la configuration de la surveillance de la latence ou de la modification des paramètres de seuil.
 
 https://docs.netapp.com/us-en/workload-eda/task-configure-latency-monitoring.html["Apprenez à configurer la surveillance de la latence"^].
+
+
+
+[[01-june-2026]]
+== 1er juin 2026
+
+
+
+[[database-workloads]]
+=== Charges de travail des bases de données
+
+Directive non résolue dans <stdin> - include::_whatsnew/2026-06-01_workload-databases.adoc[leveloffset=+1]
+
+
+
+[[31-may-2026]]
+== 31 mai 2026
+
+
+
+[[amazon-fsx-for-netapp-ontap]]
+=== Amazon FSX pour NetApp ONTAP
+
+Directive non résolue dans <stdin> - include::_whatsnew/2026-05-31_workload-fsx-ontap.adoc[leveloffset=+1] === Charges de travail VMware Directive non résolue dans <stdin> - include::_whatsnew/2026-05-31_workload-vmware.adoc[leveloffset=+1] === Installation et administration Directive non résolue dans <stdin> - include::_whatsnew/2026-05-31_workload-setup-admin.adoc[leveloffset=+1] === Charges de travail EDA Directive non résolue dans <stdin> - include::_whatsnew/2026-05-31_workload-eda.adoc[leveloffset=+1]

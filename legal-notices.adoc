@@ -7,7 +7,7 @@ summary:
 = Mentions légales
 :allow-uri-read: 
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 
 [role="lead"]
