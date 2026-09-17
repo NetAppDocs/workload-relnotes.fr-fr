@@ -15,6 +15,32 @@ Découvrez les modifications les plus récentes apportées aux charges de travai
 
 
 
+[[27-september-2026]]
+== 27 septembre 2026
+
+
+
+[[database-workloads]]
+=== Charges de travail des bases de données
+
+
+
+==== Configurations de base de données incluses dans un tableau de bord bien architecturé
+
+Le tableau de bord bien architecturé inclut désormais des recommandations pour la configuration de votre base de données, vous permettant d’évaluer et d’optimiser votre installation selon les meilleures pratiques. Les premières configurations incluent :
+
+* Hiérarchisation des données froides
+* Efficacités du stockage
+* Stratégie de snapshot
+* marge de capacité SSD
+
+
+Trouvez le tableau de bord bien architecturé en sélectionnant le menu principal dans la console NetApp Workload Factory et sélectionnez *Well-architected*.
+
+image:well-architected-menu-option.png["Option de menu bien conçue dans la console NetApp Workload Factory"]
+
+
+
 [[30-august-2026]]
 == 30 août 2026
 
