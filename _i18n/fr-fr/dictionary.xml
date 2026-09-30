@@ -179,15 +179,6 @@
   <block id="9c2440b961ba52df8467b29a146f98ba" category="list-text">NetApp Workload Factory identifie désormais les charges de travail des hôtes connectés au stockage FSx for ONTAP déployé dans une région différente.</block>
   <block id="c48db719590b6821db48e6238f4be1c4" category="list-text">La logique améliorée de détection de la charge de travail découvre désormais des types de charge de travail supplémentaires et améliore la précision des résultats.</block>
   <block id="5755a9e38430cc58eec03f6a091d949b" category="paragraph"><block ref="3b334f327ff595e44f743e1d47e519c8" category="inline-link-macro-rx"></block>.</block>
-  <block id="b3ae445fa637203f0dc17550b5c4a56c" category="doc">Configurations de base de données incluses dans un tableau de bord bien architecturé</block>
-  <block id="a04fc413f106e041524732d895e4258e" category="paragraph">Le tableau de bord bien architecturé inclut désormais des recommandations pour la configuration de votre base de données, vous permettant d’évaluer et d’optimiser votre installation selon les meilleures pratiques. Les premières configurations incluent :</block>
-  <block id="0ab265b548fdc40b21483e61ffde3aba" category="list-text">Hiérarchisation des données froides</block>
-  <block id="af20abc7154e9ee224c54b48b6ec7d63" category="list-text">Efficacités du stockage</block>
-  <block id="4c0abf2d4c54820b8d33061abaf30759" category="list-text">Stratégie de snapshot</block>
-  <block id="6f5cf50fa90f8d99bf50f65e676c6cba" category="list-text">marge de capacité SSD</block>
-  <block id="4dcac8e07a1246e665077c1572955236" category="paragraph">Trouvez le tableau de bord bien architecturé en sélectionnant le menu principal dans la console NetApp Workload Factory et sélectionnez *Well-architected*.</block>
-  <block id="2d647234501319107057acb4d3f8dfaf" category="inline-image-macro">Option de menu bien conçue dans la console NetApp Workload Factory</block>
-  <block id="353cc99df6b21e74c805e74bdab4b8aa" category="paragraph"><block ref="353cc99df6b21e74c805e74bdab4b8aa" category="inline-image-macro-rx" type="image"></block></block>
   <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">27 septembre 2026</block>
   <block id="dd6c12ecaee3143ccc7a7d85e16032ff" category="paragraph"><block ref="dd6c12ecaee3143ccc7a7d85e16032ff" category="inline-link-macro-rx"></block></block>
   <block id="034feb9138972a75bb0c4407e9663857" category="paragraph"><block ref="034feb9138972a75bb0c4407e9663857" category="inline-link-macro-rx"></block></block>
@@ -234,4 +225,6 @@
   <block id="44268d176d67be14130038589d76e779" category="paragraph">Workload Factory vous avertit désormais lorsqu'un lien Lambda n'utilise pas la dernière image disponible. Si les mises à jour automatiques ne sont pas prises en charge pour un lien, la notification indique lorsqu'une version plus récente est disponible.</block>
   <block id="36be3d9219f21557e17dda1fb159e09d" category="paragraph">Vous pouvez consulter les instructions de mise à niveau sur la page Liens. Ces instructions expliquent comment mettre à jour manuellement l'image du lien Lambda et activer les mises à niveau automatiques lorsqu'elles sont disponibles. Maintenir les liens à jour vous permet de bénéficier des dernières fonctionnalités, de corriger les problèmes connus et d'appliquer les mises à jour de sécurité les plus récentes.</block>
   <block id="14bda382780d759b676db8bd277841a9" category="paragraph">Vous recevez également une alerte dans le tableau de bord FSx for ONTAP lorsqu'une version plus récente du lien est disponible pour un lien qui ne prend pas en charge les mises à niveau automatiques.</block>
+  <block id="753d621a767f80f69e64e577e1856e54" category="doc">Prise en charge de plusieurs systèmes de fichiers pour une seule instance</block>
+  <block id="6adeb7328ee4497e74b45036bf16ff9d" category="paragraph">Workload Factory for Databases prend en charge plusieurs systèmes de fichiers par instance Microsoft SQL Server. Vous pouvez enregistrer plusieurs systèmes de fichiers dans une instance SQL Server et corriger simultanément un problème de configuration pour plusieurs systèmes de fichiers dans une instance SQL Server.</block>
 </blocks>
