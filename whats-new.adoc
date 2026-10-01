@@ -20,6 +20,134 @@ Découvrez les modifications les plus récentes apportées aux charges de travai
 
 
 
+[[amazon-fsx-for-netapp-ontap]]
+=== Amazon FSX pour NetApp ONTAP
+
+
+
+==== Découverte étendue du balisage des charges de travail pour les services AWS
+
+Workload Factory détecte désormais davantage de services AWS pour le balisage des workloads, étendant ainsi la prise en charge des ressources pouvant être balisées. Il peut désormais identifier les ressources Amazon EKS et Amazon WorkSpaces et les inclure dans le système de balisage afin qu'elles soient disponibles pour le balisage.
+
+
+
+==== Améliorations du tableau de bord des coûts
+
+Le tableau de bord des coûts inclut désormais une section de synthèse destinée aux dirigeants qui offre une vue d'ensemble des dépenses de votre organisation, vous aidant à comprendre et à gérer rapidement les coûts. Ask Me, l'assistant IA de Workload Factory, peut fournir des informations et des recommandations supplémentaires en fonction de vos données de coûts. Vous pouvez interagir avec Ask Me pour obtenir des explications détaillées et des suggestions pour optimiser vos coûts.
+
+De plus, vous pouvez filtrer les données de coût par un ou plusieurs systèmes de fichiers et un ou plusieurs volumes au sein d’un système de fichiers. Lorsque des filtres sont appliqués, Workload Factory affiche :
+
+* Coût total estimé par mois
+* Coût estimé par Gio/mois
+* Ventilation détaillée des coûts par service
+
+
+Toutes les informations relatives aux coûts proviennent directement de l'API AWS Cost Explorer, à l'exception de l'allocation des coûts au niveau du système de fichiers et du volume ; Workload Factory estime l'allocation des coûts au niveau du système de fichiers et du volume.
+
+
+
+==== Accès au tableau de bord bien architecturé
+
+Vous pouvez accéder au tableau de bord bien architecturé depuis le menu principal de la console Workload Factory et depuis un système de fichiers. Pour trouver le tableau de bord bien architecturé depuis le menu principal, sélectionnez le menu principal, puis sélectionnez *Well-architected*.
+
+image:well-architected-menu-option.png["Option de menu bien conçue dans la console NetApp Workload Factory"]
+
+
+
+==== Nouvelles recommandations dans l'analyse bien architecturée
+
+Workload Factory inclut désormais les configurations suivantes dans l'analyse bien architecturée pour les systèmes de fichiers FSx for ONTAP :
+
+* *Configuration de la gestion de l'espace du volume* : il est recommandé d'activer la gestion coordonnée de l'espace du volume pour les volumes FSx pour ONTAP.
+* *Intégration FSx à AWS MGN* : recommande d’appliquer la configuration de préparation AWS MGN requise aux systèmes de fichiers FSx for ONTAP sélectionnés.
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/configuration-analysis.html["En savoir plus sur les recommandations de bonne pratique pour vos systèmes de fichiers FSx for ONTAP."]
+
+
+
+==== Améliorations de l'explorateur de volumes
+
+L'explorateur de volumes est un emplacement central de la console Workload Factory où vous pouvez afficher et gérer tous vos volumes sur différents systèmes de fichiers. Il fournit des informations détaillées sur chaque volume, notamment ses performances, son utilisation et son état de protection. Les améliorations de cette version incluent la sélection des charges de travail, l'affichage de la latence des volumes et l'état ARP/AI des volumes.
+
+
+
+===== L'explorateur de volumes prend en charge la sélection de la charge de travail
+
+Workload Factory sélectionne par défaut une charge de travail en fonction des caractéristiques du volume et de ses modèles d'utilisation. Vous pouvez désormais modifier la charge de travail d'un ou plusieurs volumes depuis Volumes explorer.
+
+
+
+===== L'explorateur de volumes affiche la latence du volume
+
+L'explorateur de volumes affiche l'état de la latence des volumes avec les statuts suivants : non configuré, dans le seuil et dépassé. Ces statuts vous aident à identifier et à corriger les goulots d'étranglement des performances au niveau du volume.
+
+
+
+===== L'explorateur de volumes affiche l'état ARP/AI des volumes dans tous les systèmes de fichiers
+
+L'écran de l'explorateur de volumes inclut désormais une fiche avec l'état de la protection autonome contre les ransomwares avec IA (ARP/AI) de NetApp pour les volumes de tous vos systèmes de fichiers. La fiche affiche le nombre de volumes protégés et indique si des volumes sont à risque. À partir de la fiche, vous pouvez *Analyze attacks* pour examiner les menaces potentielles liées aux ransomwares et prendre les mesures appropriées pour sécuriser vos données.
+
+image:volumes-explorer-arp-ai-card.png["La capture d'écran montre une nouvelle fiche dans l'écran de l'explorateur de volumes, affichant l'état ARP/AI des volumes sur tous les systèmes de fichiers. La fiche indique le nombre de volumes protégés et les volumes à risque. Les utilisateurs peuvent sélectionner le texte Analyze attacks pour examiner les attaques suspectées et prendre les mesures appropriées afin de sécuriser leurs données."]
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/ransomware-protection.html["Apprenez-en davantage sur la protection contre les ransomwares."]
+
+
+
+==== Notification par e-mail pour les relations de réplication non saines
+
+Lorsque l'état d'une relation de réplication est *défaillant*, Workload Factory envoie une notification par e-mail toutes les 24 heures tant que la relation reste défaillante. Les notifications de rappel cessent dès que la relation redevient saine.
+
+
+
+==== Prise en charge des identifiants ONTAP restreints pour AIOps
+
+Workload Factory prend en charge deux types d’identifiants ONTAP pour un système de fichiers FSx for ONTAP : principaux et restreints. Par défaut, un système de fichiers utilise les identifiants ONTAP principaux. Nous utilisons les identifiants restreints uniquement pour les opérations d’IA (AIOps) telles que Rule builder, Custom dashboards et Ask Me, notre assistant IA. Vous pouvez désormais ajouter vos propres identifiants, à l’aide d’un nom d’utilisateur et d’un mot de passe ou d’un ARN secret, afin de restreindre l’accès aux fonctionnalités AIOps.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-file-system-settings.html["Gérer les identifiants ONTAP pour un système de fichiers FSx for ONTAP"]
+
+
+
+==== Sélection de la charge de travail lors de la création du volume
+
+Workload Factory inclut désormais un champ *Workloads* lors de la création d'un volume, vous permettant de sélectionner la charge de travail à associer au volume. Cela garantit que le volume est optimisé pour la charge de travail prévue dès sa création.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Créez un volume dans la console Workload Factory"]
+
+
+
+==== FlexCache amélioration du mode d'écriture
+
+Workload Factory reconnaît désormais le mode d'écriture FlexCache® favori pour les volumes et recommande de le modifier si nécessaire afin d'optimiser les performances.
+
+
+
+==== Lier la documentation de support
+
+Toute la documentation relative aux liens est désormais traitée dans la documentation d'installation et d'administration de Workload Factory. Vous pouvez toujours vous référer à link:links-overview.html["Découvrez les liens NetApp Workload Factory"] de la documentation Workload Factory FSx for ONTAP et trouver des liens vers les pages pertinentes dans la documentation d'installation et d'administration.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/create-link.html["En savoir plus sur la configuration des liens dans la console Workload Factory."^]
+
+
+
+==== Découverte des relations entre hôtes et stockages entre régions
+
+Workload Factory prend désormais en charge la recherche de connexions entre les hôtes et le stockage dans plusieurs régions AWS dans le cadre du service d'étiquetage des charges de travail. Il peut identifier et relier les hôtes et les ressources de stockage entre les régions, y compris en mappant les adresses IP entre les régions, afin que les relations entre les hôtes et le stockage soient correctement étiquetées et classées.
+
+
+
+==== Amélioration de la précision de l'identification de la charge de travail et de l'hôte
+
+Workload Factory identifie et classe désormais plus précisément les charges de travail et les hôtes dans le service d’étiquetage des charges de travail. Les méthodes de détection mises à jour réduisent les erreurs de classification et fournissent des résultats d’étiquetage et de classification plus précis.
+
+
+
+==== Amélioration de la visibilité du système de fichiers dans l'interface
+
+Workload Factory offre désormais une vue plus claire de vos systèmes de fichiers dans l’interface. Vous pouvez consulter les tendances d’utilisation de la capacité et du débit des SSD, les résumés des charges de travail et les informations détaillées sur la configuration directement depuis la vue d’ensemble du système de fichiers. Workload Factory identifie et classe désormais plus précisément les charges de travail et les hôtes dans le service d’étiquetage des charges de travail. Les méthodes de détection mises à jour réduisent les erreurs de classification et fournissent des résultats d’étiquetage et de classification plus précis.
+
+
+
 [[database-workloads]]
 === Charges de travail des bases de données
 
