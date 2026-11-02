@@ -1,0 +1,117 @@
+= Améliorations apportées au diagramme du groupe initiateur
+:allow-uri-read: 
+
+
+
+
+[[initiator-group-diagram-enhancements]]
+=== Améliorations apportées au diagramme du groupe initiateur
+
+Le diagramme affichant les groupes d'initiateurs pour les périphériques de stockage bloc sur la page « Gérer l'accès client » contient désormais plus de détails sur les hôtes. Lorsque vous survolez un hôte dans le diagramme, ses détails s'affichent, notamment le nom de l'hôte, l'ID d'instance, le type de workload, la région et le nom qualifié iSCSI (IQN).
+
+
+
+[[email-enhancement-for-well-architected-issues]]
+=== Amélioration des e-mails pour les problèmes bien architecturés
+
+Le nouveau format des e-mails fournit davantage de détails et de contexte sur les problèmes de configuration détectés par Workload Factory. L'e-mail indique le nombre de ressources analysées, le nombre de celles présentant des alertes ou des problèmes critiques, ainsi que la nature de ces problèmes. L'e-mail contient également un lien vers le tableau de bord Well-Architected de FSx for ONTAP afin que vous puissiez résoudre les problèmes immédiatement.
+
+
+
+[[well-architected-dashboard-enhancements]]
+=== Améliorations du tableau de bord bien architecturé
+
+
+
+==== Prise en charge de certaines vérifications de configuration
+
+Vous pouvez exécuter manuellement une analyse sur les configurations sélectionnées afin d'analyser uniquement les configurations qui vous intéressent et de réduire ainsi le temps d'attente.
+
+
+
+==== Nouvelles recommandations dans l'analyse bien architecturée
+
+Workload Factory inclut désormais les configurations suivantes dans l'analyse bien architecturée pour les systèmes de fichiers FSx for ONTAP :
+
+Pour les workloads de stockage :
+
+* *Connecter l'hôte au nœud de basculement* : vérifie si les hôtes sont connectés au nœud de basculement dans un système de fichiers FSx for ONTAP actif-passif pour des raisons de fiabilité.
+* *Connecter l'hôte au nœud préféré* : vérifie si les hôtes sont connectés à leurs périphériques bloc en utilisant le nœud préféré pour optimiser les performances.
+* *Lacune de la détection multi-périphériques ARP/AI* : ARP/AI assure une protection complète lorsqu'un volume n'a qu'un seul périphérique de bloc qui lui est associé. Si un volume a plusieurs périphériques de bloc associés, Workload Factory déplace ces périphériques de bloc vers de nouveaux volumes afin que chaque volume n'ait qu'un seul périphérique de bloc.
+* *Nettoyage des clones* : vérifie s’il existe des clones de volume datant de plus de 30 jours qui peuvent être supprimés afin d’optimiser l’utilisation du stockage et de réduire les coûts.
+* *Correspondance du système d'exploitation du groupe d'initiateurs à celui de l'hôte* : vérifie si le système d'exploitation du groupe d'initiateurs (igroup) correspond à celui de l'hôte afin d'éviter les problèmes d'E/S ou de performances.
+
+
+Pour les workloads Kubernetes :
+
+* *Configuration QoS* : vérifie si les volumes persistants Kubernetes sont protégés par une politique QoS ONTAP pour optimiser les performances.
+* *VM de stockage Kubernetes dédiée* : vérifie si le système de fichiers utilise une VM de stockage dédiée pour les workloads Kubernetes afin d’améliorer l’isolation et de simplifier la gestion du stockage.
+* *Règles d'export Kubernetes dédiées* : vérifie si chaque volume persistant Kubernetes possède des règles d'export dédiées qui autorisent uniquement l'accès depuis les nœuds worker du cluster.
+* *CHAP bidirectionnel pour les backends iSCSI Kubernetes* : vérifie si les backends iSCSI Trident ont l’authentification CHAP mutuelle activée pour des raisons de sécurité.
+* *Désactiver `showmount` sur la VM de stockage d'application* : vérifie si `showmount` est désactivé sur la VM de stockage d'application afin d'empêcher les clients de lister les exports auxquels ils ne peuvent pas accéder.
+
+
+Pour les workloads de base de données :
+
+* *Stratégie de snapshot SAP HANA* : vérifie si la stratégie de snapshot est définie sur « Aucun » pour les volumes SAP HANA afin de réduire les coûts de stockage et d’améliorer les performances des données actives de la base de données.
+* *Politique de snapshot MySQL* : vérifie si la politique de snapshot est définie sur « Aucun » pour les volumes MySQL afin de réduire les coûts de stockage et d’améliorer les performances des données actives de la base de données.
+* *Politique de snapshot PostgreSQL* : vérifie si la politique de snapshot est définie sur « Aucun » pour les volumes PostgreSQL afin de réduire les coûts de stockage et d’améliorer les performances des données de base de données actives.
+
+
+
+
+==== Valeurs actuelles et recommandées pour les configurations
+
+Vous pouvez consulter les valeurs actuelles et recommandées de certaines configurations non optimisées dans le tableau de bord Well-Architected. Cela vous indique la valeur recommandée avant de la corriger.
+
+* Hiérarchisation des données froides
+* Stratégie de snapshot
+* marge de capacité SSD
+
+
+
+
+[[cost-improvements]]
+=== Optimisation des coûts
+
+
+
+==== Prévisions et analyses de coûts
+
+Vous pouvez désormais prévoir les coûts de vos systèmes de fichiers FSx for ONTAP grâce à la fonctionnalité de prévision des coûts. Cela vous permet de planifier votre budget et d'optimiser efficacement vos ressources. Vous pouvez également consulter des informations sur vos coûts et vos habitudes d'utilisation afin d'identifier des opportunités d'optimisation des coûts.
+
+
+
+==== Rapports de coûts et d'utilisation AWS (CUR)
+
+Workload Factory utilise désormais AWS Cost and Usage Reports (CUR) au lieu d'AWS Cost Explorer pour fournir des relevés de facturation détaillés livrés dans des compartiments S3 appartenant aux clients. CUR offre une meilleure granularité des coûts et constitue la base pour des cas d'utilisation avancés de FinOps, de refacturation et d'allocation des coûts.
+
+
+
+[[storage-vm-migration-improvements]]
+=== Améliorations de la migration des machines virtuelles de stockage
+
+Workload Factory fournit des conseils améliorés dans l'interface utilisateur pour la migration des machines virtuelles de stockage. Cela comprend des instructions étape par étape et une exécution de test avant de valider la migration en production.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["Apprenez-en davantage sur la migration des machines virtuelles de stockage"]
+
+
+
+[[replication-lag-email-notification-improvement]]
+=== Amélioration des notifications par e-mail concernant le délai de réplication
+
+En cas de grand nombre d'événements de retard de réplication liés, Workload Factory les regroupe automatiquement dans une seule notification par e-mail afin que vous ne soyez pas submergé de notifications.
+
+
+
+[[automatic-capacity-management-enhancement]]
+=== Amélioration automatique de la gestion de la capacité
+
+Vous pouvez désormais activer les notifications automatiques de gestion de la capacité pour essayer la fonctionnalité avant de demander à Workload Factory de gérer automatiquement votre capacité. Vous serez averti lorsque votre système de fichiers manquera de capacité.
+
+
+
+[[throughput-decision-points]]
+=== Points de décision relatifs au débit
+
+Vous pouvez désormais consulter les recommandations de débit client et les points de décision d'automatisation. Survolez un point de décision pour afficher des détails, tels que le SKU actuel et recommandé ou les métriques dont les seuils sont dépassés dans la fenêtre temporelle (%).
