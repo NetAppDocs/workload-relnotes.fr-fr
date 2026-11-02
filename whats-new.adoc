@@ -131,6 +131,12 @@ Vous pouvez désormais consulter les recommandations de débit client et les poi
 
 
 
+==== Support Bedrock géré par le client pour la classification
+
+Workload Factory vous permet désormais d’utiliser votre propre configuration Amazon Bedrock pour la classification du balisage de workload. Vous pouvez fournir votre propre point de terminaison Bedrock et vos identifiants afin que les requêtes de classification s’exécutent via votre propre configuration Bedrock.
+
+
+
 [[database-workloads]]
 === Charges de travail des bases de données
 
