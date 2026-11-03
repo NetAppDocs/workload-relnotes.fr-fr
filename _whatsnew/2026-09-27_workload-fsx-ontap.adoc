@@ -32,7 +32,7 @@ Toutes les informations relatives aux coûts proviennent directement de l'API AW
 
 Vous pouvez accéder au tableau de bord bien architecturé depuis le menu principal de la console Workload Factory et depuis un système de fichiers. Pour trouver le tableau de bord bien architecturé depuis le menu principal, sélectionnez le menu principal, puis sélectionnez *Well-architected*.
 
-image:well-architected-menu-option.png["Option de menu bien conçue dans la console NetApp Workload Factory"]
+image:workload-fsx-ontap/well-architected-menu-option.png["Option de menu bien conçue dans la console NetApp Workload Factory"]
 
 
 
@@ -72,7 +72,7 @@ L'explorateur de volumes affiche l'état de la latence des volumes avec les stat
 
 L'écran de l'explorateur de volumes inclut désormais une fiche avec l'état de la protection autonome contre les ransomwares avec IA (ARP/AI) de NetApp pour les volumes de tous vos systèmes de fichiers. La fiche affiche le nombre de volumes protégés et indique si des volumes sont à risque. À partir de la fiche, vous pouvez *Analyze attacks* pour examiner les menaces potentielles liées aux ransomwares et prendre les mesures appropriées pour sécuriser vos données.
 
-image:volumes-explorer-arp-ai-card.png["La capture d'écran montre une nouvelle fiche dans l'écran de l'explorateur de volumes, affichant l'état ARP/AI des volumes sur tous les systèmes de fichiers. La fiche indique le nombre de volumes protégés et les volumes à risque. Les utilisateurs peuvent sélectionner le texte Analyze attacks pour examiner les attaques suspectées et prendre les mesures appropriées afin de sécuriser leurs données."]
+image:workload-fsx-ontap/volumes-explorer-arp-ai-card.png["La capture d'écran montre une nouvelle fiche dans l'écran de l'explorateur de volumes, affichant l'état ARP/AI des volumes sur tous les systèmes de fichiers. La fiche indique le nombre de volumes protégés et les volumes à risque. Les utilisateurs peuvent sélectionner le texte Analyze attacks pour examiner les attaques suspectées et prendre les mesures appropriées afin de sécuriser leurs données."]
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/ransomware-protection.html["Apprenez-en davantage sur la protection contre les ransomwares."]
 

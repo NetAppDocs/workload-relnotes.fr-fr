@@ -27,4 +27,4 @@ Le tableau de bord à l’architecture optimisée inclut désormais des recomman
 
 Sélectionnez le menu principal dans la console Workload Factory, puis sélectionnez *Well-architected* pour trouver le tableau de bord Well-architected.
 
-image:well-architected-menu-option.png["Option de menu bien conçue dans la console NetApp Workload Factory"]
+image:workload-databases/well-architected-menu-option-databases.png["Option de menu bien conçue dans la console NetApp Workload Factory"]

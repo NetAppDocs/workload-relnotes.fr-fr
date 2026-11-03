@@ -106,7 +106,6 @@
   <block id="a4b0895311938bbe97380c217d8bc91a" category="section-title">Accès au tableau de bord bien architecturé</block>
   <block id="99443f6b5bfec8a35e6748e731a10d71" category="paragraph">Vous pouvez accéder au tableau de bord bien architecturé depuis le menu principal de la console Workload Factory et depuis un système de fichiers. Pour trouver le tableau de bord bien architecturé depuis le menu principal, sélectionnez le menu principal, puis sélectionnez *Well-architected*.</block>
   <block id="2d647234501319107057acb4d3f8dfaf" category="inline-image-macro">Option de menu bien conçue dans la console NetApp Workload Factory</block>
-  <block id="353cc99df6b21e74c805e74bdab4b8aa" category="paragraph"><block ref="353cc99df6b21e74c805e74bdab4b8aa" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9864fa88fc3747e67b6fc38c9b938677" category="section-title">Nouvelles recommandations dans l'analyse bien architecturée</block>
   <block id="a38b9a0af0de5e85c5e64a158079deb5" category="paragraph">Workload Factory inclut désormais les configurations suivantes dans l'analyse bien architecturée pour les systèmes de fichiers FSx for ONTAP :</block>
   <block id="3b4bb2bfc2800826050f3805ec9d835a" category="list-text">*Configuration de la gestion de l'espace du volume* : il est recommandé d'activer la gestion coordonnée de l'espace du volume pour les volumes FSx pour ONTAP.</block>
@@ -122,7 +121,6 @@
   <block id="a187114bcc51b42124813d0e4d20730d" category="section-title">L'explorateur de volumes affiche l'état ARP/AI des volumes dans tous les systèmes de fichiers</block>
   <block id="14bbbfe188029f45698ccb26b1280a48" category="paragraph">L'écran de l'explorateur de volumes inclut désormais une fiche avec l'état de la protection autonome contre les ransomwares avec IA (ARP/AI) de NetApp pour les volumes de tous vos systèmes de fichiers. La fiche affiche le nombre de volumes protégés et indique si des volumes sont à risque. À partir de la fiche, vous pouvez *Analyze attacks* pour examiner les menaces potentielles liées aux ransomwares et prendre les mesures appropriées pour sécuriser vos données.</block>
   <block id="3f25080804b8d019675a456a436cb471" category="inline-image-macro">La capture d'écran montre une nouvelle fiche dans l'écran de l'explorateur de volumes, affichant l'état ARP/AI des volumes sur tous les systèmes de fichiers. La fiche indique le nombre de volumes protégés et les volumes à risque. Les utilisateurs peuvent sélectionner le texte Analyze attacks pour examiner les attaques suspectées et prendre les mesures appropriées afin de sécuriser leurs données.</block>
-  <block id="3984208540eb5fb15ca89127c0ce9c35" category="paragraph"><block ref="3984208540eb5fb15ca89127c0ce9c35" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3ae39496097bf7dd54def47f219d44a2" category="inline-link-macro">Apprenez-en davantage sur la protection contre les ransomwares.</block>
   <block id="32d61e76f54bb5b368f607bb435c5c1f" category="paragraph"><block ref="32d61e76f54bb5b368f607bb435c5c1f" category="inline-link-macro-rx"></block></block>
   <block id="bf408a384d3111f4dc3c9bd2e2488084" category="section-title">Notification par e-mail pour les relations de réplication non saines</block>
@@ -278,4 +276,7 @@
   <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">27 septembre 2026</block>
   <block id="7cc20c44b067a9d650d7a25d5be9d67d" category="section-title">Support Bedrock géré par le client pour la classification</block>
   <block id="8a8cb6e7e1b94c2efc52b7f5d677eb4d" category="paragraph">Workload Factory vous permet désormais d’utiliser votre propre configuration Amazon Bedrock pour la classification du balisage de workload. Vous pouvez fournir votre propre point de terminaison Bedrock et vos identifiants afin que les requêtes de classification s’exécutent via votre propre configuration Bedrock.</block>
+  <block id="442d917e6f977497aa9164bdb334b30b" category="paragraph"><block ref="442d917e6f977497aa9164bdb334b30b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b38510edecee128bcf57a2052192d3fa" category="paragraph"><block ref="b38510edecee128bcf57a2052192d3fa" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="33d18edd919b0af815bbf108537020f0" category="paragraph"><block ref="33d18edd919b0af815bbf108537020f0" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
