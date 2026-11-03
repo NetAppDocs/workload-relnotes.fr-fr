@@ -15,6 +15,42 @@ Découvrez les modifications les plus récentes apportées aux charges de travai
 
 
 
+[[02-november-2026]]
+== 02 novembre 2026
+
+
+
+[[database-workloads]]
+=== Charges de travail des bases de données
+
+
+
+==== Configurations de base de données incluses dans un tableau de bord bien architecturé
+
+Le tableau de bord à l’architecture optimisée inclut désormais des recommandations pour les configurations de votre base de données, vous permettant d’évaluer et d’optimiser votre installation selon les meilleures pratiques. Les premières configurations affichées dans le tableau de bord sont :
+
+* Hiérarchisation des données froides
+* Efficacités du stockage
+* Stratégie de snapshot
+* marge de capacité SSD
+* Gestion de l'espace des périphériques de blocs
+* Type de OS
+* Faire correspondre le type de système d'exploitation du périphérique de bloc à l'hôte
+* Périphériques de bloc inactifs (LUNs)
+* Placement des fichiers de données (.mdf)
+* Emplacement des fichiers journaux (.ldf)
+* État des E/S multipath
+* Délai d'attente des E/S multivoies
+* quorum du cluster
+* Dimensionnement optimal des ressources de calcul
+
+
+Sélectionnez le menu principal dans la console Workload Factory, puis sélectionnez *Well-architected* pour trouver le tableau de bord Well-architected.
+
+image:workload-databases/well-architected-menu-option-databases.png["Option de menu bien conçue dans la console NetApp Workload Factory"]
+
+
+
 [[01-november-2026]]
 == 01 novembre 2026
 
@@ -134,37 +170,6 @@ Vous pouvez désormais consulter les recommandations de débit client et les poi
 ==== Support Bedrock géré par le client pour la classification
 
 Workload Factory vous permet désormais d’utiliser votre propre configuration Amazon Bedrock pour la classification du balisage de workload. Vous pouvez fournir votre propre point de terminaison Bedrock et vos identifiants afin que les requêtes de classification s’exécutent via votre propre configuration Bedrock.
-
-
-
-[[database-workloads]]
-=== Charges de travail des bases de données
-
-
-
-==== Configurations de base de données incluses dans un tableau de bord bien architecturé
-
-Le tableau de bord à l’architecture optimisée inclut désormais des recommandations pour les configurations de votre base de données, vous permettant d’évaluer et d’optimiser votre installation selon les meilleures pratiques. Les premières configurations affichées dans le tableau de bord sont :
-
-* Hiérarchisation des données froides
-* Efficacités du stockage
-* Stratégie de snapshot
-* marge de capacité SSD
-* Gestion de l'espace des périphériques de blocs
-* Type de OS
-* Faire correspondre le type de système d'exploitation du périphérique de bloc à l'hôte
-* Périphériques de bloc inactifs (LUNs)
-* Placement des fichiers de données (.mdf)
-* Emplacement des fichiers journaux (.ldf)
-* État des E/S multipath
-* Délai d'attente des E/S multivoies
-* quorum du cluster
-* Dimensionnement optimal des ressources de calcul
-
-
-Sélectionnez le menu principal dans la console Workload Factory, puis sélectionnez *Well-architected* pour trouver le tableau de bord Well-architected.
-
-image:workload-databases/well-architected-menu-option-databases.png["Option de menu bien conçue dans la console NetApp Workload Factory"]
 
 
 
